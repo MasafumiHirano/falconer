@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
                 <div class="flex">
                   <div class="pb-4" style={{ width: "540px", marginRight: "20px" }}>
-                    <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
+                    <Image src="/images/brand/brand_bu1.jpg" width={540} height={324} />
                   </div>
                   <div class="pb-4" style={{ width: "540px"}}>
                     <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
