@@ -121,6 +121,7 @@ export default function Company() {
           </div>
           {/* BUSINESS/PRODUCTS 終了 */}
           <div class="mx-auto pt-6 mb-6" style={{ width: "920px" }}>
+          <Link href="/company/vision"><a>
             <div class="relative">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <div class="text-4xl text-white futura">VISION</div>
@@ -128,10 +129,11 @@ export default function Company() {
               </div>
               <Image src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
             </div>
+            </a></Link>
           </div>
           <div class="mx-auto mb-6" style={{ width: "920px" }}>
             <div class="flex">
-              <Link href="/company/vision"><a>
+              
                 <div class="mb-4 border-4 border-solid border-black" style={{ width: "450px", marginRight: "20px" }}>
                   <div class="relative">
                     <div
@@ -143,7 +145,7 @@ export default function Company() {
                   <div style={{ width: "450px", height: "300px"}}></div>
                   </div>
                 </div>
-                </a></Link>
+               
               <div class="mb-4 border-4 border-solid border-black" style={{ width: "450px"}}>
                 <div class="relative">
                   <div
