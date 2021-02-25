@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer() {
   return(
     <>
-      <div class="h-64 pt-12 px-24 bg-gray-400">
+      <div class="h-64 pt-12 px-24" style={{ backgroundColor: "#cecece"}}>
       <div class="flex mb-24">
         <div class="w-1/4">
           <Link href="/">

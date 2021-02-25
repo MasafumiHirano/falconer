@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -5,6 +6,20 @@ import Image from 'next/image'
 export default function Header(){
   return (
     <>
+    <Head>
+      <link
+        rel="preload"
+        href="/fonts/futura_light_bt.woff"
+        as="font"
+        crossOrigin=""
+      />
+      <link
+        rel="preload"
+        href="/fonts/futura_medium_bt.ttf"
+        as="font"
+        crossOrigin=""
+      />
+    </Head>
     <div class="h-auto px-16 pt-8 pb-6">
       <div class="flex justify-between items-center">
         <div class="w-1/3">
@@ -31,20 +46,20 @@ export default function Header(){
         </div>
       </div>
       <div class="flex justify-center mt-6">
-        <div class="inline-block px-4 text-center text-white bg-gray-400" style={{width: "120px", marginRight: "10px"}}>
-          <Link href="/topics"><a>TOPICS</a></Link>
+        <div class="inline-block px-4 text-center text-white futura" style={{width: "120px", marginRight: "10px", backgroundColor: "#9f9e9f"}}>
+          <Link href="/topics"><a class="inline-block pt-1">TOPICS</a></Link>
         </div>
-        <div class="inline-block px-4 text-center text-white bg-gray-400" style={{width: "120px", marginRight: "10px"}}>
-          <Link href="/brand"><a>BRAND</a></Link>
+        <div class="inline-block px-4 text-center text-white futura" style={{width: "120px", marginRight: "10px", backgroundColor: "#9f9e9f"}}>
+          <Link href="/brand"><a class="inline-block pt-1">BRAND</a></Link>
         </div>
-        <div class="inline-block px-4 text-center text-white bg-gray-400" style={{width: "120px", marginRight: "10px"}}>
-          <Link href="/company"><a>ABOUT US</a></Link>
+        <div class="inline-block px-4 text-center text-white futura" style={{width: "120px", marginRight: "10px", backgroundColor: "#9f9e9f"}}>
+          <Link href="/company"><a class="inline-block pt-1">ABOUT US</a></Link>
         </div>
-        <div class="inline-block px-4 text-center text-white bg-gray-400" style={{width: "120px", marginRight: "10px"}}>
-          <Link href="/media"><a>MEDIA</a></Link>
+        <div class="inline-block px-4 text-center text-white futura" style={{width: "120px", marginRight: "10px", backgroundColor: "#9f9e9f"}}>
+          <Link href="/media"><a class="inline-block pt-1">MEDIA</a></Link>
         </div>
-        <div class="inline-block px-4 text-center text-white bg-gray-400" style={{width: "120px"}}>
-          <Link href="/contact"><a>CONTACT</a></Link>
+        <div class="inline-block px-4 text-center text-white futura" style={{width: "120px", backgroundColor: "#9f9e9f"}}>
+          <Link href="/contact"><a class="inline-block pt-1">CONTACT</a></Link>
         </div>
       </div>
     </div>

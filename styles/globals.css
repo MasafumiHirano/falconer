@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "futura_light_bt";
+  src: url("/fonts/futura_light_bt.woff") format('woff');
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "futura_medium_bt";
+  src: url("/fonts/futura_medium_bt.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@layer utilities {
+  .futura {
+    font-family: "futura_light_bt";
+  }
+}
+
+h1 {
+  font-family: "futura_light_bt";
+}

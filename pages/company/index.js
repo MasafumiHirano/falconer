@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 
 import Layout from '../../components/layout'
@@ -21,7 +22,7 @@ export default function Company() {
             <p class="mt-8 mb-4"><a>Falconer の強み...</a></p>
           </div>
           {/* BUSINESS/PRODUCTS 開始 */}
-          <div class="bg-gray-300 py-12">
+          <div class="py-12" style={{ backgroundColor: "#cecece" }}>
             <div class="mx-auto" style={{width: "920px"}}>
               <div><h1 class="text-4xl text-center mb-6">BUSINESS / PRODUCTS</h1></div>
               <div class="flex">
@@ -122,7 +123,7 @@ export default function Company() {
           <div class="mx-auto pt-6 mb-6" style={{ width: "920px" }}>
             <div class="relative">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
-                <div class="text-4xl text-white">VISION</div>
+                <div class="text-4xl text-white futura">VISION</div>
                 <div class="mt-6 text-2xl text-white">代表メッセージ</div>
               </div>
               <Image src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
@@ -130,17 +131,19 @@ export default function Company() {
           </div>
           <div class="mx-auto mb-6" style={{ width: "920px" }}>
             <div class="flex">
-              <div class="mb-4 border-4 border-solid border-black" style={{ width: "450px", marginRight: "20px" }}>
-                <div class="relative">
-                  <div
-                    class="absolute z-10 text-2xl font-bold tracking-widest"
-                    style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
-                  >
-                    企業概要
+              <Link href="/company/vision"><a>
+                <div class="mb-4 border-4 border-solid border-black" style={{ width: "450px", marginRight: "20px" }}>
+                  <div class="relative">
+                    <div
+                      class="absolute z-10 text-2xl font-bold tracking-widest"
+                      style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                    >
+                      企業概要
+                    </div>
+                  <div style={{ width: "450px", height: "300px"}}></div>
                   </div>
-                <div style={{ width: "450px", height: "300px"}}></div>
                 </div>
-              </div>
+                </a></Link>
               <div class="mb-4 border-4 border-solid border-black" style={{ width: "450px"}}>
                 <div class="relative">
                   <div
