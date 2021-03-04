@@ -13,9 +13,9 @@ export default function Company() {
       </Head>
       <Layout>
         <main>
-          <div class="mx-auto py-6 text-white text-center" style={{backgroundColor: "#241916" }}>
+          <div class="mx-auto py-6 text-white text-center" style={{backgroundColor: "#000000" }}>
             <h1 class="text-xl">ABOUT</h1>
-              <Image src="/images/logo/falconer_co_ltd_logo.png" width={720} height={150} alt="falconer_logo"/>
+              <Image src="/images/logo/falconer_co_ltd_logo.jpg" width={720} height={150} alt="falconer_logo"/>
             <p class="text-3xl font-bold mb-6 tracking-widest">最高品質の戦略的モノ作りカンパニー</p>
             <p class="mb-2">市場の求めているモノ作り。市場を創造するモノ作り。</p>
             <p class="mb-2">変わり続ける時代と需要に応え続ける企業として存在します。</p>

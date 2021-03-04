@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
                 <div class="absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -92%)"}}>
                   <Link href="/media">
-                  <a><Image src="/images/logo/falconer_co_ltd_logo.png" width={456} height={95} alt="falconer_co_ltd_logo" /></a>
+                  <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={456} height={95} alt="falconer_co_ltd_logo" /></a>
                   </Link>
                 </div>
                 <Image src="/images/media/top-media.jpg" width={1100} height={620} />
@@ -117,7 +117,7 @@ export default function Home() {
             <div class="mx-auto pt-12 mb-12" style={{ width: "1100px" }}>
               <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>CORPORATE</h1></div>
               <Link href="/company">
-                <a><Image src="/images/logo/falconer_co_ltd_logo.png" width={1100} height={230} alt="falconerinc_logo"/></a>
+                <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={1100} height={230} alt="falconerinc_logo"/></a>
               </Link>
             </div>
           </div>

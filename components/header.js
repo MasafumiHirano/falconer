@@ -28,7 +28,7 @@ export default function Header(){
         <div class="w-1/3">
           <div class="text-center">
             <Link href="/">
-              <a><Image src="/images/logo/falconer_co_ltd_logo.png" width={400} height={84} alt="falconer_logo" /></a>
+              <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={400} height={84} alt="falconer_logo" /></a>
             </Link>
           </div>
         </div>

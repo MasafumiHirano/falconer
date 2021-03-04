@@ -8,7 +8,7 @@ export default function Footer() {
       <div class="flex mb-24">
         <div class="w-1/4">
           <Link href="/">
-            <a><Image src="/images/logo/falconer_co_ltd_logo.png" width={280} height={54} alt="falconer_logo"/></a>
+            <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
           </Link>
         </div>
         <div class="w-1/4">{` `}</div>
