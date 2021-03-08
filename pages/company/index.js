@@ -19,10 +19,10 @@ export default function Company() {
             <p class="text-3xl font-bold mb-6 tracking-widest">最高品質の戦略的モノ作りカンパニー</p>
             <p class="mb-2">市場の求めているモノ作り。市場を創造するモノ作り。</p>
             <p class="mb-2">変わり続ける時代と需要に応え続ける企業として存在します。</p>
-            <p class="mt-8 mb-4"><a>Falconer の強み...</a></p>
+            <p class="mt-8 mb-4"><Link href="/company/strength"><a>Falconer の強み...</a></Link></p>
           </div>
           {/* BUSINESS/PRODUCTS 開始 */}
-          <div class="py-12" style={{ backgroundColor: "#cecece" }}>
+          <div class="py-12 bg-gray-100">
             <div class="mx-auto" style={{width: "920px"}}>
               <div><h1 class="text-4xl text-center mb-6">BUSINESS / PRODUCTS</h1></div>
               <div class="flex">
