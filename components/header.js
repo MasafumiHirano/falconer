@@ -20,28 +20,30 @@ export default function Header(){
         crossOrigin=""
       />
     </Head>
-    <div class="h-auto px-16 pt-8 pb-6">
-      <div class="flex justify-between items-center bg-black">
-        <div class="w-1/3">
-          <p>{` `}</p>
-        </div>
-        <div class="w-1/3">
-          <div class="text-center">
-            <Link href="/">
-              <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={400} height={84} alt="falconer_logo" /></a>
-            </Link>
+    <div class="h-auto pt-6 pb-6">
+      <div class="bg-black px-16">
+        <div class="flex justify-between items-center">
+          <div class="w-1/3">
+            <p>{` `}</p>
           </div>
-        </div>
-        <div class="w-1/3">
-          <div class="float-right">
-            <div class="inline-block">
-              <a href="https://www.instagram.com/masaki.s_japan/">
-                <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
-              </a>
+          <div class="w-1/3">
+            <div class="text-center">
+              <Link href="/">
+                <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={400} height={84} alt="falconer_logo" /></a>
+              </Link>
             </div>
-            <div class="inline-block"><Image src="/images/media/facebook_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
-            <div class="inline-block"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
-            <div class="inline-block"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+          </div>
+          <div class="w-1/3">
+            <div class="float-right">
+              <div class="inline-block">
+                <a href="https://www.instagram.com/masaki.s_japan/">
+                  <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                </a>
+              </div>
+              <div class="inline-block"><Image src="/images/media/facebook_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+              <div class="inline-block"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+              <div class="inline-block"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+            </div>
           </div>
         </div>
       </div>

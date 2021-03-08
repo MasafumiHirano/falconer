@@ -4,16 +4,26 @@ import Link from 'next/link'
 export default function Footer() {
   return(
     <>
-      <div class="h-64 pt-12 px-24" style={{ backgroundColor: "#9f9e9f"}}>
-      <div class="flex mb-24">
+      <div class="h-auto pt-12 pb-4 px-24" style={{ backgroundColor: "#9f9e9f"}}>
+      <div class="flex mb-12">
         <div class="w-1/4">
           <Link href="/">
             <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
           </Link>
         </div>
-        <div class="w-1/4">{` `}</div>
-        <div class="w-1/4">{` `}</div>
-        <div class="w-1/4">{` `}</div>
+        <div class="w-1/4">
+          <h2 class="font-bold" style={{color: "#333"}}>企業情報</h2>
+          <ul style={{color: "#000"}}>
+            <li class="mt-3">企業理念</li>
+            <li class="mt-3">トップメッセージ</li>
+            <li class="mt-3">企業概要・所在地</li>
+            <li class="mt-3">沿革</li>
+          </ul>
+        </div>
+        <div class="w-1/4">
+          <h2 class="font-bold" style={{color: "#333"}}>採用情報</h2>
+          <h2 class="font-bold mt-6" style={{color: "#333"}}>お問い合わせ</h2>
+        </div>
       </div>
         <div class="flex justify-between">
           <div class="flex">
