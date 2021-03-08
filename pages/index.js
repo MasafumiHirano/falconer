@@ -83,56 +83,19 @@ export default function Home({topics}) {
                   ))}
                 </ul>
               </div>
-              {/*<div class="flex">
-                <div style={{ width: "360px", marginRight: "10px" }}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="pb-6" class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-                <div class="pb-6" style={{ width: "360px", marginRight: "10px" }}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-                <div class="pb-6" style={{ width: "360px"}}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="flex">
-                <div class="pb-6" style={{ width: "360px", marginRight: "10px" }}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-                <div class="pb-6" style={{ width: "360px", marginRight: "10px" }}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-                <div class="pb-6" style={{ width: "360px"}}>
-                  <Image src="/images/topslider/bachicashley_hero.jpg" width={360} height={180} />
-                  <p class="text-xl font-bold">タイトル</p>
-                  <p class="">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>*/}
             </div>
           </div>
           <div>
             <div class="mx-auto pt-12" style={{ width: "1100px" }}>
               <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>BRAND</h1></div>
                 <div class="flex">
-                  <div class="pb-4" style={{ width: "540px", marginRight: "20px" }}>
-                    <Image src="/images/brand/brand_ba1.jpg" width={540} height={540} />
-                  </div>
-                  <div class="pb-4" style={{ width: "540px"}}>
-                    <Image src="/images/brand/brand_lu1.jpg" width={540} height={540} />
+                  <div class="pb-4" style={{ width: "1100px"}}>
+                    <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
                   </div>
                 </div>
                 <div class="flex">
                   <div class="pb-4" style={{ width: "540px", marginRight: "20px" }}>
-                    <Image src="/images/brand/brand_bu1.jpg" width={540} height={324} />
+                    <Image class="object-cover" src="/images/brand/brand_lu1_2.jpg" width={540} height={324} />
                   </div>
                   <div class="pb-4" style={{ width: "540px"}}>
                     <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
@@ -176,11 +139,13 @@ export default function Home({topics}) {
             </div>
           </div>
           <div>
-            <div class="mx-auto pt-12 mb-12" style={{ width: "1100px" }}>
-              <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>CORPORATE</h1></div>
-              <Link href="/company">
-                <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={1100} height={230} alt="falconerinc_logo"/></a>
-              </Link>
+            <div class="mx-auto pt-12 mb-12">
+              <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
+              <div class="bg-black flex justify-center py-12">
+                <Link href="/company">
+                  <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
+                </Link>
+              </div>
             </div>
           </div>
 

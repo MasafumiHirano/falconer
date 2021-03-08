@@ -21,7 +21,7 @@ export default function Header(){
       />
     </Head>
     <div class="h-auto px-16 pt-8 pb-6">
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center bg-black">
         <div class="w-1/3">
           <p>{` `}</p>
         </div>
