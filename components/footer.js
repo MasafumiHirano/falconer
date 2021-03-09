@@ -12,8 +12,13 @@ export default function Footer() {
           </Link>
         </div>
         <div class="w-1/4">
-          <h2 class="font-bold" style={{color: "#333"}}>企業情報</h2>
-          <ul style={{color: "#000"}}>
+          <h2 class="font-bold midashiGo">TOPICS</h2>
+          <h2 class="font-bold midashiGo mt-6">BRAND</h2>
+          <h2 class="font-bold midashiGo mt-6">MEDIA</h2>
+        </div>
+        <div class="w-1/4">
+          <h2 class="font-bold">企業情報</h2>
+          <ul class="text-sm text-gray-800">
             <li class="mt-3">企業理念</li>
             <li class="mt-3">トップメッセージ</li>
             <li class="mt-3">企業概要・所在地</li>
@@ -21,8 +26,8 @@ export default function Footer() {
           </ul>
         </div>
         <div class="w-1/4">
-          <h2 class="font-bold" style={{color: "#333"}}>採用情報</h2>
-          <h2 class="font-bold mt-6" style={{color: "#333"}}>お問い合わせ</h2>
+          <h2 class="font-bold">採用情報</h2>
+          <h2 class="font-bold mt-6">お問い合わせ</h2>
         </div>
       </div>
         <div class="flex justify-between">

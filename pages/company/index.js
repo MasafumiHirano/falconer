@@ -22,7 +22,7 @@ export default function Company() {
             <p class="mt-8 mb-4"><Link href="/company/strength"><a>Falconer の強み...</a></Link></p>
           </div>
           {/* BUSINESS/PRODUCTS 開始 */}
-          <div class="py-12 bg-gray-100">
+          <div class="py-12" style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto" style={{width: "920px"}}>
               <div><h1 class="text-4xl text-center mb-6">BUSINESS / PRODUCTS</h1></div>
               <div class="flex">

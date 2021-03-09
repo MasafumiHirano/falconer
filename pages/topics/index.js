@@ -12,7 +12,7 @@ export default function Topics({topics}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-      <main class="bg-gray-100">
+      <main style={{backgroundColor: "#cecece" }}>
         <div class="mx-auto pt-12" style={{ width: "1100px" }}>
           <div><h1 class="text-4xl text-center mb-6">TOPICS</h1></div>
           <div>

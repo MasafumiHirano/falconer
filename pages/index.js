@@ -54,7 +54,7 @@ export default function Home({topics}) {
               </Slider>
             </div>
           </div>
-          <div class="bg-gray-100">
+          <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto py-12" style={{ width: "1100px" }}>
               <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1></div>
               <div>
