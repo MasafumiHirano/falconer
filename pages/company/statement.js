@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import Layout from '../../components/layout'
 
-export default function Vision() {
+export default function Statement() {
   return (
     <div>
       <Head>

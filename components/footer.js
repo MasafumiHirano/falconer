@@ -8,15 +8,15 @@ export default function Footer() {
       <div class="flex mb-12">
         <div class="w-1/4">
           <Link href="/">
-            <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
+            <a><Image class="block w-full" src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
           </Link>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 ml-12">
           <h2 class="font-bold midashiGo">TOPICS</h2>
           <h2 class="font-bold midashiGo mt-6">BRAND</h2>
           <h2 class="font-bold midashiGo mt-6">MEDIA</h2>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 ml-12">
           <h2 class="font-bold">企業情報</h2>
           <ul class="text-sm text-gray-800">
             <li class="mt-3">企業理念</li>
@@ -25,7 +25,7 @@ export default function Footer() {
             <li class="mt-3">沿革</li>
           </ul>
         </div>
-        <div class="w-1/4">
+        <div class="w-1/4 ml-12">
           <h2 class="font-bold">採用情報</h2>
           <h2 class="font-bold mt-6">お問い合わせ</h2>
         </div>

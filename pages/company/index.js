@@ -121,10 +121,10 @@ export default function Company() {
           </div>
           {/* BUSINESS/PRODUCTS 終了 */}
           <div class="mx-auto pt-6 mb-6" style={{ width: "920px" }}>
-          <Link href="/company/vision"><a>
+          <Link href="/company/statement"><a>
             <div class="relative">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
-                <div class="text-4xl text-white futura">VISION</div>
+                <div class="text-4xl text-white futura">STATEMENT</div>
                 <div class="mt-6 text-2xl text-white">代表メッセージ</div>
               </div>
               <Image src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
