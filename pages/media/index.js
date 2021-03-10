@@ -116,9 +116,9 @@ export default function Media({videos}) {
                     </div>
                     <div class="mt-12">
                       <p>公式インスタグラムはこちら</p>
-                      <Link href="https://www.instagram.com/masaki.s_japan/">
-                        <a target="_blank"><Image src="/images/media/instagram_banner.png" width={400} height={120} alt="instagram-banner"/></a>
-                      </Link>
+                        <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
+                          <Image src="/images/media/instagram_banner.png" width={400} height={120} alt="instagram-banner"/>
+                        </a>
                     </div>
                   </div>
                   <div class="w-1/2 pr-12">
