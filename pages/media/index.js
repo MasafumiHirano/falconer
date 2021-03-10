@@ -1,7 +1,6 @@
-import { useEffect } from 'react';
-
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link"
 
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import InstagramEmbed from 'react-instagram-embed';
@@ -118,6 +117,12 @@ export default function Media({videos}) {
                         onFailure={() => {}}
                       />
                     </div>
+                    <div class="mt-12">
+                      <p>公式インスタグラムはこちら</p>
+                      <Link href="https://www.instagram.com/masaki.s_japan/">
+                        <a target="_blank"><Image src="/images/media/bnrinstagram.png" width={400} height={120} alt="instagram-banner"/></a>
+                      </Link>
+                    </div>
                   </div>
                   <div class="w-1/2 pr-12">
                     <div class="flex justify-end">
@@ -128,7 +133,7 @@ export default function Media({videos}) {
                         <TwitterTimelineEmbed
                           sourceType="profile"
                           screenName="Nanami_Bondjam"
-                          options={{height: 600}}
+                          options={{height: 800}}
                         />
                       </div>
                     </div>
