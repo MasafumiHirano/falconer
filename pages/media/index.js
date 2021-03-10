@@ -64,9 +64,6 @@ export default function Media({videos}) {
                     <Image src="/images/media/youtube-full-logo_lg.png" width={150} height={34} alt="youtubelogo"/>
                   </div>
                 </div>
-                {videos.map(video=>{
-                  console.log(video.id)
-                })}
                 <div class="flex pt-6 pb-6 mb-4" style={{ backgroundColor: "#221916" }}>
                   <div class="w-2/4">
                     <div class="flex justify-center items-center h-full">
