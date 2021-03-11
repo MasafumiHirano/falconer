@@ -16,7 +16,7 @@ export default function Statement() {
           <div class="mx-auto pt-8 pb-16 bg-opacity-75" style={{ width: "1100px" }}>
             <div class="text-white mx-40">
               <div>
-                <h1 class="text-4xl text-center border-b-4 pb-2">STATEMENT</h1>
+                <h1 class="text-6xl text-center border-b-4 pb-2 futura-co-md">STATEMENT</h1>
               </div>
               <div class="text-center tracking-widest mt-16" >
                 <h1 class="text-3xl mb-8 font-bold">最高品質の戦略的モノ作りカンパニー</h1>
@@ -30,7 +30,7 @@ export default function Statement() {
 
             <div class="text-white mx-40 mt-24">
               <div>
-                <h1 class="text-4xl text-center border-b-4 pb-2">VISION</h1>
+                <h1 class="text-6xl text-center border-b-4 pb-2 futura-co-md">VISION</h1>
               </div>
               <div class="text-center tracking-widest mt-5" >
                 <h1 class="text-3xl mb-8 font-bold">今日よりも、もっと幸せな明日を。</h1>

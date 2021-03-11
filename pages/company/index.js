@@ -124,7 +124,7 @@ export default function Company() {
           <Link href="/company/statement"><a>
             <div class="relative">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
-                <div class="text-4xl text-white futura">STATEMENT</div>
+                <div class="text-5xl text-white futura-co-md">STATEMENT</div>
                 <div class="mt-6 text-2xl text-white">代表メッセージ</div>
               </div>
               <Image src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
@@ -160,7 +160,7 @@ export default function Company() {
             </div>
             </div>
             <div class="mx-auto py-6 mb-6" style={{ width: "920px", backgroundColor: "#241916"}}>
-              <div><h1 class="text-4xl text-white text-center mb-2">MEDIA</h1></div>
+              <div><h1 class="text-5xl text-white text-center mb-2 futura-co-md">MEDIA</h1></div>
               <div class="flex justify-center">
                 <div class="inline-block">
                   <a href="https://www.instagram.com/masaki.s_japan/">
@@ -171,7 +171,7 @@ export default function Company() {
                 <div class="inline-block"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
                 <div class="inline-block"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
               </div>
-              <iframe class="mx-auto" width="720" height="405" src="https://www.youtube.com/embed/k5oSVWFyOqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="mx-auto" width="720" height="405" src="https://www.youtube.com/embed/CmNI0Xe8OoU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="mx-auto mb-12 border-4 border-solid border-black" style={{ width: "920px"}}>
                 <div class="relative">
