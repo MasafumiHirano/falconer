@@ -60,7 +60,7 @@ export default function Media({videos}) {
               <section class="mb-24">{/*YoutubeSection*/}
                 <div class="flex justify-center mb-6">
                   <div class="flex items-center">
-                    <h1 class="text-5xl text-center mr-6 helvetica font-semibold" style={{fontSize: "2.5rem"}}>Youtube Channel</h1>
+                    <h1 class="text-5xl text-center mr-6 helvetica font-semibold" style={{fontSize: "2.5rem"}}>YouTube Channel</h1>
                     <Image src="/images/media/youtube-full-logo_lg.png" width={150} height={34} alt="youtubelogo"/>
                   </div>
                 </div>
