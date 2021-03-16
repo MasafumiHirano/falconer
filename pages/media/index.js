@@ -20,7 +20,6 @@ export default function Media() {
     </div>
   )
 }
-<<<<<<< HEAD
 
 export const getStaticProps = async() => {
   const key = {
@@ -35,5 +34,3 @@ export const getStaticProps = async() => {
     },
   };
 }
-=======
->>>>>>> 77df7cf4e99abf73f207c664351ac9fd721f0e3f
