@@ -28,7 +28,11 @@ export default function Header(){
               <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={400} height={84} alt="falconer_logo" /></a>
             </Link>
           </div>
+<<<<<<< HEAD
           <div class="flex items-center">
+=======
+          <div class="block flex items-center">
+>>>>>>> 77df7cf4e99abf73f207c664351ac9fd721f0e3f
             <div class="inline-block">
               <a href="https://www.instagram.com/masaki.s_japan/">
                 <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />

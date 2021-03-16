@@ -6,14 +6,22 @@ export default function Footer() {
     <>
       <div class="h-auto lg:pt-12 pt-4 lg:pb-4 pb-2" style={{ backgroundColor: "#9f9e9f"}}>
         <div class="flex justify-start px-6">
+<<<<<<< HEAD
           <div class="lg:w-1100 flex justify-center">
+=======
+          <div class="block lg:w-1100 flex justify-center">
+>>>>>>> 77df7cf4e99abf73f207c664351ac9fd721f0e3f
             <div class="lg:flex justify-between lg:mb-12">
               <div class="block">
                 <Link href="/">
                   <a><Image class="block" src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
                 </Link>
               </div>
+<<<<<<< HEAD
               <div class="flex justify-between text-sm lg:text-base mt-6 lg:mt-0">
+=======
+              <div class="block flex justify-between text-sm lg:text-base mt-6 lg:mt-0">
+>>>>>>> 77df7cf4e99abf73f207c664351ac9fd721f0e3f
                 <div class="lg:mx-12 lg:pr-16">
                   <h2 class="font-bold midashiGo">TOPICS</h2>
                   <h2 class="font-bold midashiGo lg:mt-6">BRAND</h2>
