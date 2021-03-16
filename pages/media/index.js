@@ -150,7 +150,7 @@ export const getStaticProps = async() => {
   const key = {
     headers: {'X-API-KEY': process.env.API_KEY},
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/youtube', key)
+  const data = await fetch('https://falconer.microcms.io/api/v1/media', key)
     .then(res => res.json())
     .catch(() => null);
   return {

@@ -7,10 +7,10 @@ import Layout from '../../components/layout'
 export default function topicId({ topic }) {
   return (
     <Layout>
-      <main class="bg-gray-100 py-12">
-        <div class="mx-auto px-12 py-12 mb-12 bg-white" style={{ width: "1100px" }}>
+      <main class="bg-gray-100 py-6 lg:py-12">
+        <div class="mx-auto px-12 py-12 bg-white lg:w-1100">
           <Image src={`${topic.main_image.url}`} width={1100} height={500} alt=""/>
-          <h1 class="text-3xl font-bold my-12">{topic.title}</h1>
+          <h1 class="text-2xl lg:text-3xl font-bold my-6 lg:my-12">{topic.title}</h1>
           <div class="flex mb-12">
             {topic.tag.map(tag => (
               <span class="px-4 py-2 mr-4 bg-gray-100 rounded-full text-sm">{tag}</span>
