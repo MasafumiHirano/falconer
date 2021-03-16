@@ -22,6 +22,14 @@
 }
 
 @font-face {
+  font-family: "futura_condensed_medium";
+  src: url("/fonts/Futura_Condensed_Medium.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "chuGothic_md";
   src: url("/fonts/A-OTF_Gothic_BBB_Pr6N_Medium.woff") format('woff');
   font-style: normal;
@@ -45,11 +53,17 @@
   .futura-md {
     font-family: "futura_medium_bt";
   }
+  .futura-co-md {
+    font-family: "futura_condensed_medium";
+  }
   .chuGo {
     font-family: "chuGothic_md";
   }
   .midashiGo {
     font-family: "midashiGoMB31";
+  }
+  .helvetica {
+    font-family: "Helvetica";
   }
 }
 

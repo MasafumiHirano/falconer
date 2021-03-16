@@ -147,7 +147,7 @@ export default function Company() {
             <Link href="/company/statement"><a>
             <div class="relative flex justify-center">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
-                <div class="text-4xl text-white futura">STATEMENT</div>
+                <div class="text-5xl text-white futura-co-md">STATEMENT</div>
                 <div class="mt-6 text-2xl text-white">代表メッセージ</div>
               </div>
               <Image src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
