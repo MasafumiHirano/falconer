@@ -56,10 +56,10 @@ export default function Home({topics}) {
           </div>
 
           <div style={{backgroundColor: "#cecece" }}>
-            <div class="mx-auto py-8 lg:py-12 lg:w-1100">
+            <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
               <h1 class="text-4xl text-center" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
               <div>
-                <ul class="grid grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-8 lg:gap-y-16 mt-12">
+                <ul class="flex justify-center pt-6 lg:pt-12 grid lg:grid-cols-3 gap-x-3 gap-y-8 lg:gap-x-4 lg:gap-y-16">
                   {topics.filter(topic => (
                     topic.topview == true
                   ))
@@ -67,8 +67,10 @@ export default function Home({topics}) {
                     <li key={topic.id} class="">
                       <Link href={`topics/${topic.id}`}>
                         <a>
-                          <div>
-                            <div><Image src={`${topic.main_image.url}`} width={360} height={210} alt=""/></div>
+                          <div class="px-2 lg:px-0">
+                            <div>
+                              <Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/>
+                            </div>
                             <div class="h-24">
                               <div class="lg:text-xl font-bold lg:mb-4">{topic.title}</div>
                               <div class="lg:flex">
@@ -89,24 +91,24 @@ export default function Home({topics}) {
             </div>
           </div>
 
-          <div class="mx-auto pt-12 lg:w-1100">
+          <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>BRAND</h1>
             <div class="flex">
-              <div class="pb-4" style={{ width: "1100px"}}>
+              <div class="pb-4">
                 <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
               </div>
             </div>
             <div class="flex">
-              <div class="pb-4 mr-5">
+              <div class="pb-4 lg:pb-0 mr-5">
                 <Image class="object-cover" src="/images/brand/brand_lu1_2.jpg" width={540} height={324} />
               </div>
-              <div class="pb-4" style={{ width: "540px"}}>
+              <div>
                 <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
               </div>
             </div>
           </div>
 
-          <div class="mx-auto pt-12 lg:w-1100">
+          <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
             <div  class="relative">
               <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, 0%)"}}>
