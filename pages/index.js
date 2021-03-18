@@ -57,7 +57,7 @@ export default function Home({topics}) {
 
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-              <h1 class="text-4xl text-center" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
+              <h1 class="text-4xl text-center py-2 border border-solid border-black" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
               <div>
                 <ul class="flex justify-center pt-6 lg:pt-12 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {topics.filter(topic => (
@@ -92,7 +92,7 @@ export default function Home({topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>BRAND</h1>
+            <h1 class="text-4xl text-center mb-6 py-2 border border-solid border-black" style={{fontFamily: "futura_light_bt"}}>BRAND</h1>
             <div class="flex">
               <div class="pb-4">
                 <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
@@ -109,7 +109,7 @@ export default function Home({topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
+            <h1 class="text-4xl text-center mb-6 py-2 border border-solid border-black" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
             <div  class="relative">
               <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, 0%)"}}>
                 <div class="inline-block">
@@ -142,8 +142,8 @@ export default function Home({topics}) {
             </div>
           </div>
           <div>
-            <div class="mx-auto pt-12 mb-12">
-              <div><h1 class="text-4xl text-center mb-6" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
+            <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
+              <div><h1 class="text-4xl text-center mb-6 py-2 border border-solid border-black" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
               <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
                   <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
