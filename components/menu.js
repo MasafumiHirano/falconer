@@ -18,7 +18,7 @@ const Menu = () => {
               <Image src="/images/media/menu_bar.png" width={36} height={36} alt="" />
             </button>
             <Drawer open={isOpen} onClose={toggleDrawer} direction='left' style={{width: "50%"}}>
-              <div class="bg-black h-screen px-4 pt-4 text-white tracking-wide leading-8">
+              <div class="bg-black h-screen px-2 pt-4 text-white tracking-wide leading-8">
                 <ul>
                   <li class="hover:text-yellow-300"><Link href="/topics"><a>TOPICS</a></Link></li>
                   <li class="hover:text-yellow-300"><Link href="/brand"><a>BRAND</a></Link></li>
@@ -27,13 +27,13 @@ const Menu = () => {
                   <li class="hover:text-yellow-300"><Link href="/contact"><a>CONTACT</a></Link></li>
                 </ul>
                 <div class="pt-4">
-                  <div class="inline-block px-2">
+                  <div class="inline-block">
                     <a href="https://www.instagram.com/masaki.s_japan/">
                       <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
                     </a>
                   </div>
-                  <div class="inline-block px-2"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="youtube_social" /></div>
-                  <div class="inline-block px-2"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="twitter_social" /></div>
+                  <div class="inline-block"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="youtube_social" /></div>
+                  <div class="inline-block"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="twitter_social" /></div>
                 </div>
               </div>
             </Drawer>

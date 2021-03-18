@@ -8,15 +8,15 @@ export default function topicId({ topic }) {
   return (
     <Layout>
       <main class="bg-gray-100 py-6 lg:py-12">
-        <div class="mx-auto px-12 py-12 bg-white lg:w-1100">
+        <div class="mx-auto px-4 py-6 lg:px-12 lg:py-12 bg-white lg:w-1100">
           <Image src={`${topic.main_image.url}`} width={1100} height={500} alt=""/>
-          <h1 class="text-2xl lg:text-3xl font-bold my-6 lg:my-12">{topic.title}</h1>
-          <div class="flex mb-12">
+          <h1 class="font-bold text-2xl lg:text-3xl my-4 lg:my-8">{topic.title}</h1>
+          <div class="flex mb-4 lg:mb-8">
             {topic.tag.map(tag => (
-              <span class="px-4 py-2 mr-4 bg-gray-100 rounded-full text-sm">{tag}</span>
+              <span class="px-1 lg:px-4 lg:py-2 bg-gray-100 rounded-full text-sm">{tag}</span>
             ))}
           </div>
-          <div
+          <div class="text-xs lg:text-base"
             dangerouslySetInnerHTML={{
               __html: `${topic.body}`,
             }}

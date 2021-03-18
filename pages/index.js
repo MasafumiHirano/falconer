@@ -59,7 +59,7 @@ export default function Home({topics}) {
             <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
               <h1 class="text-4xl text-center" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
               <div>
-                <ul class="flex justify-center pt-6 lg:pt-12 grid lg:grid-cols-3 gap-x-3 gap-y-8 lg:gap-x-4 lg:gap-y-16">
+                <ul class="flex justify-center pt-6 lg:pt-12 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {topics.filter(topic => (
                     topic.topview == true
                   ))

@@ -16,21 +16,23 @@ export default function Topics({topics}) {
         <div class="mx-auto py-8 lg:py-12 lg:w-1100">
           <div><h1 class="text-4xl text-center">TOPICS</h1></div>
           <div>
-            <ul class="grid grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-8 lg:gap-y-16 mt-12">
+            <ul class="flex justify-center pt-6 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {topics.map(topic => (
                 <li key={topic.id} class="">
                   <Link href={`topics/${topic.id}`}>
                     <a>
-                      <div>
-                        <div><Image src={`${topic.main_image.url}`} width={360} height={210} alt=""/></div>
-                        <div class="h-24">
-                          <div class="lg:text-xl font-bold lg:mb-4">{topic.title}</div>
-                          <div class="lg:flex">
-                            {topic.tag.map(tag => (
-                              <div class="block">
-                                <span class="px-2 lg:px-4 lg:py-2 mr-2 mb-2 bg-white rounded-full text-xs">{tag}</span>
-                              </div>
-                            ))}
+                      <div class="px-2 lg:px-0">
+                        <div>
+                          <div><Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/></div>
+                          <div class="h-24">
+                            <div class="lg:text-xl font-bold lg:mb-4">{topic.title}</div>
+                            <div class="lg:flex">
+                              {topic.tag.map(tag => (
+                                <div class="block">
+                                  <span class="px-2 lg:px-4 lg:py-2 mr-2 mb-2 bg-white rounded-full text-xs">{tag}</span>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         </div>
                       </div>

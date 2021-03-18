@@ -15,20 +15,21 @@ export default function Footer() {
                   <h2 class="font-bold midashiGo lg:mt-6">BRAND</h2>
                   <h2 class="font-bold midashiGo lg:mt-6">MEDIA</h2>
                 </div>
+                <div class="lg:flex justify-between">
+                  <div class="lg:mx-12">
+                    <h2 class="font-bold">企業情報</h2>
+                    <ul class="text-xs lg:text-sm text-gray-800">
+                      <li class="lg:mt-3">企業理念</li>
+                      <li class="lg:mt-3">トップメッセージ</li>
+                      <li class="lg:mt-3">企業概要・所在地</li>
+                      <li class="lg:mt-3">沿革</li>
+                    </ul>
+                  </div>
 
-                <div class="lg:mx-12">
-                  <h2 class="font-bold">企業情報</h2>
-                  <ul class="text-xs lg:text-sm text-gray-800">
-                    <li class="lg:mt-3">企業理念</li>
-                    <li class="lg:mt-3">トップメッセージ</li>
-                    <li class="lg:mt-3">企業概要・所在地</li>
-                    <li class="lg:mt-3">沿革</li>
-                  </ul>
-                </div>
-
-                <div class="px-4 lg:mx-12">
-                  <h2 class="font-bold">採用情報</h2>
-                  <h2 class="font-bold lg:mt-6">お問い合わせ</h2>
+                  <div class="lg:mx-12">
+                    <h2 class="font-bold">採用情報</h2>
+                    <h2 class="font-bold lg:mt-6">お問い合わせ</h2>
+                  </div>
                 </div>
               </div>
 
