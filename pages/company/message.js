@@ -64,7 +64,7 @@ export default function Message() {
               </div>
             </div>
 
-            <div class="flex flex-row ">
+            <div class="flex flex-row">
               <div>
                 <Image src="/images/company/ceo_img.jpg" width={240} height={240} alt="ceo_img"/>
               </div>
