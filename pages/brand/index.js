@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 import Layout from '../../components/layout'
 
@@ -11,9 +12,26 @@ export default function Brand() {
       </Head>
       <Layout>
       <main>
-        <div class="mx-auto pt-12 mb-12" style={{ width: "1100px" }}>
+        <div class="mx-auto pt-12 mb-12 lg:w-1100">
           <div><h1 class="text-4xl text-center mb-6">BRAND</h1></div>
-          <div><h1 class="text-xl text-center mb-6">coming soon</h1></div>
+          <div class="block mx-auto lg:flex lg:px-0 mt-12">
+            <div className="lg:w-1/2 relative w-full h-48 lg:h-72">
+              <Image className="object-cover" src="/images/brand/bachicashley_hero.jpg" alt="bachicashley" layout={'fill'}/>
+            </div>
+            <div class="py-6 px-6 text-center px-4lg:w-1/2">
+              <p class="text-2xl">見出し</p>
+              <p>テキストテキスト</p>
+            </div>
+          </div>
+          <div class="block mx-auto lg:flex lg:px-0 mt-12">
+            <div className="lg:w-1/2 relative w-full h-48 lg:h-72">
+              <Image className="object-cover" src="/images/brand/lv_hero.jpg" alt="lurverri" layout={'fill'}/>
+            </div>
+            <div class="py-6 px-6 text-center px-4 lg:w-1/2">
+              <p class="text-2xl">見出し</p>
+              <p>テキストテキスト</p>
+            </div>
+          </div>
         </div>
       </main>
       </Layout>
