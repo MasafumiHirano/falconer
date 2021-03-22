@@ -29,8 +29,9 @@ export default function Company() {
           <div class="py-12" style={{ backgroundColor: "#cecece" }}>
             <div class="mx-auto lg:w-1100 px-4 lg:px-20">
               <h1 class="text-4xl text-center mb-6">BUSINESS / PRODUCTS</h1>
+
               <div class="lg:flex lg:justify-center">
-                <div class="pb-4 lg:mr-5 w-full lg:w-450 h-full">
+                <div class="pb-4 w-full lg:w-450 lg:mr-5">
                   <div class="relative">
                     <div
                       class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
@@ -38,7 +39,7 @@ export default function Company() {
                     >
                       レザーアイテム
                     </div>
-                    <Image className="object-cover" src="/images/company/prod01.png" width={450} height={300} />
+                    <Image className="object-cover" src="/images/company/prod01.png" width={900} height={600} />
                   </div>
                   <p class="text-xs lg:text-base">
                     イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、
@@ -47,6 +48,7 @@ export default function Company() {
                     ずっと使えるモノ作りを続けています。
                   </p>
                 </div>
+
                 <div class="pb-4 w-full lg:w-450">
                   <div class="relative">
                     <div
@@ -55,32 +57,32 @@ export default function Company() {
                     >
                       アパレル
                     </div>
-                    <div class="w-full lg:w-450 h-300" style={{backgroundColor: "#241916"}}></div>
+                    <div class="w-full h-300" style={{backgroundColor: "#241916"}}></div>
                   </div>
                   <p class="text-xs lg:text-base mt-1">
                     私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、
                     ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
                   </p>
                 </div> 
-                
               </div>
               
-              <div class="flex justify-center">
-              <div class="pb-4 lg:mr-5 w-full lg:w-450">
-                <div class="relative">
-                  <div
+              <div class="lg:flex lg:justify-center">
+                <div class="pb-4 w-full lg:w-450 lg:mr-5">
+                  <div class="relative">
+                    <div
                       class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
                       style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
-                  >
-                    OEM/ODM 事業
-                  </div>
-                  <Image src="/images/company/prod02.png" width={450} height={300} />
+                    >
+                      OEM/ODM 事業
+                    </div>
+                    <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
                   </div>
                   <p class="text-xs lg:text-base">
                     自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。
                     新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
                   </p>
                 </div>
+
                 <div class="pb-4 w-full lg:w-450">
                   <div class="relative">
                     <div
@@ -89,7 +91,7 @@ export default function Company() {
                     >
                       海外事業
                     </div>
-                    <Image src="/images/company/prod05.png" width={450} height={300} />
+                    <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
                   </div>
                   <p class="text-xs lg:text-base">
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。
@@ -97,6 +99,7 @@ export default function Company() {
                   </p>
                 </div>
               </div>
+
             </div>
           </div>
           {/* BUSINESS/PRODUCTS 終了 */}
