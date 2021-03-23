@@ -1,28 +1,28 @@
 import '../styles/globals.css'
 import '../styles/slider.css'
-//import { useEffect } from 'react'
-//import { useRouter } from 'next/router'
 
-//import * as gtag from '../lib/gtag'
+import React from 'react'
+import Router from 'next/router'
+import { useEffect } from 'react'
 
-//const router = useRouter()
+import * as gtag from '../lib/gtag'
 
 function MyApp({ Component, pageProps }) {
   // GoogleAnalytics
-  // useEffect(() => {
-  //   if (!gtag.existsGaId) {
-  //     return
-  //   }
+  useEffect(() => {
+    if (!gtag.existsGaId) {
+      return
+    }
 
-  //   const handleRouteChange = (path) => {
-  //     gtag.pageview(path)
-  //   }
+    const handleRouteChange = (path) => {
+      gtag.pageview(path)
+    }
 
-  //   router.events.on('routeChangeComplete', handleRouteChange)
-  //   return () => {
-  //     router.events.off('routeChangeComplete', handleRouteChange)
-  //   }
-  // }, [router.events])
+    Router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      Router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [Router.events])
 
   return <Component {...pageProps} />
 }
