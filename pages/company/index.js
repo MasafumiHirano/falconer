@@ -124,9 +124,11 @@ export default function Company() {
                 </div>
               </a></Link>
 
-              <div class="border-4 border-solid border-black w-full lg:w-450 h-150 lg:h-300 flex justify-center items-center">
-                <div class="text-2xl font-bold tracking-widest">採用情報</div>
-              </div>
+              <Link href="/recruit"><a>
+                <div class="border-4 border-solid border-black w-full lg:w-450 h-150 lg:h-300 flex justify-center items-center">
+                  <div class="text-2xl font-bold tracking-widest">採用情報</div>
+                </div>
+              </a></Link>
             </div>
           </div>
           <div class="mx-auto mb-6 lg:w-1100 px-4 lg:px-20 flex justify-center">
