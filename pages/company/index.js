@@ -116,14 +116,16 @@ export default function Company() {
           <div class="mx-auto mb-6 lg:w-1100 px-4 lg:px-20">
             <div class="lg:flex justify-center mb-6">
               <Link href="/company/overview"><a>
-                <div class="border-4 border-solid border-black w-full lg:w-450 h-150 lg:h-300 flex justify-center items-center mb-5 lg:mr-5">
-                  <div class="text-2xl font-bold tracking-widest">企業概要</div>
+              <div class="relative w-full lg:w-450 lg:h-300 flex justify-center items-center">
+                  <Image className="absolute" src="/images/company/company_overview.jpg" width={600} height={400} />
+                  <div class="absolute text-2xl font-bold tracking-widest text-white">企業概要</div>
                 </div>
               </a></Link>
 
               <Link href="/recruit"><a>
-                <div class="border-4 border-solid border-black w-full lg:w-450 h-150 lg:h-300 flex justify-center items-center">
-                  <div class="text-2xl font-bold tracking-widest">採用情報</div>
+                <div class="relative ml-4 w-full lg:w-450 lg:h-300 flex justify-center items-center">
+                  <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
+                  <div class="absolute text-2xl font-bold tracking-widest text-white">採用情報</div>
                 </div>
               </a></Link>
             </div>
