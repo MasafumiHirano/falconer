@@ -22,7 +22,6 @@ export default function Footer() {
                       <li class="lg:mt-3">企業理念</li>
                       <li class="lg:mt-3">トップメッセージ</li>
                       <li class="lg:mt-3">企業概要・所在地</li>
-                      <li class="lg:mt-3">沿革</li>
                     </ul>
                   </div>
 

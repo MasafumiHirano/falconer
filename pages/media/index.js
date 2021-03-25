@@ -49,11 +49,11 @@ export default function Media({videos}) {
                   <Image src="/images/media/bond_jam.jpg" alt="radio-image" width={1100} height={227} />
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide">
-                  <p class="text-sm lg:text-xl mb-4">MC: NANAMI 清水真輝</p>
-                  <div class="text-sm lg:text-xl">
-                    <p class="leading-6 lg:leading-10 mb-4">BACHIC ASHLEY がプロデュースする日常を最高の気分で過ごすために毎日を日々、力強く生きているアーティスト、クリエイター、経営者など、各界の最先端で活躍する方々をゲストとしてお招きし、その強さの秘訣とこだわりの人生についてお聞きします。</p>
+                  <p class="text-sm lg:text-xl mb-4 font-bold ">MC: NANAMI 清水真輝</p>
+                  <div class="text-sm lg:text-lg">
+                    <p class="leading-6 lg:leading-normal mb-4">BACHIC ASHLEY がプロデュースする日常を最高の気分で過ごすために毎日を日々力強く生きているアーティスト､クリエイター､経営者など､各界の最先端で活躍する方々をゲストとしてお招きし､その強さの秘訣とこだわりの人生についてお聞きします。</p>
                   </div>
-                  <p class="text-xs lg:text-lg">FM 愛知　毎週20：00～20：30　OA</p>
+                  <p class="text-xs lg:text-md">FM 愛知　毎週20：00～20：30　OA</p>
                 </div>
               </section>{/*RadioSectionEnd*/}
 
@@ -83,8 +83,8 @@ export default function Media({videos}) {
                     </div>
                   </div>
                 </div>
-                <div class="mx-auto w-5/6 chuGo lg:tracking-wide text-sm lg:text-xl">
-                  <p class="leading-6 lg:leading-10">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド、企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
+                <div class="mx-auto w-5/6 chuGo lg:tracking-wide text-sm lg:text-lg">
+                  <p class="leading-6 lg:leading-normal">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド、企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 
@@ -92,12 +92,12 @@ export default function Media({videos}) {
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
                 <div class="lg:flex justify-around">
                   <div class="block">
-                    <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="twitter_logo" />
+                    <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" />
                     <div class="mt-2 lg:mt-6 text-center">
                       <InstagramEmbed
                         url='https://www.instagram.com/p/CMO-EpVgQDh/'
                         clientAccessToken={clientAccessToken}
-                        maxWidth={700}
+                        maxWidth={360}
                         hideCaption={true}
                         containerTagName='div'
                         protocol=''

@@ -14,7 +14,7 @@ export default function Topics({topics}) {
       <Layout>
       <main style={{backgroundColor: "#cecece" }}>
         <div class="mx-auto py-8 lg:py-12 lg:w-1100">
-          <div><h1 class="text-4xl text-center">TOPICS</h1></div>
+          <div><h1 class="text-4xl text-center bg-falGLD py-2 text-white">TOPICS</h1></div>
           <div>
             <ul class="flex justify-center pt-6 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {topics.map(topic => (

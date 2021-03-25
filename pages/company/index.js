@@ -57,8 +57,7 @@ export default function Company() {
                     <div class="w-full h-300" style={{backgroundColor: "#241916"}}></div>
                   </div>
                   <p class="lg:text-base mt-1" style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
-                    私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、
-                    ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
+                    私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
                   </p>
                 </div> 
               </div>
@@ -75,8 +74,7 @@ export default function Company() {
                     <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
                   </div>
                   <p class="lg:text-base" style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
-                    自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。
-                    新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
+                    自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
                   </p>
                 </div>
 
@@ -91,8 +89,7 @@ export default function Company() {
                     <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
                   </div>
                   <p class="lg:text-base"  style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
-                    今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。
-                    PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
+                    今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
                   </p>
                 </div>
               </div>
@@ -102,7 +99,7 @@ export default function Company() {
           {/* BUSINESS/PRODUCTS 終了 */}
 
           <div class="mx-auto pt-6 mb-6 lg:w-1100 px-4 h-48 lg:h-auto lg:px-20">
-            <Link href="/company/statement"><a>
+            
             <div class="relative flex justify-center h-full">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <Link href="/company/statement"><a>
@@ -116,7 +113,7 @@ export default function Company() {
               </div>
               <Image className="h-48 object-cover" src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
             </div>
-            </a></Link>
+
           </div>
 
           <div class="mx-auto mb-6 lg:w-1100 px-4 lg:px-20">
@@ -138,7 +135,7 @@ export default function Company() {
               </a></Link>
             </div>
           </div>
-          <div class="mx-auto mb-6 lg:w-1100 px-4 lg:px-20 flex justify-center">
+          <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
             <div class="flex justify-center w-920" style={{backgroundColor: "#241916"}}>
               <div class="py-6 px-6 mb-6">
                 <h1 class="text-5xl text-white text-center mb-2 futura-co">MEDIA</h1>
@@ -163,9 +160,10 @@ export default function Company() {
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20">
               <div class="flex justify-center">
                 <Link href="/contact"><a>
-                  <div class="w-920 h-150 border-4 border-solid border-black flex justify-center items-center">
-                    <div class="text-2xl font-bold tracking-widest">お問い合わせ</div>
+                  <div class="w-150 flex justify-center items-center">
+                    <div class="text-md py-2 px-2 font-bold tracking-widest bg-falSLD text-white">お問い合わせ</div>
                   </div>
+                  <p>詳しくはお問い合わせください。</p>
                 </a></Link>
               </div>
           </div>

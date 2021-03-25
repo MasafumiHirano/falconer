@@ -37,19 +37,10 @@ export default function Home({topics}) {
             <div class="mx-auto">
               <Slider {...settings}>
                 <div>
-                  <Image class="block" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
+                  <Image class="block mx-auto" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
                 </div>
                 <div>
-                  <Image class="block" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
-                </div>
-                <div>
-                  <Image class="block" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
-                </div>
-                <div>
-                  <Image class="block" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
-                </div>
-                <div>
-                  <Image class="block" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
+                  <Image class="block mx-auto" src="/images/topslider/topslider2.jpg" width={1280} height={640} alt="bachicashley_hero"/>
                 </div>
               </Slider>
             </div>
@@ -58,9 +49,9 @@ export default function Home({topics}) {
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
               <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
-              <p class="text-center mb-12">株式会社ファルコナーの最新の情報をお届けします。</p>
+              <p class="text-center mb-2">株式会社ファルコナーの最新の情報をお届けします。</p>
               <div>
-                <ul class="flex justify-center pt-6 lg:pt-12 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                <ul class="flex justify-center lg:pt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {topics.filter(topic => (
                     topic.topview == true
                   ))
@@ -94,7 +85,7 @@ export default function Home({topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>BRAND</h1>
-            <p class="text-center mb-12">株式会社ファルコナーが展開するブランドの紹介です。</p>
+            <p class="text-center mb-2">株式会社ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
               <div class="pb-4">
                 <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
@@ -111,8 +102,8 @@ export default function Home({topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <h1 class="text-4xl text-center mb-6 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
-            <p class="text-center mb-12">ラジオ番組をはじめインスタグラムで情報を発信中です。</p>
+            <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
+            <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
             <div  class="relative">
               <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -50%)"}}>
@@ -139,8 +130,8 @@ export default function Home({topics}) {
           </div>
           <div>
             <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
-              <div><h1 class="text-4xl text-center mb-6 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
-              <p class="text-center mb-12">株式会社ファルコナーの情報はこちらをご確認ください。</p>
+              <div><h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
+              <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
               <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
                   <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
