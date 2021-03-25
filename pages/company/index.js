@@ -41,11 +41,8 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod01.png" width={900} height={600} />
                   </div>
-                  <p class="text-xs lg:text-base">
-                    イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、
-                    小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。
-                    マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、
-                    ずっと使えるモノ作りを続けています。
+                  <p class="lg:text-base" style={{fontSize: "0.65rem"}}>
+                    イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、ずっと使えるモノ作りを続けています。
                   </p>
                 </div>
 
@@ -59,7 +56,7 @@ export default function Company() {
                     </div>
                     <div class="w-full h-300" style={{backgroundColor: "#241916"}}></div>
                   </div>
-                  <p class="text-xs lg:text-base mt-1">
+                  <p class="lg:text-base mt-1" style={{fontSize: "0.65rem"}}>
                     私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、
                     ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
                   </p>
@@ -77,7 +74,7 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
                   </div>
-                  <p class="text-xs lg:text-base">
+                  <p class="lg:text-base" style={{fontSize: "0.65rem"}}>
                     自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。
                     新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
                   </p>
@@ -93,7 +90,7 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
                   </div>
-                  <p class="text-xs lg:text-base">
+                  <p class="lg:text-base"  style={{fontSize: "0.65rem"}}>
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。
                     PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
                   </p>
