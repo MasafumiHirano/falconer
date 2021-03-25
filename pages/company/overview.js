@@ -190,7 +190,7 @@ export default function Overview() {
             </div>
           </div>
 
-          <div class="w-full lg:w-650 lg:h-450 h-300 mx-auto my-12">
+          {/*<div class="w-full lg:w-650 lg:h-450 h-300 mx-auto my-12">
             <GoogleMapReact
               bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAP_KEY }}
               defaultCenter={defaultLatLng}
@@ -198,7 +198,7 @@ export default function Overview() {
             >
 
             </GoogleMapReact>
-          </div>
+  </div>*/}
           
           <div class="flex flex-col items-center mt-8 w-full">
             <div class="lg:w-650 w-full">

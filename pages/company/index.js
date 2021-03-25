@@ -155,9 +155,11 @@ export default function Company() {
 
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20">
               <div class="flex justify-center">
-                <div class="w-920 h-150 border-4 border-solid border-black flex justify-center items-center">
-                  <div class="text-2xl font-bold tracking-widest">お問い合わせ</div>
-                </div>
+                <Link href="/contact"><a>
+                  <div class="w-920 h-150 border-4 border-solid border-black flex justify-center items-center">
+                    <div class="text-2xl font-bold tracking-widest">お問い合わせ</div>
+                  </div>
+                </a></Link>
               </div>
           </div>
 

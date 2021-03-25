@@ -18,18 +18,8 @@ export default function Brand() {
             <div className="lg:w-1/2 relative w-full h-48 lg:h-72">
               <Image className="object-cover" src="/images/brand/bachicashley_hero.jpg" alt="bachicashley" layout={'fill'}/>
             </div>
-            <div class="py-6 px-6 text-center px-4lg:w-1/2">
-              <p class="text-2xl">見出し</p>
-              <p>テキストテキスト</p>
-            </div>
-          </div>
-          <div class="block mx-auto lg:flex lg:px-0 mt-12">
-            <div className="lg:w-1/2 relative w-full h-48 lg:h-72">
-              <Image className="object-cover" src="/images/brand/lv_hero.jpg" alt="lurverri" layout={'fill'}/>
-            </div>
-            <div class="py-6 px-6 text-center px-4 lg:w-1/2">
-              <p class="text-2xl">見出し</p>
-              <p>テキストテキスト</p>
+            <div className="lg:w-1/2 relative w-full h-48 lg:ml-8 mt-12 lg:mt-0 lg:h-72">
+              <Image className="object-cover" src="/images/brand/lv_hero.jpg" alt="bachicashley" layout={'fill'}/>
             </div>
           </div>
         </div>

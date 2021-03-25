@@ -54,17 +54,17 @@ export default function Header(){
 
       <div class="flex justify-around lg:justify-center lg:mt-6 text-xs lg:text-base invisible lg:visible">
         <Link href="/topics"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             TOPICS
           </div>
         </a></Link>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
           <Link href="/brand"><a>BRAND</a></Link>
         </div>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
           <Link href="/company"><a>ABOUT US</a></Link>
         </div>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
           <Link href="/media"><a>MEDIA</a></Link>
         </div>
         <div class="text-center text-white futura lg:px-4 lg:w-120 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
