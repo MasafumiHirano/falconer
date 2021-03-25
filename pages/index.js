@@ -115,29 +115,25 @@ export default function Home({topics}) {
             <p class="text-center mb-12">ラジオ番組をはじめインスタグラムで情報を発信中です。</p>
             
             <div  class="relative">
-              <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, 0%)"}}>
+              <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -50%)"}}>
                 <div class="inline-block">
                   <a href="https://www.instagram.com/masaki.s_japan/">
-                    <Image src="/images/media/instagram_white_bg_bk.jpg" width={114} height={114} alt="instagaram_social" />
+                    <Image src="/images/media/instagram_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
                   </a>
                 </div>
                 
                 <div class="inline-block">
                   <a href="https://www.youtube.com/masaki.s_japan/">
-                    <Image src="/images/media/youtube_white_bg_bk.jpg" width={114} height={114} alt="instagaram_social" />
+                    <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
                   </a>
                 </div>
                 <div class="inline-block">
                   <a href="https://www.twitter.com/masaki.s_japan/">
-                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={114} height={114} alt="instagaram_social" />
+                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
                   </a>
                 </div>
               </div>
-              <div class="absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -92%)"}}>
-                <Link href="/media">
-                <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={456} height={95} alt="falconer_co_ltd_logo" /></a>
-                </Link>
-              </div>
+              
               <Image src="/images/media/top-media.jpg" width={1100} height={620} />
             </div>
           </div>
