@@ -49,10 +49,6 @@ export default function CONTACT() {
       });
   };
 
-    const submitAble = () => {
-      name && body && email ? setDisabled(true) : setDisabled(false)
-    }
-
   return (
     <div>
       <Head>

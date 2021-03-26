@@ -145,7 +145,7 @@ export default function RECRUIT() {
 
             <div class="pt-4 lg:pt-12">
               <h1 class="text-lg lg:text-2xl font-semibold border-b border-gray-700">募集要項</h1>
-              <div class="mt-2 lg:mt-6 lg:px-20 w-full">
+              <div class="mt-2 lg:mt-6 lg:px-10 w-full">
                 <table class="w-full shadow rounded-lg border border-gray-300 lg:divide-y divide-gray-300">
                   <tr class="bg-gray-100 lg:bg-gray-50">
                   <td class="pl-6 py-4 text-xs lg:text-base font-medium text-gray-900">
