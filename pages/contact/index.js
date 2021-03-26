@@ -175,6 +175,16 @@ export default function CONTACT() {
                         ></textarea>
                     </div>
                   </div>
+                  
+                  {
+                    (name && email && body) ?
+                    <div class="text-red-500 text-sm">
+                      <p>{`　`}</p>
+                    </div>
+                    :
+                    <div class="text-red-500 text-sm"><p>※必須項目を入力してください。</p></div>
+                  }
+
                   <div class="sm:col-span-2">
                     <button 
                       disabled={!(name && email && body)} 

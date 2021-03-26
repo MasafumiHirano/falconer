@@ -166,16 +166,15 @@ export default function Company() {
           </div>
 
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
-              <div class="">
+              <div class="w-full mx-2">
                 <Link href="/contact"><a>
-                  <div class="flex justify-center items-center w-150">
-                    <div class="text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center" style={{ width: "108px" }}>お問い合わせ</div>
+                  <div class="text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
+                    お問い合わせ
                   </div>
                 </a></Link>
                 <p class="mt-2 text-xs text-center">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
               </div>
           </div>
-
         </main>
       </Layout>
     </div>
