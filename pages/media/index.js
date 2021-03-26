@@ -90,23 +90,70 @@ export default function Media({videos}) {
 
               <section class="mb-24">{/*SNSSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
-                <div class="lg:flex justify-around">
+                <div class="">
                   <div class="block">
                     <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" />
-                    <div class="mt-2 lg:mt-6 text-center">
-                      <InstagramEmbed
-                        url='https://www.instagram.com/p/CMO-EpVgQDh/'
-                        clientAccessToken={clientAccessToken}
-                        maxWidth={360}
-                        hideCaption={true}
-                        containerTagName='div'
-                        protocol=''
-                        injectScript
-                        onLoading={() => {}}
-                        onSuccess={() => {}}
-                        onAfterRender={() => {}}
-                        onFailure={() => {}}
-                      />
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-4">
+                      <div class="mt-2 lg:mt-6 text-center ">
+                        <InstagramEmbed
+                          url='https://www.instagram.com/p/CMO-EpVgQDh/'
+                          clientAccessToken={clientAccessToken}
+                          maxWidth={360}
+                          hideCaption={true}
+                          containerTagName='div'
+                          protocol=''
+                          injectScript
+                          onLoading={() => {}}
+                          onSuccess={() => {}}
+                          onAfterRender={() => {}}
+                          onFailure={() => {}}
+                        />
+                      </div>
+                      <div class="mt-2 lg:mt-6 text-center">
+                        <InstagramEmbed
+                          url='https://www.instagram.com/p/CL31HBwpcUr/'
+                          clientAccessToken={clientAccessToken}
+                          maxWidth={360}
+                          hideCaption={true}
+                          containerTagName='div'
+                          protocol=''
+                          injectScript
+                          onLoading={() => {}}
+                          onSuccess={() => {}}
+                          onAfterRender={() => {}}
+                          onFailure={() => {}}
+                        />
+                      </div>
+                      <div class="mt-2 lg:mt-6 text-center">
+                        <InstagramEmbed
+                          url='https://www.instagram.com/p/CMO-EpVgQDh/'
+                          clientAccessToken={clientAccessToken}
+                          maxWidth={360}
+                          hideCaption={true}
+                          containerTagName='div'
+                          protocol=''
+                          injectScript
+                          onLoading={() => {}}
+                          onSuccess={() => {}}
+                          onAfterRender={() => {}}
+                          onFailure={() => {}}
+                        />
+                      </div>
+                      <div class="mt-2 lg:mt-6 text-center lg:hidden">
+                        <InstagramEmbed
+                          url='https://www.instagram.com/p/CMO-EpVgQDh/'
+                          clientAccessToken={clientAccessToken}
+                          maxWidth={360}
+                          hideCaption={true}
+                          containerTagName='div'
+                          protocol=''
+                          injectScript
+                          onLoading={() => {}}
+                          onSuccess={() => {}}
+                          onAfterRender={() => {}}
+                          onFailure={() => {}}
+                        />
+                      </div>
                     </div>
                     <div class="mt-12 text-center">
                       <p>公式インスタグラムはこちら</p>
@@ -118,7 +165,7 @@ export default function Media({videos}) {
 
                   <div class="block mt-6 lg:mt-0">
                     <Image class="block" src="/images/media/Twitter_Logo_WhiteOnBlue_400.png" width={40} height={40} alt="twitter_logo" />
-                    <div class="mt-2 lg:mt-6 lg:w-400">
+                    <div class="mt-2 lg:mt-6 lg:w-450">
                         <TwitterTimelineEmbed
                           sourceType="profile"
                           screenName="Nanami_Bondjam"
