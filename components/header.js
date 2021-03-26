@@ -41,12 +41,20 @@ export default function Header(){
           <div class="w-1/4 flex justify-end items-center">
             <div class="flex invisible lg:visible">
               <div class="inline-block px-2">
-                <a href="https://www.instagram.com/masaki.s_japan/">
+                <a href="https://www.instagram.com/masaki.s_japan/" target="_black">
                   <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
                 </a>
               </div>
-              <div class="inline-block px-2"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="youtube_social" /></div>
-              <div class="inline-block px-2"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="twitter_social" /></div>
+              <div class="inline-block px-2">
+                <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_black">
+                  <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="youtube_social" />
+                </a>
+              </div>
+              <div class="inline-block px-2">
+                <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                  <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="twitter_social" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

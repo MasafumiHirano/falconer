@@ -41,7 +41,7 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod01.png" width={900} height={600} />
                   </div>
-                  <p class="" style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
+                  <p class="" style={{fontSize: "0.75rem", lineHeight: "1.8"}}>
                     イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、ずっと使えるモノ作りを続けています。
                   </p>
                 </div>
@@ -56,7 +56,7 @@ export default function Company() {
                     </div>
                     <div class="w-full h-300" style={{backgroundColor: "#241916"}}></div>
                   </div>
-                  <p class="lg:text-base mt-1" style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
+                  <p class="lg:text-base mt-1" style={{fontSize: "0.75rem", lineHeight: "1.8"}}>
                     私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
                   </p>
                 </div> 
@@ -73,7 +73,7 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
                   </div>
-                  <p class="lg:text-base" style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
+                  <p class="lg:text-base" style={{fontSize: "0.75rem", lineHeight: "1.8"}}>
                     自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
                   </p>
                 </div>
@@ -88,7 +88,7 @@ export default function Company() {
                     </div>
                     <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
                   </div>
-                  <p class="lg:text-base"  style={{fontSize: "0.7rem", lineHeight: "1.8"}}>
+                  <p class="lg:text-base"  style={{fontSize: "0.75rem", lineHeight: "1.8"}}>
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
                   </p>
                 </div>
@@ -138,15 +138,23 @@ export default function Company() {
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
             <div class="flex justify-center w-920" style={{backgroundColor: "#241916"}}>
               <div class="py-6 px-6 mb-6">
-                <h1 class="text-5xl text-white text-center mb-2 futura-co">MEDIA</h1>
+                <h1 class="text-5xl text-white text-center mb-2 futura-co"><Link href="/media"><a>MEDIA</a></Link></h1>
                 <div class="flex justify-center">
                   <div class="inline-block">
-                    <a href="https://www.instagram.com/masaki.s_japan/">
+                    <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                       <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
                     </a>
                   </div>
-                  <div class="inline-block"><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
-                  <div class="inline-block"><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+                  <div class="inline-block">
+                    <a href="" target="_blank">
+                      <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                    </a>
+                  </div>
+                  <div class="inline-block">
+                    <a href="" target="_blank">
+                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                    </a>
+                  </div>
                 </div>
                 <div class="flex justify-center">
                   <div class="mx-auto md:w-720 md:h-405">
@@ -157,14 +165,14 @@ export default function Company() {
             </div>
           </div>
 
-          <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20">
-              <div class="flex justify-center">
+          <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
+              <div class="">
                 <Link href="/contact"><a>
-                  <div class="w-150 flex justify-center items-center">
-                    <div class="text-md py-2 px-2 font-bold tracking-widest bg-falSLD text-white">お問い合わせ</div>
+                  <div class="flex justify-center items-center w-150">
+                    <div class="text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center" style={{ width: "108px" }}>お問い合わせ</div>
                   </div>
-                  <p class="mt-2">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
                 </a></Link>
+                <p class="mt-2 text-xs">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
               </div>
           </div>
 

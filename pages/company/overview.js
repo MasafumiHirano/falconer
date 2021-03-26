@@ -21,8 +21,8 @@ export default function Overview() {
       </Head>
       <Layout>
       <main>
-        <div class="flex justify-center w-full">
-          <div class="lg:w-1100 w-full">
+        <div class="flex bg-falGLD justify-center w-full">
+          <div class="bg-white lg:w-720 px-6 w-full">
 
             <h1 class="text-center text-2xl border-b-2 border-gray-500 w-full lg:w-650 mx-auto mt-12">会社概要</h1>
 

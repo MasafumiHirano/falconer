@@ -88,15 +88,21 @@ export default function Home({topics}) {
             <p class="text-center mb-2">株式会社ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
               <div class="pb-4">
-                <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
+                <a href="https://bachicashley.com/" target="_blank">
+                  <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
+                </a>
               </div>
             </div>
             <div class="flex">
               <div class="pb-4 lg:pb-0 mr-5">
-                <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={324} />
+                <a href='https://lurverri.com/' target="_blank">
+                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={324} />
+                </a>
               </div>
               <div>
-                <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
+                <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
+                  <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
+                </a>
               </div>
             </div>
           </div>
@@ -108,19 +114,19 @@ export default function Home({topics}) {
             <div  class="relative">
               <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -50%)"}}>
                 <div class="inline-block">
-                  <a href="https://www.instagram.com/masaki.s_japan/">
+                  <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                     <Image src="/images/media/instagram_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
                   </a>
                 </div>
                 
                 <div class="inline-block">
-                  <a href="https://www.youtube.com/masaki.s_japan/">
-                    <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
+                  <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
+                    <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="youtube_social" />
                   </a>
                 </div>
                 <div class="inline-block">
-                  <a href="https://www.twitter.com/masaki.s_japan/">
-                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
+                  <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="twitter_social" />
                   </a>
                 </div>
               </div>

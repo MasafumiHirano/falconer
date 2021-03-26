@@ -33,7 +33,7 @@ export default function RECRUIT() {
 
             <div class="mt-12">
               <div class="mx-auto w-full lg:w-650 font-bold">
-                <h1 class="text-center text-white text-xl py-1 px-2 lg:text-2xl lg:py-2 lg:px-4 bg-gray-700 rounded-t-2xl">募集内容</h1>
+                <h1 class="text-center text-white text-xl py-1 px-2 lg:text-2xl lg:py-2 lg:px-4 bg-falGLD rounded-t-2xl">募集内容</h1>
                 <div class="mt-4">
                   <p class="text-center text-base lg:text-2xl">ネットショップ運営サポート</p>
                   <p class="text-center text-xs lg:text-base">メディア掲載実績多数！自社ブランドの魅力を発信</p>
@@ -93,14 +93,14 @@ export default function RECRUIT() {
 
               <Link href="/recruit/detail1">
                 <div class="flex justify-center mt-4">
-                  <button class="bg-gray-700 text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">詳細・エントリーはこちら</button>
+                  <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">詳細・エントリーはこちら</button>
                 </div>
               </Link>
             </div>
 
             <div class="mt-12">
               <div class="mx-auto w-full lg:w-650 font-bold">
-                <h1 class="text-center text-white text-xl py-1 px-2 lg:text-2xl lg:py-2 lg:px-4 bg-gray-700 rounded-t-2xl">募集内容２</h1>
+                <h1 class="text-center text-white text-xl py-1 px-2 lg:text-2xl lg:py-2 lg:px-4 bg-falGLD rounded-t-2xl">募集内容２</h1>
                 <div class="mt-4">
                   <p class="text-center text-base lg:text-2xl">事務処理サポート</p>
                   <p class="text-center text-xs lg:text-base">自由度の高いシフトで、短時間でもフルタイムでもOK</p>
@@ -160,7 +160,7 @@ export default function RECRUIT() {
 
               <Link href="/recruit/detail2">
                 <div class="flex justify-center mt-4">
-                  <button class="bg-gray-700 text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">詳細・エントリーはこちら</button>
+                  <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">詳細・エントリーはこちら</button>
                 </div>
               </Link>
             </div>

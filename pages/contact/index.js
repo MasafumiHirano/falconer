@@ -56,8 +56,8 @@ export default function CONTACT() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-      <main class="bg-gray-100">
-        <div class="mx-auto pt-12 lg:w-1100">
+      <main class="bg-falGLD">
+        <div class="bg-gray-100 mx-auto pt-12 lg:w-920">
           <div><h1 class="text-4xl text-center mb-6">お問い合わせ</h1></div>
           <div>
             <p class="text-center">製品のご購入のご相談、導入のご検討、OEMのご相談についてなど、
