@@ -93,7 +93,7 @@ export default function Home({topics}) {
             </div>
             <div class="flex">
               <div class="pb-4 lg:pb-0 mr-5">
-                <Image class="object-cover" src="/images/brand/brand_lu1_2.jpg" width={540} height={324} />
+                <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={324} />
               </div>
               <div>
                 <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />

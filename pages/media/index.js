@@ -84,7 +84,7 @@ export default function Media({videos}) {
                   </div>
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide text-sm lg:text-lg">
-                  <p class="leading-6 lg:leading-normal">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド、企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
+                  <p class="leading-6 lg:leading-normal">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド､企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 

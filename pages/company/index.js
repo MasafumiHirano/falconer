@@ -163,7 +163,7 @@ export default function Company() {
                   <div class="w-150 flex justify-center items-center">
                     <div class="text-md py-2 px-2 font-bold tracking-widest bg-falSLD text-white">お問い合わせ</div>
                   </div>
-                  <p>詳しくはお問い合わせください。</p>
+                  <p class="mt-2">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
                 </a></Link>
               </div>
           </div>

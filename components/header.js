@@ -22,7 +22,7 @@ export default function Header(){
         crossOrigin=""
       />
     </Head>
-    <div class="lg:py-6">
+    <div class="lg:pb-6">
 
       <div class="pt-4 bg-black">
         <div class="mx-auto flex lg:w-1100">
