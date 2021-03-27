@@ -24,12 +24,14 @@ export default function Topics({topics}) {
                       <div class="px-2 lg:px-0">
                         <div>
                           <div><Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/></div>
-                          <div class="h-24">
-                            <div class="lg:text-xl font-bold lg:mb-4">{topic.title}</div>
-                            <div class="lg:flex">
+                          <div>
+                            <div class="h-12 lg:h-20 lg:mb-4 lg:mb-2 overflow-hidden">
+                              <div class="lg:text-lg font-semibold helvetica">{topic.title}</div>
+                            </div>
+                            <div class="lg:flex mt-2 lg:mt-0 flex-wrap">
                               {topic.tag.map(tag => (
-                                <div class="block">
-                                  <span class="px-2 lg:px-4 lg:py-2 mr-2 mb-2 bg-white rounded-full text-xs">{tag}</span>
+                                <div class="inline-block mr-2 mb-4">
+                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
                                 </div>
                               ))}
                             </div>

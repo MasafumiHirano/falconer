@@ -22,7 +22,7 @@ export default function Header(){
         crossOrigin=""
       />
     </Head>
-    <div class="lg:pb-6">
+    <div class="pb-0 lg:pb-6">
 
       <div class="pt-4 bg-black">
         <div class="mx-auto flex lg:w-1100">
@@ -60,24 +60,32 @@ export default function Header(){
         </div>
       </div>
 
-      <div class="flex justify-around lg:justify-center lg:mt-6 text-xs lg:text-base invisible lg:visible">
+      <div class="lg:flex justify-around lg:justify-center lg:mt-6 text-xs lg:text-base hidden">
         <Link href="/topics"><a>
           <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             TOPICS
           </div>
         </a></Link>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-          <Link href="/brand"><a>BRAND</a></Link>
-        </div>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-          <Link href="/company"><a>ABOUT US</a></Link>
-        </div>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-          <Link href="/media"><a>MEDIA</a></Link>
-        </div>
-        <div class="text-center text-white futura lg:px-4 lg:w-120 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
-          <Link href="/contact"><a>CONTACT</a></Link>
-        </div>
+        <Link href="/brand"><a>
+          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            BRAND
+          </div>
+        </a></Link>
+        <Link href="/company"><a>
+          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            ABOUT US
+          </div>
+        </a></Link>
+        <Link href="/media"><a>
+          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            MEDIA
+          </div>
+        </a></Link>
+        <Link href="/contact"><a>
+          <div class="text-center text-white futura lg:px-4 lg:w-120 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+            CONTACT
+          </div>
+        </a></Link>
       </div>
     </div>
 

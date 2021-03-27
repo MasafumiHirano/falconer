@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Home({topics}) {
+export default function Home({slides,topics}) {
   //slider設定
   const settings = {
     dots: false,
@@ -18,7 +18,7 @@ export default function Home({topics}) {
     slidesToScroll: 1,
     autoplay: false,
     lazyLoad: true,
-    centerMode: true,
+    centerMode: false,
     adaptiveHeight: true,
     fade: false,
     arrows: true,
@@ -36,25 +36,40 @@ export default function Home({topics}) {
           <div class="bg-black">
             <div class="mx-auto">
               <Slider {...settings}>
-                <div>
-                  <Image class="block mx-auto" src="/images/topslider/bachicashley_hero.jpg" width={1280} height={640} alt="bachicashley_hero"/>
-                </div>
-                <div>
-                  <Image class="block mx-auto" src="/images/topslider/topslider2.jpg" width={1280} height={640} alt="bachicashley_hero"/>
-                </div>
+                {
+                  slides.filter((slide)=>(
+                    slide.visible == true
+                  ))
+                  .map((slide)=> (
+                    slide.topics_ref ? 
+                    <div>
+                      <Link href={`/topics/${slide.topics_ref.id}`}><a>
+                      <img className="inline-block mx-auto" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+                      </a></Link>
+                    </div>
+                    :
+                    <div>
+                      <a href={slide.link}>
+                        <img className="inline-block mx-auto" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+                      </a>
+                    </div>
+                  ))
+                }
               </Slider>
             </div>
           </div>
 
           <div style={{backgroundColor: "#cecece" }}>
-            <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
+            <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
               <p class="text-center mb-2">株式会社ファルコナーの最新の情報をお届けします。</p>
               <div>
-                <ul class="flex justify-center lg:pt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
-                  {topics.filter(topic => (
-                    topic.topview == true
-                  ))
+                <ul class="mt-12 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                  {
+                  topics.filter(topic => (
+                      topic.toppage == true
+                    ))
+                  .slice(0,3)
                   .map(topic => (
                     <li key={topic.id} class="">
                       <Link href={`topics/${topic.id}`}>
@@ -63,12 +78,14 @@ export default function Home({topics}) {
                             <div>
                               <Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/>
                             </div>
-                            <div class="h-24">
-                              <div class="lg:text-xl font-bold lg:mb-4">{topic.title}</div>
-                              <div class="lg:flex">
+                            <div>
+                              <div class="h-12 lg:h-20 lg:mb-4 lg:mb-2 overflow-hidden">
+                                <div class="lg:text-lg font-semibold helvetica">{topic.title}</div>
+                              </div>
+                              <div class="lg:flex lg:pt-0 flex-wrap">
                                 {topic.tag.map(tag => (
-                                  <div class="block">
-                                    <span class="px-2 lg:px-4 lg:py-2 mr-2 mb-2 bg-white rounded-full text-xs">{tag}</span>
+                                  <div class="inline-block mr-2 mb-4">
+                                    <span class="px-2 lg:px-4 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
                                   </div>
                                 ))}
                               </div>
@@ -93,15 +110,15 @@ export default function Home({topics}) {
                 </a>
               </div>
             </div>
-            <div class="flex">
-              <div class="pb-4 lg:pb-0 mr-5">
+            <div class="lg:flex">
+              <div class="pb-4 lg:pb-0 lg:mr-5">
                 <a href='https://lurverri.com/' target="_blank">
-                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={324} />
+                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={265} />
                 </a>
               </div>
               <div>
                 <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
-                  <Image src="/images/brand/allrightleather.jpg" width={540} height={324} />
+                  <Image src="/images/brand/allrightleather.jpg" width={540} height={265} />
                 </a>
               </div>
             </div>
@@ -157,12 +174,16 @@ export const getStaticProps = async () => {
   const key = {
     headers: {'X-API-KEY': process.env.API_KEY},
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/topics', key)
+  const topslides = await fetch('https://falconer.microcms.io/api/v1/topslides', key)
+    .then(res => res.json())
+    .catch(() => null);
+  const topics = await fetch('https://falconer.microcms.io/api/v1/topics', key)
     .then(res => res.json())
     .catch(() => null);
   return {
     props: {
-      topics: data.contents,
+      slides: topslides.contents,
+      topics: topics.contents,
     },
   };
 };

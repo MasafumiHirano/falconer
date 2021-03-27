@@ -103,12 +103,12 @@ export default function Company() {
             <div class="relative flex justify-center h-full">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <Link href="/company/statement"><a>
-                <div class="text-center futura-co text-3xl font-bold tracking-widest text-white shadow lg:text-base py-4 px-4 lg:px-4 border border-solid border-white"
-                style={{backgroundColor: "rgba(0,0,0,0.3)",fontSize: "2.8rem"}}>STATEMENT</div>
+                <div class="text-center futura-co text-3xl lg:text-4.5xl font-bold tracking-widest text-white shadow lg:py-4 lg:px-4 border border-solid border-white"
+                style={{backgroundColor: "rgba(0,0,0,0.3)"}}>STATEMENT</div>
                 </a></Link>
                 <Link href="/company/message"><a>
-                <div class="mt-6 text-center font-bold tracking-widest text-white shadow lg:text-base py-2 px-2 lg:px-4 border border-solid border-white"
-                style={{backgroundColor: "rgba(0,0,0,0.3)",fontSize: "1.7rem"}}>代表メッセージ</div>
+                <div class="mt-6 text-center font-bold text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 border border-solid border-white"
+                style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
               <Image className="h-48 object-cover" src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
@@ -121,13 +121,13 @@ export default function Company() {
               <Link href="/company/overview"><a>
                 <div class="relative w-full lg:w-450 lg:h-300 flex justify-center items-center">
                   <Image className="absolute" src="/images/company/company_overview.jpg" width={600} height={400} />
-                  <div class="absolute text-center text-3xl font-bold tracking-widest text-white shadow lg:text-base py-2 px-2 lg:px-4 border border-solid border-white"
+                  <div class="absolute text-center text-2xl font-bold tracking-widest text-white shadow lg:text-base py-2 px-2 lg:px-4 border border-solid border-white"
                    style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>企業概要</div>
                 </div>
               </a></Link>
 
               <Link href="/recruit"><a>
-                <div class="relative ml-4 w-full lg:w-450 lg:h-300 flex justify-center items-center">
+                <div class="relative mt-4 lg:mt-0 lg:ml-4 w-full lg:w-450 lg:h-300 flex justify-center items-center">
                   <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
                   <div class="absolute text-2xl font-bold tracking-widest text-white shadow lg:text-base py-2 px-2 lg:px-4 bg-black border border-solid border-white"
                   style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>採用情報</div>
@@ -138,7 +138,7 @@ export default function Company() {
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
             <div class="flex justify-center w-920" style={{backgroundColor: "#241916"}}>
               <div class="py-6 px-6 mb-6">
-                <h1 class="text-5xl text-white text-center mb-2 futura-co"><Link href="/media"><a>MEDIA</a></Link></h1>
+                <h1 class="text-4xl lg:text-5xl text-white text-center mb-2 futura-co"><Link href="/media"><a>MEDIA</a></Link></h1>
                 <div class="flex justify-center">
                   <div class="inline-block">
                     <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
@@ -166,7 +166,7 @@ export default function Company() {
           </div>
 
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
-              <div class="w-full mx-2">
+              <div class="w-full lg:mx-2">
                 <Link href="/contact"><a>
                   <div class="text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
                     お問い合わせ

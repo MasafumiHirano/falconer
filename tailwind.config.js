@@ -46,6 +46,10 @@ module.exports = {
       colors: {
         'falGLD': '#796B58',
         'falSLD': '#9f9e9f',
+      },
+      fontSize: {
+        '2.5xl': '1.7rem',
+        '4.5xl': '2.8rem',
       }
     }
   },
