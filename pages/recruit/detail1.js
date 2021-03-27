@@ -264,7 +264,7 @@ export default function RECRUIT() {
           </div>
 
           <div class="flex justify-center mt-4">
-            <button class="bg-gray-700 text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">こちらから応募ください</button>
+            <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">こちらから応募ください</button>
           </div>
         </div>
 

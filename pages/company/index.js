@@ -107,7 +107,7 @@ export default function Company() {
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>STATEMENT</div>
                 </a></Link>
                 <Link href="/company/message"><a>
-                <div class="mt-6 text-center font-bold text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 border border-solid border-white"
+                <div class="mt-6 text-center font-bold text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 lg:py-4 border border-solid border-white"
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
