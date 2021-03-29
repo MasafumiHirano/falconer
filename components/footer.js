@@ -58,7 +58,7 @@ export default function Footer() {
               </div>
             </div>
 
-              <div class="inline-block text-gray-800 text-xs lg:text-base flex justify-end">
+              <div class="inline-block text-gray-800 text-xs lg:text-base">
                 <p>Copyright © Falconer Corp. All Rights Reserved.</p>
               </div>
             </div>

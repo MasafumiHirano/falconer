@@ -62,7 +62,7 @@ export default function Home({slides,topics}) {
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics"><a>
-                <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>最新情報</h1>
+                <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white">最新情報</h1>
               </a></Link>
               <p class="text-center mb-2">株式会社ファルコナーの最新の情報をお届けします。</p>
               <div>
@@ -104,7 +104,7 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/brand"><a>
-              <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>ブランド</h1>
+              <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white">ブランド</h1>
             </a></Link>
             <p class="text-center mb-2">株式会社ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
@@ -130,7 +130,7 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/media"><a>
-              <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>メディア</h1>
+              <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1>
             </a></Link>
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
@@ -161,7 +161,7 @@ export default function Home({slides,topics}) {
           <div>
             <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
               <Link href="/company"><a><div>
-                <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>企業情報</h1>
+                <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
                 </div></a></Link>
               <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
               <div class="bg-black flex justify-center py-12">
