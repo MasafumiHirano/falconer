@@ -39,14 +39,23 @@ export default function Media({medias}) {
                 <div class="relative">
                   <h1 class="text-center text-white futura-co text-3xl lg:text-5xl pb-2">メディア</h1>
                   <div class="absolute right-0 top-2 lg:top-3">
-                    <div class="block flex pr-2 w-20 lg:w-full">
+                    <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">
-                        <a href="https://www.instagram.com/masaki.s_japan/">
+                        <a href="https://www.instagram.com/masaki.s_japan/" target="_blank" >
                           <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
                         </a>
                       </div>
-                      <div class=""><Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
-                      <div class=""><Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" /></div>
+                      <a href=""></a>
+                      <div class="">
+                        <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
+                          <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                        </a>
+                      </div>
+                      <div class="">
+                        <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                          <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
