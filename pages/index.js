@@ -81,7 +81,7 @@ export default function Home({slides,topics}) {
                               <Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/>
                             </div>
                             <div>
-                              <div class="h-12 lg:h-20 lg:mb-4 lg:mb-2 overflow-hidden">
+                              <div class="h-12 lg:h-20 lg:mb-2 overflow-hidden">
                                 <div class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</div>
                               </div>
                               <div class="lg:flex lg:pt-0 flex-wrap">

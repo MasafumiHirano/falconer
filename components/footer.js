@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div class="block flex justify-center pt-8 lg:pt-0">
+              <div class="flex justify-center pt-8 lg:pt-0">
                 <Link href="/">
                   <a><Image class="block" src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
                 </Link>
