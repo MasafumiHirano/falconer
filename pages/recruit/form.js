@@ -312,30 +312,26 @@ export default function FORM() {
                           setExperienceOccupation(e.target.value)
                         )}
                         ></textarea>
+                      <p class="text-sm font-medium text-gray-700">（※〇〇職　〇年　など）</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-
-
-
-
-
-
               <div class="mt-12">
                 <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">経験企業（社名/在職期間/雇用形態 など）</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
-                    <label for="education" class="block text-sm font-medium text-gray-700">経験職種・年数<span class="text-gray-500"> (任意)</span></label>
+                    <label for="experienceCompany" class="block text-sm font-medium text-gray-700">経験企業<span class="text-gray-500"> (任意)</span></label>
                     <div class="mt-1">
-                      <textarea id="education" name="education" rows="4" 
+                      <textarea id="experienceCompany" name="education" rows="4" 
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-md"
-                        value={education}
+                        value={experienceCompany}
                         onChange={e => (
-                          setEducation(e.target.value)
+                          setExperienceCompany(e.target.value)
                         )}
                         ></textarea>
+                      <p class="text-sm font-medium text-gray-700">（※株式会社〇〇／〇年／正社員　など）</p>
                     </div>
                   </div>
                 </div>
@@ -345,15 +341,16 @@ export default function FORM() {
                 <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">資格・スキル</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
-                    <label for="education" class="block text-sm font-medium text-gray-700">経験職種・年数<span class="text-gray-500"> (任意)</span></label>
+                    <label for="skill" class="block text-sm font-medium text-gray-700">保有スキル<span class="text-gray-500"> (任意)</span></label>
                     <div class="mt-1">
-                      <textarea id="education" name="education" rows="4" 
+                      <textarea id="education" name="skill" rows="4" 
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-md"
-                        value={education}
+                        value={skill}
                         onChange={e => (
-                          setEducation(e.target.value)
+                          setSkill(e.target.value)
                         )}
                         ></textarea>
+                      <p class="text-sm font-medium text-gray-700">（※〇〇技術、〇〇資格取得　など）</p>
                     </div>
                   </div>
                 </div>
@@ -363,15 +360,16 @@ export default function FORM() {
                 <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">自己PR</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
-                    <label for="education" class="block text-sm font-medium text-gray-700">経験職種・年数<span class="text-gray-500"> (任意)</span></label>
+                    <label for="promotion" class="block text-sm font-medium text-gray-700">自己PR<span class="text-red-500"> (必須)</span></label>
                     <div class="mt-1">
-                      <textarea id="education" name="education" rows="4" 
+                      <textarea id="promotion" name="promotion" rows="4" 
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-md"
-                        value={education}
+                        value={promotion}
                         onChange={e => (
-                          setEducation(e.target.value)
+                          setPromotion(e.target.value)
                         )}
                         ></textarea>
+                      <p class="text-sm font-medium text-gray-700">（※ご自由にお書きください。）</p>
                     </div>
                   </div>
                 </div>
@@ -381,13 +379,13 @@ export default function FORM() {
                 <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">企業への質問</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
-                    <label for="education" class="block text-sm font-medium text-gray-700">経験職種・年数<span class="text-gray-500"> (任意)</span></label>
+                    <label for="question" class="block text-sm font-medium text-gray-700">当社への質問<span class="text-gray-500"> (任意)</span></label>
                     <div class="mt-1">
-                      <textarea id="education" name="education" rows="4" 
+                      <textarea id="question" name="question" rows="4" 
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-md"
-                        value={education}
+                        value={question}
                         onChange={e => (
-                          setEducation(e.target.value)
+                          setQuestion(e.target.value)
                         )}
                         ></textarea>
                     </div>
@@ -400,7 +398,7 @@ export default function FORM() {
 
                   <div class="sm:col-span-2">
                     <button 
-                      disabled={!(name && email && body)} 
+                      disabled={!(name && furigana && birthday && sex && email && addressCode && addressArea && addressCity && addressNumber && phoneNumber && currentStatus && promotion)} 
                       class={`${disabled ? '' : 'hover:bg-blue-700'} disabled:opacity-50 disabled:pointer-events-none w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500`} 
                       onClick={handleSubmit}
                     >
