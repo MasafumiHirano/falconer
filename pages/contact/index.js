@@ -52,7 +52,7 @@ export default function CONTACT() {
   return (
     <div>
       <Head>
-        <title>お問い合わせ</title>
+        <title>お問合わせ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
