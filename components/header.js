@@ -62,27 +62,27 @@ export default function Header(){
 
       <div class="lg:flex justify-around lg:justify-center lg:my-4 text-xs lg:text-lg hidden">
         <Link href="/topics"><a>
-          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-190 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             最新情報
           </div>
         </a></Link>
         <Link href="/brand"><a>
-          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-190 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             ブランド
           </div>
         </a></Link>
         <Link href="/company"><a>
-          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-190 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             企業情報
           </div>
         </a></Link>
         <Link href="/media"><a>
-          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-190 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
             メディア
           </div>
         </a></Link>
         <Link href="/contact"><a>
-          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-190 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
             お問合わせ
           </div>
         </a></Link>
