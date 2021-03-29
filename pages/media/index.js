@@ -37,8 +37,8 @@ export default function Media({medias}) {
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-white mb-4 lg:mb-12">
                 <div class="relative">
-                  <h1 class="text-center text-white futura-co text-4xl lg:text-7xl pb-2">MEDIA</h1>
-                  <div class="absolute right-0 top-3 lg:top-5">
+                  <h1 class="text-center text-white futura-co text-3xl lg:text-5xl pb-2">メディア</h1>
+                  <div class="absolute right-0 top-2 lg:top-3">
                     <div class="block flex pr-2 w-20 lg:w-full">
                       <div class="">
                         <a href="https://www.instagram.com/masaki.s_japan/">

@@ -13,7 +13,7 @@ export default function Brand() {
       <Layout>
       <main>
         <div class="mx-auto pt-12 mb-12 lg:w-1100">
-          <div><h1 class="text-4xl text-center mb-6 bg-falGLD text-white py-2">BRAND</h1></div>
+          <div><h1 class="text-3xl text-center mb-6 bg-falGLD text-white py-2">ブランド</h1></div>
           <div class="block mx-auto lg:flex lg:px-0 mt-12">
             <div className="lg:w-1/2 relative w-full">
               <Image className="object-cover" src="/images/brand/bachicashley_hero.jpg" alt="bachicashley" width={720} height={360} />

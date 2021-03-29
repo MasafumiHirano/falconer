@@ -28,7 +28,7 @@ export default function Home({slides,topics}) {
   return (
     <div>
       <Head>
-        <title>Falconer</title>
+        <title>株式会社Falconer(ファルコナー)</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
@@ -61,7 +61,9 @@ export default function Home({slides,topics}) {
 
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-              <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>TOPICS</h1>
+              <Link href="/topics"><a>
+                <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>最新情報</h1>
+              </a></Link>
               <p class="text-center mb-2">株式会社ファルコナーの最新の情報をお届けします。</p>
               <div>
                 <ul class="mt-12 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
@@ -80,7 +82,7 @@ export default function Home({slides,topics}) {
                             </div>
                             <div>
                               <div class="h-12 lg:h-20 lg:mb-4 lg:mb-2 overflow-hidden">
-                                <div class="lg:text-lg font-semibold helvetica">{topic.title}</div>
+                                <div class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</div>
                               </div>
                               <div class="lg:flex lg:pt-0 flex-wrap">
                                 {topic.tag.map(tag => (
@@ -101,7 +103,9 @@ export default function Home({slides,topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>BRAND</h1>
+            <Link href="/brand"><a>
+              <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>ブランド</h1>
+            </a></Link>
             <p class="text-center mb-2">株式会社ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
               <div class="pb-4">
@@ -125,7 +129,9 @@ export default function Home({slides,topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>MEDIA</h1>
+            <Link href="/media"><a>
+              <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>メディア</h1>
+            </a></Link>
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
             <div  class="relative">
@@ -147,13 +153,16 @@ export default function Home({slides,topics}) {
                   </a>
                 </div>
               </div>
-              
-              <Image src="/images/media/top-media.jpg" width={1100} height={620} />
+              <Link href="/media"><a>
+                <Image src="/images/media/top-media.jpg" width={1100} height={620} />
+              </a></Link>
             </div>
           </div>
           <div>
             <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
-              <div><h1 class="text-4xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>ABOUT US</h1></div>
+              <Link href="/company"><a><div>
+                <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white" style={{fontFamily: "futura_light_bt"}}>企業情報</h1>
+                </div></a></Link>
               <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
               <div class="bg-black flex justify-center py-12">
                 <Link href="/company">

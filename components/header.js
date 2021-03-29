@@ -22,7 +22,7 @@ export default function Header(){
         crossOrigin=""
       />
     </Head>
-    <div class="pb-0 lg:pb-6">
+    <div>
 
       <div class="pt-4 bg-black">
         <div class="mx-auto flex lg:w-1100">
@@ -60,30 +60,30 @@ export default function Header(){
         </div>
       </div>
 
-      <div class="lg:flex justify-around lg:justify-center lg:mt-6 text-xs lg:text-base hidden">
+      <div class="lg:flex justify-around lg:justify-center lg:my-4 text-xs lg:text-lg hidden">
         <Link href="/topics"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-            TOPICS
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            最新情報
           </div>
         </a></Link>
         <Link href="/brand"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-            BRAND
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            ブランド
           </div>
         </a></Link>
         <Link href="/company"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-            ABOUT US
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            企業情報
           </div>
         </a></Link>
         <Link href="/media"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
-            MEDIA
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 lg:mr-3 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow-lg">
+            メディア
           </div>
         </a></Link>
         <Link href="/contact"><a>
-          <div class="text-center text-white futura lg:px-4 lg:w-120 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
-            CONTACT
+          <div class="Osaka text-center text-white futura lg:px-6 lg:py-px lg:w-240 bg-falSLD hover:bg-falGLD transition ease-in-out duration-300 shadow">
+            お問合わせ
           </div>
         </a></Link>
       </div>

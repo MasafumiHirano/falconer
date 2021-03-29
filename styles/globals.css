@@ -45,6 +45,7 @@
   font-display: swap;
 }
 
+
 /*////////////////////////////////////// カスタムユーティリティ //////////////////////////////////////*/
 @layer utilities {
   .futura-lt {
@@ -67,6 +68,9 @@
   }
   .hiraginoGo {
     font-family: "ヒラギノ角ゴシック";
+  }
+  .Osaka {
+    font-family: "Osaka";
   }
 }
 
