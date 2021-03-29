@@ -168,7 +168,9 @@ export default function Company({medias}) {
                 </div>
                 <p class="mb-4 text-white text-center">ラジオ番組やSNSで情報を発信中です。</p>
                 <div class="mb-2">
-                  <Image src="/images/media/bond_jam.jpg" width={920} height={190} alt="bond-jam" />
+                  <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank" >
+                    <Image src="/images/media/bond_jam.jpg" width={920} height={190} alt="bond-jam" />
+                  </a>
                 </div>
 
                 <div class="flex">
