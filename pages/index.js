@@ -66,7 +66,7 @@ export default function Home({slides,topics}) {
               </a></Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
-                <ul class="mt-12 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                <ul class="mt-0 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
                   topics.filter(topic => (
                       topic.toppage == true
@@ -127,7 +127,7 @@ export default function Home({slides,topics}) {
               </div>
               <div>
                 <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
-                  <Image src="/images/brand/allrightleather.jpg" width={540} height={265} />
+                  <Image class="object-cover" src="/images/brand/allRightLeather_corporate.jpg" width={540} height={265} />
                 </a>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home({slides,topics}) {
               <Link href="/company"><a><div>
                 <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
                 </div></a></Link>
-                <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
+                <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
                 <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
                   <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>

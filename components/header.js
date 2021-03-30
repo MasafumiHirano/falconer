@@ -26,7 +26,7 @@ export default function Header(){
 
       <div class="pt-4 bg-black">
         <div class="mx-auto flex lg:w-1100">
-          <div class="w-1/4 pl-2 flex items-center lg:invisible">
+          <div class="w-1/4 pl-5 flex items-center lg:invisible">
             <Menu />
           </div>
 

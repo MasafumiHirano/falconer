@@ -33,12 +33,12 @@ export default function Media({medias}) {
       <Layout>
       <main>
         <div style={{backgroundColor: "#786b58"}}>
-          <div class="mx-auto py-4 lg:py-12 lg:w-1100">
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
             {/*見出し部分*/}
-              <div class="border-b-2 border-solid border-white mb-4 lg:mb-12">
+              <div class="border-b-2 border-solid border-white mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl pb-2">メディア</h1>
-                  <div class="absolute right-0 top-1 lg:top-0">
+                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl py-2">メディア</h1>
+                  <div class="absolute right-0 top-4 lg:top-0">
                     <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">
                         <a href="https://www.instagram.com/masaki.s_japan/" target="_blank" >
@@ -64,8 +64,8 @@ export default function Media({medias}) {
 
             {/*内容*/}
             <div class="bg-white border-2 border-solid border-black">
-              <section class="px-4 lg:px-6 lg:py-16">{/*RadioSection*/}
-                <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">RADIO</h1>
+              <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
+                <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6 leading-5 lg:leading-normal">RADIO</h1>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                   <Image src="/images/media/bond_jam.jpg" alt="radio-image" width={1100} height={227} />
@@ -80,7 +80,7 @@ export default function Media({medias}) {
                 </div>
               </section>{/*RadioSectionEnd*/}
 
-              <section class="bg-falSLD py-16 px-4 lg:px-6">{/*YoutubeSection*/}
+              <section class="py-6 lg:py-16 px-4 lg:px-6" style={{ backgroundColor: "#cecece" }} >{/*YoutubeSection*/}
                 <div class="lg:flex lg:justify-center mb-2 lg:mb-6">
                   <h1 class="helvetica font-semibold text-center text-2xl lg:text-5xl lg:mr-6">YouTube Channel</h1>
                   <div class="pt-2 mx-auto lg:mx-0 w-1/4 lg:pt-0 lg:w-auto flex justify-center items-center">
@@ -111,10 +111,10 @@ export default function Media({medias}) {
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 
-              <section class="px-4 lg:px-6 py-16">{/*SNSSection*/}
+              <section class="px-4 lg:px-6 py-6 lg:py-16">{/*SNSSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
                 <div class="">
-                  <div class="block mt-6">
+                  <div class="block mt-2 lg:mt-6">
                     <div class="flex justify-center">
                       <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" />
                     </div>

@@ -13,10 +13,10 @@ export default function Topics({topics}) {
       </Head>
       <Layout>
       <main style={{ backgroundColor: "#cecece" }}>
-        <div class="mx-auto py-8 lg:py-12 lg:w-1100">
-          <div><h1 class="Osaka font-bold text-3xl text-center bg-falGLD py-2 text-white tracking-wider">最新情報</h1></div>
+        <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+          <div><h1 class="Osaka lg:mb-12 font-bold text-3xl text-center bg-falGLD py-2 text-white tracking-wider">最新情報</h1></div>
           <div>
-            <ul class="pt-6 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
+            <ul class="pt-6 lg:pt-0  grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {topics.map(topic => (
                 <li key={topic.id} class="">
                   <Link href={`topics/${topic.id}`}>
