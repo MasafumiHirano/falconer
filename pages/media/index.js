@@ -72,11 +72,11 @@ export default function Media({medias}) {
                   </a>
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide">
-                  <p class="text-sm lg:text-xl mb-4 font-bold ">MC: NANAMI 清水真輝</p>
+                  <p class="text-sm lg:text-xl mb-4 font-bold Osaka ">MC: NANAMI 清水真輝</p>
                   <div class="text-sm lg:text-lg">
-                    <p class="leading-6 lg:leading-normal mb-4">BACHIC ASHLEY がプロデュースする日常を最高の気分で過ごすために毎日を日々力強く生きているアーティスト､クリエイター､経営者など､各界の最先端で活躍する方々をゲストとしてお招きし､その強さの秘訣とこだわりの人生についてお聞きします。</p>
+                    <p class="leading-6 lg:leading-normal mb-4 Osaka">BACHIC ASHLEY がプロデュースする日常を最高の気分で過ごすために毎日を日々力強く生きているアーティスト､クリエイター､経営者など､各界の最先端で活躍する方々をゲストとしてお招きし､その強さの秘訣とこだわりの人生についてお聞きします。</p>
                   </div>
-                  <p class="text-xs lg:text-md">FM 愛知　毎週20：00～20：30　OA</p>
+                  <p class="text-xs lg:text-md Osaka">FM 愛知　毎週20：00～20：30　OA</p>
                 </div>
               </section>{/*RadioSectionEnd*/}
 
@@ -107,7 +107,7 @@ export default function Media({medias}) {
                   </div>
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide text-sm lg:text-lg">
-                  <p class="leading-6 lg:leading-normal">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド､企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
+                  <p class="leading-6 lg:leading-normal Osaka">BACHIC ASHLEYがプロデュースするラジオ番組「Bond Jam」のアーカイブからブランド､企業情報まで株式会社ファルコナーの魅力をYouTubeコンテンツで発信します。</p>
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 
