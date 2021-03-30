@@ -25,12 +25,13 @@ export default function Statement() {
                     <h1 class="text-2xl lg:text-3xl lg:mb-8 font-bold">人々に幸せを広げ、</h1>
                     <h1 class="text-2xl lg:text-3xl mb-8 font-bold">世界をより良くする。</h1>
                   </div>
-                  <div class="text-md lg:text-xl leading-7 lg:text-center">
+                  <div class="text-md lg:text-xl leading-10 lg:text-center">
                     <p class="lg:leading-10">
                     私たちが創り出す、最高の商品とは、<br class="hidden lg:block" />上質な素材でデザイン・機能性を意識し、<br class="hidden lg:block" />一流の技術力を持って作り上げられたモノというだけではありません｡<br class="hidden lg:block" /></p>
-                    <p>生産者の労働環境や地球環境まで配慮し、<br class="hidden lg:block" />フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。<br class="hidden lg:block" /></p>
                     <p class="">{`　`}</p>
-                    <p>また我々はそのような「最高の商品」を創り出すことでお客様はもちろん､<br class="hidden lg:block" />商品が生まれるまでに携わった全ての人々や世界、<br class="hidden lg:block" />素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
+                    <p class="lg:leading-10">生産者の労働環境や地球環境まで配慮し、<br class="hidden lg:block" />フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。<br class="hidden lg:block" /></p>
+                    <p class="">{`　`}</p>
+                    <p class="lg:leading-10">また我々はそのような「最高の商品」を創り出すことでお客様はもちろん<br class="hidden lg:block" />商品が生まれるまでに携わった全ての人々や世界、<br class="hidden lg:block" />素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
                   </div>
                 </div>
               </div>
@@ -64,7 +65,7 @@ export default function Statement() {
                 <div>
                   <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">VALUE</h1>
                 </div>
-                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">強くあれ</h1>
@@ -75,7 +76,7 @@ export default function Statement() {
                     <p class="leading-10">怒らず、恐れず、悲しまないこと</p>
                   </div>
                 </div>
-                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">賢くあれ</h1>
@@ -86,7 +87,7 @@ export default function Statement() {
                     <p class="leading-10">全ての人が幸せになる方法を探すこと</p>
                   </div>
                 </div>
-                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">優しくあれ</h1>
@@ -97,7 +98,7 @@ export default function Statement() {
                     <p class="leading-10">第三者への影響を考え<br class="block lg:hidden" />バランスを取ること</p>
                   </div>
                 </div>
-                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">幸せであれ</h1>
@@ -166,7 +167,7 @@ export default function Statement() {
               <div class="text-white lg:w-1100 mx-auto flex justify-center">
                 <div class="px-4 lg:px-0 lg:w-1/2">
                 <Link href="/company/message"><a>
-                  <h1 class="text-md lg:text-2xl text-center font-bold helvetica tracking-widest border-white border-solid border-4 py-4 px-4">代表メッセージ ▶▶▶</h1>
+                  <h1 class="text-md lg:text-2xl text-center font-bold helvetica tracking-widest border-white border-solid border-4 py-4 px-4">代表メッセージ {`▶▶▶`}</h1>
                 </a></Link>
                 </div>
               </div>
