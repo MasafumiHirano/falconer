@@ -20,7 +20,7 @@ export default function Footer() {
                     <h2 class="font-bold"><Link href="/company"><a>企業情報</a></Link></h2>
                     <ul class="text-xs lg:text-sm text-gray-800">
                       <li class="lg:mt-3"><Link href="/company/statement"><a>企業理念</a></Link></li>
-                      <li class="lg:mt-3"><Link href="/company/message"><a>トップメッセージ</a></Link></li>
+                      <li class="lg:mt-3"><Link href="/company/message"><a>代表メッセージ</a></Link></li>
                       <li class="lg:mt-3"><Link href="/company/overview"><a>企業概要</a></Link></li>
                     </ul>
                   </div>

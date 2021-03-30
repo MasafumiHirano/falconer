@@ -19,7 +19,7 @@ export default function Company({medias}) {
       </Head>
       <Layout>
         <main>
-          <div class="mx-auto py-6 text-white text-center" style={{backgroundColor: "#000000" }}>
+          <div class="mx-auto py-6 text-white text-center" style={{ backgroundColor: "#000000" }}>
             <h1 class="text-xl">ABOUT</h1>
               <Image src="/images/logo/falconer_co_ltd_logo.jpg" width={720} height={150} alt="falconer_logo"/>
             <p class="text-3xl font-bold mb-6 tracking-widest">最高品質の戦略的モノ作りカンパニー</p>
@@ -27,7 +27,7 @@ export default function Company({medias}) {
             <p class="mb-2">変わり続ける時代と需要に応え続ける企業として存在します。</p>
             <p class="mt-8 mb-4">
               <Link href="/company/strength"><a>
-                <span class="inline-block px-4 py-2 text-white hover:bg-white hover:text-black border border-white hover:border-black border-solid transition duration-300 ease-in-out">Falconer の強み</span>
+                <span class="inline-block w-170 px-4 py-2 text-white hover:bg-white hover:text-black border border-white hover:border-black border-solid transition duration-300 ease-in-out">Falconer の強み</span>
               </a></Link>
             </p>
           </div>
@@ -35,19 +35,18 @@ export default function Company({medias}) {
           <div class="py-12" style={{ backgroundColor: "#cecece" }}>
             <div class="mx-auto lg:w-1100 px-4 lg:px-20">
               <h1 class="text-4xl text-center mb-6">BUSINESS / PRODUCTS</h1>
-
               <div class="lg:flex lg:justify-center">
                 <div class="pb-4 w-full lg:w-450 lg:mr-5">
                   <div class="relative">
                     <div
-                      class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
-                      style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       レザーアイテム
                     </div>
                     <Image className="object-cover" src="/images/company/prod01.png" width={900} height={600} />
                   </div>
-                  <p class="text-sm Osaka" style={{ lineHeight: "1.8"}}>
+                  <p class="text-sm Osaka" style={{ lineHeight: "1.8" }}>
                     イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、ずっと使えるモノ作りを続けています。
                   </p>
                 </div>
@@ -55,14 +54,14 @@ export default function Company({medias}) {
                 <div class="pb-4 w-full lg:w-450">
                   <div class="relative">
                     <div
-                      class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
-                      style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       アパレル
                     </div>
-                    <div class="w-full h-300" style={{marginBottom: "7px", backgroundColor: "#241916"}}></div>
+                    <Image className="object-cover" src="/images/company/black450x300.jpg" width={900} height={600} />
                   </div>
-                  <p class="lg:text-sm Osaka" style={{ lineHeight: "1.8"}}>
+                  <p class="text-sm Osaka" style={{ lineHeight: "1.8"}}>
                     私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
                   </p>
                 </div> 
@@ -72,14 +71,14 @@ export default function Company({medias}) {
                 <div class="pb-4 w-full lg:w-450 lg:mr-5">
                   <div class="relative">
                     <div
-                      class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
-                      style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-1 lg:px-0 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       OEM/ODM 事業
                     </div>
                     <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
                   </div>
-                  <p class="lg:text-sm Osaka" style={{ lineHeight: "1.8"}}>
+                  <p class="text-sm Osaka" style={{ lineHeight: "1.8"}}>
                     自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
                   </p>
                 </div>
@@ -87,14 +86,14 @@ export default function Company({medias}) {
                 <div class="pb-4 w-full lg:w-450">
                   <div class="relative">
                     <div
-                      class="absolute z-10 text-white text-xs lg:text-base py-2 px-2 lg:px-4 font-bold bg-black border border-solid border-white tracking-widest"
-                      style={{backgroundColor: "rgba(0,0,0,0.3)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       海外事業
                     </div>
                     <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
                   </div>
-                  <p class="lg:text-sm Osaka"  style={{lineHeight: "1.8"}}>
+                  <p class="text-sm Osaka"  style={{lineHeight: "1.8"}}>
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
                   </p>
                 </div>
@@ -109,15 +108,15 @@ export default function Company({medias}) {
             <div class="relative flex justify-center h-full">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <Link href="/company/statement"><a>
-                <div class="text-center futura-co text-3xl lg:text-4.5xl font-bold tracking-widest text-white shadow lg:py-4 lg:px-4 border border-solid border-white"
-                style={{backgroundColor: "rgba(0,0,0,0.3)"}}>STATEMENT</div>
+                <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2.5 lg:px-1 border border-solid border-white"
+                style={{backgroundColor: "rgba(0,0,0,0.3)"}}><span class="inline-block -mr-1">STATEMENT</span></div>
                 </a></Link>
                 <Link href="/company/message"><a>
-                <div class="mt-6 text-center font-bold text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 lg:py-4 border border-solid border-white"
+                <div class="Osaka mt-6 text-center w-170 lg:w-full text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 lg:py-4 border border-solid border-white"
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
-              <Image className="h-48 object-cover" src="/images/company/vision01.jpg" width={920} height={280} alt="vision" />
+              <Image className="h-48 object-cover" src="/images/company/black920x280.jpg" width={920} height={280} alt="vision" />
             </div>
 
           </div>
@@ -126,18 +125,23 @@ export default function Company({medias}) {
             <div class="lg:flex justify-center mb-6">
               <Link href="/company/overview"><a>
                 <div class="relative w-full lg:w-450 lg:h-300 flex justify-center items-center">
-                  <Image className="absolute" src="/images/company/company_overview.jpg" width={600} height={400} />
-                  <div class="absolute text-center text-lg lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
-                   style={{ backgroundColor: "rgba(121,107,88,0.7)",width: "182px", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>企業概要</div>
+                  <div class="Osaka absolute z-10 w-170 text-white text-center text-lg lg:text-xl tracking-widest py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
+                   style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
+                    企業概要
+                  </div>
+                  <Image className="object-cover" src="/images/company/company_overview.jpg" width={600} height={400} />
                 </div>
+                
               </a></Link>
 
               <div class="lg:ml-4">
                 <Link href="/recruit"><a>
                   <div class="relative mt-4 lg:mt-0 w-full lg:w-450 lg:h-300 flex justify-center items-center">
                     <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
-                    <div class="absolute text-center text-lg lg:text-xl w-190 tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
-                    style={{ backgroundColor: "rgba(121,107,88,0.7)",width: "182px", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>採用情報</div>
+                    <div class="Osaka absolute w-170 text-center text-lg lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
+                      採用情報
+                    </div>
                   </div>
                 </a></Link>
               </div>
@@ -174,7 +178,7 @@ export default function Company({medias}) {
                 </div>
 
                 <div class="flex">
-                  <div class='lg:w-1/4 w-full mr-2'>
+                  <div class='lg:w-1/4 w-full lg:mr-2'>
                     <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div class='lg:w-1/4 mr-2 hidden lg:block'>
@@ -200,11 +204,11 @@ export default function Company({medias}) {
           <div class="mx-auto mb-12 lg:w-1100 px-4 lg:px-20 flex justify-center">
               <div class="w-full lg:mx-2">
                 <Link href="/contact"><a>
-                  <div class="text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
+                  <div class="Osaka text-sm py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
                     お問い合わせ
                   </div>
                 </a></Link>
-                <p class="mt-2 text-xs text-center">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
+                <p class="Osaka mt-2 text-xs text-center">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
               </div>
           </div>
         </main>

@@ -62,9 +62,9 @@ export default function Home({slides,topics}) {
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics"><a>
-                <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white">最新情報</h1>
+                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1>
               </a></Link>
-              <p class="text-center mb-2">株式会社ファルコナーの最新の情報をお届けします。</p>
+              <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
                 <ul class="mt-12 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
@@ -104,13 +104,18 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/brand"><a>
-              <h1 class="Osaka text-3xl text-center mb-2 py-2 bg-falGLD text-white">ブランド</h1>
+              <div class="flex justify-center Osaka mb-2 py-2 font-bold text-3xl bg-falGLD text-white">
+                <p class="inline-block">ブ</p>
+                <p class="inline-block">ラ</p>
+                <p class="inline-block">ン</p>
+                <p class="inline-block -ml-0.5">ド</p>
+              </div>
             </a></Link>
-            <p class="text-center mb-2">株式会社ファルコナーが展開するブランドの紹介です。</p>
+            <p class="text-center mb-2">ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
               <div class="pb-4">
                 <a href="https://bachicashley.com/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/brand_ba1_ls.jpg" width={1100} height={540} />
+                  <Image class="object-cover" src="/images/brand/bachic_logo_ls.jpg" width={1100} height={540} />
                 </a>
               </div>
             </div>
@@ -130,7 +135,7 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/media"><a>
-              <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1>
+              <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1>
             </a></Link>
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
@@ -142,29 +147,29 @@ export default function Home({slides,topics}) {
                   </a>
                 </div>
                 
-                <div class="inline-block">
+                <div class="inline-block -ml-px">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                     <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="youtube_social" />
                   </a>
                 </div>
-                <div class="inline-block">
+                <div class="inline-block -ml-px">
                   <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
                     <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="twitter_social" />
                   </a>
                 </div>
               </div>
               <Link href="/media"><a>
-                <Image src="/images/media/top-media.jpg" width={1100} height={620} />
+                <Image src="/images/media/brandstory.png" width={1100} height={620} />
               </a></Link>
             </div>
           </div>
           <div>
             <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
               <Link href="/company"><a><div>
-                <h1 class="text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
+                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
                 </div></a></Link>
-              <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
-              <div class="bg-black flex justify-center py-12">
+                <p class="text-center mb-2">株式会社ファルコナーの情報はこちらをご確認ください。</p>
+                <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
                   <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
                 </Link>

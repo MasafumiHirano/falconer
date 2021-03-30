@@ -37,8 +37,8 @@ export default function Media({medias}) {
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-white mb-4 lg:mb-12">
                 <div class="relative">
-                  <h1 class="text-center text-white futura-co text-3xl lg:text-5xl pb-2">メディア</h1>
-                  <div class="absolute right-0 top-2 lg:top-3">
+                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl pb-2">メディア</h1>
+                  <div class="absolute right-0 top-1 lg:top-0">
                     <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">
                         <a href="https://www.instagram.com/masaki.s_japan/" target="_blank" >
@@ -63,8 +63,8 @@ export default function Media({medias}) {
             {/*見出し部分 終了*/}
 
             {/*内容*/}
-            <div class="bg-white border-2 border-solid border-black px-4 pt-4 lg:px-6 lg:pt-8">
-              <section class="mb-24">{/*RadioSection*/}
+            <div class="bg-white border-2 border-solid border-black">
+              <section class="px-4 lg:px-6 lg:py-16">{/*RadioSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">RADIO</h1>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
@@ -80,14 +80,14 @@ export default function Media({medias}) {
                 </div>
               </section>{/*RadioSectionEnd*/}
 
-              <section class="mb-24">{/*YoutubeSection*/}
+              <section class="bg-falSLD py-16 px-4 lg:px-6">{/*YoutubeSection*/}
                 <div class="lg:flex lg:justify-center mb-2 lg:mb-6">
                   <h1 class="helvetica font-semibold text-center text-2xl lg:text-5xl lg:mr-6">YouTube Channel</h1>
                   <div class="pt-2 mx-auto lg:mx-0 w-1/4 lg:pt-0 lg:w-auto flex justify-center items-center">
                     <Image className="block" src="/images/media/youtube-full-logo_lg.png" width={150} height={34} alt="youtubelogo"/>
                   </div>
                 </div>
-                <div class="px-6 py-6 mb-4" style={{ backgroundColor: "#221916" }}>
+                <div class="px-6 py-6 mb-4 bg-black" style={{ backgroundColor: "#221916" }}>
                   <div class="w-full grid grid-rows-3 grid-cols-1 lg:grid-rows-2 lg:grid-cols-4 gap-4">
                     <div class="lg:col-span-2 lg:row-span-2">
                       <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -111,10 +111,10 @@ export default function Media({medias}) {
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 
-              <section class="mb-24">{/*SNSSection*/}
+              <section class="px-4 lg:px-6 py-16">{/*SNSSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
                 <div class="">
-                  <div class="block mt-6 lg:mt-8">
+                  <div class="block mt-6">
                     <div class="flex justify-center">
                       <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" />
                     </div>

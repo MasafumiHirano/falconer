@@ -36,6 +36,7 @@ module.exports = {
        '400': '400px',
        '320': '320px',
        '190': '190px',
+       '170': '170px',
        '120': '120px',
       },
       height: {
@@ -50,6 +51,7 @@ module.exports = {
       },
       fontSize: {
         '2.5xl': '1.75rem',
+        '3.5xl': '2rem',
         '4.5xl': '2.8rem',
       }
     }
