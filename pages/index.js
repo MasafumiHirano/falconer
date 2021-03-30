@@ -140,7 +140,7 @@ export default function Home({slides,topics}) {
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
             <div  class="relative">
-              <div class="flex absolute z-10" style={{top: "50%", left: "50%", transform: "translate(-52%, -50%)"}}>
+              <div class="flex absolute z-10" style={{top: "75%", left: "50%", transform: "translate(-52%, -50%)"}}>
                 <div class="inline-block">
                   <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                     <Image src="/images/media/instagram_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
@@ -166,7 +166,7 @@ export default function Home({slides,topics}) {
           <div>
             <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
               <Link href="/company"><a><div>
-                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
+                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">企業情報</h1>
                 </div></a></Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
                 <div class="bg-black flex justify-center py-12">

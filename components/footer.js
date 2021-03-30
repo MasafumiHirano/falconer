@@ -11,52 +11,53 @@ export default function Footer() {
 
               <div class="flex justify-around leading-8 text-sm lg:text-base mt-6 lg:mt-0">
                 <div class="px-4 lg:mx-12 lg:pr-16">
-                  <h2 class="font-bold"><Link href="/topics"><a>最新情報</a></Link></h2>
-                  <h2 class="font-bold lg:mt-6"><Link href="/brand"><a>ブランド</a></Link></h2>
-                  <h2 class="font-bold lg:mt-6"><Link href="/media"><a>メディア</a></Link></h2>
+                  <h2 class="font-bold lg:leading-4"><Link href="/topics"><a>最新情報</a></Link></h2>
+                  <h2 class="font-bold lg:leading-4 lg:mt-6"><Link href="/brand"><a>ブランド</a></Link></h2>
+                  <h2 class="font-bold lg:leading-4 lg:mt-6"><Link href="/media"><a>メディア</a></Link></h2>
                 </div>
                 <div class="lg:flex justify-between">
                   <div class="lg:mx-12">
-                    <h2 class="font-bold"><Link href="/company"><a>企業情報</a></Link></h2>
+                    <h2 class="font-bold leading-8"><Link href="/company"><a>企業情報</a></Link></h2>
                     <ul class="text-xs lg:text-sm text-gray-800">
-                      <li class="lg:mt-3"><Link href="/company/statement"><a>企業理念</a></Link></li>
-                      <li class="lg:mt-3"><Link href="/company/message"><a>代表メッセージ</a></Link></li>
-                      <li class="lg:mt-3"><Link href="/company/overview"><a>企業概要</a></Link></li>
+                      <li class="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/statement"><a>企業理念</a></Link></li>
+                      <li class="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/message"><a>代表メッセージ</a></Link></li>
+                      <li class="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/overview"><a>企業概要</a></Link></li>
                     </ul>
                   </div>
 
-                  <div class="lg:mx-12">
-                    <h2 class="font-bold"><Link href="/recruit"><a>採用情報</a></Link></h2>
-                    <h2 class="font-bold lg:mt-6"><Link href="/contact"><a>お問い合わせ</a></Link></h2>
+                  <div class="lg:mx-12 mt-4 lg:mt-0">
+                    <h2 class="font-bold lg:leading-4"><Link href="/recruit"><a>採用情報</a></Link></h2>
+                    <h2 class="font-bold lg:leading-4 lg:mt-6"><Link href="/contact"><a>お問い合わせ</a></Link></h2>
                   </div>
                 </div>
               </div>
 
-              <div class="flex justify-center pt-8 lg:pt-0">
+              <div class="flex justify-center lg:block pt-8 lg:pt-0">
                 <Link href="/">
-                  <a><Image class="block" src="/images/logo/falconer_co_ltd_logo.jpg" width={280} height={63.6} alt="falconer_logo"/></a>
+                  <a><Image class="block object-cover" src="/images/logo/falconer_co_ltd_logo.jpg" width={265} height={56} alt="falconer_logo"/></a>
                 </Link>
+                <div class="lg:flex hidden mt-0.5">
+                  <div class="inline-block">
+                    <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
+                      <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                    </a>
+                  </div>
+                  <div class="inline-block">
+                    <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
+                      <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                    </a>  
+                  </div>
+                  <div class="inline-block">
+                    <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                      <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                    </a>
+                  </div>
+                </div>
               </div>
 
             </div>
-            <div class="flex lg:justify-between justify-center">
-            <div class="lg:flex hidden">
-              <div class="inline-block">
-                <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
-                  <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
-                </a>
-              </div>
-              <div class="inline-block">
-                <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                  <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
-                </a>  
-              </div>
-              <div class="inline-block">
-                <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
-                  <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
-                </a>
-              </div>
-            </div>
+            <div class="flex justify-center lg:justify-end">
+              
 
               <div class="inline-block text-gray-800 text-xs lg:text-base">
                 <p>Copyright © Falconer Corp. All Rights Reserved.</p>

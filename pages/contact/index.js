@@ -58,7 +58,7 @@ export default function CONTACT() {
       <Layout>
       <main class="bg-falGLD">
         <div class="bg-gray-100 mx-auto pt-12 lg:w-920">
-          <div><h1 class="text-3xl text-center mb-6">お問い合わせ</h1></div>
+          <div><h1 class="text-3xl text-center mb-6 pb-2 border-b-2 border-falGLD border-solid">お問い合わせ</h1></div>
           <div>
             <p class="text-center">製品のご購入のご相談、導入のご検討、OEMのご相談についてなど、
 お気軽にお問い合わせください。</p>

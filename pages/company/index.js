@@ -46,10 +46,10 @@ export default function Company({medias}) {
             <div class="mx-auto lg:w-1100 lg:px-20">
               
               <div class="lg:flex lg:justify-center">
-                <div class="pb-4 w-full lg:w-450 lg:mr-5">
+                <div class="pb-4 w-full lg:w-1/2 lg:mr-5">
                   <div class="relative">
                     <div
-                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       レザーアイテム
@@ -61,10 +61,10 @@ export default function Company({medias}) {
                   </p>
                 </div>
 
-                <div class="pb-4 w-full lg:w-450">
+                <div class="pb-4 w-full lg:w-1/2">
                   <div class="relative">
                     <div
-                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       アパレル
@@ -78,10 +78,10 @@ export default function Company({medias}) {
               </div>
               
               <div class="lg:flex lg:justify-center">
-                <div class="pb-4 w-full lg:w-450 lg:mr-5">
+                <div class="pb-4 w-full lg:w-1/2 lg:mr-5">
                   <div class="relative">
                     <div
-                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-1 lg:px-0 bg-falGLD border border-solid border-white tracking-widest"
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-1 lg:px-0 bg-falGLD border border-solid border-white tracking-widest"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       OEM/ODM 事業
@@ -93,10 +93,10 @@ export default function Company({medias}) {
                   </p>
                 </div>
 
-                <div class="pb-4 w-full lg:w-450">
+                <div class="pb-4 w-full lg:w-1/2">
                   <div class="relative">
                     <div
-                      class="Osaka absolute z-10 w-170 text-white text-center text-xs lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
                     >
                       海外事業
@@ -115,18 +115,18 @@ export default function Company({medias}) {
 
           <div class="mx-auto pt-6 mb-6 lg:w-1100 h-48 lg:h-auto lg:px-20">
             
-            <div class="relative flex justify-center h-full">
+            <div class="relative flex w-full justify-center h-full">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <Link href="/company/statement"><a>
-                <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2.5 lg:px-1 border border-solid border-white"
+                <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2 lg:px-3 border border-solid border-white"
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}><span class="inline-block -mr-1">STATEMENT</span></div>
                 </a></Link>
                 <Link href="/company/message"><a>
-                <div class="Osaka mt-6 text-center w-170 lg:w-full text-lg lg:text-2.5xl tracking-widest text-white shadow px-2 lg:px-4 lg:py-4 border border-solid border-white"
+                <div class="Osaka mt-6 text-center w-170 lg:w-full text-md lg:text-2xl tracking-widest text-white shadow px-2 lg:px-2 py-px lg:py-2 border border-solid border-white"
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
-              <Image className="h-48 object-cover" src="/images/company/black920x280.jpg" width={920} height={280} alt="vision" />
+              <Image className="object-cover" src="/images/company/black920x280.jpg" width={940} height={280} alt="vision" />
             </div>
 
           </div>
@@ -134,7 +134,7 @@ export default function Company({medias}) {
           <div class="mx-auto mb-6 lg:mb-12 lg:w-1100 lg:px-20">
             <div class="lg:flex justify-center mb-6">
               <Link href="/company/overview"><a>
-                <div class="relative w-full lg:w-450 lg:h-300 flex justify-center items-center">
+                <div class="relative w-full lg:h-300 flex justify-center items-center">
                   <div class="Osaka absolute z-10 w-170 text-white text-center text-lg lg:text-xl tracking-widest py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
                    style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
                     企業概要
@@ -146,7 +146,7 @@ export default function Company({medias}) {
 
               <div class="lg:ml-4">
                 <Link href="/recruit"><a>
-                  <div class="relative mt-4 lg:mt-0 w-full lg:w-450 lg:h-300 flex justify-center items-center">
+                  <div class="relative mt-4 lg:mt-0 w-full lg:h-300 flex justify-center items-center">
                     <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
                     <div class="Osaka absolute w-170 text-center text-lg lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
@@ -159,9 +159,9 @@ export default function Company({medias}) {
           </div>
 
           <div class="mx-auto mb-6 lg:mb-12 lg:w-1100 px-0 lg:px-20">
-          <h1 class="text-3xl lg:text-4xl lg:w-920 text-white text-center py-3 Osaka bg-falGLD"><Link href="/media"><a>メディア</a></Link></h1>
+          <h1 class="text-3xl lg:text-4xl text-white text-center py-3 Osaka bg-falGLD"><Link href="/media"><a>メディア</a></Link></h1>
 
-            <div class="flex justify-center lg:w-920 bg-black">
+            <div class="flex justify-center bg-black">
               <div class="my-3 px-6">
                 <div class="flex justify-center">
                   <div class="inline-block mr-2">
@@ -212,7 +212,7 @@ export default function Company({medias}) {
           </div>
 
           <div class="mx-auto mb-12 lg:w-1100 lg:px-20 flex justify-center">
-              <div class="w-full lg:mx-2">
+              <div class="w-full">
                 <Link href="/contact"><a>
                   <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
                     お問い合わせ

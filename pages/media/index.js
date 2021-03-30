@@ -33,11 +33,11 @@ export default function Media({medias}) {
       <Layout>
       <main>
         <div style={{backgroundColor: "#786b58"}}>
-          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+          <div class="mx-auto py-6 lg:py-12 w-1100">
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-white mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl py-2">メディア</h1>
+                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl py-2 ml-3">メディア</h1>
                   <div class="absolute right-0 top-4 lg:top-0">
                     <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">
