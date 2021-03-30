@@ -31,7 +31,7 @@ export default function Company({medias}) {
                 <p class="mb-4 lg:mb-2">市場を創造するモノ作り。</p>
               </div>
               <div class="lg:flex lg:justify-center">
-                <p class="lg:mb-2">変わり続ける時代</p>
+                <p class="lg:mb-2">変わり続ける時代と</p>
                 <p class="lg:mb-2">需要に応え続ける企業として存在します。</p>
               </div>
             <p class="mt-8 mb-4">
