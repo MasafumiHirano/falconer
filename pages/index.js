@@ -164,7 +164,7 @@ export default function Home({slides,topics}) {
             </div>
           </div>
           <div>
-            <div class="mx-auto pt-12 mb-12 lg:pt-12 lg:w-1100">
+            <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
               <Link href="/company"><a><div>
                 <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">企業情報</h1>
                 </div></a></Link>
