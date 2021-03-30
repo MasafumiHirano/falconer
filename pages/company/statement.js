@@ -26,7 +26,7 @@ export default function Statement() {
                     <h1 class="text-2xl lg:text-3xl mb-8 font-bold">世界をより良くする。</h1>
                   </div>
                   <div class="text-base lg:text-xl leading-7">
-                    <p class="lg:leading-10 text-center">
+                    <p class="lg:leading-10 lg:text-center">
                     私たちが創り出す、最高の商品とは、<br class="hidden lg:block" />上質な素材でデザイン・機能性を意識し、<br class="hidden lg:block" />一流の技術力を持って作り上げられたモノというだけではありません。<br class="hidden lg:block" />
                     生産者の労働環境や地球環境まで配慮し、<br class="hidden lg:block" />フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。<br class="hidden lg:block" />
                     <p class="">{`　`}</p>
@@ -47,15 +47,15 @@ export default function Statement() {
                     <h1 class="text-2xl lg:text-3xl lg:mb-8 font-bold text-center">今日よりも、</h1>
                     <h1 class="text-2xl lg:text-3xl mb-8 font-bold text-center">もっと幸せな明日を。</h1>
                   </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 text-center">
+                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
                     <p class="leading-10">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />
                     お客様の生活をより豊かで幸せなものにします。</p>
                   </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 text-center">
+                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
                     <p class="leading-10">社員やお取引企業様はもちろん、<br class="block lg:hidden" />商品がお客様のお手元に<br class="hidden lg:block" />
                     届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
                   </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 text-center">
+                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
                     <p class="leading-10">地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />
                     無駄のない流通・運営を行い、毎日の成長を続けます。</p>
                   </div>
@@ -68,7 +68,7 @@ export default function Statement() {
                 <div>
                   <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">VALUE</h1>
                 </div>
-                <div class="text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">強くあれ</h1>
@@ -79,7 +79,7 @@ export default function Statement() {
                     <p class="leading-10">怒らず、恐れず、悲しまないこと</p>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">賢くあれ</h1>
@@ -90,7 +90,7 @@ export default function Statement() {
                     <p class="leading-10">全ての人が幸せになる方法を探すこと</p>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">優しくあれ</h1>
@@ -101,7 +101,7 @@ export default function Statement() {
                     <p class="leading-10">第三者への影響を考え<br class="block lg:hidden" />バランスを取ること</p>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-5 lg:mt-16" >
+                <div class="lg:text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-4 h-4 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4">幸せであれ</h1>
@@ -127,35 +127,35 @@ export default function Statement() {
                   <h1 class="text-2xl lg:text-3xl mb-8 font-bold midashiGo">Stay Happy</h1>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-8 lg:mt-16" >
+                <div class="tracking-widest mt-8 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-6 h-6 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo">Stay Strong</h1>
                   </div>
-                  <div class="text-base lg:text-xl text-center">
+                  <div class="text-base lg:text-xl lg:text-center">
                     <p class="leading-10">私たちの商品は身に着けるお客様の心を強くします。<br class="hidden lg:block" />商品は最上級の素材と製法にこだわります。<br class="hidden lg:block" /></p>
                     <p>{`　`}</p>
                     <p class="leading-10">人や社会、世界に対して常に「強さ」を大切にすることで、<br class="hidden lg:block" />
                     弱きものが苦しまない正しい社会を目指します。</p>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-8 lg:mt-16" >
+                <div class="tracking-widest mt-8 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-6 h-6 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo">Stay Kind</h1>
                   </div>
-                  <div class="text-base lg:text-xl">
+                  <div class="text-base lg:text-xl lg:text-center">
                     <p class="leading-10">私たちの商品は身に着けるお客様の心を温かくします。<br class="hidden lg:block" />商品は常に最高の使い易さを提供します。</p>
                     <p>{`　`}</p>
                     <p class="leading-10">人や社会、世界に対して常に「優しさ」を大切にすることで、<br class="hidden lg:block" />我々のビジネスが世界を幸せにできるよう努めます。</p>
                   </div>
                 </div>
-                <div class="text-center tracking-widest mt-8 lg:mt-16" >
+                <div class="tracking-widest mt-8 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
                     <div class="w-6 h-6 bg-red-600"></div>
                     <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo">Stay Happy</h1>
                   </div>
-                  <div class="text-base lg:text-xl">
+                  <div class="text-base lg:text-xl lg:text-center">
                     <p class="leading-10">私たちの商品は身に着けるお客様の心を幸せにします。<br class="hidden lg:block" />商品は常に理屈を超えた満足感を与えます。</p>
                     <p>{`　`}</p>
                     <p class="leading-10">我々はビジネスを通じて一時的な幸せではなく、<br class="hidden lg:block" />
@@ -163,7 +163,7 @@ export default function Statement() {
                   </div>
                 </div>
                 <div class="flex justify-center items-center mb-8 mt-24">
-                    <h1 class="text-sm lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、<br class="block lg:hidden" />強く、優しく、人々を幸せにします。</h1>
+                    <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、<br class="block lg:hidden" />強く、優しく、人々を<br class="block lg:hidden" />幸せにします。</h1>
                   </div>
               </div>
             </section>
