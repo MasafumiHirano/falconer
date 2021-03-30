@@ -45,6 +45,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Osaka_custom";
+  src: url("/fonts/Osaka.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 
 /*////////////////////////////////////// カスタムユーティリティ //////////////////////////////////////*/
 @layer utilities {
@@ -70,7 +78,7 @@
     font-family: "ヒラギノ角ゴシック";
   }
   .Osaka {
-    font-family: "Osaka";
+    font-family: "Osaka_custom";
   }
 }
 
