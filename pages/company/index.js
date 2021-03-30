@@ -135,7 +135,7 @@ export default function Company({medias}) {
             <div class="lg:flex justify-center mb-6">
               <Link href="/company/overview"><a>
                 <div class="relative w-full lg:h-300 flex justify-center items-center">
-                  <div class="Osaka absolute z-10 w-170 text-white text-center text-lg lg:text-xl tracking-widest py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
+                  <div class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-xl tracking-widest py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
                    style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
                     企業概要
                   </div>
@@ -148,7 +148,7 @@ export default function Company({medias}) {
                 <Link href="/recruit"><a>
                   <div class="relative mt-4 lg:mt-0 w-full lg:h-300 flex justify-center items-center">
                     <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
-                    <div class="Osaka absolute w-170 text-center text-lg lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
+                    <div class="Osaka absolute w-170 text-center text-md lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
                       採用情報
                     </div>
