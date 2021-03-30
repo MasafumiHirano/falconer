@@ -46,16 +46,13 @@ export default function Statement() {
                     <h1 class="text-2xl lg:text-3xl mb-8 font-bold text-center">もっと幸せな明日を。</h1>
                   </div>
                   <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />
-                    お客様の生活をより豊かで幸せなものにします。</p>
+                    <p class="leading-10">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />お客様の生活をより豊かで幸せなものにします。</p>
                   </div>
                   <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">社員やお取引企業様はもちろん、<br class="block lg:hidden" />商品がお客様のお手元に<br class="hidden lg:block" />
-                    届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
+                    <p class="leading-10">社員やお取引企業様はもちろん、<br class="block lg:hidden" />商品がお客様のお手元に<br class="hidden lg:block" />届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
                   </div>
                   <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />
-                    無駄のない流通・運営を行い、毎日の成長を続けます。</p>
+                    <p class="leading-10">地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />無駄のない流通・運営を行い、毎日の成長を続けます。</p>
                   </div>
                 </div>
               </div>
@@ -133,8 +130,7 @@ export default function Statement() {
                   <div class="text-base lg:text-xl lg:text-center">
                     <p class="leading-10">私たちの商品は身に着けるお客様の心を強くします。<br class="hidden lg:block" />商品は最上級の素材と製法にこだわります。<br class="hidden lg:block" /></p>
                     <p>{`　`}</p>
-                    <p class="leading-10">人や社会、世界に対して常に「強さ」を大切にすることで、<br class="hidden lg:block" />
-                    弱きものが苦しまない正しい社会を目指します。</p>
+                    <p class="leading-10">人や社会、世界に対して常に「強さ」を大切にすることで、<br class="hidden lg:block" />弱きものが苦しまない正しい社会を目指します。</p>
                   </div>
                 </div>
                 <div class="tracking-widest mt-8 lg:mt-16" >
@@ -156,8 +152,7 @@ export default function Statement() {
                   <div class="text-base lg:text-xl lg:text-center">
                     <p class="leading-10">私たちの商品は身に着けるお客様の心を幸せにします。<br class="hidden lg:block" />商品は常に理屈を超えた満足感を与えます。</p>
                     <p>{`　`}</p>
-                    <p class="leading-10">我々はビジネスを通じて一時的な幸せではなく、<br class="hidden lg:block" />
-                    全ての人々や世界が永続的に幸せでいられるよう、常に考え努力していきます。</p>
+                    <p class="leading-10">我々はビジネスを通じて一時的な幸せではなく、<br class="hidden lg:block" />全ての人々や世界が永続的に幸せでいられるよう、常に考え努力していきます。</p>
                   </div>
                 </div>
                 <div class="flex justify-center items-center mb-8 mt-24">
