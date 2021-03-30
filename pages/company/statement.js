@@ -33,7 +33,7 @@ export default function Statement() {
                     <p class="">{`　`}</p>
                     <p class="lg:leading-10">また我々はそのような「最高の商品」を創り出すことでお客様はもちろん<br class="hidden lg:block" />商品が生まれるまでに携わった全ての人々や世界、<br class="hidden lg:block" />素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
                   </div>
-                  <div class="block lg:hidden leading-10 text-center">
+                  <div class="block lg:hidden leading-10">
                     <p class="lg:leading-10">私たちが創り出す、最高の商品とは、上質な素材でデザイン・機能性を意識し、一流の技術力を持って作り上げられたモノというだけではありません｡生産者の労働環境や地球環境まで配慮し、フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。また我々はそのような「最高の商品」を創り出すことでお客様はもちろん、商品が生まれるまでに携わった全ての人々や世界、素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
                   </div>
                 </div>
