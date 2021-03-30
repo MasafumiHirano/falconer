@@ -86,8 +86,8 @@ export default function Home({slides,topics}) {
                               </div>
                               <div class="lg:flex lg:pt-0 flex-wrap">
                                 {topic.tag.map(tag => (
-                                  <div class="inline-block mr-2 mb-4">
-                                    <span class="px-2 lg:px-4 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                  <div class="inline-block mt-2 mr-2 mb-4">
+                                    <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
                                   </div>
                                 ))}
                               </div>

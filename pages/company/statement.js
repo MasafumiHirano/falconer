@@ -19,18 +19,22 @@ export default function Statement() {
                 <div>
                   <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">STATEMENT</h1>
                 </div>
-                <div class="text-center tracking-widest mt-5 lg:mt-16" >
-                  <h1 class="text-2xl lg:text-3xl mb-8 font-bold">モノづくりを通じ、人々に幸せを広げ、世界をより良くする。</h1>
-                  <div class="text-base lg:text-xl leading-8">
-                    <p class="leading-10">私たちが創り出す、最高の商品とは、</p>
-                    <p class="leading-10">上質な素材でデザイン・機能性を意識し、一流の技術力を</p>
-                    <p class="leading-10">持って作り上げられたモノというだけではありません。</p>
-                    <p class="leading-10">生産者の労働環境や地球環境まで配慮し、フェアな金額で</p>
-                    <p class="leading-10">お客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。</p>
-                    <p class="leading-10">{`　`}</p>
-                    <p class="leading-10">また我々はそのような「最高の商品」を創り出すことで</p>
-                    <p class="leading-10">お客様はもちろん、商品が生まれるまでに携わった全ての人々や世界、</p>
-                    <p class="leading-10">素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
+                <div class="tracking-widest mt-5 lg:mt-16" >
+                  <div class="lg:flex lg:justify-center text-center">
+                    <h1 class="text-2xl lg:text-3xl lg:mb-8 font-bold">モノづくりを通じ、</h1>
+                    <h1 class="text-2xl lg:text-3xl lg:mb-8 font-bold">人々に幸せを広げ、</h1>
+                    <h1 class="text-2xl lg:text-3xl mb-8 font-bold">世界をより良くする。</h1>
+                  </div>
+                  <div class="text-base lg:text-xl leading-7">
+                    <p class="inline-block lg:block lg:leading-10"><br class="hidden lg:block" />私たちが創り出す、最高の商品とは、</p>
+                    <p class="inline-block lg:block lg:leading-10">上質な素材でデザイン・機能性を意識し、一流の技術力を</p>
+                    <p class="inline-block lg:block lg:leading-10">持って作り上げられたモノというだけではありません。</p>
+                    <p class="inline-block lg:block lg:leading-10">生産者の労働環境や地球環境まで配慮し、フェアな金額で</p>
+                    <p class="inline-block lg:block lg:leading-10">お客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。</p>
+                    <p class="inline-block lg:block lg:leading-10">{`　`}</p>
+                    <p class="inline-block lg:block lg:leading-10">また我々はそのような「最高の商品」を創り出すことで</p>
+                    <p class="inline-block lg:block lg:leading-10">お客様はもちろん、商品が生まれるまでに携わった全ての人々や世界、</p>
+                    <p class="inline-block lg:block lg:leading-10">素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
                   </div>
                 </div>
               </div>
