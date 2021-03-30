@@ -76,7 +76,7 @@ export default function Overview() {
                         事業内容
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-xs lg:text-sm text-gray-500">
-                        レザー小物及び雑貨の各種製の製造販売<br/>
+                        レザー小物及び雑貨の各種製の<br class="block lg:hidden" />製造販売<br/>
           インターネットによる販売
                         </td>
                       </tr>
@@ -88,7 +88,7 @@ export default function Overview() {
                         <td class="px-6 py-4 whitespace-nowrap text-xs lg:text-sm text-gray-500">
                         一般建築業許可<br/><br/>
                         古物商許可<br/>
-                        愛知県公安委員会 第543311801500号
+                        愛知県公安委員会 <br class="block lg:hidden" />第543311801500号
                         </td>
                       </tr>
 
@@ -116,7 +116,7 @@ export default function Overview() {
                         営業時間
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-xs lg:text-sm text-gray-500">
-                        10:00～19:00（日曜、隔週土曜定休)
+                        10:00～19:00<br class="block lg:hidden" />（日曜、隔週土曜定休)
                         </td>
                       </tr>
 
@@ -125,7 +125,7 @@ export default function Overview() {
                         取引銀行
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-xs lg:text-sm text-gray-500">
-                        三重銀行／第三銀行／三菱東京UFJ銀行／<br/>大垣共立銀行
+                        三重銀行／第三銀行／<br class="block lg:hidden" />三菱東京UFJ銀行／大垣共立銀行
                         </td>
                       </tr>
 
@@ -166,7 +166,7 @@ export default function Overview() {
                           拠点名
                         </th>
                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          株式会社FALCONER　第一配送センター
+                          株式会社FALCONER　<br class="block lg:hidden" />第一配送センター
                         </th>
                       </tr>
                     </thead>
@@ -211,7 +211,7 @@ export default function Overview() {
                           拠点名
                         </th>
                         <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                          株式会社FALCONER　第一物流倉庫
+                          株式会社FALCONER　<br class="block lg:hidden" />第一物流倉庫
                         </th>
                       </tr>
                     </thead>
