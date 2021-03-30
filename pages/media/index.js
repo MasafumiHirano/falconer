@@ -33,7 +33,7 @@ export default function Media({medias}) {
       <Layout>
       <main>
         <div style={{backgroundColor: "#786b58"}}>
-          <div class="mx-auto py-6 lg:py-12 w-1100">
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-white mb-6 lg:mb-12">
                 <div class="relative">
