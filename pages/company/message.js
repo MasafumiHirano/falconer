@@ -63,7 +63,7 @@ export default function Message() {
                 </div>
               </div>
 
-              <div class="text-center tracking-widest mt-16 pb-32" >
+              <div class="text-center tracking-widest mt-16 pb-6 lg:pb-32" >
               <div class="lg:flex lg:justify-center">
                 <h1 class="text-2xl lg:mb-6 font-bold">道心の中に衣食あり</h1>
                 <h1 class="text-2xl lg:mb-6 font-bold hidden lg:block">{`　`}</h1>
