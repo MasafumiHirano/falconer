@@ -31,7 +31,7 @@ export default function Header(){
           </div>
 
           <div class="w-1/2">
-            <div class="block flex justify-center">
+            <div class="flex justify-center">
               <Link href="/">
                 <a><Image src="/images/logo/falconer_co_ltd_logo.jpg" width={400} height={84} alt="falconer_logo" /></a>
               </Link>
