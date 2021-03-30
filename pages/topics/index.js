@@ -26,7 +26,7 @@ export default function Topics({topics}) {
                           <div><Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/></div>
                           <div>
                             <div class="h-12 lg:h-20 lg:mb-4 overflow-hidden">
-                              <div class="lg:text-lg font-semibold helvetica">{topic.title}</div>
+                              <div class="lg:text-lg font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</div>
                             </div>
                             <div class="lg:flex mt-2 lg:mt-0 flex-wrap">
                               {topic.tag.map(tag => (
