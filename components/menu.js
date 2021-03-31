@@ -20,11 +20,11 @@ const Menu = () => {
             <Drawer open={isOpen} onClose={toggleDrawer} direction='left' style={{width: "65%"}}>
               <div class="bg-black h-screen pt-6 text-white tracking-wide leading-10">
                 <ul class="pl-8">
-                  <li class="hover:text-falGLD text-2xl"><Link href="/topics"><a>最新情報</a></Link></li>
-                  <li class="hover:text-falGLD  mt-4 text-xl"><Link href="/brand"><a>ブランド</a></Link></li>
-                  <li class="hover:text-falGLD  mt-4 text-xl"><Link href="/company"><a>企業情報</a></Link></li>
-                  <li class="hover:text-falGLD  mt-4 text-xl"><Link href="/media"><a>メディア</a></Link></li>
-                  <li class="hover:text-falGLD  mt-4 text-xl"><Link href="/contact"><a>お問合わせ</a></Link></li>
+                  <li class="hover:text-falGLD text-lg"><Link href="/topics"><a>最新情報</a></Link></li>
+                  <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/brand"><a>ブランド</a></Link></li>
+                  <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/company"><a>企業情報</a></Link></li>
+                  <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/media"><a>メディア</a></Link></li>
+                  <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/contact"><a>お問合わせ</a></Link></li>
                 </ul>
                 <div class="pt-6 pl-6">
                   <div class="inline-block">
