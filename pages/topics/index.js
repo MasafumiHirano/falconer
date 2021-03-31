@@ -9,7 +9,7 @@ export default function Topics({topics}) {
     <div>
       <Head>
         <title>TOPICS</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main style={{ backgroundColor: "#cecece" }}>

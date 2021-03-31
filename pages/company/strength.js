@@ -8,7 +8,7 @@ export default function Strength() {
     <div>
       <Head>
         <title>社の強み</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main class="lg:pb-12" style={{ backgroundColor: "#ffffff" }}>

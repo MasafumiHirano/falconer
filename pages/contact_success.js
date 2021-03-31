@@ -8,7 +8,7 @@ export default function Contact() {
     <div>
       <Head>
         <title>お問い合わせ完了</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>

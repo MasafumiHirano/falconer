@@ -5,6 +5,11 @@ import Layout from '../../components/layout'
 
 export default function topicId({ topic }) {
   return (
+    <>
+    <Head>
+        <title>TOPICS</title>
+        <link rel="icon" href="/falconer_favicons.png" />
+      </Head>
     <Layout>
       <main class="bg-gray-100 py-6 lg:py-12">
         <div class="mx-auto px-4 py-6 lg:px-12 lg:py-12 bg-white lg:w-1100">
@@ -23,6 +28,7 @@ export default function topicId({ topic }) {
         </div>
       </main>
     </Layout>
+    </>
   );
 }
 

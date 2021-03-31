@@ -53,7 +53,7 @@ export default function CONTACT() {
     <div>
       <Head>
         <title>お問合わせ</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main class="bg-falGLD">

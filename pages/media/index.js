@@ -28,7 +28,7 @@ export default function Media({medias}) {
     <div>
       <Head>
         <title>MEDIA</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>

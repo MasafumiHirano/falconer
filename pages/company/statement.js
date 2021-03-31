@@ -9,7 +9,7 @@ export default function Statement() {
     <div>
       <Head>
         <title>VISION</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>

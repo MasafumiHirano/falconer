@@ -29,7 +29,7 @@ export default function Home({slides,topics}) {
     <div>
       <Head>
         <title>株式会社Falconer(ファルコナー)</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
         <main>

@@ -10,7 +10,7 @@ export default function RECRUIT() {
     <div>
       <Head>
         <title>RECRUIT</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>

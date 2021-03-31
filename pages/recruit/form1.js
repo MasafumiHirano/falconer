@@ -79,7 +79,7 @@ export default function FORM() {
     <div>
       <Head>
         <title>FALCONER採用ページ</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main class="bg-gray-100">

@@ -8,7 +8,7 @@ export default function Recruit() {
     <div>
       <Head>
         <title>ご応募完了</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>

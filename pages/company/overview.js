@@ -17,7 +17,7 @@ export default function Overview() {
     <div>
       <Head>
         <title>会社概要</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
       <main>
