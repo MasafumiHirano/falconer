@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import Layout from '../../components/layout'
 
@@ -52,14 +53,23 @@ export default function Statement() {
                     <h1 class="text-2xl lg:text-3xl lg:mb-8 font-bold text-center">今日よりも、</h1>
                     <h1 class="text-2xl lg:text-3xl mb-8 font-bold text-center">もっと幸せな明日を。</h1>
                   </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />お客様の生活をより豊かで幸せなものにします。</p>
+                  {/* pc のときはこちらを表示*/}
+                  <div class="hidden lg:block text-md lg:text-xl leading-10 lg:text-center">
+                    <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
+                      <p class="leading-10">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />お客様の生活をより豊かで幸せなものにします。</p>
+                    </div>
+                    <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
+                      <p class="leading-10">社員やお取引企業様はもちろん、<br class="block lg:hidden" />商品がお客様のお手元に<br class="hidden lg:block" />届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
+                    </div>
+                    <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
+                      <p class="leading-10">地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />無駄のない流通・運営を行い、毎日の成長を続けます。</p>
+                    </div>
                   </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">社員やお取引企業様はもちろん、<br class="block lg:hidden" />商品がお客様のお手元に<br class="hidden lg:block" />届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
-                  </div>
-                  <div class="mb-8 text-base lg:text-xl leading-8 lg:text-center">
-                    <p class="leading-10">地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />無駄のない流通・運営を行い、毎日の成長を続けます。</p>
+                  {/* sp のときはこちらを表示*/}
+                  <div class="block lg:hidden leading-10">
+                    <p class="lg:leading-10">高品質かつワクワクする商品を生み出しお客様の生活をより豊かで幸せなものにします。</p>
+                    <p class="lg:leading-10">社員やお取引企業様はもちろん、商品がお客様のお手元に届くまでに関わる全ての人々や世界の幸せと発展に貢献します。</p>
+                    <p class="lg:leading-10">地球環境の保全を心がけ、永続的な発展をするために無駄のない流通・運営を行い、毎日の成長を続けます。</p>
                   </div>
                 </div>
               </div>
@@ -172,7 +182,14 @@ export default function Statement() {
               <div class="text-white lg:w-1100 mx-auto flex justify-center">
                 <div class="px-4 lg:px-0 lg:w-1/2">
                 <Link href="/company/message"><a>
-                  <h1 class="text-md lg:text-2xl text-center font-bold helvetica tracking-widest border-white border-solid border-4 py-4 px-4">代表メッセージ {`▶▶▶`}</h1>
+                    <div class="flex justify-center items-center text-md w-full lg:text-2xl text-center font-bold helvetica tracking-widest border-white border-solid border-4 py-4 px-4">
+                      <div class="leading-4 w-1/5 hidden lg:block"></div>
+                      <div class="leading-4 lg:w-2/5 lg:ext-right">代表メッセージ</div>
+                      <div class="w-1/5 ml-2">
+                        <img class="block pb-0.5 w-4/5" src="/images/company/three_arrow.png" width={48} height={12} />
+                      </div>
+                      <div class="leading-4 w-1/5 hidden lg:block"></div>
+                    </div>
                 </a></Link>
                 </div>
               </div>
