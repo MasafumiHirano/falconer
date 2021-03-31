@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import axios from "axios";
@@ -7,6 +8,7 @@ import Layout from '../../components/layout'
 
 export default function FORM() {
   const router = useRouter();
+  const [type] = useState("ネットショップ運営サポート");
   const [name, setName] = useState("");
   const [furigana, setFurigana] = useState("");
   const [birthday, setBirthday] = useState("");
@@ -33,6 +35,7 @@ export default function FORM() {
     e.preventDefault();
 
     const data = {
+      type: type,
       name: name,
       furigana: furigana,
       birthday: birthday,
@@ -48,6 +51,7 @@ export default function FORM() {
       currentIncome: currentIncome,
       spouse: spouse,
       experienceNumber: experienceNumber,
+      experienceOccupation: experienceOccupation,
       experienceCompany: experienceCompany,
       skill: skill,
       promotion: promotion,
@@ -56,7 +60,7 @@ export default function FORM() {
 
     axios({
       method: "post",
-      url: "https://falconer.microcms.io/api/v1/recruit",
+      url: "https://falconer.microcms.io/api/v1/recruits",
       data: data,
       headers: {
         "Content-Type": "application/json",
@@ -64,7 +68,7 @@ export default function FORM() {
       }
     })
       .then(() => {
-        router.push("/success");
+        router.push("/recruit_success");
       })
       .catch(err => {
         console.log(err);
@@ -80,12 +84,13 @@ export default function FORM() {
       <Layout>
       <main class="bg-gray-100">
         <div class="mx-auto pt-12 lg:w-1100">
+          <p class="text-center mb-4 text-xl">【{type}】</p>
           <p class="text-center">※当応募内容についてはエントリー、並びに1次選考も兼ねて確認させて頂いております。予めご了承ください。</p>
           
           <div class=" bg-gray-100 py-8 px-4 overflow-hidden sm:px-6 lg:px-8">
             <div class="relative max-w-xl mx-auto">
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">プロフィール</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">プロフィール</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 
                   <div class="sm:col-span-2">
@@ -172,13 +177,54 @@ export default function FORM() {
                       <select name="addressArea" id="addressArea" onChange={e => setAddressArea(e.target.value)}
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
                       >
-                        <option value="" selected>Please select...</option>
+                        <option value="">Please select...</option>
                         <option value="北海道">北海道</option>
-                        <option value="青森県">青森</option>
+                        <option value="青森県">青森県</option>
                         <option value="岩手県">岩手県</option>
-                        <option value="秋田県">秋田県</option>
                         <option value="宮城県">宮城県</option>
-
+                        <option value="秋田県">秋田県</option>
+                        <option value="山形県">山形県</option>
+                        <option value="福島県">福島県</option>
+                        <option value="茨城県">茨城県</option>
+                        <option value="栃木県">栃木県</option>
+                        <option value="群馬県">群馬県</option>
+                        <option value="埼玉県">埼玉県</option>
+                        <option value="千葉県">千葉県</option>
+                        <option value="東京都">東京都</option>
+                        <option value="神奈川県">神奈川県</option>
+                        <option value="新潟県">新潟県</option>
+                        <option value="富山県">富山県</option>
+                        <option value="石川県">石川県</option>
+                        <option value="福井県">福井県</option>
+                        <option value="山梨県">山梨県</option>
+                        <option value="長野県">長野県</option>
+                        <option value="岐阜県">岐阜県</option>
+                        <option value="静岡県">静岡県</option>
+                        <option value="愛知県">愛知県</option>
+                        <option value="三重県">三重県</option>
+                        <option value="滋賀県">滋賀県</option>
+                        <option value="京都府">京都府</option>
+                        <option value="大阪府">大阪府</option>
+                        <option value="兵庫県">兵庫県</option>
+                        <option value="奈良県">奈良県</option>
+                        <option value="和歌山県">和歌山県</option>
+                        <option value="鳥取県">鳥取県</option>
+                        <option value="島根県">島根県</option>
+                        <option value="岡山県">岡山県</option>
+                        <option value="広島県">広島県</option>
+                        <option value="山口県">山口県</option>
+                        <option value="徳島県">徳島県</option>
+                        <option value="香川県">香川県</option>
+                        <option value="愛媛県">愛媛県</option>
+                        <option value="高知県">高知県</option>
+                        <option value="福岡県">福岡県</option>
+                        <option value="佐賀県">佐賀県</option>
+                        <option value="長崎県">長崎県</option>
+                        <option value="熊本県">熊本県</option>
+                        <option value="大分県">大分県</option>
+                        <option value="宮崎県">宮崎県</option>
+                        <option value="鹿児島県">鹿児島県</option>
+                        <option value="沖縄県">沖縄県</option>
                       </select>
                     </div>
                   </div>
@@ -238,7 +284,7 @@ export default function FORM() {
                       <select name="currentStatus" id="currentStatus" onChange={e => setCurrentStatus(e.target.value)}
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
                       >
-                        <option value="" selected>Please select...</option>
+                        <option value="">Please select...</option>
                         <option value="正社員">正社員</option>
                         <option value="契約社員">契約社員</option>
                         <option value="業務委託">業務委託</option>
@@ -257,7 +303,7 @@ export default function FORM() {
                       <select name="currentIncome" id="currentIncome" onChange={e => setCurrentIncome(e.target.value)}
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
                       >
-                        <option value="" selected>Please select...</option>
+                        <option value="">Please select...</option>
                         <option value="199万円以下">199万円以下</option>
                         <option value="200~249万円">200~249万円</option>
                         <option value="250~299万円">250~299万円</option>
@@ -278,7 +324,7 @@ export default function FORM() {
                       <select name="spouse" id="spouse" onChange={e => setSpouse(e.target.value)}
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
                       >
-                        <option value="" selected>Please select...</option>
+                        <option value="">Please select...</option>
                         <option value="有り">有り</option>
                         <option value="無し">無し</option>
                       </select>
@@ -288,7 +334,7 @@ export default function FORM() {
               </div>
 
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">職務経歴</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">職務経歴</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
                     <label for="experienceNumber" class="block text-sm font-medium text-gray-700">経験社数<span class="text-gray-500"> (任意)</span></label>
@@ -319,7 +365,7 @@ export default function FORM() {
               </div>
 
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">経験企業（社名/在職期間/雇用形態 など）</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">経験企業（社名/在職期間/雇用形態 など）</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
                     <label for="experienceCompany" class="block text-sm font-medium text-gray-700">経験企業<span class="text-gray-500"> (任意)</span></label>
@@ -338,7 +384,7 @@ export default function FORM() {
               </div>
 
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">資格・スキル</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">資格・スキル</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
                     <label for="skill" class="block text-sm font-medium text-gray-700">保有スキル<span class="text-gray-500"> (任意)</span></label>
@@ -357,7 +403,7 @@ export default function FORM() {
               </div>
 
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">自己PR</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">自己PR</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
                     <label for="promotion" class="block text-sm font-medium text-gray-700">自己PR<span class="text-red-500"> (必須)</span></label>
@@ -376,7 +422,7 @@ export default function FORM() {
               </div>
 
               <div class="mt-12">
-                <h1 class="w-full bg-gray-500 text-white text-2xl text-center py-4 my-4">企業への質問</h1>
+                <h1 class="w-full bg-falGLD text-white text-2xl text-center py-4 my-4">企業への質問</h1>
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
                     <label for="question" class="block text-sm font-medium text-gray-700">当社への質問<span class="text-gray-500"> (任意)</span></label>
@@ -396,6 +442,16 @@ export default function FORM() {
               <div class="mt-12">
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 
+                  {
+                    (name && furigana && birthday && sex && email && addressCode && addressArea && addressCity && addressNumber && phoneNumber && currentStatus && promotion) ?
+                    <div class="text-red-500 text-sm">
+                      <p>{`　`}</p>
+                    </div>
+                    :
+                    <div class="text-red-500 text-sm"><p>※必須項目を入力してください。</p></div>
+                  }
+
+
                   <div class="sm:col-span-2">
                     <button 
                       disabled={!(name && furigana && birthday && sex && email && addressCode && addressArea && addressCity && addressNumber && phoneNumber && currentStatus && promotion)} 
@@ -409,7 +465,6 @@ export default function FORM() {
               </div>
             </div>
           </div>
-
         </div>
       </main>
       </Layout>

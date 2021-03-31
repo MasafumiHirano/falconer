@@ -42,7 +42,7 @@ export default function CONTACT() {
       }
     })
       .then(() => {
-        router.push("/success");
+        router.push("/contact_success");
       })
       .catch(err => {
         console.log(err);

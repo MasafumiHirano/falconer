@@ -263,11 +263,11 @@ export default function RECRUIT() {
             <h2 class="text-center text-xl mx-auto">お申込み</h2>
           </div>
 
-          <div class="flex justify-center mt-4">
-            <Link href='/recruit/form'><a>
-            <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">こちらから応募ください</button>
-            </a></Link>
-          </div>
+          <Link href="/recruit/form1">
+            <div class="flex justify-center mt-4">
+              <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">こちらから応募ください</button>
+            </div>
+          </Link>
         </div>
 
       </main>

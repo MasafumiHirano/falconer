@@ -3,17 +3,17 @@ import Link from 'next/link'
 
 import Layout from '../components/layout'
 
-export default function Brand() {
+export default function Recruit() {
   return (
     <div>
       <Head>
-        <title>BRAND</title>
+        <title>ご応募完了</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
       <main>
         <div class="mx-auto pt-12 mb-12 lg:w-1100">
-          <div class="my-12 text-center">お問い合わせありがとうございました。</div>
+          <div class="my-12 text-center">ご応募ありがとうございました。</div>
           <p class="text-center"><Link href="/"><a class="hover:text-gray-500">TOPに戻る</a></Link></p>
         </div>
       </main>
