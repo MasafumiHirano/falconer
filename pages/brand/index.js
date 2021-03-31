@@ -13,12 +13,12 @@ export default function Brand() {
       <Layout>
       <main>
         <div class="mx-auto pt-6 lg:pt-12 lg:mb-12 lg:w-1100">
-              <div class="flex justify-center Osaka mb-6 py-2 font-bold text-3xl bg-falGLD text-white">
-                <p class="inline-block">ブ</p>
-                <p class="inline-block">ラ</p>
-                <p class="inline-block">ン</p>
-                <p class="inline-block -ml-0.5">ド</p>
-              </div>
+          <div class="flex justify-center Osaka mb-6 py-2 font-bold text-3xl bg-falGLD text-white">
+            <p class="inline-block">ブ</p>
+            <p class="inline-block">ラ</p>
+            <p class="inline-block">ン</p>
+            <p class="inline-block -ml-0.5">ド</p>
+          </div>
           <div class="block mx-auto lg:flex lg:px-0 mt-6 mb-6 lg:mt-12">
             <div className="lg:w-1/2 relative w-full">
               <Image className="object-cover" src="/images/brand/bachicashley_hero.jpg" alt="bachicashley" width={720} height={360} />

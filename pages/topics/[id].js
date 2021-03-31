@@ -1,4 +1,5 @@
 // pages/topics/[id].js
+import Head from 'next/head'
 import Image from 'next/image'
 
 import Layout from '../../components/layout'
@@ -6,7 +7,7 @@ import Layout from '../../components/layout'
 export default function topicId({ topic }) {
   return (
     <>
-    <Head>
+      <Head>
         <title>TOPICS</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
