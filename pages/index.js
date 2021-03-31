@@ -61,12 +61,12 @@ export default function Home({slides,topics}) {
 
           <div style={{backgroundColor: "#cecece" }}>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-              <Link href="/topics"><a>
-                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1>
-              </a></Link>
+              <Link href="/topics">
+                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1></a>
+              </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
-                <ul class="mt-0 lg:mt-0 grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                <ul class="lg:grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
                   topics.filter(topic => (
                       topic.toppage == true
@@ -78,19 +78,17 @@ export default function Home({slides,topics}) {
                         <a>
                           <div class="px-2 lg:px-0">
                             <div>
-                              <Image src={`${topic.main_image.url}`} width={720} height={420} alt=""/>
+                              <Image src={`${topic.main_image.url}`} width={1100} height={640} alt=""/>
                             </div>
-                            <div>
-                              <div class="h-12 lg:h-20 lg:mb-2 overflow-hidden">
-                                <div class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</div>
-                              </div>
-                              <div class="lg:flex lg:pt-0 flex-wrap">
-                                {topic.tag.map(tag => (
-                                  <div class="inline-block mt-2 mr-2 mb-4">
-                                    <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
-                                  </div>
-                                ))}
-                              </div>
+                            <div class="h-12 lg:h-20 lg:mb-2 overflow-hidden">
+                              <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
+                            </div>
+                            <div class="lg:flex lg:pt-0 flex-wrap">
+                              {topic.tag.map(tag => (
+                                <div class="inline-block mt-2 mr-2 mb-4">
+                                  <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                </div>
+                              ))}
                             </div>
                           </div>
                         </a>
@@ -103,14 +101,9 @@ export default function Home({slides,topics}) {
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <Link href="/brand"><a>
-              <div class="flex justify-center Osaka mb-2 py-2 font-bold text-3xl bg-falGLD text-white">
-                <p class="inline-block">ブ</p>
-                <p class="inline-block">ラ</p>
-                <p class="inline-block">ン</p>
-                <p class="inline-block -ml-0.5">ド</p>
-              </div>
-            </a></Link>
+            <Link href="/brand">
+              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">ブランド</h1></a>
+            </Link>
             <p class="text-center mb-2">ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
               <div class="pb-4">
@@ -122,21 +115,21 @@ export default function Home({slides,topics}) {
             <div class="lg:flex">
               <div class="pb-4 lg:pb-0 lg:mr-5">
                 <a href='https://lurverri.com/' target="_blank">
-                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={540} height={265} />
+                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={1100} height={540} />
                 </a>
               </div>
               <div>
                 <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/allRightLeather_corporate.jpg" width={540} height={265} />
+                  <Image class="object-cover" src="/images/brand/allRightLeather_corporate.jpg" width={1100} height={540} />
                 </a>
               </div>
             </div>
           </div>
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <Link href="/media"><a>
-              <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1>
-            </a></Link>
+            <Link href="/media">
+              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1></a>
+            </Link>
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
             <div  class="relative">
@@ -152,22 +145,23 @@ export default function Home({slides,topics}) {
                     <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="youtube_social" />
                   </a>
                 </div>
+
                 <div class="inline-block -ml-px">
                   <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
                     <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="twitter_social" />
                   </a>
                 </div>
               </div>
-              <Link href="/media"><a>
-                <Image src="/images/media/brandstory.png" width={1100} height={620} />
-              </a></Link>
+              <Link href="/media">
+                <a><Image src="/images/media/brandstory.png" width={1100} height={620} /></a>
+              </Link>
             </div>
           </div>
           <div>
             <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
-              <Link href="/company"><a><div>
-                <h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">企業情報</h1>
-                </div></a></Link>
+              <Link href="/company">
+                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">企業情報</h1></a>
+              </Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
                 <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
