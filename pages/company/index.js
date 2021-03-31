@@ -54,7 +54,7 @@ export default function Company({medias}) {
                     >
                       レザーアイテム
                     </div>
-                    <Image className="object-cover" src="/images/company/prod01.png" width={900} height={600} />
+                    <Image className="object-cover" src="/images/company/prod01.png" width={1100} height={730} />
                   </div>
                   <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8" }}>
                     イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、ずっと使えるモノ作りを続けています。
@@ -69,7 +69,7 @@ export default function Company({medias}) {
                     >
                       アパレル
                     </div>
-                    <Image className="object-cover" src="/images/company/black450x300.jpg" width={900} height={600} />
+                    <Image className="object-cover" src="/images/company/black450x300.jpg" width={1100} height={730} />
                   </div>
                   <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8"}}>
                     私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
@@ -86,7 +86,7 @@ export default function Company({medias}) {
                     >
                       OEM/ODM 事業
                     </div>
-                    <Image className="object-cover" src="/images/company/prod02.png" width={900} height={600} />
+                    <Image className="object-cover" src="/images/company/prod02.png" width={1100} height={730} />
                   </div>
                   <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8"}}>
                     自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
@@ -101,7 +101,7 @@ export default function Company({medias}) {
                     >
                       海外事業
                     </div>
-                    <Image className="object-cover" src="/images/company/prod05.png" width={900} height={600} />
+                    <Image className="object-cover" src="/images/company/prod05.png" width={1100} height={730} />
                   </div>
                   <p class="text-sm Osaka px-2 lg:px-0"  style={{lineHeight: "1.8"}}>
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
@@ -139,7 +139,7 @@ export default function Company({medias}) {
                    style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
                     企業概要
                   </div>
-                  <Image className="object-cover" src="/images/company/company_overview.jpg" width={600} height={400} />
+                  <Image className="object-cover" src="/images/company/company_overview.jpg" width={940} height={600} />
                 </div>
                 
               </a></Link>
@@ -147,7 +147,7 @@ export default function Company({medias}) {
               <div class="lg:ml-4">
                 <Link href="/recruit"><a>
                   <div class="relative mt-4 lg:mt-0 w-full lg:h-300 flex justify-center items-center">
-                    <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={600} height={400} />
+                    <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={940} height={600} />
                     <div class="Osaka absolute w-170 text-center text-md lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
                       style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
                       採用情報
@@ -188,7 +188,7 @@ export default function Company({medias}) {
                 </div>
 
                 <div class="flex">
-                  <div class='lg:w-1/4 w-full lg:mr-2'>
+                  <div class='lg:w-1/4 w-full lg:h-auto md:h-405 h-48 lg:mr-2'>
                     <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div class='lg:w-1/4 mr-2 hidden lg:block'>
