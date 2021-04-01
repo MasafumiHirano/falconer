@@ -88,8 +88,8 @@ export default function Media({medias}) {
                   </div>
                 </div>
                 <div class="px-6 py-6 mb-4 bg-black" style={{ backgroundColor: "#221916" }}>
-                  <div class="w-full grid grid-rows-3 grid-cols-1 lg:grid-rows-2 lg:grid-cols-4 gap-4">
-                    <div class="lg:col-span-2 lg:row-span-2">
+                  <div class="grid grid-rows-3 grid-cols-1 lg:grid-rows-2 lg:grid-cols-4 gap-4">
+                    <div class="h-48 md:h-500 lg:h-auto lg:col-span-2 lg:row-span-2">
                       <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="">
