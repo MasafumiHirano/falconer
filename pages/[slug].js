@@ -1,3 +1,12 @@
+export default function draftPage({ content }) {
+  console.log(content)
+  return (
+    <>
+      <div>draftPage desu</div>
+    </>
+  );
+}
+
 export const getStaticProps = async (context) => {
   const slug = context.params.slug;
   const draftKey = context.previewData.draftKey;
