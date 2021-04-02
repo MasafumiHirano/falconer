@@ -11,7 +11,7 @@ export default function draftTopic({ topic }) {
     </>
     :
     <>
-      <Head>
+      {/* <Head>
         <title>TOPICS</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
@@ -32,7 +32,7 @@ export default function draftTopic({ topic }) {
           />
         </div>
       </main>
-    </Layout>
+    </Layout> */}
     </>
   );
 }
