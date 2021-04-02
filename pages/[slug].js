@@ -29,6 +29,6 @@ export const getStaticProps = async (context) => {
    }`, key)
     .then(res => res.json())
     .catch(() => null);
-  const paths = data.contents.map(content => `/topics/${content.id}`);
+  const paths = data.contents.map(content => `/${content.id}`);
   return {paths, fallback: true};
 };
