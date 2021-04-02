@@ -1,4 +1,4 @@
-export default (req, res) => {
+export default async (req, res) => {
   if (!req.query.slug) {
     return res.status(404).end();
   }
