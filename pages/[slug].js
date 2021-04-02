@@ -20,7 +20,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
-  if(context !== undefined ) {
+  if(context.previewData !== undefined ) {
     const slug = context.params.slug
     const draftKey = context.previewData.draftKey
     const key = {
