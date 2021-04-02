@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 export default function draftTopic({ topic }) {
   return (
-    !topic ?
+    (topic == undefined) ?
     <>
      <div>no topic</div>
     </>
