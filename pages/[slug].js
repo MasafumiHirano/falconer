@@ -7,15 +7,12 @@ export default function draftPage({ content }) {
   );
 }
 
-export const getStaticPaths = async (context) => {
-  const slug = context.params.slug
-  const draftKey = context.previewData.draftKey
+// 静的生成のためのパスを指定
+export const getStaticPaths = async () => {
   const key = {
-    headers: {'X-API-KEY': process.env.api_key},
+    headers: {'X-API-KEY': process.env.API_KEY},
   };
-  const data = await fetch(`https://falconer.microcms.io/api/v1/topics/${slug}${
-    draftKey !== undefined ? `?draftKey=${draftKey}` : ''
-   }`, key)
+  const data = await fetch('https://falconer.microcms.io/api/v1/topics', key)
     .then(res => res.json())
     .catch(() => null);
   const paths = data.contents.map(content => `/${content.id}`);
