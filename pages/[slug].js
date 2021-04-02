@@ -3,8 +3,13 @@ import Image from 'next/image'
 
 import Layout from '../components/layout'
 
-export default function draftTopics({ topic }) {
+export default function draftTopic({ topic }) {
   return (
+    topic ?
+    <>
+     <div>no topic</div>
+    </>
+    :
     <>
       <Head>
         <title>TOPICS</title>
