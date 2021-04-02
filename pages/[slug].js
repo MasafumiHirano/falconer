@@ -20,22 +20,43 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
-  const slug = context.params.slug !== undefined  ? context.params.slug : ''
-  const draftKey = context.previewData.draftKey !== undefined ? context.previewData.draftKey : ''
+  if(context !== undefined ) {
+    const slug = context.params.slug
+    const draftKey = context.previewData.draftKey
+    const key = {
+      headers: {'X-API-KEY': process.env.api_key},
+    };
   
-  const key = {
-    headers: {'X-API-KEY': process.env.api_key},
-  };
-
-  const content = await fetch(
-   `https://falconer.microcms.io/api/v1/topics/${slug}${
-    draftKey !== undefined ? `?draftKey=${draftKey}` : ''
-   }`, key)
-    .then((res) => res.json());
-
-   return {
-     props: {
-       content
-     }
-   };
+    const content = await fetch(
+     `https://falconer.microcms.io/api/v1/topics/${slug}${
+      draftKey !== undefined ? `?draftKey=${draftKey}` : ''
+     }`, key)
+      .then((res) => res.json());
+  
+     return {
+       props: {
+         content
+       }
+     };
+  }
+  else {
+    const slug = ''
+    const draftKey = ''
+    const key = {
+      headers: {'X-API-KEY': process.env.api_key},
+    };
+  
+    const content = await fetch(
+     `https://falconer.microcms.io/api/v1/topics/${slug}${
+      draftKey !== undefined ? `?draftKey=${draftKey}` : ''
+     }`, key)
+      .then((res) => res.json());
+  
+     return {
+       props: {
+         content
+       }
+     };
+  }
+  
  }; 
