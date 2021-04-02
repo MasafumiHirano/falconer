@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Layout from '../components/layout'
 
 export default function draftTopic({ topic }) {
+  console.log(topic)
   return (
     (topic == undefined) ?
     <>
