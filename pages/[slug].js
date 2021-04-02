@@ -20,8 +20,8 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
-  const slug = context.params.slug ? context.params.slug : ''
-  const draftKey = context.previewData.draftKey ? context.previewData.draftKey : ''
+  const slug = context.params.slug!==undefined  ? context.params.slug : ''
+  const draftKey = context.previewData.draftKey!==undefined ? context.previewData.draftKey : ''
   
   const key = {
     headers: {'X-API-KEY': process.env.api_key},
