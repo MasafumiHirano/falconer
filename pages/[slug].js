@@ -65,11 +65,13 @@ export const getStaticProps = async (context) => {
       draftKey !== undefined ? `?draftKey=${draftKey}` : ''
      }`, key)
       .then((res) => res.json());
+
+    const contextEdit = await context.json()
   
      return {
        props: {
          topic,
-         context
+         contextEdit
        }
      };
   }
@@ -85,11 +87,13 @@ export const getStaticProps = async (context) => {
       draftKey !== undefined ? `?draftKey=${draftKey}` : ''
      }`, key)
       .then((res) => res.json());
+
+      const contextEdit = await context.json()
   
      return {
        props: {
          topic,
-         context
+         contextEdit
        }
      };
   }
