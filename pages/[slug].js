@@ -14,7 +14,6 @@ export default function draftTopic({ topic }) {
     <>
       <Head>
         <title>TOPICS</title>
-        <link rel="icon" href="/falconer_favicons.png" />
       </Head>
     <Layout>
       <main class="bg-gray-100 py-6 lg:py-12">
@@ -74,7 +73,7 @@ export const getStaticProps = async (context) => {
   }
   else {
     const slug = context.params.slug
-    const draftKey = ''
+    const draftKey = context.previewData.draftKey
     const key = {
       headers: {'X-API-KEY': process.env.API_KEY},
     };
