@@ -8,7 +8,7 @@ export default function draftTopic({ topic }) {
   return (
     (topic == undefined) ?
     <>
-     <div>no topic</div>
+     <div>取得中</div>
     </>
     :
     <>

@@ -69,10 +69,10 @@ export default function Company({medias}) {
                     >
                       アパレル
                     </div>
-                    <Image className="object-cover" src="/images/company/black450x300.jpg" width={1100} height={730} />
+                    <Image className="object-cover" src="/images/company/apa.jpg" width={1100} height={730} />
                   </div>
                   <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8"}}>
-                    私たちが日々暮らしていく中で必要不可欠な電化製品。最近は生活に豊かな彩りを加えるためにAIを取り入れたり、ネットワークと接続し、音声認識で指示を出したり。より直感的でシームレスな製品の開発・販売を行っております。
+                  私たちが毎日肌に触れる衣類。いいものを身につけることによる気分の高揚や満足感をFALCONERは大切にします。市場で求められる製品はもちろん、FALCONER自ら発信するコンセプトブランドも展開。品質を求め、生地・パーツ・デザインを数百パターンから選りすぐったアイテムをプロデュース。ここでもFALCONERのならではの、潜在需要を掘り起こすこだわりのモノづくりでお客様に「高揚感・満足感」を提供します。
                   </p>
                 </div> 
               </div>
