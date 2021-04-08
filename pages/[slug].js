@@ -12,7 +12,7 @@ export default function draftTopic({ topic }) {
     </>
     :
     <>
-      {/* <Head>
+      <Head>
         <title>TOPICS</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
@@ -33,7 +33,7 @@ export default function draftTopic({ topic }) {
           />
         </div>
       </main>
-    </Layout> */}
+    </Layout>
     </>
   );
 }
@@ -71,7 +71,7 @@ export const getStaticProps = async (context) => {
      };
   }
   else {
-    const slug = ''
+    const slug = context.params.slug
     const draftKey = ''
     const key = {
       headers: {'X-API-KEY': process.env.api_key},
