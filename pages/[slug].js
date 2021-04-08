@@ -3,8 +3,9 @@ import Image from 'next/image'
 
 import Layout from '../components/layout'
 
-export default function draftTopic({ topic }) {
+export default function draftTopic({ topic, context }) {
   console.log(topic)
+  console.log(context)
   return (
     (topic == undefined) ?
     <>
@@ -67,13 +68,14 @@ export const getStaticProps = async (context) => {
   
      return {
        props: {
-         topic
+         topic,
+         context
        }
      };
   }
   else {
     const slug = context.params.slug
-    const draftKey = context.previewData.draftKey
+    const draftKey = ''
     const key = {
       headers: {'X-API-KEY': process.env.API_KEY},
     };
@@ -86,7 +88,8 @@ export const getStaticProps = async (context) => {
   
      return {
        props: {
-         topic
+         topic,
+         context
        }
      };
   }
