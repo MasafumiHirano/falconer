@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import Layout from '../components/layout'
 
-export default function draftTopic({ topic, context }) {
+export default function draftTopic({ topic }) {
   console.log(topic)
   console.log(context)
   return (
@@ -65,13 +65,10 @@ export const getStaticProps = async (context) => {
       draftKey !== undefined ? `?draftKey=${draftKey}` : ''
      }`, key)
       .then((res) => res.json());
-
-    const contextEdit = await context.json()
   
      return {
        props: {
-         topic,
-         contextEdit
+         topic
        }
      };
   }
@@ -87,13 +84,10 @@ export const getStaticProps = async (context) => {
       draftKey !== undefined ? `?draftKey=${draftKey}` : ''
      }`, key)
       .then((res) => res.json());
-
-      const contextEdit = await context.json()
   
      return {
        props: {
-         topic,
-         contextEdit
+         topic
        }
      };
   }
