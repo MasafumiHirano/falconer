@@ -51,11 +51,13 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (context) => {
+  
   if(context.previewData !== undefined ) {
+    console.log(context.previewData.draftKey)
     const slug = context.params.slug
     const draftKey = context.previewData.draftKey
     const key = {
-      headers: {'X-API-KEY': process.env.api_key},
+      headers: {'X-API-KEY': process.env.API_KEY},
     };
   
     const topic = await fetch(
@@ -74,7 +76,7 @@ export const getStaticProps = async (context) => {
     const slug = context.params.slug
     const draftKey = ''
     const key = {
-      headers: {'X-API-KEY': process.env.api_key},
+      headers: {'X-API-KEY': process.env.API_KEY},
     };
   
     const topic = await fetch(
@@ -89,4 +91,4 @@ export const getStaticProps = async (context) => {
        }
      };
   }
- }; 
+ };

@@ -4,7 +4,7 @@ export default async (req, res) => {
   }
   const content = await fetch(
     `https://falconer.microcms.io/api/v1/topics/${req.query.slug}?fields=id&draftKey=${req.query.draftKey}`,
-    { headers: { 'X-API-KEY': process.env.api_key || '' } }
+    { headers: { 'X-API-KEY': process.env.API_KEY || '' } }
   )
   .then(res => res.json()).catch(error => null);
 
