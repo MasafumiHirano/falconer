@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 
 export default function draftTopic({ topic }) {
   console.log(topic)
-  console.log(context)
   return (
     (topic == undefined) ?
     <>
