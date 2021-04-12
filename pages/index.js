@@ -33,8 +33,8 @@ export default function Home({slides,topics}) {
       </Head>
       <Layout>
         <main>
-          <div class="bg-black">
-            <div class="mx-auto">
+          <div class="bg-black lg:h-640">
+            <div class="mx-auto h-full">
               <Slider {...settings}>
                 {
                   slides.filter((slide)=>(
@@ -108,7 +108,7 @@ export default function Home({slides,topics}) {
             <div class="flex">
               <div class="pb-4">
                 <a href="https://bachicashley.com/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/bachic_logo_ls.jpg" width={1100} height={540} />
+                  <Image class="object-cover" src="/images/brand/ba-brand.png" width={1100} height={540} />
                 </a>
               </div>
             </div>

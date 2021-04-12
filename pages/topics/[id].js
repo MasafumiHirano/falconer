@@ -14,7 +14,7 @@ export default function topicId({ topic }) {
     <Layout>
       <main class="bg-gray-100 py-6 lg:py-12">
         <div class="mx-auto px-4 py-6 lg:px-12 lg:py-12 bg-white lg:w-1100">
-          <Image src={`${topic.main_image.url}`} width={1100} height={640} alt=""/>
+          <Image class="object-cover" src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
           <h1 class="font-bold text-2xl lg:text-3xl my-4 lg:my-8 helvetica">{topic.title}</h1>
           <div class="flex mb-4 lg:mb-8">
             {topic.tag.map(tag => (
