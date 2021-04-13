@@ -108,7 +108,7 @@ export default function Home({slides,topics}) {
             <div class="flex">
               <div class="pb-4">
                 <a href="https://bachicashley.com/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/top-icatch5.jpg" width={1100} height={540} />
+                  <Image class="object-cover" src="/images/brand/top-icatch6.jpg" width={1100} height={540} />
                 </a>
               </div>
             </div>
