@@ -126,7 +126,9 @@ export default function Company({medias}) {
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
-              <Image className="object-cover" src="/images/company/black920x280.jpg" width={940} height={280} alt="vision" />
+              <Link href="/company/statement"><a>
+              <Image className="object-cover" src="/images/company/statement_bgImage.jpg" width={940} height={280} alt="vision" />
+              </a></Link>
             </div>
 
           </div>

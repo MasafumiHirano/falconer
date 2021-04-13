@@ -78,7 +78,7 @@ export default function Home({slides,topics}) {
                         <a>
                           <div class="px-2 lg:px-0">
                             <div>
-                              <Image src={`${topic.main_image.url}`} width={1100} height={640} alt=""/>
+                              <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
                             </div>
                             <div class="h-12 lg:h-20 lg:mb-2 overflow-hidden">
                               <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
@@ -108,7 +108,7 @@ export default function Home({slides,topics}) {
             <div class="flex">
               <div class="pb-4">
                 <a href="https://bachicashley.com/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/ba-brand.png" width={1100} height={540} />
+                  <Image class="object-cover" src="/images/brand/ba-brand2.jpg" width={1100} height={540} />
                 </a>
               </div>
             </div>
