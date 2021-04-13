@@ -118,17 +118,15 @@ export default function Company({medias}) {
             <div class="relative flex w-full justify-center h-full">
               <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
                 <Link href="/company/statement"><a>
-                <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2 lg:px-3 border border-solid border-white"
-                style={{backgroundColor: "rgba(0,0,0,0.3)"}}><span class="inline-block -mr-1">STATEMENT</span></div>
+                  <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2 lg:px-3 border border-solid border-white"
+                  style={{backgroundColor: "rgba(0,0,0,0.3)"}}><span class="inline-block -mr-1">STATEMENT</span></div>
                 </a></Link>
                 <Link href="/company/message"><a>
                 <div class="Osaka mt-6 text-center w-170 lg:w-full text-md lg:text-2xl tracking-widest text-white shadow px-2 lg:px-2 py-px lg:py-2 border border-solid border-white"
                 style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
                 </a></Link>
               </div>
-              <Link href="/company/statement"><a>
-              <Image className="object-cover" src="/images/company/statement_bgImage.jpg" width={940} height={280} alt="vision" />
-              </a></Link>
+              <Image className="object-cover h-full" src="/images/company/statement_bgImage.jpg" width={940} height={280} alt="vision" />
             </div>
 
           </div>
