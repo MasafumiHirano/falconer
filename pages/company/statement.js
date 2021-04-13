@@ -8,7 +8,7 @@ export default function Statement() {
   return (
     <div>
       <Head>
-        <title>VISION</title>
+        <title>企業理念</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>

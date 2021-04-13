@@ -7,7 +7,7 @@ export default function Message() {
   return (
     <div>
       <Head>
-        <title>VISION</title>
+        <title>代表メッセージ</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>

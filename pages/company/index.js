@@ -14,7 +14,7 @@ export default function Company({medias}) {
   return (
     <div>
       <Head>
-        <title>Falconer</title>
+        <title>企業情報</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>

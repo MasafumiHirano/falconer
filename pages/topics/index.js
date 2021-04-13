@@ -8,7 +8,7 @@ export default function Topics({topics}) {
   return (
     <div>
       <Head>
-        <title>TOPICS</title>
+        <title>最新情報</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>

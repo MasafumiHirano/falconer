@@ -8,7 +8,7 @@ export default function topicId({ topic }) {
   return (
     <>
       <Head>
-        <title>TOPICS</title>
+        <title>{topic.title}</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
     <Layout>

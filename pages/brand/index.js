@@ -7,7 +7,7 @@ export default function Brand() {
   return (
     <div>
       <Head>
-        <title>BRAND</title>
+        <title>ブランド</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
