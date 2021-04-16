@@ -64,7 +64,7 @@ export default function Home({slides,topics}) {
               <Link href="/topics">
                 <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1></a>
               </Link>
-              <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
+              <p class="text-center mb-2">（テスト編集）ファルコナーの最新の情報をお届けします。</p>
               <div>
                 <ul class="lg:grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
