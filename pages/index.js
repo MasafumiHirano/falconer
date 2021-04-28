@@ -59,12 +59,12 @@ export default function Home({slides,topics}) {
             </div>
           </div>
 
-          <div style={{backgroundColor: "#cecece" }}>
+          <div>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics">
                 <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1></a>
               </Link>
-              <p class="text-center mb-2">（テスト編集）ファルコナーの最新の情報をお届けします。</p>
+              <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
                 <ul class="lg:grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
@@ -86,7 +86,7 @@ export default function Home({slides,topics}) {
                             <div class="lg:flex lg:pt-0 flex-wrap">
                               {topic.tag.map(tag => (
                                 <div class="inline-block mt-2 mr-2 mb-4">
-                                  <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                  <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
                                 </div>
                               ))}
                             </div>
