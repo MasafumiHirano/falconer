@@ -60,12 +60,11 @@ export default function CONTACT() {
         <div class="bg-gray-100 mx-auto pt-12 lg:w-920">
           <div><h1 class="text-3xl text-center mb-6 pb-2 border-b-2 border-falGLD border-solid">お問い合わせ</h1></div>
           <div>
-            <p class="text-center">製品のご購入のご相談、導入のご検討、OEMのご相談についてなど、
-お気軽にお問い合わせください。</p>
+            <p class="text-center">製品のご購入のご相談、OEMのご相談についてなど、お気軽にお問い合わせください。</p>
           </div>
           <div class="mt-12">
             <p class="text-center">お問い合わせダイヤル</p>
-            <p class="mt-2 text-center text-3xl helvetica">052-734-7065</p>
+            <p class="mt-2 text-center text-3xl helvetica"><a class="hover:text-gray-500" href="tel:+81-52-734-7065">052-734-7065</a></p>
           </div>
           <div class=" bg-gray-100 py-16 px-4 overflow-hidden sm:px-6 lg:px-8">
             <div class="relative max-w-xl mx-auto">
