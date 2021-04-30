@@ -195,7 +195,7 @@ export default function Home({slides,topics}) {
               </div>
 
               <div class="mt-6 lg:mt-12">
-                <div class="w-170 lg:w-320 mx-auto border border-black border-solid text-center py-2">
+                <div class="w-170 lg:w-320 mx-auto border border-black border-solid text-center py-2 hover:bg-black hover:text-white transition duration-300 ease-in-out">
                   詳細はこちら
                 </div>
               </div>
