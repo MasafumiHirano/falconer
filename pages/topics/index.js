@@ -12,7 +12,7 @@ export default function Topics({topics}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main>
+      <main class="">
         <div class="mx-auto py-6 lg:py-12 lg:w-1100">
           <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">新着情報</h1></div>
           <div>

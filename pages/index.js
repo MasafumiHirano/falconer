@@ -32,7 +32,7 @@ export default function Home({slides,topics}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-        <main>
+        <main class="mt-20 z-0">
           {/* TOPスライダーセクション START */}
           <div class="bg-black lg:h-640">
             <div class="mx-auto h-full">
