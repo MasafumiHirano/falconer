@@ -69,14 +69,14 @@ export default function Home({slides,topics}) {
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
-                <ul class="lg:grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                <ul class="grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                   {
                   topics.filter(topic => (
                       topic.toppage == true
                     ))
                   .slice(0,3)
                   .map(topic => (
-                    <li key={topic.id} class="shadow hover:bg-gray-100">
+                    <li key={topic.id} class="shadow hover:bg-gray-100 mt-2 lg:mt-0">
                       <Link href={`topics/${topic.id}`}>
                         <a>
                           <div class="px-2 lg:px-0">

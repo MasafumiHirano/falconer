@@ -16,9 +16,9 @@ export default function Topics({topics}) {
         <div class="mx-auto py-6 lg:py-12 lg:w-1100">
           <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">新着情報</h1></div>
           <div>
-            <ul class="pt-6 lg:pt-0  grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
+            <ul class="pt-6 lg:pt-0 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {topics.map(topic => (
-                <li key={topic.id} class="shadow p-1">
+                <li key={topic.id} class="shadow p-1 mt-2 lg:mt-0">
                   <Link href={`topics/${topic.id}`}>
                     <a>
                       <div class="px-2 lg:px-0">
