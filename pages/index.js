@@ -86,7 +86,7 @@ export default function Home({slides,topics}) {
                             <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
                               <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
                             </div>
-                            <div class="p-1 lg:flex lg:pt-0 flex-wrap">
+                            <div class="p-2 lg:flex lg:pt-0 flex-wrap">
                               {topic.tag.map(tag => (
                                 <div class="inline-block mt-2 mr-2 mb-4">
                                   <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
