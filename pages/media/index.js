@@ -37,7 +37,7 @@ export default function Media({medias}) {
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-white mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl py-2 ml-3">メディア</h1>
+                  <h1 class="Osaka text-center font-bold text-white text-xl lg:text-3xl py-2 ml-3">メディア</h1>
                   <div class="absolute right-0 top-4 lg:top-0">
                     <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">

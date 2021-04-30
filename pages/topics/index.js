@@ -12,9 +12,9 @@ export default function Topics({topics}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main style={{ backgroundColor: "#cecece" }}>
+      <main>
         <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-          <div><h1 class="Osaka lg:mb-12 font-bold text-3xl text-center py-2 tracking-wider">最新情報</h1></div>
+          <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">最新情報</h1></div>
           <div>
             <ul class="pt-6 lg:pt-0  grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {topics.map(topic => (
@@ -31,7 +31,7 @@ export default function Topics({topics}) {
                             <div class="lg:flex mt-2 lg:mt-0 flex-wrap">
                               {topic.tag.map(tag => (
                                 <div class="inline-block mr-2 mb-4">
-                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 rounded-full bg-gray-200 text-xs whitespace-nowrap">{tag.tagname}</span>
                                 </div>
                               ))}
                             </div>

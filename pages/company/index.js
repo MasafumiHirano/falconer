@@ -42,7 +42,7 @@ export default function Company({medias}) {
           </div>
           {/* BUSINESS/PRODUCTS 開始 */}
           <div class="py-6 lg:py-12" style={{ backgroundColor: "#cecece" }}>
-            <h1 class="text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTS</h1>
+            <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTS</h1>
             <div class="mx-auto lg:w-1100 lg:px-20">
               
               <div class="lg:flex lg:justify-center">
