@@ -83,7 +83,7 @@ export default function Home({slides,topics}) {
                             <div>
                               <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
                             </div>
-                            <div class="p-2 h-12 lg:h-20 lg:mb-2 overflow-hidden">
+                            <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
                               <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
                             </div>
                             <div class="p-1 lg:flex lg:pt-0 flex-wrap">
@@ -191,6 +191,12 @@ export default function Home({slides,topics}) {
                   <p class="text-sm Osaka px-2 lg:px-0"  style={{lineHeight: "1.8"}}>
                     今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
                   </p>
+                </div>
+              </div>
+
+              <div class="mt-6 lg:mt-12">
+                <div class="w-170 lg:w-320 mx-auto border border-black border-solid text-center py-2">
+                  詳細はこちら
                 </div>
               </div>
 
