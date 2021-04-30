@@ -12,26 +12,26 @@ export default function Readings({readings}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main style={{ backgroundColor: "#cecece" }}>
+      <main>
         <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-          <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center bg-falGLD py-2 text-white tracking-wider">読み物</h1></div>
+          <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">読み物</h1></div>
           <div>
-            <ul class="pt-6 lg:pt-0  grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
+            <ul class="pt-6 lg:pt-0 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {readings.map(reading => (
-                <li key={reading.id} class="">
+                <li key={reading.id} class="shadow p-1 mt-2 lg:mt-0 hover:bg-gray-100">
                   <Link href={`readings/${reading.id}`}>
                     <a>
                       <div class="px-2 lg:px-0">
                         <div>
                           <div><Image class="" src={`${reading.main_image.url}`} width={1100} height={550} alt=""/></div>
                           <div>
-                            <div class="h-12 lg:h-20 lg:mb-4 overflow-hidden">
+                            <div class="p-2 h-14 lg:h-20 lg:mb-4 overflow-hidden">
                               <div class="lg:text-lg font-semibold helvetica" style={{fontSize: "17px"}}>{reading.title}</div>
                             </div>
                             <div class="lg:flex mt-2 lg:mt-0 flex-wrap">
                               {reading.tag.map(tag => (
                                 <div class="inline-block mr-2 mb-4">
-                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-white rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
                                 </div>
                               ))}
                             </div>
