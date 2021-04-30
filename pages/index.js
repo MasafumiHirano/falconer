@@ -33,6 +33,7 @@ export default function Home({slides,topics}) {
       </Head>
       <Layout>
         <main>
+          {/* TOPスライダーセクション START */}
           <div class="bg-black lg:h-640">
             <div class="mx-auto h-full">
               <Slider {...settings}>
@@ -58,11 +59,13 @@ export default function Home({slides,topics}) {
               </Slider>
             </div>
           </div>
+          {/* TOPスライダーセクション END */}
 
+          {/* 最新情報セクション START */}
           <div>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics">
-                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">最新情報</h1></a>
+                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報</h1></a>
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
@@ -73,17 +76,17 @@ export default function Home({slides,topics}) {
                     ))
                   .slice(0,3)
                   .map(topic => (
-                    <li key={topic.id} class="">
+                    <li key={topic.id} class="shadow hover:bg-gray-100">
                       <Link href={`topics/${topic.id}`}>
                         <a>
                           <div class="px-2 lg:px-0">
                             <div>
                               <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
                             </div>
-                            <div class="h-12 lg:h-20 lg:mb-2 overflow-hidden">
+                            <div class="p-2 h-12 lg:h-20 lg:mb-2 overflow-hidden">
                               <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
                             </div>
-                            <div class="lg:flex lg:pt-0 flex-wrap">
+                            <div class="p-1 lg:flex lg:pt-0 flex-wrap">
                               {topic.tag.map(tag => (
                                 <div class="inline-block mt-2 mr-2 mb-4">
                                   <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
@@ -99,33 +102,106 @@ export default function Home({slides,topics}) {
               </div>
             </div>
           </div>
+          {/* 最新情報セクション END */}
 
-          <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <Link href="/brand">
-              <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 ">ブランド</h1></a>
-            </Link>
-            <p class="text-center mb-2">ファルコナーが展開するブランドの紹介です。</p>
-            <div class="flex">
-              <div class="pb-4">
-                <a href="https://bachicashley.com/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/top-icatch6.jpg" width={1100} height={540} />
-                </a>
-              </div>
-            </div>
-            <div class="lg:flex">
-              <div class="pb-4 lg:pb-0 lg:mr-5">
-                <a href='https://lurverri.com/' target="_blank">
-                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={1100} height={540} />
-                </a>
-              </div>
-              <div>
-                <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
-                  <Image class="object-cover" src="/images/brand/allRightLeather_corporate.jpg" width={1100} height={540} />
-                </a>
+           {/* 企業情報セクション START */}
+           <div>
+            <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
+              <Link href="/company">
+                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
+              </Link>
+                <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
+                <div class="bg-black flex justify-center py-12">
+                <Link href="/company">
+                  <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
+                </Link>
               </div>
             </div>
           </div>
+          {/* 企業情報セクション END */}
 
+          {/* 事業内容セクション START */}
+          <div>
+            <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
+              <Link href="/company">
+                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">事業内容</h1></a>
+              </Link>
+              <p class="text-center mb-2">ファルコナーの事業内容をご紹介します。</p>
+              <div>
+            <div class="mx-auto lg:w-1100">
+              
+              <div class="lg:flex lg:justify-center">
+                <div class="pb-4 w-full lg:w-1/2 lg:mr-5">
+                  <div class="relative">
+                    <div
+                      class="Osaka absolute z-10 w-1/2 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                    >
+                      レザーアイテム
+                    </div>
+                    <Image className="object-cover" src="/images/company/prod01.png" width={1100} height={730} />
+                  </div>
+                  <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8" }}>
+                    イタリアのなめし手法を用いたイタリアンレザーを中心にグラデーションレザーなど独自の素材を抱え、小売/卸売事業の中～高単価商材として財布やバッグなどのレザー商品を提供します。マーケットの需要を予測するだけでなく、潜在需要の掘り起こしを戦略的に行い、ずっと使えるモノ作りを続けています。
+                  </p>
+                </div>
+
+                <div class="pb-4 w-full lg:w-1/2">
+                  <div class="relative">
+                    <div
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                    >
+                      アパレル
+                    </div>
+                    <Image className="object-cover" src="/images/company/apa.jpg" width={1100} height={730} />
+                  </div>
+                  <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8"}}>
+                  私たちが毎日肌に触れる衣類。いいものを身につけることによる気分の高揚や満足感をFALCONERは大切にします。市場で求められる製品はもちろん、FALCONER自ら発信するコンセプトブランドも展開。品質を求め、生地・パーツ・デザインを数百パターンから選りすぐったアイテムをプロデュース。ここでもFALCONERのならではの、潜在需要を掘り起こすこだわりのモノづくりでお客様に「高揚感・満足感」を提供します。
+                  </p>
+                </div> 
+              </div>
+              
+              <div class="lg:flex lg:justify-center">
+                <div class="pb-4 w-full lg:w-1/2 lg:mr-5">
+                  <div class="relative">
+                    <div
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-1 lg:px-0 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                    >
+                      OEM/ODM 事業
+                    </div>
+                    <Image className="object-cover" src="/images/company/prod02.png" width={1100} height={730} />
+                  </div>
+                  <p class="text-sm Osaka px-2 lg:px-0" style={{ lineHeight: "1.8"}}>
+                    自社ブランドの運営・運用の経験をベースに、マーケット調査から製造・販売まで全ての独自技術と能力を結集。新たな商品群の開発から既存製品のブラッシュアップまで、弊社にしかできないモノ作りを提供します。
+                  </p>
+                </div>
+
+                <div class="pb-4 w-full lg:w-1/2">
+                  <div class="relative">
+                    <div
+                      class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-base py-2 px-2 lg:px-4 bg-falGLD border border-solid border-white tracking-widest"
+                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}
+                    >
+                      海外事業
+                    </div>
+                    <Image className="object-cover" src="/images/company/prod05.png" width={1100} height={730} />
+                  </div>
+                  <p class="text-sm Osaka px-2 lg:px-0"  style={{lineHeight: "1.8"}}>
+                    今マーケットが欲しているモノを戦略的に市場にリリース。ユーザーの信頼感を意識した自社ブランド展開を行っております。PUレザー、本革、牛革、PC、TPUなどの複数の素材を採用し、小売/卸事業の低単価高回転商材として提供します。
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+              
+            </div>
+          </div>
+          {/* 事業内容セクション END */}
+
+          {/* メディアセクション START */}
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/media">
               <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2">メディア</h1></a>
@@ -157,20 +233,35 @@ export default function Home({slides,topics}) {
               </Link>
             </div>
           </div>
-          <div>
-            <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
-              <Link href="/company">
-                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
-              </Link>
-                <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
-                <div class="bg-black flex justify-center py-12">
-                <Link href="/company">
-                  <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
-                </Link>
+          {/* メディアセクション END */}
+
+          {/* ブランドセクション START */}
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+            <Link href="/brand">
+              <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 ">ブランド</h1></a>
+            </Link>
+            <p class="text-center mb-2">ファルコナーが展開するブランドの紹介です。</p>
+            <div class="flex">
+              <div class="pb-4">
+                <a href="https://bachicashley.com/" target="_blank">
+                  <Image class="object-cover" src="/images/brand/top-icatch6.jpg" width={1100} height={540} />
+                </a>
+              </div>
+            </div>
+            <div class="lg:flex">
+              <div class="pb-4 lg:pb-0 lg:mr-5">
+                <a href='https://lurverri.com/' target="_blank">
+                  <Image class="object-cover" src="/images/brand/top_brand_lv.png" width={1100} height={540} />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
+                  <Image class="object-cover" src="/images/brand/allRightLeather_corporate.jpg" width={1100} height={540} />
+                </a>
               </div>
             </div>
           </div>
-
+          {/* ブランドセクション END */}
         </main>
       </Layout>
     </div>

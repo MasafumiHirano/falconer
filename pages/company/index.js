@@ -40,7 +40,7 @@ export default function Company({medias}) {
               </a></Link>
             </p>
           </div>
-          {/* BUSINESS/PRODUCTS 開始 */}
+          {/* 事業内容セクション START */}
           <div class="py-6 lg:py-12" style={{ backgroundColor: "#cecece" }}>
             <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTS</h1>
             <div class="mx-auto lg:w-1100 lg:px-20">
@@ -111,7 +111,7 @@ export default function Company({medias}) {
 
             </div>
           </div>
-          {/* BUSINESS/PRODUCTS 終了 */}
+          {/* 事業内容セクション END */}
 
           <div class="mx-auto pt-6 mb-6 lg:w-1100 h-48 lg:h-auto lg:px-20">
             
@@ -218,7 +218,7 @@ export default function Company({medias}) {
                     お問い合わせ
                   </div>
                 </a></Link>
-                <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">製品のご購入のご相談､導入のご検討､OEMのご相談についてなどお気軽にお問い合わせください。</p>
+                <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">製品のご購入のご相談､OEMのご相談についてなどお気軽にお問い合わせください。</p>
               </div>
           </div>
         </main>
