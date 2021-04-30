@@ -62,7 +62,7 @@ export default function Home({slides,topics}) {
           <div>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics">
-                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">最新情報</h1></a>
+                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 tracking-wider">最新情報</h1></a>
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div>
@@ -102,7 +102,7 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/brand">
-              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">ブランド</h1></a>
+              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 ">ブランド</h1></a>
             </Link>
             <p class="text-center mb-2">ファルコナーが展開するブランドの紹介です。</p>
             <div class="flex">
@@ -128,7 +128,7 @@ export default function Home({slides,topics}) {
 
           <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
             <Link href="/media">
-              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white">メディア</h1></a>
+              <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2">メディア</h1></a>
             </Link>
             <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
             
@@ -160,7 +160,7 @@ export default function Home({slides,topics}) {
           <div>
             <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
               <Link href="/company">
-                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 bg-falGLD text-white tracking-wider">企業情報</h1></a>
+                <a><h1 class="Osaka font-bold text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
               </Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
                 <div class="bg-black flex justify-center py-12">
