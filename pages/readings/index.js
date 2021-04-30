@@ -28,7 +28,7 @@ export default function Readings({readings}) {
                             <div class="p-2 h-14 lg:h-20 lg:mb-4 overflow-hidden">
                               <div class="lg:text-lg font-semibold helvetica" style={{fontSize: "17px"}}>{reading.title}</div>
                             </div>
-                            <div class="lg:flex mt-2 lg:mt-0 flex-wrap">
+                            <div class="p-1 lg:flex mt-2 lg:mt-0 flex-wrap">
                               {reading.tag.map(tag => (
                                 <div class="inline-block mr-2 mb-4">
                                   <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
