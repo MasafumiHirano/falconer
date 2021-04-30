@@ -18,7 +18,7 @@ export default function Readings({readings}) {
           <div>
             <ul class="pt-6 lg:pt-0 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
               {readings.map(reading => (
-                <li key={reading.id} class="shadow p-1 mt-2 lg:mt-0 hover:bg-gray-100">
+                <li key={reading.id} class="shadow mt-2 lg:mt-0 hover:bg-gray-100">
                   <Link href={`readings/${reading.id}`}>
                     <a>
                       <div class="px-2 lg:px-0">
