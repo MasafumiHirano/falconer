@@ -14,7 +14,7 @@ export default function Business() {
       <Layout>
       <main>
         {/* 事業内容セクション START */}
-        <div class="py-6 lg:py-12">
+        <section class="py-6 lg:py-12">
             <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTSS</h1>
             <div class="mx-auto lg:w-1100 lg:px-20">
               
@@ -83,8 +83,11 @@ export default function Business() {
               </div>
 
             </div>
-          </div>
+          </section>
           {/* 事業内容セクション END */}
+          <section>
+
+          </section>
       </main>
       </Layout>
     </div>
