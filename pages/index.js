@@ -68,37 +68,39 @@ export default function Home({slides,topics}) {
                 <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報</h1></a>
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
-              <div>
-                <ul class="grid lg:grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
-                  {
-                  topics.filter(topic => (
-                      topic.toppage == true
-                    ))
-                  .slice(0,3)
-                  .map(topic => (
-                    <li key={topic.id} class="shadow hover:bg-gray-100 mt-2 lg:mt-0">
-                      <Link href={`topics/${topic.id}`}>
-                        <a>
-                          <div class="px-2 lg:px-0">
-                            <div>
-                              <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
+              <div class="overflow-x-auto">
+                <div class="w-1100">
+                  <ul class="grid grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                    {
+                    topics.filter(topic => (
+                        topic.toppage == true
+                      ))
+                    .slice(0,3)
+                    .map(topic => (
+                      <li key={topic.id} class="shadow hover:bg-gray-100 my-2">
+                        <Link href={`topics/${topic.id}`}>
+                          <a>
+                            <div class="px-2 lg:px-0">
+                              <div>
+                                <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
+                              </div>
+                              <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
+                                <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
+                              </div>
+                              <div class="p-2 lg:flex lg:pt-0 flex-wrap">
+                                {topic.tag.map(tag => (
+                                  <div class="inline-block mt-2 mr-2 mb-4">
+                                    <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                                  </div>
+                                ))}
+                              </div>
                             </div>
-                            <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
-                              <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
-                            </div>
-                            <div class="p-2 lg:flex lg:pt-0 flex-wrap">
-                              {topic.tag.map(tag => (
-                                <div class="inline-block mt-2 mr-2 mb-4">
-                                  <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+                          </a>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
