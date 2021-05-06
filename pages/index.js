@@ -34,30 +34,28 @@ export default function Home({slides,topics}) {
       <Layout>
         <main>
           {/* TOPスライダーセクション START */}
-          <div class="bg-black lg:h-640">
-            <div class="mx-auto h-full">
-              <Slider {...settings}>
-                {
-                  slides.filter((slide)=>(
-                    slide.visible == true
-                  ))
-                  .map((slide)=> (
-                    slide.topics_ref ? 
-                    <div>
-                      <Link href={`/topics/${slide.topics_ref.id}`}><a>
-                      <img className="inline-block mx-auto" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-                      </a></Link>
-                    </div>
-                    :
-                    <div>
-                      <a href={slide.link}>
-                        <img className="inline-block mx-auto" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-                      </a>
-                    </div>
-                  ))
-                }
-              </Slider>
-            </div>
+          <div class="mx-auto">
+            <Slider {...settings}>
+              {
+                slides.filter((slide)=>(
+                  slide.visible == true
+                ))
+                .map((slide)=> (
+                  slide.topics_ref ? 
+                  <div>
+                    <Link href={`/topics/${slide.topics_ref.id}`}><a>
+                    <img className="inline-block mx-auto" src={slide.topics_ref.main_image.url} width={1440} height={640} alt="bachicashley_hero"/>
+                    </a></Link>
+                  </div>
+                  :
+                  <div>
+                    <a href={slide.link}>
+                      <img className="inline-block mx-auto" src={slide.slider_image.url} width={1440} height={640} alt="bachicashley_hero"/>
+                    </a>
+                  </div>
+                ))
+              }
+            </Slider>
           </div>
           {/* TOPスライダーセクション END */}
 
