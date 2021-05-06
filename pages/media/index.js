@@ -205,6 +205,17 @@ export default function Media({medias}) {
                 </div>
               </section>{/*SNSSectionEnd*/}
 
+              <div class="mx-auto mb-12 lg:w-full lg:px-6 flex justify-center">
+              <div class="w-full">
+                <Link href="/contact/mediacontact"><a>
+                  <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
+                    メディア お問い合わせ
+                  </div>
+                </a></Link>
+                <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">メディアについてのご相談など、お気軽にお問い合わせください。</p>
+              </div>
+          </div>
+
             </div>
           </div>{/*コンテナー終了*/}
         </div>
