@@ -115,7 +115,7 @@ export default function Home({slides,topics}) {
               </Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
                 <Link href="/company">
-                  <a><Image src="/images/top/image_1100x200.png" width={1100} height={200} alt="falconerinc_logo"/></a>
+                  <a><Image src="/images/top/image_1100x200.png" width={1100} height={200} alt="company_info"/></a>
                 </Link>
             </div>
           </div>
