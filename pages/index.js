@@ -105,8 +105,11 @@ export default function Home({slides,topics}) {
           {/* 最新情報セクション END */}
 
            {/* 企業情報セクション START */}
-           <div>
-            <div class="mx-auto pt-6 mb-6 lg:mb-12 lg:pt-12 lg:w-1100">
+           <div
+            class="bg-center"
+            style={{ backgroundImage: "url(../images/top/top_section_company_bg1.jpg)"}}
+            >
+            <div class="mx-auto py-6 mb-6 lg:mb-12 lg:py-12 lg:w-1100">
               <Link href="/company">
                 <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
               </Link>
@@ -208,35 +211,40 @@ export default function Home({slides,topics}) {
           {/* 事業内容セクション END */}
 
           {/* メディアセクション START */}
-          <div class="mx-auto pt-6 lg:pt-12 lg:w-1100">
-            <Link href="/media">
-              <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2">メディア</h1></a>
-            </Link>
-            <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
-            
-            <div  class="relative">
-              <div class="flex absolute z-10" style={{top: "75%", left: "50%", transform: "translate(-52%, -50%)"}}>
-                <div class="inline-block">
-                  <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
-                    <Image src="/images/media/instagram_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
-                  </a>
-                </div>
-                
-                <div class="inline-block -ml-px">
-                  <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                    <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="youtube_social" />
-                  </a>
-                </div>
-
-                <div class="inline-block -ml-px">
-                  <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
-                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="twitter_social" />
-                  </a>
-                </div>
-              </div>
+          <div
+            class="bg-center"
+            style={{ backgroundImage: "url(../images/top/top_section_company_bg2.jpg)"}}
+          >
+            <div class="mx-auto py-6 lg:py-12 lg:w-1100 bg-center">
               <Link href="/media">
-                <a><Image src="/images/media/brandstory.png" width={1100} height={620} /></a>
+                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2">メディア</h1></a>
               </Link>
+              <p class="text-center mb-2">ラジオ番組やSNSで情報を発信中です。</p>
+              
+              <div  class="relative">
+                <div class="flex absolute z-10" style={{top: "75%", left: "50%", transform: "translate(-52%, -50%)"}}>
+                  <div class="inline-block">
+                    <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
+                      <Image src="/images/media/instagram_white_bg_bk.jpg" width={80} height={80} alt="instagaram_social" />
+                    </a>
+                  </div>
+                  
+                  <div class="inline-block -ml-px">
+                    <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
+                      <Image src="/images/media/youtube_white_bg_bk.jpg" width={80} height={80} alt="youtube_social" />
+                    </a>
+                  </div>
+
+                  <div class="inline-block -ml-px">
+                    <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                      <Image src="/images/media/twitter_white_bg_bk.jpg" width={80} height={80} alt="twitter_social" />
+                    </a>
+                  </div>
+                </div>
+                <Link href="/media">
+                  <a><Image src="/images/media/brandstory.png" width={1100} height={620} /></a>
+                </Link>
+              </div>
             </div>
           </div>
           {/* メディアセクション END */}
