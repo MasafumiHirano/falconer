@@ -15,7 +15,7 @@ export default function Business() {
       <main>
         {/* 事業内容セクション START */}
         <div class="py-6 lg:py-12">
-            <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTS</h1>
+            <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTSS</h1>
             <div class="mx-auto lg:w-1100 lg:px-20">
               
               <div class="lg:flex lg:justify-center">
