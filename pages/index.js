@@ -114,11 +114,9 @@ export default function Home({slides,topics}) {
                 <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
               </Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
-                <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
-                  <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
+                  <a><Image src="/images/top/image_1100x200.png" width={1100} height={200} alt="falconerinc_logo"/></a>
                 </Link>
-              </div>
             </div>
           </div>
           {/* 企業情報セクション END */}
