@@ -25,6 +25,50 @@ export default function Home({slides,topics}) {
     className: 'slides'
 };
 
+const renderSlider = (slides) => {
+  return (
+  slides.filter((slide)=>(
+    slide.visible == true
+  ))
+  .map((slide)=> (
+    slide.topics_ref ?
+    slide.topics_ref.main_image_sp ?
+    <div>
+      <Link href={`/topics/${slide.topics_ref.id}`}><a>
+      <picture>
+        <source media="(min-width: 960px)" srcset={slide.topics_ref.main_image.url} />
+        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} />
+      </picture>
+      {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
+      </a></Link>
+    </div>
+    :
+    <div>
+      <Link href={`/topics/${slide.topics_ref.id}`}><a>
+        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+      </a></Link>
+    </div>
+    :
+    slide.slider_image_sp ?
+    <div>
+      <a href={slide.link}>
+      <picture>
+        <source media="(min-width: 960px)" srcset={slide.slider_image.url} />
+        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} />
+      </picture>
+        {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
+      </a>
+    </div>
+    :
+    <div>
+      <a href={slide.link}>
+        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+      </a>
+    </div>
+  ))
+  )
+}
+
   return (
     <div>
       <Head>
@@ -36,25 +80,7 @@ export default function Home({slides,topics}) {
           {/* TOPスライダーセクション START */}
           <div class="mx-auto">
             <Slider {...settings}>
-              {
-                slides.filter((slide)=>(
-                  slide.visible == true
-                ))
-                .map((slide)=> (
-                  slide.topics_ref ? 
-                  <div>
-                    <Link href={`/topics/${slide.topics_ref.id}`}><a>
-                    <img className="inline-block mx-auto w-full" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-                    </a></Link>
-                  </div>
-                  :
-                  <div>
-                    <a href={slide.link}>
-                      <img className="inline-block mx-auto w-full" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-                    </a>
-                  </div>
-                ))
-              }
+              {renderSlider(slides)}
             </Slider>
           </div>
           {/* TOPスライダーセクション END */}

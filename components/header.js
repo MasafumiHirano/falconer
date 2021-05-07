@@ -23,7 +23,7 @@ export default function Header(){
       />
     </Head>
 
-      <div class="w-full bg-black z-20 fixed top-0 inset-x-1/2 transform -translate-x-1/2">
+      <div class="w-full bg-black z-20 fixed top-0 inset-x-1/2 transform -translate-x-1/2 -ml-px">
         <div class="mx-auto flex lg:w-1280 bg-black">
           <div class="w-3/12 pt-2 pl-5 flex items-center lg:hidden">
             <Menu />
