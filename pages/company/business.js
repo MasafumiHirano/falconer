@@ -13,9 +13,16 @@ export default function Business() {
       </Head>
       <Layout>
       <main>
+        <div class='w-full h-500 lg:h-full relative'>
+          
+          <div class="w-320 absolute text-center text-xl font-bold text-white inset-1/2 transform -translate-x-1/2">
+            <p>Business / Products<br /><span class="text-base">事業内容</span></p>
+          </div>
+          <img class="w-full h-full object-cover" src="/images/company/company_topimage.jpeg" />
+        </div>
         {/* 事業内容セクション START */}
         <section class="py-6 lg:py-12">
-            <h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTSS</h1>
+            {/*<h1 class="text-xl lg:text-4xl text-center px-4 mb-6 font-bold">BUSINESS / PRODUCTSS</h1>*/}
             <div class="mx-auto lg:w-1100 lg:px-20">
               
               <div class="lg:flex lg:justify-center">
@@ -86,7 +93,56 @@ export default function Business() {
           </section>
           {/* 事業内容セクション END */}
           <section>
+            <h1 class="text-2xl lg:text-4xl text-center px-4 mt-16 mb-12 font-bold">販売サイト</h1>
 
+            <div class="block lg:flex lg:justify-center lg:w-1280 lg:mx-auto lg:px-12 pb-12">
+              <div class="px-4 lg:p-0">
+                <Image class="px-4 lg:px-0 lg:w-1/2 h-auto object-contain" src="/images/company/allrightleather_rakuten.png" width={450} height={253} />
+              </div>
+              <div class="p-12 lg:w-1/2">
+                <h1 class="Osaka text-center text-lg lg:text-2xl leading-loose mb-6">楽天 All Right Leather</h1>
+                <p class="leading-loose">All Right Leatherは、財布・バッグなどの高品質レザーアイテムを中心に、IOQS・glo・Ploom TECH等の電子タバコケースなどメインに取り扱うオンラインショップです。楽天市場店舗にて展開しています。</p>
+                <div class="flex justify-center mt-12">
+                  <a class="inline-block px-16 py-2 text-white" style={{ backgroundColor: "#FFB100" }} href='https://www.rakuten.ne.jp/gold/allrightleather/index.html' target="_blank">サイトへ</a>
+                </div>
+              </div>
+            </div>
+            <div class="block lg:flex lg:justify-center lg:w-1280 lg:mx-auto py-12">
+              <div class="px-4 lg:p-0">
+                <Image class="px-4 lg:px-0 lg:w-1/2 h-auto object-contain" src="/images/company/allrightleather_yahoo.png" width={450} height={253} />
+              </div>
+              <div class="p-12 lg:w-1/2">
+                <h1 class="Osaka text-center text-lg lg:text-2xl leading-loose mb-6">Yahoo! All Right Leather</h1>
+                <p class="leading-loose">All Right Leatherは、財布・バッグなどの高品質レザーアイテムを中心に、IOQS・glo・Ploom TECH等の電子タバコケースなどメインに取り扱うオンラインショップです。Yahoo!ショッピング店舗で展開しています。</p>
+                <div class="flex justify-center mt-12">
+                  <a class="inline-block px-16 py-2 text-white" style={{ backgroundColor: "#FFB100" }} href='https://www.rakuten.ne.jp/gold/allrightleather/index.html' target="_blank">サイトへ</a>
+                </div>
+              </div>
+            </div>
+            <div class="block lg:flex lg:justify-center lg:w-1280 lg:mx-auto py-12">
+              <div class="px-4 lg:p-0">
+                <Image class="px-4 lg:px-0 lg:w-1/2 h-auto object-contain" src="/images/company/amazon_casebank.png" width={450} height={253} />
+              </div>
+              <div class="p-12 lg:w-1/2">
+                <h1 class="Osaka text-center text-lg lg:text-2xl leading-loose mb-6">Amazon CASE BANK</h1>
+                <p class="leading-loose">自社ブランドのBtoC販売を行っています。</p>
+                <div class="flex justify-center mt-12">
+                  <a class="inline-block px-16 py-2 text-white" style={{ backgroundColor: "#FFB100" }} href='https://www.amazon.co.jp/s?me=A3CBIU477KWLAF&marketplaceID=A1VC38T7YXB528&redirect=true' target="_blank">サイトへ</a>
+                </div>
+              </div>
+            </div>
+            <div class="block lg:flex lg:justify-center lg:w-1280 lg:mx-auto py-12">
+              <div class="px-4 lg:p-0">
+                <Image class="px-4 lg:px-0 lg:w-1/2 h-auto object-contain" src="/images/company/amazon_yossy.png" width={450} height={253} />
+              </div>
+              <div class="p-12 lg:w-1/2">
+                <h1 class="Osaka text-center text-lg lg:text-2xl leading-loose mb-6">北米Amazon Yossy's Good Time</h1>
+                <p class="leading-loose">財布・バッグなどの北米向けに選定された自社ブランド製品に加え、独自の北米向け製品を展開・販売しています。</p>
+                <div class="flex justify-center mt-12">
+                  <a class="inline-block px-16 py-2 text-white" style={{ backgroundColor: "#FFB100" }} href='https://www.netsea.jp/shop/489817' target="_blank">サイトへ</a>
+                </div>
+              </div>
+            </div>
           </section>
       </main>
       </Layout>
