@@ -25,50 +25,6 @@ export default function Home({slides,topics}) {
     className: 'slides'
 };
 
-const renderSlider = (slides) => {
-  return (
-  slides.filter((slide)=>(
-    slide.visible == true
-  ))
-  .map((slide)=> (
-    slide.topics_ref ?
-    slide.topics_ref.main_image_sp ?
-    <div>
-      <Link href={`/topics/${slide.topics_ref.id}`}><a>
-      <picture>
-        <source media="(min-width: 960px)" srcset={slide.topics_ref.main_image.url} />
-        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} />
-      </picture>
-      {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
-      </a></Link>
-    </div>
-    :
-    <div>
-      <Link href={`/topics/${slide.topics_ref.id}`}><a>
-        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-      </a></Link>
-    </div>
-    :
-    slide.slider_image_sp ?
-    <div>
-      <a href={slide.link}>
-      <picture>
-        <source media="(min-width: 960px)" srcset={slide.slider_image.url} />
-        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} />
-      </picture>
-        {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
-      </a>
-    </div>
-    :
-    <div>
-      <a href={slide.link}>
-        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
-      </a>
-    </div>
-  ))
-  )
-}
-
   return (
     <div>
       <Head>
@@ -80,52 +36,60 @@ const renderSlider = (slides) => {
           {/* TOPスライダーセクション START */}
           <div class="mx-auto">
             <Slider {...settings}>
-              {renderSlider(slides)}
+              {
+                slides.filter((slide)=>(
+                  slide.visible == true
+                ))
+                .map((slide)=> (
+                  slide.topics_ref ? 
+                  <div>
+                    <Link href={`/topics/${slide.topics_ref.id}`}><a>
+                    <img className="inline-block mx-auto w-full" src={slide.topics_ref.main_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+                    </a></Link>
+                  </div>
+                  :
+                  <div>
+                    <a href={slide.link}>
+                      <img className="inline-block mx-auto w-full" src={slide.slider_image.url} width={1280} height={640} alt="bachicashley_hero"/>
+                    </a>
+                  </div>
+                ))
+              }
             </Slider>
           </div>
           {/* TOPスライダーセクション END */}
 
           {/* 最新情報セクション START */}
-          <div>
-            <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-              <Link href="/topics">
-                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報</h1></a>
-              </Link>
-              <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
-              <div class="overflow-x-auto">
-                <div class="w-1100">
-                  <ul class="grid grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
-                    {
-                    topics.filter(topic => (
-                        topic.toppage == true
-                      ))
-                    .slice(0,3)
-                    .map(topic => (
-                      <li key={topic.id} class="shadow hover:bg-gray-100 my-2">
-                        <Link href={`topics/${topic.id}`}>
-                          <a>
-                            <div class="px-2 lg:px-0">
-                              <div>
-                                <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
-                              </div>
-                              <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
-                                <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
-                              </div>
-                              <div class="p-2 lg:flex lg:pt-0 flex-wrap">
-                                {topic.tag.map(tag => (
-                                  <div class="inline-block mt-2 mr-2 mb-4">
-                                    <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          </a>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+            <Link href="/topics">
+              <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報</h1></a>
+            </Link>
+            <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
+            <div class="overflow-x-scroll">
+              <ul class="flex w-920 lg:w-full">
+                {
+                topics.filter(topic => (
+                    topic.toppage == true
+                  ))
+                .slice(0,3)
+                .map(topic => (
+                  <li key={topic.id} class="shadow hover:bg-gray-100 m-2">
+                    <Link href={`topics/${topic.id}`}><a>
+                      <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
+                      <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
+                        <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</p>
+                      </div>
+                      <div class="p-2 lg:flex lg:pt-0 flex-wrap">
+                        {topic.tag.map(tag => (
+                          <div class="inline-block mt-2 mr-2 mb-4">
+                            <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </a></Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
           {/* 最新情報セクション END */}
@@ -140,9 +104,11 @@ const renderSlider = (slides) => {
                 <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">企業情報</h1></a>
               </Link>
                 <p class="text-center mb-2">ファルコナーの情報はこちらをご確認ください。</p>
+                <div class="bg-black flex justify-center py-12">
                 <Link href="/company">
-                  <a><Image src="/images/top/image_1100x200.png" width={1100} height={200} alt="company_info"/></a>
+                  <a><Image src="/images/logo/falconer-logo_borderwhite.png" width={500} height={104} alt="falconerinc_logo"/></a>
                 </Link>
+              </div>
             </div>
           </div>
           {/* 企業情報セクション END */}
