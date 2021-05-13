@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Home({slides,topics}) {
+export default function Home({slides,topics,readings}) {
   //slider設定
   const settings = {
     dots: false,
@@ -225,6 +225,37 @@ export default function Home({slides,topics}) {
                   <a><Image src="/images/media/brandstory.png" width={1100} height={620} /></a>
                 </Link>
               </div>
+              {/* 最新情報セクション START */}
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+            <Link href="/readings">
+              <a><h1 class="Osaka font-bold text-lg lg:text-xl text-center mb-2 py-2 tracking-wider">読み物</h1></a>
+            </Link>
+            <div class="overflow-x-scroll">
+              <ul class="flex w-920 lg:w-full">
+                {
+                readings
+                .slice(0,3)
+                .map(reading => (
+                  <li key={reading.id} class="shadow hover:bg-gray-100 m-2">
+                    <Link href={`readings/${reading.id}`}><a>
+                      <Image src={`${reading.main_image.url}`} width={1100} height={550} alt=""/>
+                      <div class="p-2 h-14 lg:h-20 lg:mb-2 overflow-hidden">
+                        <p class="font-semibold helvetica" style={{fontSize: "17px"}}>{reading.title}</p>
+                      </div>
+                      <div class="p-2 lg:flex lg:pt-0 flex-wrap">
+                        {reading.tag.map(tag => (
+                          <div class="inline-block mt-2 mr-2 mb-4">
+                            <span class="px-2 lg:px-4 py-1 lg:py-2 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </a></Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          {/* 最新情報セクション END */}
             </div>
           </div>
           {/* メディアセクション END */}
@@ -273,10 +304,14 @@ export const getStaticProps = async () => {
   const topics = await fetch('https://falconer.microcms.io/api/v1/topics', key)
     .then(res => res.json())
     .catch(() => null);
+    const readings = await fetch('https://falconer.microcms.io/api/v1/readings', key)
+    .then(res => res.json())
+    .catch(() => null);
   return {
     props: {
       slides: topslides.contents,
       topics: topics.contents,
+      readings: readings.contents,
     },
   };
 };
