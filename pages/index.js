@@ -8,7 +8,8 @@ import Layout from '../components/layout'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Home({slides,topics,readings}) {  //slider設定
+export default function Home({slides,topics,readings}) {
+  //slider設定
   const settings = {
     dots: false,
     infinite: true,
