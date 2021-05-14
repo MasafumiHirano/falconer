@@ -63,7 +63,7 @@ export default function Media({medias}) {
             {/*見出し部分 終了*/}
 
             {/*内容*/}
-            <div class="bg-white border-2 border-solid border-black">
+            <div class="bg-white">
               <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6 leading-5 lg:leading-normal">RADIO</h1>
                 <div class="mb-2 lg:mb-6">

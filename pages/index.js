@@ -85,7 +85,7 @@ export default function Home({slides,topics,readings}) {
           </div>
           {/* TOPスライダーセクション END */}
 
-          {/* 最新情報セクション START */}
+          {/* 新着情報セクション START */}
           <div>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics">
@@ -128,7 +128,7 @@ export default function Home({slides,topics,readings}) {
               </div>
             </div>
           </div>
-          {/* 最新情報セクション END */}
+          {/* 新着情報セクション END */}
 
           {/* 企業情報セクション START */}
           <div

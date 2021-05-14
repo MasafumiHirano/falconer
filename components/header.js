@@ -74,7 +74,7 @@ export default function Header() {
           <li>
             <Link href="/topics">
               <a className={`${header__nav}`}>
-                最新情報
+                新着情報
               </a>
             </Link>
           </li>
