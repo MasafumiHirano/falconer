@@ -109,17 +109,9 @@ h1 {
   transition: 0.4s;
 }
 
-.header__inner {
-  display: flex;
+.header_top_change {
+  display:none
 }
-
-.header__logo {
-}
-
-.header__logo_change {
-
-}
-
 
 .header__nav {
   background-color: white;

@@ -9,6 +9,7 @@ import { useState } from "react";
 export default function Header() {
   const [scroll, setScroll] = useState("");
   const [header, setHeader] = useState("header");
+  const [header_top, setHeaderTop] = useState("header_top");
   const [header__nav, setHeaderNav] = useState("header__nav");
   const [logo_color, setLogoColor] = useState("black");
 
@@ -16,12 +17,14 @@ export default function Header() {
     window.addEventListener( "scroll" ,function(){
       //スクロールの高さを取得
       setScroll(window.pageYOffset)
-      if(scroll > 100) {
+      if(scroll > 20) {
         setHeader("header_change");
+        setHeaderTop("header_top_change");
         setHeaderNav("header__nav_change");
         setLogoColor("white");
       } else {
         setHeader("header");
+        setHeaderTop("header_top");
         setHeaderNav("header__nav");
         setLogoColor("black");
       }
@@ -44,8 +47,13 @@ export default function Header() {
         crossOrigin=""
       />
     </Head>
-    
     <div className={`${header}`}>
+      <div className={`${header_top}`}>
+        <div class="w-full py-1 lg:flex justify-center items-center border-b border-gray-400">
+          <p class="font-semibold text-sm lg:text-xl text-center">Stay Strong,Stay Kind,Stay Happy</p>
+          <p class="text-xs lg:text-sm font-medium text-center lg:ml-8 lg:pt-2">強くあれ、賢くあれ、優しくあれ、幸せであれ</p>
+        </div>
+      </div>
       <div class="flex mx-auto w-full lg:w-1280">
         
         <div class="w-1/4 pt-2 pl-5 flex items-center lg:hidden">
