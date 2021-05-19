@@ -56,7 +56,7 @@ export default function CONTACT() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main class="bg-falGLD">
+      <main class="bg-gray-100">
         <div class="bg-gray-100 mx-auto pt-12 lg:w-920">
           <div><h1 class="text-xl lg:text-3xl text-center mb-6 pb-2 border-b-2 border-falGLD border-solid">お問い合わせ</h1></div>
           <div>
