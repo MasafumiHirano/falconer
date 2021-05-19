@@ -98,6 +98,7 @@ h1 {
   width: 100%;
   background-color: white;
   transition: 0.4s;
+  border-bottom: gray 1px solid;
 }
 
 .header_change {
