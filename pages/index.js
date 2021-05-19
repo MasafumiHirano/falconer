@@ -93,18 +93,18 @@ export default function Home({slides,topics,readings}) {
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div class="overflow-x-auto">
-                <div class="w-1100">
-                  <ul class="grid grid-cols-3 gap-x-3 gap-y-6 lg:gap-x-4 lg:gap-y-12">
+                <div class="w-920 lg:w-1100">
+                  <ul class="grid grid-cols-3 gap-x-1 gap-y-6 lg:gap-x-4 lg:gap-y-12">
                     {
                     topics.filter(topic => (
                         topic.toppage == true
                       ))
                     .slice(0,3)
                     .map(topic => (
-                      <li key={topic.id} class="shadow hover:bg-gray-100 my-2">
+                      <li key={topic.id} class="shadow hover:bg-gray-100 m-2">
                         <Link href={`topics/${topic.id}`}>
                           <a>
-                            <div class="px-2 lg:px-0">
+                            <div class="">
                               <div>
                                 <Image src={`${topic.main_image.url}`} width={1100} height={550} alt=""/>
                               </div>
