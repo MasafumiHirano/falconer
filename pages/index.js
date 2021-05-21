@@ -89,7 +89,7 @@ export default function Home({slides,topics,readings}) {
           <div>
             <div class="mx-auto py-6 lg:py-12 lg:w-1100">
               <Link href="/topics">
-                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報ひらの</h1></a>
+                <a><h1 class="Osaka font-bold text-xl lg:text-3xl text-center mb-2 py-2 tracking-wider">新着情報</h1></a>
               </Link>
               <p class="text-center mb-2">ファルコナーの最新の情報をお届けします。</p>
               <div class="overflow-x-auto">
