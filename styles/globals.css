@@ -91,6 +91,55 @@ h1 {
   font-family: "futura_light_bt";
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.header_change {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: black;
+  transition: 0.4s;
+}
+
+.header_top_change {
+  display:none
+}
+
+.header__nav {
+  background-color: white;
+  color: black;
+  padding: 30px 16px;
+  transition: 0.4s;
+}
+
+.header__nav:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+
+.header__nav_change {
+  background-color: black;
+  color: white;
+  padding: 30px 16px;
+  transition: 0.4s;
+}
+
+.header__nav_change:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
+
+
 .instagram-media {
   min-width: 340px !important;
 }

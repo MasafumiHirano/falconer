@@ -12,12 +12,12 @@ export default function Message() {
       </Head>
       <Layout>
       <main>
-        <div class="flex justify-center" style={{backgroundColor: "#786b58"}}>
+        <div class="flex justify-center">
           <div class="mx-auto pt-8 pb-16 px-8 lg:px-40 bg-opacity-75 w-1100">
 
-            <div class="text-white">
+            <div class="text-black">
               <div>
-                <h1 class="text-2xl lg:text-3xl text-center font-bold border-b-4 pb-2">代表メッセージ</h1>
+                <h1 class="text-2xl lg:text-3xl text-center font-bold border-b-4 border-black pb-2">代表メッセージ</h1>
               </div>
               <div class="text-center tracking-widest mt-5 lg:mt-16" >
                 <div class="lg:flex lg:justify-center">
@@ -82,7 +82,7 @@ export default function Message() {
               <div>
                 <Image src="/images/company/ceo_img.jpg" width={240} height={240} alt="ceo_img"/>
               </div>
-              <div class="text-sm lg:text-lg text-white lg:pt-6 pl-10">
+              <div class="text-sm lg:text-lg text-black lg:pt-6 pl-10">
                 <p>代表プロフィール</p>
                 <p class="text-base lg:text-xl py-2 lg:py-6">清水真輝</p>
                 <p class="text-sm lg:text-lg pb-6">1987年11月27日生まれ AB型</p>

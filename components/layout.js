@@ -3,10 +3,12 @@ import Footer  from './footer'
 
 export default function Layout(props) {
   return(
-    <div>
+    <>
       <Header />
+      <div class="mt-14 lg:mt-24">
         {props.children}
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }

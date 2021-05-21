@@ -14,11 +14,11 @@ export default function Statement() {
       <Layout>
       <main>
         <div class="flex justify-center">
-          <div class="pt-8 bg-opacity-75 w-full" style={{backgroundColor: "#786b58"}}>
+          <div class="pt-8 bg-opacity-75 w-full">
             <section class="lg:w-1100 px-6 mx-auto pb-16 ">
-              <div class="text-white lg:w-1100 mx-auto">
+              <div class="text-black lg:w-1100 mx-auto">
                 <div>
-                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">STATEMENT</h1>
+                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 border-black pb-2 futura-co">STATEMENT</h1>
                 </div>
                 <div class="tracking-widest mt-5 lg:mt-16" >
                   <div class="lg:flex lg:justify-center text-center">
@@ -43,10 +43,10 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="py-16 px-6" style={{backgroundColor: "#241916"}}>
-              <div class="text-white lg:w-1100 mx-auto">
+            <section class="py-16 px-6" style={{backgroundColor: "#DEDEDE"}}>
+              <div class="text-black lg:w-1100 mx-auto">
                 <div>
-                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">VISION</h1>
+                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 border-black pb-2 futura-co">VISION</h1>
                 </div>
                 <div class="lg:text-center tracking-widest mt-5" >
                   <div class="lg:flex lg:justify-center">
@@ -76,9 +76,9 @@ export default function Statement() {
             </section>
 
             <section class="lg:w-1100 mx-auto py-16 px-6">
-              <div class="text-white lg:w-1100 mx-auto">
+              <div class="text-black lg:w-1100 mx-auto">
                 <div>
-                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">VALUE</h1>
+                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 border-black pb-2 futura-co">VALUE</h1>
                 </div>
                 <div class="text-center tracking-widest mt-5 lg:mt-16" >
                   <div class="flex justify-center items-center mb-2 lg:mb-8">
@@ -127,10 +127,10 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="py-16 px-6" style={{backgroundColor: "#241916"}}>
-              <div class="text-white lg:w-1100 mx-auto">
+            <section class="py-16 px-6" style={{backgroundColor: "#DEDEDE"}}>
+              <div class="text-black lg:w-1100 mx-auto">
                 <div>
-                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 futura-co">SLOGAN</h1>
+                  <h1 class="text-3xl lg:text-5xl text-center border-b-4 pb-2 border-black futura-co">SLOGAN</h1>
                 </div>
                 <div class="text-center tracking-widest mt-5 lg:mt-8" >
                   <div class="lg:flex lg:justify-center">
@@ -178,11 +178,11 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="py-12 lg:py-24 px-3 lg:px-6">
-              <div class="text-white lg:w-1100 mx-auto flex justify-center">
+            {/*<section class="py-12 lg:py-24 px-3 lg:px-6">
+              <div class="text-black lg:w-1100 mx-auto flex justify-center">
                 <div class="px-4 lg:px-0 lg:w-1/2">
                 <Link href="/company/message"><a>
-                    <div class="flex justify-center items-center text-md w-full lg:text-2xl text-center font-bold helvetica tracking-widest border-white border-solid border-4 py-4 px-4">
+                    <div class="flex justify-center items-center text-md w-full lg:text-2xl text-center font-bold helvetica tracking-widest border-black border-solid border-4 py-4 px-4">
                       <div class="leading-4 w-1/5 hidden lg:block"></div>
                       <div class="leading-4 lg:w-2/5 lg:ext-right">代表メッセージ</div>
                       <div class="w-1/5 ml-2">
@@ -193,7 +193,7 @@ export default function Statement() {
                 </a></Link>
                 </div>
               </div>
-            </section>
+  </section>*/}
           </div>
         </div>
       </main>

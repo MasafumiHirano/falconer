@@ -158,11 +158,20 @@ export default function RECRUIT() {
                 </table>
               </div>
 
-              <Link href="/recruit/detail2">
+              {/* ---受付中--- */}
+              {/* <Link href="/recruit/detail2">
                 <div class="flex justify-center mt-4">
                   <button class="bg-falGLD text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded">詳細・エントリーはこちら</button>
                 </div>
-              </Link>
+              </Link> */}
+              {/* ---/受付中--- */}
+
+              {/* ---受付終了--- */}
+              <div class="flex justify-center mt-4">
+                <p class="bg-falGLD opacity-75 text-white text-xs font-normal py-1 px-2 lg:text-base lg:font-semibold lg:py-2 lg:px-4 rounded cursor-default">受付終了しました</p>
+              </div>
+              {/* ---/受付終了--- */}
+
             </div>
 
           </div>

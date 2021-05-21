@@ -32,28 +32,28 @@ export default function Media({medias}) {
       </Head>
       <Layout>
       <main>
-        <div style={{backgroundColor: "#786b58"}}>
+        <div>
           <div class="mx-auto py-6 lg:py-12 lg:w-1100">
             {/*見出し部分*/}
-              <div class="border-b-2 border-solid border-white mb-6 lg:mb-12">
+              <div class="border-b-2 border-solid border-black mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-center font-bold text-white text-3xl lg:text-3xl py-2 ml-3">メディア</h1>
+                  <h1 class="Osaka text-center font-bold text-xl lg:text-3xl py-2 ml-3">メディア</h1>
                   <div class="absolute right-0 top-4 lg:top-0">
                     <div class="flex pr-2 w-20 lg:w-full">
                       <div class="">
                         <a href="https://www.instagram.com/masaki.s_japan/" target="_blank" >
-                          <Image src="/images/media/instagram_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                          <Image src="/images/media/instagram_white_bg_wh.png" width={36} height={36} alt="instagaram_social" />
                         </a>
                       </div>
                       <a href=""></a>
                       <div class="">
                         <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                          <Image src="/images/media/youtube_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                          <Image src="/images/media/youtube_white_bg_wh.png" width={36} height={36} alt="instagaram_social" />
                         </a>
                       </div>
                       <div class="">
                         <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
-                          <Image src="/images/media/twitter_white_bg_bk.jpg" width={36} height={36} alt="instagaram_social" />
+                          <Image src="/images/media/twitter_white_bg_wh2.png" width={36} height={36} alt="instagaram_social" />
                         </a>
                       </div>
                     </div>
@@ -63,7 +63,7 @@ export default function Media({medias}) {
             {/*見出し部分 終了*/}
 
             {/*内容*/}
-            <div class="bg-white border-2 border-solid border-black">
+            <div class="bg-white">
               <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6 leading-5 lg:leading-normal">RADIO</h1>
                 <div class="mb-2 lg:mb-6">
@@ -80,14 +80,14 @@ export default function Media({medias}) {
                 </div>
               </section>{/*RadioSectionEnd*/}
 
-              <section class="py-6 lg:py-16 px-4 lg:px-6" style={{ backgroundColor: "#cecece" }} >{/*YoutubeSection*/}
+              <section class="py-6 lg:py-16 px-4 lg:px-6">{/*YoutubeSection*/}
                 <div class="lg:flex lg:justify-center mb-2 lg:mb-6">
                   <h1 class="helvetica font-semibold text-center text-2xl lg:text-5xl lg:mr-6">YouTube Channel</h1>
                   <div class="pt-2 mx-auto lg:mx-0 w-1/4 lg:pt-0 lg:w-auto flex justify-center items-center">
                     <Image className="block" src="/images/media/youtube-full-logo_lg.png" width={150} height={34} alt="youtubelogo"/>
                   </div>
                 </div>
-                <div class="px-6 py-6 mb-4 bg-black" style={{ backgroundColor: "#221916" }}>
+                <div class="px-6 py-6 mb-4">
                   <div class="grid grid-rows-3 grid-cols-1 lg:grid-rows-2 lg:grid-cols-4 gap-4">
                     <div class="h-48 md:h-500 lg:h-auto lg:col-span-2 lg:row-span-2">
                       <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -111,7 +111,7 @@ export default function Media({medias}) {
                 </div>
               </section>{/*YoutubeSectionEnd*/}
 
-              <section class="px-4 lg:px-6 py-6 lg:py-16">{/*SNSSection*/}
+              <section class="px-4 lg:px-6 py-6 lg:py-16">{/*SNS Section*/}
                 <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
                 <div class="">
                   <div class="block mt-2 lg:mt-6">
@@ -204,6 +204,17 @@ export default function Media({medias}) {
                   </div>
                 </div>
               </section>{/*SNSSectionEnd*/}
+
+              <div class="mx-auto mb-12 lg:w-full lg:px-6 flex justify-center">
+              <div class="w-full">
+                <Link href="/contact/mediacontact"><a>
+                  <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
+                    メディア お問い合わせ
+                  </div>
+                </a></Link>
+                <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">メディアについてのご相談など、お気軽にお問い合わせください。</p>
+              </div>
+          </div>
 
             </div>
           </div>{/*コンテナー終了*/}
