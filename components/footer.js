@@ -11,7 +11,7 @@ export default function Footer() {
 
               <div class="flex justify-around leading-8 text-sm lg:text-base mt-6 lg:mt-0">
                 <div class="px-4 lg:mx-12 lg:pr-16">
-                  <h2 class="font-bold lg:leading-4"><Link href="/topics"><a>最新情報</a></Link></h2>
+                  <h2 class="font-bold lg:leading-4"><Link href="/topics"><a>新着情報</a></Link></h2>
                   <h2 class="font-bold lg:leading-4 lg:mt-6"><Link href="/brand"><a>ブランド</a></Link></h2>
                   <h2 class="font-bold lg:leading-4 lg:mt-6"><Link href="/media"><a>メディア</a></Link></h2>
                 </div>
