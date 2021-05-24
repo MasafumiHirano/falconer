@@ -139,10 +139,48 @@ h1 {
   transition: 0.4s;
 }
 
-
 .instagram-media {
   min-width: 340px !important;
 }
+
+/*////////////////////////////////////// ラジオ向けCSS //////////////////////////////////////*/
+div.name{
+  margin-top: 30px;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.title h1 {
+  font-size: 30px;
+}
+
+div.text {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.title iframe {
+  width: 800px;
+  height: 400px;
+}
+
+.title div{
+  margin-top: 20px;
+}
+
+@media screen and (max-width:480px){
+  .title iframe {
+      width: 90%;
+      height: 200px;
+  }   
+}
+
 
 @media only screen and (max-width: 1100px){
   .instagram-media {
