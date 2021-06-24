@@ -25,7 +25,7 @@ export default function Media({medias}) {
   const visibleYoutubePosts = youtubePosts.slice(0,5)
 
   return (
-    <div>
+    <div id="page_media">
       <Head>
         <title>メディア</title>
         <link rel="icon" href="/falconer_favicons.png" />
@@ -38,26 +38,6 @@ export default function Media({medias}) {
               <div class="border-b-2 border-solid border-black mb-6 lg:mb-12">
                 <div class="relative">
                   <h1 class="Osaka text-center font-bold text-xl lg:text-3xl py-2 ml-3">メディア</h1>
-                  <div class="absolute right-0 top-4 lg:top-0">
-                    <div class="flex pr-2 w-20 lg:w-full">
-                      <div class="">
-                        <a href="https://www.instagram.com/masaki.s_japan/" target="_blank" >
-                          <Image src="/images/media/instagram_white_bg_wh.png" width={36} height={36} alt="instagaram_social" />
-                        </a>
-                      </div>
-                      <a href=""></a>
-                      <div class="">
-                        <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                          <Image src="/images/media/youtube_white_bg_wh.png" width={36} height={36} alt="instagaram_social" />
-                        </a>
-                      </div>
-                      <div class="">
-                        <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
-                          <Image src="/images/media/twitter_white_bg_wh2.png" width={36} height={36} alt="instagaram_social" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             {/*見出し部分 終了*/}
@@ -65,7 +45,8 @@ export default function Media({medias}) {
             {/*内容*/}
             <div class="bg-white">
               <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
-                <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6 leading-5 lg:leading-normal">RADIO</h1>
+                <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl leading-5 lg:leading-normal">RADIO</h1>
+                <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5 lg:leading-normal">ラジオ</p>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                   <Image src="/images/media/bond_jam.jpg" alt="radio-image" width={1100} height={227} />
