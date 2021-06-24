@@ -197,11 +197,11 @@ div#reading-rich-text span {
 
 /*////////////////////////////////////// メディアページ向け //////////////////////////////////////*/
 #page_madia h1{
-  background-image: url("../public/images/media/media_eyecatch.png");
+  background-image: url("/public/images/media/media_eyecatch.png");
 }
 
 @media only screen and (max-width: 700px){
   #page_madia h1{
-    background-image: url("../public/images/media/media_eyecatch_sp.png");
+    background-image: url("/public/images/media/media_eyecatch_sp.png");
   }
 }

@@ -33,7 +33,7 @@ export default function Media({medias}) {
       <Layout>
       <main>
         <div>
-          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+          <div class="mx-auto py-6 lg:py-12">
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-black mb-6 lg:mb-12">
                 <div class="relative">
@@ -45,8 +45,8 @@ export default function Media({medias}) {
             {/*内容*/}
             <div class="bg-white">
               <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
-                <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl leading-5 lg:leading-normal">RADIO</h1>
-                <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5 lg:leading-normal">ラジオ</p>
+                <h2 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl leading-5 ">RADIO</h2>
+                <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5">ラジオ</p>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                   <Image src="/images/media/bond_jam.jpg" alt="radio-image" width={1100} height={227} />
