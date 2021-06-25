@@ -185,7 +185,6 @@ div#reading-rich-text span {
   }   
 }
 
-
 @media only screen and (max-width: 1100px){
   .instagram-media {
     width: 100% !important;
@@ -194,14 +193,13 @@ div#reading-rich-text span {
   }
 }
 
-
 /*////////////////////////////////////// メディアページ向け //////////////////////////////////////*/
-#page_madia h1{
+h1.media_title{
   background-image: url("/public/images/media/media_eyecatch.png");
 }
 
 @media only screen and (max-width: 700px){
-  #page_madia h1{
+  h1.media_title{
     background-image: url("/public/images/media/media_eyecatch_sp.png");
   }
 }

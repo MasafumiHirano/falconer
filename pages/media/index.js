@@ -37,7 +37,7 @@ export default function Media({medias}) {
             {/*見出し部分*/}
               <div class="border-b-2 border-solid border-black mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-center font-bold text-xl lg:text-3xl py-2 ml-3">メディア</h1>
+                  <h1 class="Osaka text-center font-bold text-xl lg:text-3xl py-2 ml-3 media_title">メディア</h1>
                 </div>
               </div>
             {/*見出し部分 終了*/}
@@ -45,11 +45,11 @@ export default function Media({medias}) {
             {/*内容*/}
             <div class="bg-white">
               <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
-                <h2 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl leading-5 ">RADIO</h2>
+                <h2 class="text-center helvetica text-2xl mb-2 lg:text-5xl leading-5 ">Radio</h2>
                 <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5">ラジオ</p>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                  <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={1100} height={227} />
+                  <Image src="/images/media/nanajam_image.png" alt="radio-image"/>
                   </a>
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide">
