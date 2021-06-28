@@ -49,7 +49,7 @@ export default function Media({medias}) {
                 <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5">ラジオ</p>
                 <div class="mb-2 lg:mb-6">
                   <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                  <Image src="/images/media/nanajam_image.png" alt="radio-image"/>
+                  <Image src="/images/media/nanajam_image.png" alt="radio-image" width={1600} />
                   </a>
                 </div>
                 <div class="mx-auto w-5/6 chuGo lg:tracking-wide">
