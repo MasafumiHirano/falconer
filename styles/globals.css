@@ -143,6 +143,54 @@ h1 {
   min-width: 340px !important;
 }
 
+.w-3split{
+  width: 30%
+}
+@media only screen and (min-width: 700px){
+  .w-3split{
+    width: 32%
+  }
+}
+
+a.custom_button{
+  color: white;
+	background: #000000;
+  position: relative;
+}
+
+a.custom_button:after {        /*白いひし型 */  
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	right: 20px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background: #fff;
+}
+
+a.custom_button:before {        /*バックグラウンドと同じ色のひし型をずらして「before要素」を隠す */  
+	display: block;
+	content: "";
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 50%;
+	right: 25px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background: #000000;
+  z-index: 999;
+}
+a.custom_button:hover:before {        /*「after要素」のマウスオーバー（カラーを合わせる） */  
+	background: #000000;
+}
+
+
 /*////////////////////////////////////// ラジオ向けCSS //////////////////////////////////////*/
 div.name{
   margin-top: 30px;
@@ -195,11 +243,16 @@ div#reading-rich-text span {
 
 /*////////////////////////////////////// メディアページ向け //////////////////////////////////////*/
 h1.media_title{
-  background-image: url("/public/images/media/media_eyecatch.png");
+  background-image: url("/images/media/media_eyecatch.png");
+  height: 445px;
+  background-size: contain;
 }
 
 @media only screen and (max-width: 700px){
   h1.media_title{
-    background-image: url("/public/images/media/media_eyecatch_sp.png");
+    background-image: url("/images/media/media_eyecatch_sp.png");
+    height: 220px;
+    background-size: cover;
+    background-position: 50% 100%;
   }
 }
