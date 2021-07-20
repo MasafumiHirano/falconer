@@ -113,7 +113,7 @@ export default function Media({medias}) {
                         </div>
                       </div>
                       <div class="w-full mb-12">
-                        <p class="px-1 md:px-0 text-sm">
+                        <p class="px-4 md:px-0 text-sm">
                         株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
                         </p>
                       </div>
