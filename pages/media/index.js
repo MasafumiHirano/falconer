@@ -33,7 +33,7 @@ export default function Media({medias}) {
       <Layout>
         <main>
           <div>
-            <div class="mx-auto py-6 pt-12 lg:py-12">
+            <div class="mx-auto py-6 pt-12 lg:py-6">
             {/*見出し部分*/}
               <div class="mb-6 lg:mb-12">
                 <div class="relative">
@@ -134,15 +134,18 @@ export default function Media({medias}) {
                 </section>
                 {/*大村崑さんSecction_END*/}
 
-                <section class="px-4 lg:px-6 py-6 lg:py-16">{/*SNS Section*/}
+                <section class="px-1 lg:px-6 py-6 lg:py-16">{/*SNS Section*/}
                   <h1 class="text-center helvetica font-semibold text-2xl mb-2 lg:text-5xl lg:mb-6">SNS</h1>
                   <div class="">
                     <div class="block mt-2 lg:mt-6">
-                      <div class="flex justify-center">
-                        <Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" />
+                      <div class="flex justify-center md:justify-between w-full md:w-10/12 mx-auto my-5">
+                        <div class="md:w-3/4 flex justify-center items-center"><Image class="block" src="/images/media/instagram_logo_1500.png" width={40} height={40} alt="instagram_logo" /></div>
+                        <div class="hidden md:flex md:w-1/4 justify-center items-center"><Image class="block" src="/images/media/Twitter_Logo_WhiteOnBlue_400.png" width={40} height={40} alt="twitter_logo" /></div>
                       </div>
-                      <div class="grid grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-4">
-                        <div class="mt-2 lg:mt-6 text-center ">
+                      <div class="flex justify-between items-center flex-wrap md:flex-nowrap mt-6 w-full md:w-10/12 mx-auto">
+                        <div class="md:mx-2 w-49% md:w-1/4 h-405 md:h-600 text-center">
+                          <iframe class="instagram-media instagram-media-rendered mx-auto h-full" id="instagram-embed-5" src="https://www.instagram.com/p/CFwWJWKj6u_/embed/?cr=1&amp;v=13&amp;rd=https%3A%2F%2Ffalconer.co.jp&amp;rp=%2Fcompany.html#%7B%22ci%22%3A5%2C%22os%22%3A640.7000000029802%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="591" data-instgrm-payload-id="instagram-media-payload-5" scrolling="no"></iframe>
+                          {/*
                           <InstagramEmbed
                           url={`https://www.instagram.com/p/${visibleInstagramPosts[0].postid}/`}
                           clientAccessToken={clientAccessToken}
@@ -155,52 +158,63 @@ export default function Media({medias}) {
                           onSuccess={() => {}}
                           onAfterRender={() => {}}
                           onFailure={() => {}}
-                        />
+                          />]*/}
                         </div>
-                        <div class="mt-2 lg:mt-6 text-center">
-                        <InstagramEmbed
-                          url={`https://www.instagram.com/p/${visibleInstagramPosts[1].postid}/`}
-                          clientAccessToken={clientAccessToken}
-                          maxWidth={360}
-                          hideCaption={true}
-                          containerTagName='div'
-                          protocol=''
-                          injectScript
-                          onLoading={() => {}}
-                          onSuccess={() => {}}
-                          onAfterRender={() => {}}
-                          onFailure={() => {}}
-                        />
+                        <div class="md:mx-2 w-49% md:w-1/4 h-405 md:h-600 text-center">
+                          <iframe class="instagram-media instagram-media-rendered mx-auto h-full" id="instagram-embed-1" src="https://www.instagram.com/p/CFy5Cz6JwrP/embed/?cr=1&amp;v=13&amp;rd=https%3A%2F%2Ffalconer.co.jp&amp;rp=%2Fcompany.html#%7B%22ci%22%3A1%2C%22os%22%3A239.09999999403954%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="590" data-instgrm-payload-id="instagram-media-payload-1" scrolling="no"></iframe>
+                          {/*<InstagramEmbed
+                            url={`https://www.instagram.com/p/${visibleInstagramPosts[1].postid}/`}
+                            clientAccessToken={clientAccessToken}
+                            maxWidth={360}
+                            hideCaption={true}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => {}}
+                            onSuccess={() => {}}
+                            onAfterRender={() => {}}
+                            onFailure={() => {}}
+                          />*/}
                         </div>
-                        <div class="mt-2 lg:mt-6 text-center">
-                        <InstagramEmbed
-                          url={`https://www.instagram.com/p/${visibleInstagramPosts[2].postid}/`}
-                          clientAccessToken={clientAccessToken}
-                          maxWidth={360}
-                          hideCaption={true}
-                          containerTagName='div'
-                          protocol=''
-                          injectScript
-                          onLoading={() => {}}
-                          onSuccess={() => {}}
-                          onAfterRender={() => {}}
-                          onFailure={() => {}}
-                        />
+                        <div class="md:mx-2 w-49% md:w-1/4 h-405 md:h-600 text-center">
+                          <iframe class="instagram-media instagram-media-rendered mx-auto h-full" id="instagram-embed-4" src="https://www.instagram.com/p/CFZYcmjDZAV/embed/?cr=1&amp;v=12&amp;rd=https%3A%2F%2Ffalconer.co.jp&amp;rp=%2Fcompany.html#%7B%22ci%22%3A4%2C%22os%22%3A606.7000000029802%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="591" data-instgrm-payload-id="instagram-media-payload-4" scrolling="no"></iframe>
+                          {/*<InstagramEmbed
+                            url={`https://www.instagram.com/p/${visibleInstagramPosts[2].postid}/`}
+                            clientAccessToken={clientAccessToken}
+                            maxWidth={360}
+                            hideCaption={true}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => {}}
+                            onSuccess={() => {}}
+                            onAfterRender={() => {}}
+                            onFailure={() => {}}
+                          />*/}
+                          </div>
+                        <div class="md:mx-2 w-49% md:w-1/4 md:hidden h-405 md:h-600 text-center">
+                          <iframe class="instagram-media instagram-media-rendered mx-auto h-full" id="instagram-embed-4" src="https://www.instagram.com/p/CFcAOKGjqWC/embed/?cr=1&v=12&rd=https%3A%2F%2Ffalconer.co.jp&rp=%2Fcompany.html#%7B%22ci%22%3A3%2C%22os%22%3A747.5%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="591" data-instgrm-payload-id="instagram-media-payload-4" scrolling="no"></iframe>
                         </div>
-                        <div class="mt-2 lg:mt-6 text-center lg:hidden">
-                        <InstagramEmbed
-                          url={`https://www.instagram.com/p/${visibleInstagramPosts[3].postid}/`}
-                          clientAccessToken={clientAccessToken}
-                          maxWidth={360}
-                          hideCaption={true}
-                          containerTagName='div'
-                          protocol=''
-                          injectScript
-                          onLoading={() => {}}
-                          onSuccess={() => {}}
-                          onAfterRender={() => {}}
-                          onFailure={() => {}}
-                        />
+                        <div class="flex md:hidden justify-center items-center w-full my-5"><Image class="block" src="/images/media/Twitter_Logo_WhiteOnBlue_400.png" width={40} height={40} alt="twitter_logo" /></div>
+                        <div class="mx-2 md:mx-0 md:pl-4 w-full md:w-1/4 h-600 text-center md:border-l-2 md:border-dotted">
+                          <TwitterTimelineEmbed
+                            sourceType="profile"
+                            screenName="Nanami_Bondjam"
+                            options={{height: 600}}
+                          />
+                          {/*<InstagramEmbed
+                            url={`https://www.instagram.com/p/${visibleInstagramPosts[3].postid}/`}
+                            clientAccessToken={clientAccessToken}
+                            maxWidth={360}
+                            hideCaption={true}
+                            containerTagName='div'
+                            protocol=''
+                            injectScript
+                            onLoading={() => {}}
+                            onSuccess={() => {}}
+                            onAfterRender={() => {}}
+                            onFailure={() => {}}
+                          />*/}
                         </div>
                       </div>
 
@@ -212,26 +226,13 @@ export default function Media({medias}) {
                         </a>
                     </div>*/}
                     </div>
-
-                    <div class="block mt-6 lg:mt-16">
-                      <div class="flex justify-center">
-                        <Image class="block" src="/images/media/Twitter_Logo_WhiteOnBlue_400.png" width={40} height={40} alt="twitter_logo" />
-                      </div>
-                      <div class="mt-2 lg:mt-6 lg:w-450">
-                        <TwitterTimelineEmbed
-                          sourceType="profile"
-                          screenName="Nanami_Bondjam"
-                          options={{height: 800}}
-                        />
-                      </div>
-                    </div>
                   </div>
                 </section>{/*SNSSectionEnd*/}
 
                 <div class="mx-auto mb-12 lg:w-full lg:px-6 flex justify-center">
-                  <div class="w-full">
+                  <div class="w-11/12 max-w-screen-sm mx-auto">
                     <Link href="/contact/mediacontact"><a>
-                      <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
+                      <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-black text-white text-center">
                     メディア お問い合わせ
                       </div>
                     </a></Link>
@@ -260,3 +261,4 @@ export const getStaticProps = async() => {
     },
   };
 }
+
