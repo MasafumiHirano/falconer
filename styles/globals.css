@@ -241,9 +241,15 @@ div#reading-rich-text span {
   }
 }
 
-/*////////////////////////////////////// メディアページ向け //////////////////////////////////////*/
+/*////////////////////////////////////// 各ページアイキャッチ //////////////////////////////////////*/
 h1.media_title{
   background-image: url("/images/media/media_eyecatch.png");
+  height: 445px;
+  background-size: contain;
+}
+
+h1.company_title{
+  background-image: url("/images/company/eyechatch.png");
   height: 445px;
   background-size: contain;
 }
@@ -251,6 +257,11 @@ h1.media_title{
 @media only screen and (max-width: 700px){
   h1.media_title{
     background-image: url("/images/media/media_eyecatch_sp.png");
+    height: 220px;
+    background-size: cover;
+    background-position: 50% 100%;
+  }
+  h1.company_title{
     height: 220px;
     background-size: cover;
     background-position: 50% 100%;

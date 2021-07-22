@@ -19,135 +19,44 @@ export default function Company({medias}) {
       </Head>
       <Layout>
         <main>
-          <div class="mx-auto py-6 text-white text-center" style={{ backgroundColor: "#000000" }}>
-            <h1 class="text-xl">ABOUT</h1>
-              <Image src="/images/logo/falconer_co_ltd_logo.jpg" width={720} height={150} alt="falconer_logo"/>
-              <div class="lg:flex lg:justify-center">
-                <p class="text-2xl lg:text-3xl font-bold lg:mb-6 tracking-widest">最高品質の</p>
-                <p class="text-2xl lg:text-3xl font-bold mb-6 tracking-widest">戦略的モノ作りカンパニー</p>
-              </div>
-              <div class="lg:flex lg:justify-center">
-                <p class="lg:mb-2">市場の求めているモノ作り。</p>
-                <p class="mb-4 lg:mb-2">市場を創造するモノ作り。</p>
-              </div>
-              <div class="lg:flex lg:justify-center">
-                <p class="lg:mb-2">変わり続ける時代と</p>
-                <p class="lg:mb-2">需要に応え続ける企業として存在します。</p>
-              </div>
-            <p class="mt-8 mb-4">
-              <Link href="/company/strength"><a>
-                <span class="inline-block w-170 px-4 py-2 text-white hover:bg-white hover:text-black border border-white hover:border-black border-solid transition duration-300 ease-in-out">Falconer の強み</span>
-              </a></Link>
-            </p>
-          </div>
-
-          <div class="mx-auto pt-6 mb-6 lg:w-1100 h-48 lg:h-auto lg:px-20">
-            
-            <div class="relative flex w-full justify-center h-full">
-              <div class="absolute text-center z-10" style={{top:"50%", left:"50%", transform: "translate(-50%,-50%)"}}>
-                <Link href="/company/statement"><a>
-                  <div class="text-center futura-co w-170 lg:w-full text-3.5xl lg:text-5xl font-bold tracking-widest text-white shadow py-0.5 px-1 lg:py-2 lg:px-3 border border-solid border-white"
-                  style={{backgroundColor: "rgba(0,0,0,0.3)"}}><span class="inline-block -mr-1">STATEMENT</span></div>
-                </a></Link>
-                <Link href="/company/message"><a>
-                <div class="Osaka mt-6 text-center w-170 lg:w-full text-md lg:text-2xl tracking-widest text-white shadow px-2 lg:px-2 py-px lg:py-2 border border-solid border-white"
-                style={{backgroundColor: "rgba(0,0,0,0.3)"}}>代表メッセージ</div>
-                </a></Link>
-              </div>
-              <Image className="object-cover h-full" src="/images/company/statement_bgImage.jpg" width={940} height={280} alt="vision" />
+          <div class="mx-auto py-6 text-center">
+            <h1 class="Osaka text-white text-center text-xl lg:text-3xl company_title flex justify-center items-center">会社概要</h1>
+            <div class="mt-10 md:mt-32 lg:flex lg:justify-center">
+              <p class="px-3 text-lg lg:text-3xl lg:mb-6 text-left md:text-center tracking-widest">モノづくりを通じ、人々に幸せを広げ</p>
+              <p class="px-3 text-lg lg:text-3xl mb-6 text-left md:text-center tracking-widest">世界をより良くする</p>
             </div>
-
-          </div>
-
-          <div class="mx-auto mb-6 lg:mb-12 lg:w-1100 lg:px-20">
-            <div class="lg:flex justify-center mb-6">
-              <Link href="/company/overview"><a>
-                <div class="relative w-full lg:h-300 flex justify-center items-center">
-                  <div class="Osaka absolute z-10 w-170 text-white text-center text-md lg:text-xl tracking-widest py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
-                   style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
-                    企業概要
-                  </div>
-                  <Image className="object-cover" src="/images/company/company_overview.jpg" width={940} height={600} />
-                </div>
-                
-              </a></Link>
-
-              <div class="lg:ml-4">
-                <Link href="/recruit"><a>
-                  <div class="relative mt-4 lg:mt-0 w-full lg:h-300 flex justify-center items-center">
-                    <Image className="absolute" src="/images/company/recruit_thumb.jpg" width={940} height={600} />
-                    <div class="Osaka absolute w-170 text-center text-md lg:text-xl tracking-widest text-white shadow py-1.5 px-2 lg:px-4 bg-falGLD border border-solid border-white"
-                      style={{ backgroundColor: "rgba(121,107,88,0.7)", top:"50%", left:"50%", transform: "translate(-50%,-50%)" }}>
-                      採用情報
-                    </div>
-                  </div>
-                </a></Link>
-              </div>
+            <div class="mt-10 lg:flex lg:justify-center">
+              <p class="px-3 text-sm md:text-base text-left md:text-center lg:mb-2">私たちが創り出す、最高の商品とは、<br></br> 
+上質な素材でデザイン・機能性を意識し、<br></br>
+一流の技術力を持って作り上げられたモノというだけではありません｡<br></br>
+<br></br>
+生産者の労働環境や地球環境まで配慮し、<br></br>
+フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。<br></br>
+<br></br>
+また我々はそのような「最高の商品」を創り出すことでお客様はもちろん<br></br>
+商品が生まれるまでに携わった全ての人々や世界、<br></br>
+素材を提供してくれる地球を幸せにしていきたいと考えています。</p>
             </div>
           </div>
-
-          <div class="mx-auto mb-6 lg:mb-12 lg:w-1100 px-0 lg:px-20">
-          <h1 class="text-3xl lg:text-4xl text-white text-center py-3 Osaka bg-falGLD"><Link href="/media"><a>メディア</a></Link></h1>
-
-            <div class="flex justify-center bg-black">
-              <div class="my-3 px-6">
-                <div class="flex justify-center">
-                  <div class="inline-block mr-2">
-                    <a class="inline-block" href="https://www.instagram.com/masaki.s_japan/" target="_blank">
-                      <Image src="/images/media/instagram_white_bg_bk.jpg" width={48} height={48} alt="instagaram_social" />
-                    </a>
-                  </div>
-                  <div class="inline-block mr-2">
-                    <a class="inline-block" href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                      <Image src="/images/media/youtube_white_bg_bk.jpg" width={48} height={48} alt="instagaram_social" />
-                    </a>
-                  </div>
-                  <div class="inline-block">
-                    <a class="inline-block" href="https://twitter.com/Nanami_Bondjam" target="_blank">
-                    <Image src="/images/media/twitter_white_bg_bk.jpg" width={48} height={48} alt="instagaram_social" />
-                    </a>
-                  </div>
-                </div>
-                <p class="mb-4 text-white text-center">ラジオ番組やSNSで情報を発信中です。</p>
-                <div class="mb-2">
-                  <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank" >
-                    <Image src="/images/media/bond_jam.jpg" width={920} height={190} alt="bond-jam" />
-                  </a>
-                </div>
-
-                <div class="flex">
-                  <div class='lg:w-1/4 w-full lg:h-auto md:h-405 h-48 lg:mr-2'>
-                    <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class='lg:w-1/4 mr-2 hidden lg:block'>
-                    <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[1].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class='lg:w-1/4 mr-2 hidden lg:block'>
-                    <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[2].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class='lg:w-1/4 hidden lg:block'>
-                    <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[3].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>
-
-                {/*<div class="flex justify-center">
-                  <div class="mx-auto md:w-720 md:h-405">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k5oSVWFyOqE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                </div>*/}
+          <div class="mx-auto mt-20 mb-20 lg:w-1280">
+            <div class="flex flex-wrap md:flex-nowrap justify-around md:justify-between mb-6">
+              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
+                <Image src="/images/company/bussiness_1.png" width={300} height={400} alt="FM愛知" />
+                <Link href="/company/statement"><a class="absolute bottom-5 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">経営理念</a></Link>
+              </div>
+              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
+                <Image src="/images/company/bussiness_2.png" width={300} height={400} />
+                <Link href="/company/message"><a class="absolute bottom-5 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">代表メッセージ</a></Link>
+              </div>
+              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
+                <Image src="/images/company/bussiness_3.png" width={300} height={400} />
+                <Link href="/company/overview"><a class="absolute bottom-5 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">会社概要</a></Link>
+              </div>
+              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
+                <Image src="/images/company/bussiness_4.png" width={300} height={400} />
+                <Link href="/company/"><a class="absolute bottom-5 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">FALCONERの強み</a></Link>
               </div>
             </div>
-          </div>
-
-          <div class="mx-auto mb-12 lg:w-1100 lg:px-20 flex justify-center">
-              <div class="w-full">
-                <Link href="/contact"><a>
-                  <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-falGLD text-white text-center">
-                    お問い合わせ
-                  </div>
-                </a></Link>
-                <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">製品のご購入のご相談､OEMのご相談についてなどお気軽にお問い合わせください。</p>
-              </div>
           </div>
         </main>
       </Layout>
