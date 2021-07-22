@@ -18,15 +18,15 @@ export default function Company({medias}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-        <main>
+        <main class="font-sans">
           <div class="mx-auto py-6 text-center">
-            <h1 class="Osaka text-white text-center text-xl lg:text-3xl company_title flex justify-center items-center">会社概要</h1>
+            <h1 class="text-white text-center text-xl lg:text-3xl company_title flex justify-center items-center">会社概要</h1>
             <div class="mt-10 md:mt-32 lg:flex lg:justify-center">
-              <p class="px-3 text-lg lg:text-3xl lg:mb-6 text-left md:text-center tracking-widest">モノづくりを通じ、人々に幸せを広げ</p>
-              <p class="px-3 text-lg lg:text-3xl mb-6 text-left md:text-center tracking-widest">世界をより良くする</p>
+              <p class="px-3 text-xl lg:text-3xl lg:mb-6 text-left md:text-center tracking-widest">モノづくりを通じ、人々に幸せを広げ</p>
+              <p class="px-3 text-xl lg:text-3xl mb-6 text-left md:text-center tracking-widest">世界をより良くする</p>
             </div>
             <div class="mt-10 lg:flex lg:justify-center">
-              <p class="px-3 text-sm md:text-base text-left md:text-center lg:mb-2">私たちが創り出す、最高の商品とは、<br></br> 
+              <p class="px-3 text-base md:text-lg text-left md:text-center lg:mb-2">私たちが創り出す、最高の商品とは、<br></br> 
 上質な素材でデザイン・機能性を意識し、<br></br>
 一流の技術力を持って作り上げられたモノというだけではありません｡<br></br>
 <br></br>
