@@ -40,21 +40,29 @@ export default function Company({medias}) {
           </div>
           <div class="mx-auto mt-20 mb-20 lg:w-1280">
             <div class="flex flex-wrap md:flex-nowrap justify-around md:justify-between mb-6">
-              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
-                <Image src="/images/company/bussiness_1.png" width={300} height={400} />
-                <Link href="/company/statement"><a class="absolute bottom-5 md:bottom-10 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">経営理念</a></Link>
+              <div class="relative w-49% md:w-300 lg:h-400">
+                <Link href="/company/statement"><a class="block">
+                  <Image src="/images/company/bussiness_1.png" width={300} height={400} />
+                  <div class="absolute bottom-5 md:bottom-10 w-full flex justify-center"><span class="w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">経営理念</span></div>
+                </a></Link>
               </div>
-              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
-                <Image src="/images/company/bussiness_2.png" width={300} height={400} />
-                <Link href="/company/message"><a class="absolute bottom-5 md:bottom-10 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">代表メッセージ</a></Link>
+              <div class="relative w-49% md:w-300 lg:h-400">
+                <Link href="/company/message"><a>
+                  <Image src="/images/company/bussiness_2.png" width={300} height={400} />
+                  <div class="absolute bottom-5 md:bottom-10 w-full flex justify-center"><span class="w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">代表メッセージ</span></div>
+                </a></Link>
               </div>
-              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
-                <Image src="/images/company/bussiness_3.png" width={300} height={400} />
-                <Link href="/company/overview"><a class="absolute bottom-5 md:bottom-10 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">会社概要</a></Link>
+              <div class="relative w-49% md:w-300 lg:h-400">
+                <Link href="/company/overview"><a>
+                  <Image src="/images/company/bussiness_3.png" width={300} height={400} />
+                  <div class="absolute bottom-5 md:bottom-10 w-full flex justify-center"><span class="w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">会社概要</span></div>
+                </a></Link>
               </div>
-              <div class="relative w-49% md:w-full lg:h-400 flex justify-center items-center">
-                <Image src="/images/company/bussiness_4.png" width={300} height={400} />
-                <Link href="/company/"><a class="absolute bottom-5 md:bottom-10 w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">FALCONERの強み</a></Link>
+              <div class="relative w-49% md:w-300 lg:h-400">
+                <Link href="/company/strength"><a>
+                  <Image src="/images/company/bussiness_4.png" width={300} height={400} />
+                  <div class="absolute bottom-5 md:bottom-10 w-full flex justify-center"><span class="w-100 md:w-200 h-35 md:h-40 flex justify-center items-center text-xs text-white bg-black bg-opacity-90">FALCONERの強み</span></div>
+                </a></Link>
               </div>
             </div>
           </div>
