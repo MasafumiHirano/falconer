@@ -6,6 +6,7 @@ import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterH
 import InstagramEmbed from 'react-instagram-embed';
 
 import Layout from '../../components/layout'
+import React, { useState } from 'react'
 
 export default function Media({medias}) {
   const appID = '3888350634542239';
@@ -22,7 +23,22 @@ export default function Media({medias}) {
     media.medianame[0] == 'youtube'
   ))
   //youtubeの投稿は、5つとりだす。
-  const visibleYoutubePosts = youtubePosts.slice(0,5)
+  const visibleYoutubePosts = youtubePosts.slice(0, 5)
+  
+  // open という名前の state 変数を宣言、初期値 true をセット
+  const [open, setOpen] = useState(true)
+  // toggleの関数を宣言
+  const toggle = () => setOpen(!open)
+
+  // open という名前の state 変数を宣言、初期値 true をセット
+  const [open2, setOpen2] = useState(true)
+  // toggleの関数を宣言
+  const toggle2 = () => setOpen2(!open2)
+  
+  // open という名前の state 変数を宣言、初期値 true をセット
+  const [open3, setOpen3] = useState(true)
+  // toggleの関数を宣言
+  const toggle3 = () => setOpen3(!open3)
 
   return (
     <div id="page_media">
@@ -103,10 +119,7 @@ export default function Media({medias}) {
                 <section class="bg-gray-100">
                   <div class="lg:px-6 lg:py-6 lg:mb-4">
                     <div class="max-w-screen-lg mx-auto flex flex-wrap justify-between pb-20">
-                      <div class="w-full h-200 md:h-600">
-                        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/rkKA_W0srh4`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                      <div class="w-full my-4">
+                     <div class="w-full my-4">
                         <div class="border-b border-gray-400 mx-auto w-11/12 md:w-650 flex justify-center py-3">
                           <div class="w-3/12 flex items-center align-center"><span class="mr-1 md:mr-3">special</span><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /></div>
                           <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-2xl">大村崑 &amp; 清水真輝 スペシャル対談</h2>
@@ -117,17 +130,20 @@ export default function Media({medias}) {
                         株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
                         </p>
                       </div>
-                      <div class="w-3split h-70 md:h-200">
+                      <div class="w-full h-200 md:h-600">
+                        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/rkKA_W0srh4`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div onClick={toggle} class="w-full flex items-center justify-center py-4 border-solid border border-black cursor-pointer mt-3 mb-2"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.2</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">ふたりの出会い</h2></div>
+                      <div className={open ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'}>
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/_GM_ZWob3kQ`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="w-full flex items-center justify-center py-4"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="ml-3">Vol.2</span></div>
                       </div>
-                      <div class="w-3split h-70 md:h-200">
+                      <div onClick={toggle2} class="w-full flex items-center justify-center py-4 border-solid border border-black mt-3 mb-2 cursor-pointer"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.3</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">働くことの本質とは</h2></div>
+                      <div className={open2 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="w-full h-200 md:h-600">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/ECXHgkpuhOs`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="w-full flex items-center justify-center py-4"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="ml-3">Vol.3</span></div>
                       </div>
-                      <div class="w-3split h-70 md:h-200">
+                      <div onClick={toggle3} class="w-full flex items-center justify-center py-4 border-solid border border-black mt-3 mb-2 cursor-pointer"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.4</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">人間を豊かにする人間関係</h2></div>
+                      <div className={open3 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="w-full h-200 md:h-600">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/j6_WbADp8xE`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="w-full flex items-center justify-center py-4"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="ml-3">Vol.4</span></div>
                       </div>
                     </div>
                   </div>
