@@ -134,15 +134,15 @@ export default function Media({medias}) {
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/rkKA_W0srh4`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                       <div onClick={toggle} class="w-full flex items-center justify-center py-4 border-solid border border-black cursor-pointer mt-3 mb-2"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.2</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">ふたりの出会い</h2></div>
-                      <div className={open ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'}>
+                      <div className={open ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="isClose w-full h-200 md:h-600">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/_GM_ZWob3kQ`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                       <div onClick={toggle2} class="w-full flex items-center justify-center py-4 border-solid border border-black mt-3 mb-2 cursor-pointer"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.3</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">働くことの本質とは</h2></div>
-                      <div className={open2 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="w-full h-200 md:h-600">
+                      <div className={open2 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="isClose w-full h-200 md:h-600">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/ECXHgkpuhOs`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                       <div onClick={toggle3} class="w-full flex items-center justify-center py-4 border-solid border border-black mt-3 mb-2 cursor-pointer"><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /><span class="w-3/12 ml-3">Vol.4</span><h2 class="w-7/12 text-center border-l border-gray-400 text-base md:text-lg">人間を豊かにする人間関係</h2></div>
-                      <div className={open3 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="w-full h-200 md:h-600">
+                      <div className={open3 ? 'isClose w-full h-200 md:h-600' : 'isOpen w-full h-200 md:h-600'} class="isClose w-full h-200 md:h-600">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/j6_WbADp8xE`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
