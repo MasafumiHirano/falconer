@@ -13,7 +13,7 @@ export default function RECRUIT() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main>
+      <main class="pt-10 font-sans">
         <div class="flex justify-center w-full">
           <div class="mb-12 mt-6 w-full lg:w-1100">
 
