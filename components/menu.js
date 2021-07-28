@@ -33,33 +33,33 @@ const Menu = () => {
   }, []);
 
   return (
-    <div class="">
+    <div className="">
       <button onClick={toggleDrawer}>
         <svg xmlns="http://www.w3.org/2000/svg" fill={isHeightOver ? 'black' : 'white'} width="24" height="24" viewBox="0 0 640 1024" role="img">
           <path d="M0 192h640v128H0zm0 256h640v128H0zm0 256h640v128H0z"/>
         </svg>
       </button>
       <Drawer open={isOpen} onClose={toggleDrawer} direction='left' style={{width: "65%"}}>
-        <div class="bg-black h-screen pt-6 text-white tracking-wide leading-10">
-          <ul class="pl-8">
-            <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/company"><a>会社情報</a></Link></li>
-            <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/media"><a>メディア</a></Link></li>
-            <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/recruit"><a>採用情報</a></Link></li>
-            <li class="hover:text-falGLD  mt-4 text-lg"><Link href="/contact"><a>お問合わせ</a></Link></li>
+        <div className="bg-black h-screen pt-6 text-white tracking-wide leading-10">
+          <ul className="pl-8">
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/company"><a>会社情報</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/media"><a>メディア</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/recruit"><a>採用情報</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/contact"><a>お問合わせ</a></Link></li>
           </ul>
-          <div class="pt-6 pl-6">
-            <div class="inline-block">
+          <div className="pt-6 pl-6">
+            <div className="inline-block">
               <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                 <Image src="/images/media/instagram_white_bg_bk.jpg" width={48} height={48} alt="instagaram_social" />
               </a>
             </div>
             
-            <div class="inline-block">
+            <div className="inline-block">
               <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                 <Image src="/images/media/youtube_white_bg_bk.jpg" width={48} height={48} alt="youtube_social" />
               </a>
             </div>
-            <div class="inline-block">
+            <div className="inline-block">
               <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
                 <Image src="/images/media/twitter_white_bg_bk.jpg" width={48} height={48} alt="twitter_social" />
               </a>

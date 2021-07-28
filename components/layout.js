@@ -5,7 +5,7 @@ export default function Layout(props) {
   return(
     <>
       <Header />
-      <div class="mt-14 lg:mt-24">
+      <div className="mt-14 lg:mt-23">
         {props.children}
       </div>
       <Footer />
