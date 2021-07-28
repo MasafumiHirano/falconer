@@ -12,7 +12,7 @@ export default function Statement() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main>
+      <main class="pt-12">
         <div class="flex justify-center">
           <div class="pt-8 bg-opacity-75 w-full">
             <section class="lg:w-1100 px-6 mx-auto pb-16 ">

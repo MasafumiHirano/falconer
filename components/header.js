@@ -65,24 +65,19 @@ export default function Header() {
         </div>
 
         <ul className="w-1/2 lg:w-7/12 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
-          <Link href="/topics">
-            <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
-              <li>新着情報</li>
-            </a>
-          </Link>
-          <Link href="/brand">
-            <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
-              <li>ブランド</li>
-            </a>
-          </Link>
           <Link href="/company">
             <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
-              <li>企業情報</li>
+              <li>会社情報</li>
             </a>
-          </Link>
-          <Link href="/media">
+            </Link>
+            <Link href="/media">
             <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
               <li>メディア</li>
+            </a>
+          </Link>
+          <Link href="/recruit">
+            <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <li>採用情報</li>
             </a>
           </Link>
           <Link href="/contact">

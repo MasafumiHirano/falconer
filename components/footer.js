@@ -11,21 +11,11 @@ export default function Footer() {
 
               <div className="flex justify-around leading-8 text-sm lg:text-base mt-6 lg:mt-0">
                 <div className="px-4 lg:mx-12 lg:pr-16">
-                  <h2 className="font-bold lg:leading-4"><Link href="/topics"><a>新着情報</a></Link></h2>
-                  <h2 className="font-bold lg:leading-4 lg:mt-6"><Link href="/brand"><a>ブランド</a></Link></h2>
+                  <h2 className="font-bold lg:leading-4"><Link href="/company"><a>会社情報</a></Link></h2>
                   <h2 className="font-bold lg:leading-4 lg:mt-6"><Link href="/media"><a>メディア</a></Link></h2>
                 </div>
                 <div className="lg:flex justify-between">
-                  <div className="lg:mx-12">
-                    <h2 className="font-bold leading-8 lg:leading-4"><Link href="/company"><a>企業情報</a></Link></h2>
-                    <ul className="text-xs lg:text-sm text-gray-800">
-                      <li className="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/statement"><a>企業理念</a></Link></li>
-                      <li className="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/message"><a>代表メッセージ</a></Link></li>
-                      <li className="mt-1 lg:mt-3 lg:leading-4"><Link href="/company/overview"><a>企業概要</a></Link></li>
-                    </ul>
-                  </div>
-
-                  <div className="lg:mx-12 mt-4 lg:mt-0">
+                  <div className="lg:mx-12 lg:mt-0">
                     <h2 className="font-bold lg:leading-4"><Link href="/recruit"><a>採用情報</a></Link></h2>
                     <h2 className="font-bold lg:leading-4 lg:mt-6"><Link href="/contact"><a>お問い合わせ</a></Link></h2>
                   </div>
