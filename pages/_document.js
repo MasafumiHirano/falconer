@@ -6,6 +6,8 @@ class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head>
+          {/* Google Font */}
+          <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500&display=swap" rel="stylesheet"/>
           {/* Google Analytics */}
           {existsGaId && (
             <>

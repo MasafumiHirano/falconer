@@ -11,7 +11,7 @@ export default function Message() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main class="pt-12">
+      <main>
         <div class="flex justify-center">
           <div class="mx-auto pt-8 pb-16 px-8 lg:px-40 bg-opacity-75 w-1100">
 

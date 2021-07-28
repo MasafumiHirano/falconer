@@ -20,7 +20,7 @@ export default function Overview() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main class="pt-12">
+      <main>
         <div class="flex justify-center w-full">
           <div class="bg-white lg:w-720 px-6 w-full">
 
