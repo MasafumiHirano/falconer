@@ -90,7 +90,7 @@ export default function Home({slides,topics,readings}) {
           {/* TOPスライダーセクション END */}
 
           {/* セカンドビュー START */}
-          <section className={`${styles.second_view} mx-auto lg:w-1100`}>
+          <section className={`${styles.second_view} mx-auto lg:w-1280`}>
             <h2 className={styles.second_view__title}>モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <p className={styles.second_view__text}>
               私たちが創り出す、最高の商品とは、<br />
@@ -110,7 +110,7 @@ export default function Home({slides,topics,readings}) {
           {/* セカンドビュー END */}
            
           {/* 取引パートナー様 START */}
-          <section className={`${styles.partner} mx-auto lg:w-1100`}>
+          <section className={`${styles.partner} mx-auto lg:w-1280`}>
             <h2 className={styles.partner__title}>取引パートナー様</h2>
             <ul className={styles.partner__list}>
               <li className={styles.partner__item}>
@@ -153,7 +153,7 @@ export default function Home({slides,topics,readings}) {
           {/* 取引パートナー様 END */}
 
           {/* 事業内容 START */}
-          <section className={`${styles.business} mx-auto lg:w-1100`}>
+          <section className={`${styles.business} mx-auto lg:w-1280`}>
             <h2 className={styles.business__title}>事業内容</h2>
             <p className={styles.business__text}>
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
@@ -190,7 +190,7 @@ export default function Home({slides,topics,readings}) {
 
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
-            <section className={`${styles.company} mx-auto lg:w-1100`}>
+            <section className={`${styles.company} mx-auto lg:w-1280`}>
               <h2 className={styles.company__title}>会社情報</h2>
               <div className={styles.company__button_area}>
                 <Link href="/company">
@@ -206,7 +206,7 @@ export default function Home({slides,topics,readings}) {
 
           {/* メディア START */}
           <div className={styles.media_background}>
-            <section className={`${styles.media} mx-auto lg:w-1100`}>
+            <section className={`${styles.media} mx-auto lg:w-1280`}>
               <h2 className={styles.media__title}>メディア</h2>
               <div className={styles.media__button_area}>
                 <Link href="/media">
@@ -270,7 +270,7 @@ export default function Home({slides,topics,readings}) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <ul className={`${styles.brand} mx-auto lg:w-1100`}>
+          <ul className={`${styles.brand} mx-auto lg:w-1280`}>
             <li className={styles.brand__item}>
               <a href="https://bachicashley.com/" target="_blank">
                 <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />
