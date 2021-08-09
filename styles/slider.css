@@ -15,8 +15,15 @@
 }
 
 @media only screen and (max-width: 1100px) {
+  /*
   .slick-slider .slick-prev:before,
   .slick-slider .slick-next:before {
     content: unset
+  }*/
+  .slick-next {
+    right: 20% !important;
   }
-}  
+  .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
+    opacity: .30 !important;
+  }
+}

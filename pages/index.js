@@ -56,7 +56,7 @@ export default function Home({slides,topics,readings}) {
             <a href={slide.link}>
             <picture>
               <source media="(min-width: 960px)" srcSet={slide.slider_image.url} />
-              <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} />
+              <img className="inline-block mx-auto w-full lg:h-auto object-cover" src={slide.slider_image_sp.url} />
             </picture>
               {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.slider_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
             </a>
