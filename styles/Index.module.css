@@ -94,16 +94,6 @@
   font-size: 25px;
   font-weight: 300;
 }
-.business__button:hover {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #000;
-  transition: 0.4s;
-}
-.business__button:hover::after {
-  content: url("/images/top/icon_triangle_black.svg");
-  transition: 0.4s;
-}
 .business__button::after {
   content: url("/images/top/icon_triangle_white.svg");
   position: relative;
@@ -147,12 +137,6 @@
   font-size: 30px;
   font-weight: 300;
 }
-.company__button:hover {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #000;
-  transition: 0.4s;
-}
 .company__button::after {
   content: url("/images/top/icon_triangle_white.svg");
   position: relative;
@@ -160,10 +144,7 @@
   left: 10px;
   width: 21px;
 }
-.company__button:hover::after {
-  content: url("/images/top/icon_triangle_black.svg");
-  transition: 0.4s;
-}
+
 
 /* メディア */
 .media {
@@ -191,16 +172,7 @@
   font-size: 25px;
   font-weight: 300;
 }
-.media__button:hover {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #000;
-  transition: 0.4s;
-}
-.media__button:hover::after {
-  content: url("/images/top/icon_triangle_black.svg");
-  transition: 0.4s;
-}
+
 .media__button::after {
   content: url("/images/top/icon_triangle_white.svg");
   position: relative;
@@ -216,10 +188,7 @@
 .media__blog_item {
   width: 32%;
 }
-.media__blog_item:hover {
-  opacity: 0.6;
-  transition: 0.4s;
-}
+
 .media__blog_item__flex {
   display: flex;
   justify-content: center;
@@ -254,10 +223,7 @@
   bottom: 0;
   width: 100%;
 }
-.media__img:hover {
-  opacity: 0.8;
-  transition: 0.4s;
-}
+
 .media__img_area {
   padding-top: 80px;
   width: 85%;
@@ -272,20 +238,13 @@
 .media__sns_item {
   margin: 0 40px;
 }
-.media__sns_item:hover {
-  opacity: 0.6;
-  transition: 0.4s;
-}
+
 .media__link_area {
   padding-top: 50px;
 }
 .media__link {
   display: flex;
   justify-content: center;
-}
-.media__link:hover {
-  transition: 0.4s;
-  opacity: 0.6;
 }
 .media__link::after {
   content: url("/images/top/icon_arrow_black.svg");
@@ -300,14 +259,72 @@
   width: 95%;
   margin: auto;
 }
-.brand__item:hover {
-  opacity: 0.6;
-  transition: 0.4s;
-}
+
 .brand__item--space {
   padding-top: 40px;
 }
 
+@media only screen and (min-width: 1100px) {
+  .company__button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.4s;
+  }
+  .company__button:hover::after {
+    content: url("/images/top/icon_triangle_black.svg");
+    transition: 0.4s;
+  }
+  .media__button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.4s;
+  }
+  .media__button:hover::after {
+    content: url("/images/top/icon_triangle_black.svg");
+    transition: 0.4s;
+  }
+  .media__blog_item:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+  }
+  .media__link:hover {
+    transition: 0.4s;
+    opacity: 0.6;
+  }
+  .media__sns_item:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+  }
+  .media__img:hover {
+    opacity: 0.8;
+    transition: 0.4s;
+  }
+  .brand__item:hover {
+    opacity: 0.6;
+    transition: 0.4s;
+  }
+  .company__button:hover::after {
+    content: url("/images/top/icon_sp_triangle_black.svg");
+  }
+  .media__button:hover::after {
+    content: url("/images/top/icon_sp_triangle_black.svg");
+  }
+  .business__button:hover::after {
+    content: url("/images/top/icon_sp_triangle_black.svg");
+  }
+  .business__button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.4s;
+  }
+  .business__button:hover::after {
+    content: url("/images/top/icon_triangle_black.svg");
+    transition: 0.4s;
+  }
+}
 
 @media only screen and (max-width: 1100px) {
   /* セカンドビュー */
@@ -361,9 +378,6 @@
     border-radius: 50px;
     padding: 20px 70px;
     font-size: 13px;
-  }
-  .business__button:hover::after {
-    content: url("/images/top/icon_sp_triangle_black.svg");
   }
   .business__button::after {
     content: url("/images/top/icon_sp_triangle_white.svg");
@@ -430,9 +444,7 @@
     left: 15px;
     width: 12px;
   }
-  .company__button:hover::after {
-    content: url("/images/top/icon_sp_triangle_black.svg");
-  }
+
   
 
   /* メディア */
@@ -449,9 +461,6 @@
     border-radius: 50px;
     padding: 20px 70px;
     font-size: 13px;
-  }
-  .media__button:hover::after {
-    content: url("/images/top/icon_sp_triangle_black.svg");
   }
   .media__button::after {
     content: url("/images/top/icon_sp_triangle_white.svg");
