@@ -90,40 +90,30 @@ export default function Home({slides,topics,readings}) {
           {/* TOPスライダーセクション END */}
 
           {/* セカンドビュー START */}
-          <section className={`${styles.second_view} mx-auto lg:w-1280`}>
+          <section className={`${styles.second_view} mx-auto lg:max-w-screen-xl`}>
             <h2 className={styles.second_view__title}>モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
+            <p className={styles.second_view__text}>私たちが掲げるのは人々の「幸せ」。</p>
             <p className={styles.second_view__text}>
-              私たちが創り出す、最高の商品とは、<br />
-              上質な素材でデザイン・機能性を意識し、<br />
-              一流の技術力を持って作り上げられたモノというだけではありません｡
-            </p>
-            <p className={styles.second_view__text}>
-              生産者の労働環境や地球環境まで配慮し、<br />
-              フェアな金額でお客様が優しさや強さに包まれ笑顔になって頂ける商品のことです。
-            </p>
-            <p className={styles.second_view__text}>
-              また我々はそのような「最高の商品」を創り出すことでお客様はもちろん<br />
-              商品が生まれるまでに携わった全ての人々や世界、<br />
-              素材を提供してくれる地球を幸せにしていきたいと考えています。
+商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていいきます。
             </p>
           </section>
           {/* セカンドビュー END */}
            
           {/* 取引パートナー様 START */}
-          <section className={`${styles.partner} mx-auto lg:w-1280`}>
+          <section className={`${styles.partner} mx-auto lg:max-w-screen-xl`}>
             <h2 className={styles.partner__title}>取引パートナー様</h2>
             <ul className={styles.partner__list}>
               <li className={styles.partner__item}>
-                <img src="/images/top/logo_kddi.png" alt="ロゴ" />
+                <img src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl>
-                  <dt>KDDI株式会社様</dt>
-                  <dd className={`${styles.partner__tag} ${styles['partner__tag--red']}`}>卸売事業</dd>
+                  <dt>有限会社ワンラブ様</dt>
+                  <dd className={`${styles.partner__tag} ${styles['partner__tag--green']}`}>OEM事業</dd>
                 </dl>
               </li>
               <li className={styles.partner__item}>
-                <img src="/images/top/logo_jp_post.png" alt="ロゴ" />
+                <img src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl>
-                  <dt>日本郵便株式会社</dt>
+                  <dt>レアリーク株式会社様</dt>
                   <dd className={`${styles.partner__tag} ${styles['partner__tag--red']}`}>卸売事業</dd>
                 </dl>
               </li>
@@ -142,9 +132,9 @@ export default function Home({slides,topics,readings}) {
                 </dl>
               </li>
               <li className={styles.partner__item}>
-                <img src="/images/top/logo_rareleak.png" alt="ロゴ" />
+                <img src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl>
-                  <dt>レアリーク株式会社様</dt>
+                  <dt>日本郵便株式会社</dt>
                   <dd className={`${styles.partner__tag} ${styles['partner__tag--red']}`}>卸売事業</dd>
                 </dl>
               </li>
@@ -153,7 +143,7 @@ export default function Home({slides,topics,readings}) {
           {/* 取引パートナー様 END */}
 
           {/* 事業内容 START */}
-          <section className={`${styles.business} mx-auto lg:w-1280`}>
+          <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
             <h2 className={styles.business__title}>事業内容</h2>
             <p className={styles.business__text}>
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
@@ -190,7 +180,7 @@ export default function Home({slides,topics,readings}) {
 
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
-            <section className={`${styles.company} mx-auto lg:w-1280`}>
+            <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
               <h2 className={styles.company__title}>会社情報</h2>
               <div className={styles.company__button_area}>
                 <Link href="/company">
@@ -206,7 +196,7 @@ export default function Home({slides,topics,readings}) {
 
           {/* メディア START */}
           <div className={styles.media_background}>
-            <section className={`${styles.media} mx-auto lg:w-1280`}>
+            <section className={`${styles.media} mx-auto lg:max-w-screen-xl`}>
               <h2 className={styles.media__title}>メディア</h2>
               <div className={styles.media__button_area}>
                 <Link href="/media">
@@ -270,7 +260,7 @@ export default function Home({slides,topics,readings}) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <ul className={`${styles.brand} mx-auto lg:w-1280`}>
+          <ul className={`${styles.brand} mx-auto lg:max-w-screen-xl`}>
             <li className={styles.brand__item}>
               <a href="https://bachicashley.com/" target="_blank">
                 <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />

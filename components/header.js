@@ -44,14 +44,14 @@ export default function Header() {
       />
     </Head>
     <div className={isHeightOver ? 'header' : 'header_change'}>
-      <div className="header__contents mx-auto w-full lg:w-1280">
+      <div className="header__contents mx-auto w-full">
         
         <div className="w-1/4 pt-2 pl-5 flex items-center lg:hidden">
           <Menu/>
         </div>
 
-        <div className="w-1/2 lg:w-3/12">
-          <div className="py-4 lg:py-6">
+        <div className="w-1/2 lg:w-4/12 lg:max-w-lg">
+          <div className="py-4 md:pl-20 lg:py-6">
             <Link href="/">
               <a>
                 <svg className="w-full" xmlns="http://www.w3.org/2000/svg" fill={isHeightOver ? 'black' : 'white'} viewBox="0 0 956.944 110.729">
@@ -64,7 +64,7 @@ export default function Header() {
           </div>
         </div>
 
-        <ul className="w-1/2 lg:w-7/12 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
+        <ul className="w-1/2 lg:w-6/12 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
           <Link href="/company">
             <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
               <li>会社情報</li>

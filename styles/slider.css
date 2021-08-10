@@ -23,7 +23,7 @@
   .slick-next {
     right: 20% !important;
   }
-  .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before{
-    opacity: .30 !important;
+  .slick-prev:before, .slick-next:before{
+    opacity: .35 !important;
   }
 }
