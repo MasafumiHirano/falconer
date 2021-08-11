@@ -393,7 +393,7 @@
     content: url("/images/top/business_sp_title.svg");
     position: relative;
     top: 70px;
-    right: 90%;
+    right: 45vw;
   }
   .business__item:nth-of-type(2) {
     top: -100px;
