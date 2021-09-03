@@ -11,17 +11,17 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Home({slides,topics,readings}) {
   //slider設定
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     lazyLoad: true,
     centerMode: false,
     adaptiveHeight: true,
     fade: false,
-    arrows: true,
+    arrows: false,
     className: 'slides'
   };
 
