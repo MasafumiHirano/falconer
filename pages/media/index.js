@@ -8,7 +8,7 @@ import InstagramEmbed from 'react-instagram-embed';
 import Layout from '../../components/layout'
 import React, { useState } from 'react'
 
-export default function Media({medias}) {
+export default function Media({ medias }) {
   const appID = '3888350634542239';
   const clientToken = '07d4a459f6430871cf1590f093d3069d';
   const clientAccessToken = `${appID}|${clientToken}`
@@ -17,14 +17,14 @@ export default function Media({medias}) {
     media.medianame[0] == 'instagram'
   ))
   //instagramの投稿は、4つとりだす。
-  const visibleInstagramPosts = instagramPosts.slice(0,4)
+  const visibleInstagramPosts = instagramPosts.slice(0, 4)
 
   const youtubePosts = medias.filter((media) => (
     media.medianame[0] == 'youtube'
   ))
   //youtubeの投稿は、5つとりだす。
   const visibleYoutubePosts = youtubePosts.slice(0, 5)
-  
+
   // open という名前の state 変数を宣言、初期値 true をセット
   const [open, setOpen] = useState(true)
   // toggleの関数を宣言
@@ -34,7 +34,7 @@ export default function Media({medias}) {
   const [open2, setOpen2] = useState(true)
   // toggleの関数を宣言
   const toggle2 = () => setOpen2(!open2)
-  
+
   // open という名前の state 変数を宣言、初期値 true をセット
   const [open3, setOpen3] = useState(true)
   // toggleの関数を宣言
@@ -50,53 +50,29 @@ export default function Media({medias}) {
         <main>
           <div>
             <div class="mx-auto py-6 pt-12 lg:py-6">
-            {/*見出し部分*/}
+              {/*見出し部分*/}
               <div class="mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="Osaka text-white text-center font-bold text-xl lg:text-3xl media_title flex items-center justify-center">MEDIA</h1>
+                  <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl media_title h-405 flex items-center justify-center flex-col">Media<p class="hiraginoGo text-base">メディア情報</p></h1>
                 </div>
               </div>
-            {/*見出し部分 終了*/}
+              {/*見出し部分 終了*/}
 
-            {/*内容*/}
+              {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
-                  <h2 class="text-center helvetica text-2xl mb-2 lg:text-5xl leading-5 ">Radio</h2>
-                  <p class="text-center helvetica font-semibold text-2xl mb-2 lg:text-base lg:mb-6 leading-5">ラジオ</p>
-                  <div class="max-w-max mb-2 mx-auto lg:mb-6">
-                    <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
-                      <Image src="/images/media/nanajam_image.png" alt="radio-image" width={1600} height={500} minWidth={0} minheight={0} />
-                    </a>
-                  </div>
-                  <div class="mx-auto w-5/6 chuGo lg:tracking-wide text-center">
-                    <Image src="/images/media/fm_aichi.png" alt="FM愛知" width={182} height={44} minWidth={0} minheight={0} />
-                    <p class="text-m lg:text-md Osaka">毎週月曜日 20：00～20：30</p>
-                  </div>
-                  <div class="text-l mt-8 mx-auto max-w-6xl lg:text-lg">
-                    <p class="leading-6 lg:leading-normal mb-4 Osaka">BACHIC ASHLEY がプロデュースする日常を最高の気分で過ごすために毎日を日々力強く生きているアーティスト､クリエイター､経営者など､各界の最先端で活躍する方々をゲストとしてお招きし､その強さの秘訣とこだわりの人生についてお聞きします。</p>
+                  <h2 class="text-center text-3xl mb-2 lg:text-5xl leading-5 futura-lt">Radio</h2>
+                  <p class="text-center text-base mb-2 lg:mb-6 leading-5 hiraginoGo">ラジオ</p>
+                  <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
+                    <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={200} height={137} minWidth={0} minheight={0} />
                   </div>
                 </section>{/*RadioSectionEnd*/}
 
-                <section class="py-6 lg:py-16 px-4 lg:px-6">{/*YoutubeSection*/}
-                  <div class="lg:flex lg:justify-center mb-2 lg:mb-6">
-                    <div class="pt-2 mx-auto lg:mx-0 w-1/4 lg:pt-0 lg:w-auto flex justify-center items-center lg:mr-6">
-                      <Image className="block" src="/images/media/youtube-full-logo_lg.png" width={150} height={34} alt="youtubelogo" />
-                    </div>
-                    <h2 class="helvetica font-normal text-center text-xl lg:text-3xl">聞き逃し配信中！</h2>
-                  </div>
+                <section class="pb-6 lg:pb-16 px-4 lg:px-6">{/*YoutubeSection*/}
                   <div class="lg:px-6 lg:py-6 lg:mb-4">
                     <div class="max-w-screen-lg mx-auto flex flex-wrap justify-between lg:grid-rows-2 lg:grid-cols-4 gap-4">
                       <div class="w-full h-200 md:h-640">
                         <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[0].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                      <div class="w-3split h-70 md:h-200">
-                        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[1].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                      <div class="w-3split h-70 md:h-200">
-                        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[2].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                      <div class="w-3split h-70 md:h-200">
-                        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${visibleYoutubePosts[3].postid}`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
                   </div>
@@ -119,7 +95,7 @@ export default function Media({medias}) {
                 <section class="bg-gray-100">
                   <div class="lg:px-6 lg:py-6 lg:mb-4">
                     <div class="max-w-screen-lg mx-auto flex flex-wrap justify-between pb-20">
-                     <div class="w-full my-4">
+                      <div class="w-full my-4">
                         <div class="border-b border-gray-400 mx-auto w-11/12 md:w-650 flex justify-center py-3">
                           <div class="w-3/12 flex items-center align-center"><span class="mr-1 md:mr-3">special</span><Image src="/images/media/start_icon.png" alt="start" width={24} height={24} minWidth={0} minheight={0} /></div>
                           <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-2xl">大村崑 &amp; 清水真輝 スペシャル対談</h2>
@@ -127,7 +103,7 @@ export default function Media({medias}) {
                       </div>
                       <div class="w-full mb-12">
                         <p class="px-4 md:px-0 text-sm">
-                        株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
+                          株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
                         </p>
                       </div>
                       <div class="w-full h-200 md:h-600">
@@ -207,7 +183,7 @@ export default function Media({medias}) {
                             onAfterRender={() => {}}
                             onFailure={() => {}}
                           />*/}
-                          </div>
+                        </div>
                         <div class="md:mx-2 w-49% md:w-1/4 md:hidden h-405 md:h-600 text-center">
                           <iframe class="instagram-media instagram-media-rendered mx-auto h-full" id="instagram-embed-4" src="https://www.instagram.com/p/CFcAOKGjqWC/embed/?cr=1&v=12&rd=https%3A%2F%2Ffalconer.co.jp&rp=%2Fcompany.html#%7B%22ci%22%3A3%2C%22os%22%3A747.5%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="591" data-instgrm-payload-id="instagram-media-payload-4" scrolling="no"></iframe>
                         </div>
@@ -216,7 +192,7 @@ export default function Media({medias}) {
                           <TwitterTimelineEmbed
                             sourceType="profile"
                             screenName="Nanami_Bondjam"
-                            options={{height: 600}}
+                            options={{ height: 600 }}
                           />
                           {/*<InstagramEmbed
                             url={`https://www.instagram.com/p/${visibleInstagramPosts[3].postid}/`}
@@ -234,7 +210,7 @@ export default function Media({medias}) {
                         </div>
                       </div>
 
-                    {/*
+                      {/*
                     <div class="mt-12 text-center">
                       <p>公式インスタグラムはこちら</p>
                         <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
@@ -249,7 +225,7 @@ export default function Media({medias}) {
                   <div class="w-11/12 max-w-screen-sm mx-auto">
                     <Link href="/contact/mediacontact"><a>
                       <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-black text-white text-center">
-                    メディア お問い合わせ
+                        メディア お問い合わせ
                       </div>
                     </a></Link>
                     <p class="Osaka mt-2 text-sm lg:text-center px-2 lg:px-0">メディアについてのご相談など、お気軽にお問い合わせください。</p>
@@ -264,9 +240,9 @@ export default function Media({medias}) {
   )
 }
 
-export const getStaticProps = async() => {
+export const getStaticProps = async () => {
   const key = {
-    headers: {'X-API-KEY': process.env.API_KEY},
+    headers: { 'X-API-KEY': process.env.API_KEY },
   };
   const data = await fetch('https://falconer.microcms.io/api/v1/media', key)
     .then(res => res.json())

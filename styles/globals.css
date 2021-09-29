@@ -269,7 +269,7 @@ div#reading-rich-text span {
 
 /*////////////////////////////////////// 各ページアイキャッチ //////////////////////////////////////*/
 h1.media_title{
-  background-image: url("/images/media/media_eyecatch.png");
+  background-image: url("/images/media/media_eyecatch.jpg");
   background-size: contain;
 }
 
@@ -282,11 +282,15 @@ h1.company_title{
   background-image: url("/images/oem/topimage.png");
 }
 
+.topics_title{
+  background-image: url("/images/topics/topics_eyecatch.jpg");
+  background-size: contain;
+}
+
 @media only screen and (max-width: 767px){
   h1.media_title{
-    background-image: url("/images/media/media_eyecatch_sp.png");
+    background-image: url("/images/media/media_eyecatch_sp.jpg");
     background-size: cover;
-    background-position: 50% 100%;
   }
   h1.company_title{
     background-image: url("/images/company/eyechatch_sp.png");
@@ -295,6 +299,9 @@ h1.company_title{
   }
   .oem_main_image{
     background-image: url("/images/oem/topimage_sp.png");
+  }
+  .topics_title{
+    background-image: url("/images/topics/topics_eyecatch_sp.jpg");
   }
 }
 
