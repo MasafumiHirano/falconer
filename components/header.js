@@ -36,12 +36,6 @@ export default function Header() {
         as="font"
         crossOrigin=""
       />
-      <link
-        rel="preload"
-        href="/fonts/futura_medium_bt.ttf"
-        as="font"
-        crossOrigin=""
-      />
     </Head>
     <div className={isHeightOver ? 'header' : 'header_change'}>
       <div className="header__contents mx-auto w-full">

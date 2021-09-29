@@ -53,6 +53,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "M_plus_RC1_bold";
+  src: url("/fonts/MPLUSRounded1c-Bold.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 /*////////////////////////////////////// カスタムユーティリティ //////////////////////////////////////*/
 @layer utilities {
@@ -75,10 +82,13 @@
     font-family: "midashiGoMB31";
   }
   .hiraginoGo {
-    font-family: "ヒラギノ角ゴシック";
+    font-family: "ヒラギノ角ゴシック","メイリオ",sans-serif;
   }
   .Osaka {
     font-family: "Osaka_custom";
+  }
+  .MpC1-b {
+    font-family: "M_plus_RC1_bold";
   }
 }
 
@@ -260,25 +270,44 @@ div#reading-rich-text span {
 /*////////////////////////////////////// 各ページアイキャッチ //////////////////////////////////////*/
 h1.media_title{
   background-image: url("/images/media/media_eyecatch.png");
-  height: 445px;
   background-size: contain;
 }
 
 h1.company_title{
   background-image: url("/images/company/eyechatch.png");
-  height: 445px;
   background-size: contain;
 }
+
+.oem_main_image{
+  background-image: url("/images/oem/topimage.png");
+}
+
 @media only screen and (max-width: 767px){
   h1.media_title{
     background-image: url("/images/media/media_eyecatch_sp.png");
-    height: 220px;
     background-size: cover;
     background-position: 50% 100%;
   }
   h1.company_title{
-    height: 220px;
+    background-image: url("/images/company/eyechatch_sp.png");
     background-size: cover;
     background-position: 50% 100%;
+  }
+  .oem_main_image{
+    background-image: url("/images/oem/topimage_sp.png");
+  }
+}
+
+
+/*////////////////////////////////////// 事業内容ページ //////////////////////////////////////*/
+.business_detail{
+  position: relative;
+}
+.business_detail p{
+  top: 20px;
+}
+@media only screen and (max-width: 767px){
+  .business_detail p{
+    bottom: 5vw;
   }
 }
