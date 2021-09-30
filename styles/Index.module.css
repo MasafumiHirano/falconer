@@ -117,10 +117,11 @@
 .company__title {
   font-size: 30px;
   text-align: center;
-  font-family: 'futura_light_bt';
+  font-family: 'futura_medium_bt';
 }
 .company__title p {
   font-size: 20px;
+  font-family: 'NotoSans_Light';
 }
 .company__text {
   padding-top: 90px;
