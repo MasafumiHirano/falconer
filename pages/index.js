@@ -110,7 +110,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 取引パートナー様 START */}
           <section class="mx-auto mt-20 md:mt-28 lg:max-w-screen-xl">
-            <h2 class="text-center futura-md text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
+            <h2 class="text-center futura-md text-3xl">PARTNERS<span class="text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto w-full mt-12 justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-210 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
@@ -227,7 +227,7 @@ export default function Home({ slides, topics, readings }) {
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
-                  <h3 class="border-b border-white text-base md:text-3xl pb-3">RADIO<span class="text-xl md:text-xl ml-3">ラジオ</span></h3>
+                  <h3 class="border-b border-white text-base md:text-3xl pb-3">RADIO<span class="text-xs md:text-xl ml-3">ラジオ</span></h3>
                   <p class="mt-3 text-sm md:text-lg break-all">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
                 </div>
               </div>
