@@ -290,7 +290,7 @@ div#reading-rich-text span {
 /*////////////////////////////////////// 各ページアイキャッチ //////////////////////////////////////*/
 h1.media_title{
   background-image: url("/images/media/media_eyecatch.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 h1.company_title{
