@@ -217,6 +217,26 @@ a.custom_button:hover:before {        /*「after要素」のマウスオーバ�
   display: block;
 }
 
+.custom_select select {
+  -webkit-appearance: none;
+  appearance: none; /* デフォルトのスタイルを無効 */
+  position: relative;
+}
+
+.custom_select select::-ms-expand {
+  display: none; /* デフォルトのスタイルを無効(IE用) */
+}
+
+.custom_select::before {
+  content: "▼";
+  color: white;
+  position: absolute;
+  right: 60px;
+  top: 14px;
+  font-size: 18px;
+  z-index: 99;
+}
+
 /*////////////////////////////////////// ラジオ向けCSS //////////////////////////////////////*/
 div.name{
   margin-top: 30px;

@@ -47,16 +47,16 @@ export default function Topics({ topics }) {
           {/*見出し部分 終了*/}
           <div class="mx-auto mt-20 pb-6 lg:py-12 lg:w-1100">
             <h1 class="futura-md lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="hiraginoGo text-base">ニュース一覧</p></h1>
-            <TopicList/>
-            {/*
             <div>
-
               <form action="">
-                <select onChange={(event) => { filterList(event) }}>
-                  <option value="プレスリリース">プレスリリース</option>
-                  <option value="お知らせ">お知らせ</option>
-                  <option value="メディア">メディア</option>
-                </select>
+                <div class="custom_select relative w-64 block mx-auto">
+                  <select class="bg-black w-full h-14  text-white text-center" onChange={(event) => { filterList(event) }}>
+                    <option value=''>カテゴリ</option>
+                    <option value="プレスリリース">プレスリリース</option>
+                    <option value="お知らせ">お知らせ</option>
+                    <option value="メディア">メディア</option>
+                  </select>
+                </div>
               </form>
               <ul class="mx-auto w-11/12 md:w-full mt-12">
                 {topics.map(topic => (
@@ -74,7 +74,6 @@ export default function Topics({ topics }) {
                 ))}
               </ul>
             </div>
-            */}
           </div>
         </main>
       </Layout>
