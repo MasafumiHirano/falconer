@@ -100,8 +100,8 @@ export default function Home({ slides, topics, readings }) {
 
           {/* セカンドビュー START */}
           <section class="pt-20 mx-auto -mt-2 bg-black text-white text-center lg:max-w-full">
-            <h2 class="text-base w-3/5 mx-auto md:text-2xl pt-20 font-bold hiraginoGo">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
-            <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-lg md:text-xl lg:max-w-screen-md hiraginoGo">
+            <h2 class="text-base w-3/5 mx-auto md:text-2xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
+            <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-lg md:text-xl lg:max-w-screen-md NotoSans-L">
               <p class="">私たちが掲げるのは人々の「幸せ」。<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていいきます。
               </p>
             </div>
@@ -110,7 +110,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 取引パートナー様 START */}
           <section class="mx-auto mt-20 md:mt-28 lg:max-w-screen-xl">
-            <h2 class="text-center futura-lt text-2xl">PARTNERS<span class="text-base font-light block hiraginoGo">取引パートナー様</span></h2>
+            <h2 class="text-center futura-lt text-2xl">PARTNERS<span class="text-base font-light block NotoSans-L">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto w-full mt-12 justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-210 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
@@ -154,7 +154,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* NEWSリスト START */}
           <section class="mx-auto mt-28 lg:max-w-screen-xl">
-            <h2 class="text-center futura-lt text-2xl">NEWS<span class="text-base font-light block hiraginoGo">ニュース</span></h2>
+            <h2 class="text-center futura-lt text-2xl">NEWS<span class="text-base font-light block NotoSans-L">ニュース</span></h2>
             <ul class="mx-auto w-11/12 md:w-full mt-12">
               {
                 topics
@@ -163,9 +163,9 @@ export default function Home({ slides, topics, readings }) {
                     <li key={topics.id} class="flex flex-wrap md:flex-row md:justify-center py-4 border-b">
                       <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
                       <div class={`${topics.category_color} rounded-2xl w-32 text-center`}>
-                        <span class="text-white hiraginoGo">{topics.category}</span>
+                        <span class="text-white NotoSans-L">{topics.category}</span>
                       </div>
-                      <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 hiraginoGo break-words">{topics.title}</p>
+                      <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 NotoSans-L break-words">{topics.title}</p>
                     </li>
                   ))
               }
@@ -175,8 +175,8 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
-            <h2 class="text-center futura-lt text-2xl">BUSINESS / PRODUCTS<span class="text-base font-light block hiraginoGo">事業内容</span></h2>
-            <p class="text-lg font-light font-sans w-11/12 md:w-2/5 mt-8 mx-auto">
+            <h2 class="text-center futura-lt text-2xl">BUSINESS / PRODUCTS<span class="text-base font-light block NotoSans-L">事業内容</span></h2>
+            <p class="text-lg font-light NotoSans-L w-11/12 md:w-2/5 mt-8 mx-auto">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
             <ul class="mt-4 md:flex md:flex-row md:flex-wrap md:justify-center">
@@ -207,7 +207,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
             <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
-              <h2 className={styles.company__title}>FALCONER info<p class="hiraginoGo">会社情報</p></h2>
+              <h2 className={styles.company__title}>FALCONER info<p class="NotoSans-L">会社情報</p></h2>
               <p className={styles.company__text}>
                 2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br/><br/>モノづくりだけにとどまらない挑戦の意思で未来の人々の幸せとクロスオーバーしていきます。
               </p>
@@ -223,17 +223,17 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア START */}
           <div className={styles.media_background}>
             <section className={`${styles.media} mx-auto lg:max-w-screen-xl`}>
-              <h2 class="text-center futura-lt text-2xl">MEDIA<span class="text-base font-light block hiraginoGo">メディア</span></h2>
+              <h2 class="text-center futura-lt text-2xl">MEDIA<span class="text-base font-light block NotoSans-L">メディア</span></h2>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
-                <div class="bg-media_black text-white px-4 md:px-16 hiraginoGo flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
+                <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-base md:text-3xl pb-3">RADIO<span class="text-xs md:text-xl ml-3">ラジオ</span></h3>
                   <p class="mt-3 text-sm md:text-lg break-all">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
                 </div>
               </div>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner2.jpg" alt="メディア" />
-                <div class="bg-media_black text-white px-4 md:px-16 hiraginoGo flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
+                <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-base md:text-3xl pb-3">Dialogue<span class="text-xs md:text-xl ml-3">対談</span></h3>
                   <p class="mt-3 text-sm md:text-lg break-all">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
                 </div>
@@ -272,7 +272,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <h2 class="mt-20 text-center futura-lt text-2xl">BRAND<span class="text-base font-light block hiraginoGo">ブランド</span></h2>
+          <h2 class="mt-20 text-center futura-lt text-2xl">BRAND<span class="text-base font-light block NotoSans-L">ブランド</span></h2>
           <ul class="mx-auto max-w-full w-ful flex justify-around flex-col md:flex-row">
             <li class="px-2 mt-4 md:w-600">
               <a href="https://bachicashley.com/" target="_blank">

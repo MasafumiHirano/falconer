@@ -20,7 +20,7 @@ export default function Company({ medias }) {
       <Layout>
         <main class="font-sans">
           <div class="mx-auto py-6 text-center">
-            <h1 class="futura-md text-white text-center text-3xl lg:text-4xl company_title flex flex-col justify-center items-center h-405">FALCONER Info<p class="hiraginoGo text-base">会社概要</p></h1>
+            <h1 class="futura-md text-white text-center text-3xl lg:text-4xl company_title flex flex-col justify-center items-center h-405">FALCONER Info<p class="NotoSans-L text-base">会社概要</p></h1>
             <div class="mt-10 md:mt-32 lg:flex lg:justify-center">
               <p class="px-3 text-xl lg:text-3xl lg:mb-6 text-left md:text-center tracking-widest">今日よりも、もっと幸せな明日を。</p>
             </div>

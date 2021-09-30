@@ -41,12 +41,12 @@ export default function Topics({ topics }) {
           {/*見出し部分*/}
           <div class="mb-6 lg:mb-12">
             <div class="relative">
-              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="hiraginoGo text-base">ニュース</p></h1>
+              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="NotoSans-L text-base">ニュース</p></h1>
             </div>
           </div>
           {/*見出し部分 終了*/}
           <div class="mx-auto mt-20 pb-6 lg:py-12 lg:w-1100">
-            <h1 class="futura-md lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="hiraginoGo text-base">ニュース一覧</p></h1>
+            <h1 class="futura-md lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="NotoSans-L text-base">ニュース一覧</p></h1>
             <div>
               <form action="">
                 <div class="custom_select relative w-64 block mx-auto">
@@ -65,9 +65,9 @@ export default function Topics({ topics }) {
                       <a class="flex flex-wrap md:flex-row md:justify-center">
                         <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topic.datetime}`)}</div>
                         <div class={`${topic.category_color} rounded-2xl w-32 text-center`}>
-                          <span class="text-white hiraginoGo">{topic.category}</span>
+                          <span class="text-white NotoSans-L">{topic.category}</span>
                         </div>
-                        <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 hiraginoGo break-words">{topic.title}</p>
+                        <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 NotoSans-L break-words">{topic.title}</p>
                       </a>
                     </Link>
                   </li>

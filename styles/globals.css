@@ -61,6 +61,29 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "NotoSans_Light";
+  src: url("/fonts/NotoSansJP-Light.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoSans_Regular";
+  src: url("/fonts/NotoSansJP-Regular.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NotoSans_Light";
+  src: url("/fonts/NotoSansJP-Bold.woff") format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 /*////////////////////////////////////// カスタムユーティリティ //////////////////////////////////////*/
 @layer utilities {
   .futura-lt {
@@ -90,11 +113,20 @@
   .MpC1-b {
     font-family: "M_plus_RC1_bold";
   }
+  .NotoSans-L {
+    font-family: "NotoSans_Light";
+  }
+  .NotoSans-R {
+    font-family: "NotoSans_Regular";
+  }
+  .NotoSans-B {
+    font-family: "NotoSans_Bold";
+  }
 }
 
 /*////////////////////////////////////// カスタムCSS //////////////////////////////////////*/
 body {
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'NotoSans_Light', sans-serif;
 }
 
 h1 {
