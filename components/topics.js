@@ -26,18 +26,21 @@ export default class TopicList extends Component {
         this.setState({ items: updateList })
     }
 
-    componentDidMount = async () => { //render直後に行いたい処理を書くところ
+    componentDidMount() { //render直後に行いたい処理を書くところ
+        const APIKEY = 'c690c293-352c-4eaf-93a2-0bb2dd89ee8b'
         const key = {
-            headers: { 'X-API-KEY': process.env.API_KEY },
+            headers: { 'X-API-KEY': APIKEY },
         };
         fetch('https://falconer.microcms.io/api/v1/topics', key) //api
             .then(res => res.json())
-            .then(json => {
-                this.setState({
+            .then(
+                (result) => {
+                  this.setState({
                     isLoaded: true,
-                    items: json.rates
-                })
-            })
+                    items: result.items
+                  });
+                }
+            )
             .catch((error) => {
                 console.error(error);
             });
@@ -46,10 +49,11 @@ export default class TopicList extends Component {
 
     render() {
         var { items, isLoaded } = this.state;
-        console.log(items);
         if (!isLoaded) {
+            console.log('isLoaded-False');
             return <div>...Loading</div>;
         } else {
+            console.log('isLoaded-True:' + items);
             return (
                 <div>
                     <form action="">

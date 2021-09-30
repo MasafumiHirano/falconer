@@ -3,10 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import moment from 'moment';
 import Layout from '../../components/layout'
-import TopicList from '../../components/topics';
+import ReactPaginate from 'react-paginate';
 
 export default function Topics({ topics }) {
-
+  
   //プレスリリース分のみ抽出
   const topic_pr = topics.filter((topic) => (
     topic.category[0] == 'プレスリリース'
@@ -41,7 +41,7 @@ export default function Topics({ topics }) {
           {/*見出し部分*/}
           <div class="mb-6 lg:mb-12">
             <div class="relative">
-              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 flex items-center justify-center flex-col">News<p class="hiraginoGo text-base">ニュース</p></h1>
+              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="hiraginoGo text-base">ニュース</p></h1>
             </div>
           </div>
           {/*見出し部分 終了*/}
@@ -60,7 +60,7 @@ export default function Topics({ topics }) {
               </form>
               <ul class="mx-auto w-11/12 md:w-full mt-12">
                 {topics.map(topic => (
-                  <li key={topic.id} class="flex flex-wrap md:flex-row md:justify-center py-4 border-b">
+                  <li key={topic.id} class="py-4 border-b">
                     <Link href={`topics/${topic.id}`}>
                       <a class="flex flex-wrap md:flex-row md:justify-center">
                         <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topic.datetime}`)}</div>

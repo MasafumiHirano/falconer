@@ -67,7 +67,7 @@ export default function Business() {
             </div>
           </section>
           {/* 事業内容セクション END */}
-          <section class="w-11/12 max-w-850 mx-auto">
+          <section class="w-11/12 max-w-850 mx-auto pt-10" id="site">
             <h2 class="futura-lt text-center text-3xl lg:text-4xl px-4 mt-16 mb-12 futura-lt">Shops<p class="hiraginoGo text-base">販売サイト</p></h2>
             <p class="hiraginoGo text-xs border-b-2 border-gray-400 pb-2 text-center lg:text-left w-full mx-auto lg:px-4">ALL Right Leather</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between">
