@@ -101,7 +101,7 @@ export default function Home({ slides, topics, readings }) {
           {/* セカンドビュー START */}
           <section class="pt-20 mx-auto -mt-2 bg-black text-white text-center lg:max-w-full">
             <h2 class="text-base w-3/5 mx-auto md:text-xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
-            <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-lg md:text-ml lg:max-w-screen-md NotoSans-L">
+            <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-ms md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていいきます。
               </p>
             </div>
@@ -176,7 +176,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
             <h2 class="text-center futura-md text-3xl">BUSINESS / PRODUCTS<span class="text-xl font-light block NotoSans-L">事業内容</span></h2>
-            <p class="text-ml font-light NotoSans-L w-11/12 md:w-2/5 mt-8 mx-auto">
+            <p class="text-ms font-light NotoSans-L w-11/12 md:w-2/5 mt-8 mx-auto">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
             <ul class="mt-4 md:flex md:flex-row md:flex-wrap md:justify-center">

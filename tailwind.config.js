@@ -68,6 +68,7 @@ module.exports = {
         '3.5xl': '2rem',
         '4.5xl': '2.8rem',
         'ml': '19px',
+        'ms': '15px',
         '25px': '25px',
       },
       colors: {
