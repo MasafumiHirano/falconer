@@ -49,7 +49,7 @@ export default function Media({ medias }) {
       <Layout>
         <main>
           <div>
-            <div class="mx-auto py-6 pt-12 lg:py-6">
+            <div class="mx-auto py-6 pt-12 lg:py-0">
               {/*見出し部分*/}
               <div class="mb-6 lg:mb-12">
                 <div class="relative">
@@ -61,8 +61,7 @@ export default function Media({ medias }) {
               {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:py-16">{/*RadioSection*/}
-                  <h2 class="text-center text-3xl mb-2 lg:text-5xl leading-5 futura-lt">Radio</h2>
-                  <p class="text-center text-base mb-2 lg:mb-6 leading-5 hiraginoGo">ラジオ</p>
+                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
                   <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
                     <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={200} height={137} minWidth={0} minheight={0} />
                   </div>
@@ -76,17 +75,16 @@ export default function Media({ medias }) {
                       </div>
                     </div>
                   </div>
-                  <div class="mx-auto mt-5 chuGo lg:tracking-wide text-sm lg:text-lg">
-                    <a target="blank_" href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" class="flex items-center justify-center h-16 custom_button text-center mx-auto w-320 lg:w-400">バックナンバー</a>
-                  </div>
-                  <div class="flex items-center justify-center mx-auto mt-5">
+                  <div class="NotoSans-L text-center text-lg">過去ナナジャム配信中</div>
+                  <div class="w-5/12 flex items-center justify-around mx-auto mt-12">
+                    <a target="blank_" href="https://www.youtube.com/c/BACHICASHLEY/playlists" class="flex items-center justify-center h-6 text-center w-120 lg:w-100">
+                      <Image src="/images/media/youtube.jpg" alt="spotify" width={92} height={65} minWidth={0} minheight={0} />
+                    </a>
                     <a target="blank_" href="https://open.spotify.com/show/1eZBcJc7lh1hBD6iAVOAnw" class="flex items-center justify-center h-6 text-center w-120 lg:w-100">
-                      <Image src="/images/media/spotify.jpg" alt="spotify" width={24} height={24} minWidth={0} minheight={0} />
-                      <span class="ml-1">spotify</span>
+                      <Image src="/images/media/spotify.jpg" alt="spotify" width={70} height={70} minWidth={0} minheight={0} />
                     </a>
                     <a target="blank_" href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NzI0M2Q5OC9wb2RjYXN0L3Jzcw?sa=X&ved=0CAMQ4aUDahcKEwjYoq2w-ePxAhUAAAAAHQAAAAAQAQ" class="flex items-center justify-center h-6 text-center w-120 lg:w-100">
-                      <Image src="/images/media/podcasts.png" alt="podcasts" width={24} height={24} minWidth={0} minheight={0} />
-                      <span class="">podcasts</span>
+                      <Image src="/images/media/podcasts.jpg" alt="podcasts" width={60} height={60} minWidth={0} minheight={0} />
                     </a>
                   </div>
                 </section>{/*YoutubeSectionEnd*/}

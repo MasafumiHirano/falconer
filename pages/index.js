@@ -235,14 +235,14 @@ export default function Home({ slides, topics, readings }) {
               <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base md:text-xl font-light block NotoSans-L">メディア</span></h2>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
-                <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
+                <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-base md:text-3xl pb-3">RADIO<span class="text-xs md:text-xl ml-3">ラジオ</span></h3>
                   <p class="mt-3 text-sm md:text-lg break-all">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
                 </div>
               </div>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner2.jpg" alt="メディア" />
-                <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
+                <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-base md:text-3xl pb-3">Dialogue<span class="text-xs md:text-xl ml-3">対談</span></h3>
                   <p class="mt-3 text-sm md:text-lg break-all">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
                 </div>
