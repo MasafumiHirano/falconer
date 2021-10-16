@@ -58,7 +58,7 @@ export default function Header() {
             </div>
           </div>
 
-          <ul className="w-1/2 lg:w-6/12 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
+          <ul className="w-1/2 lg:w-6/12 pr-8 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
             <Link href="/topics">
               <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
                 <li>ニュース</li>
