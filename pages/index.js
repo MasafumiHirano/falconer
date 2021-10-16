@@ -23,7 +23,16 @@ export default function Home({ slides, topics, readings }) {
     adaptiveHeight: true,
     fade: false,
     arrows: false,
-    className: 'slides'
+    className: 'slides',
+    responsive: [
+      {
+        breakpoint: 700,
+        settings: {
+          centerMode: false,
+          centerPadding: '0',
+        },
+      },
+    ],
   };
 
   const getTopicDate = (date) => {
@@ -48,7 +57,7 @@ export default function Home({ slides, topics, readings }) {
                     <Link href={`/topics/${slide.topics_ref.id}`}><a>
                       <picture>
                         <source media="(min-width: 960px)" srcSet={slide.topics_ref.main_image.url} />
-                        <img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} />
+                        <img className="inline-block mx-auto w-full h-screen lg:h-full object-cover" src={slide.topics_ref.main_image_sp.url} />
                       </picture>
                       {/*<img className="inline-block mx-auto w-full h-screen lg:h-auto object-cover" src={slide.topics_ref.main_image_sp.url} width={1280} height={640} alt="bachicashley_hero"/>*/}
                     </a></Link>
@@ -110,7 +119,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 取引パートナー様 START */}
           <section class="mx-auto mt-20 md:mt-28 lg:max-w-screen-xl">
-            <h2 class="text-center futura-md text-3xl">PARTNERS<span class="text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto w-full mt-12 justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-210 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
@@ -154,16 +163,16 @@ export default function Home({ slides, topics, readings }) {
 
           {/* NEWSリスト START */}
           <section class="mx-auto mt-28 lg:max-w-screen-xl">
-            <h2 class="text-center futura-md text-3xl">NEWS<span class="text-xl font-light block NotoSans-L">ニュース</span></h2>
-            <ul class="mx-auto w-11/12 md:w-full mt-12">
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base md:text-ms font-light block NotoSans-L">ニュース</span></h2>
+            <ul class="mx-auto w-11/12 md:w-11/12 mt-12">
               {
                 topics
                   .slice(0, 4)
                   .map(topics => (
-                    <li key={topics.id} class="flex flex-wrap md:flex-row md:justify-center py-4 border-b">
-                      <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
-                      <div class={`${topics.category_color} rounded-2xl w-32 text-center`}>
-                        <span class="text-white NotoSans-L">{topics.category}</span>
+                    <li key={topics.id} class="flex flex-wrap text-sm md:text-base md:flex-row md:justify-center py-4 border-b">
+                      <div class="w-24 md:w-32 py-1 text-sm md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
+                      <div class={`${topics.category_color} rounded-2xl w-32 text-center font-bold md:font-light py-0.5 flex justify-center items-center`}>
+                        <span class="text-white NotoSans-L text-sm">{topics.category}</span>
                       </div>
                       <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 NotoSans-L break-words">{topics.title}</p>
                     </li>
@@ -175,25 +184,25 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
-            <h2 class="text-center futura-md text-3xl">BUSINESS / PRODUCTS<span class="text-xl font-light block NotoSans-L">事業内容</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base md:text-xl font-light block NotoSans-L">事業内容</span></h2>
             <p class="text-ms font-light NotoSans-L w-11/12 md:w-2/5 mt-8 mx-auto">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
-            <ul class="mt-4 md:flex md:flex-row md:flex-wrap md:justify-center">
+            <ul class="mt-12 md:flex md:flex-row md:flex-wrap md:justify-center">
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_leather.png" alt="レザーアイテム製造・販売" />
+                <img className={styles.business__img} src="/images/top/business_leather.jpg" alt="レザーアイテム製造・販売" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_apparel.png" alt="アパレル" />
+                <img className={styles.business__img} src="/images/top/business_apparel.jpg" alt="アパレル" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_oem.png" alt="OEM" />
+                <img className={styles.business__img} src="/images/top/business_oem.jpg" alt="OEM" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_global.png" alt="海外事業" />
+                <img className={styles.business__img} src="/images/top/business_global.jpg" alt="海外事業" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_ec.png" alt="EC事業" />
+                <img className={styles.business__img} src="/images/top/business_ec.jpg" alt="EC事業" />
               </li>
               <li className={`${styles.business__item} md:w-full md:mt-10`}>
                 <Link href="/company/business">
@@ -223,7 +232,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア START */}
           <div className={styles.media_background}>
             <section className={`${styles.media} mx-auto lg:max-w-screen-xl`}>
-              <h2 class="text-center futura-md text-3xl">MEDIA<span class="text-xl font-light block NotoSans-L">メディア</span></h2>
+              <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base md:text-xl font-light block NotoSans-L">メディア</span></h2>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-16 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-600 mx-auto mt-2 md:absolute md:opacity-95">
@@ -272,7 +281,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <h2 class="mt-20 text-center futura-md text-3xl">BRAND<span class="text-xl font-light block NotoSans-L">ブランド</span></h2>
+          <h2 class="mt-20 text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
           <ul class="mx-auto max-w-full w-ful flex justify-around flex-col md:flex-row">
             <li class="px-2 mt-4 md:w-600">
               <a href="https://bachicashley.com/" target="_blank">

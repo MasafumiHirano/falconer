@@ -49,6 +49,7 @@ module.exports = {
       },
       height: {
         '1000': '1000px',
+        '800': '800px',
         '640': '640px',
         '600': '600px',
         '500': '500px',
@@ -65,6 +66,7 @@ module.exports = {
       },
       fontSize: {
         '2.5xl': '1.75rem',
+        '1.7rem': '1.7rem',
         '3.5xl': '2rem',
         '4.5xl': '2.8rem',
         'ml': '19px',

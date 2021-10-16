@@ -44,7 +44,7 @@ export default function Header() {
             <Menu />
           </div>
 
-          <div className="w-1/2 lg:w-4/12 lg:max-w-lg">
+          <div className="w-1/2 lg:w-3/12 lg:max-w-lg">
             <div className="py-4 md:pl-20 lg:py-6">
               <Link href="/">
                 <a>
