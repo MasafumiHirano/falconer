@@ -34,6 +34,7 @@ module.exports = {
         '720': '720px',
         '650': '650px',
         '600': '600px',
+        '520': '520px',
         '500': '500px',
         '450': '450px',
         '400': '400px',
@@ -50,6 +51,7 @@ module.exports = {
       },
       height: {
         '1000': '1000px',
+        '900': '900px',
         '800': '800px',
         '640': '640px',
         '600': '600px',
@@ -80,6 +82,7 @@ module.exports = {
         'falSLD': '#9f9e9f',
         'falNAVY': '#1F4370',
         'media_black': '#060000',
+        'radio_black': '#5D5D5D',
       },
       minWidth: {
         '200': '200px',

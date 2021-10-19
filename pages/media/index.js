@@ -66,7 +66,7 @@ export default function Media({ medias }) {
               {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:pt-16 lg:pb-0">{/*RadioSection*/}
-                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
+                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">Story<span class="text-base md:text-xl font-light block NotoSans-L">ストーリー</span></h2>
                   <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
                     <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={200} height={137} minWidth={0} minheight={0} />
                   </div>
@@ -118,6 +118,13 @@ export default function Media({ medias }) {
                     <Link href="https://www.youtube.com/c/BACHICASHLEY/playlists">
                       <a target="blank_" class="futura_medium_bt text-center text-2xl block w-32 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
                     </Link>
+                  </div>
+                  <div class="w-full md:w-500 px-1 mx-auto">
+                    <div class="w-full bg-radio_black flex flex-wrap text-white mt-24">
+                      <div class="w-full mt-8"><img src="/images/media/radio_icon.png" class="block w-9 mx-auto" /></div>
+                      <div class="w-full mt-2 text-center">NANAMIのUp Jam</div>
+                      <div class="w-full mb-6 text-center mt-9">ラジオ大阪<br />毎週土曜　13:00~13:30 O.A</div>
+                    </div>
                   </div>
                 </section>{/*アーカイブend*/}
 

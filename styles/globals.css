@@ -332,6 +332,11 @@ h1.company_title{
   background-size: cover;
 }
 
+.strength_title{
+  background-image: url("/images/company/strength_eyecatch.jpg");
+  background-size: cover;
+}
+
 @media only screen and (max-width: 767px){
   h1.media_title{
     background-image: url("/images/media/media_eyecatch_sp.jpg");
@@ -363,7 +368,7 @@ h1.company_title{
     bottom: 5vw;
   }
 }
-/*////////////////////////////////////// 事業内容ページ //////////////////////////////////////*/
+/*////////////////////////////////////// メディア-アニメーション //////////////////////////////////////*/
 .foo{
   width: 600px;
   height: 335px;
@@ -420,4 +425,15 @@ h1.company_title{
     height: 200px;
     overflow: hidden;
   }
+}
+
+/*////////////////////////////////////// 強み //////////////////////////////////////*/
+.self_maker{
+  background-image: url("/images/company/self_maker_bg.jpg");
+  background-size: cover;
+}
+
+.it_management{
+  background-image: url("/images/company/it_manage_bg.jpg");
+  background-size: cover;
 }
