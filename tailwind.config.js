@@ -69,7 +69,7 @@ module.exports = {
         '35': '35px',
       },
       fontSize: {
-        '0.95rem': '0.95rem',
+        'base_s': '0.95rem',
         '2.5xl': '1.75rem',
         '1.7rem': '1.7rem',
         '3.5xl': '2rem',

@@ -448,7 +448,7 @@
   }
   .business__item:nth-of-type(6) {
     top: -30vw;
-    right: -10vw;
+    right: -12vw;
   }
   .business__img {
     width: 48vw;
@@ -464,7 +464,7 @@
     height: auto;
   }  
   .company__text {
-    padding: 25px 5% 0;
+    padding: 25px 0.5rem 0;
     width: auto;
     font-size: 15px;
   }
@@ -488,7 +488,7 @@
     font-size: 1.7rem;
   }
   .company__title p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   
