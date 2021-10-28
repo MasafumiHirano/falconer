@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { Pagination } from '../../components/PaginationReadings';
+import { Pagination } from '../../../components/PaginationReadings';
+import Layout from '../../../components/layout'
 
-import Layout from '../../components/layout'
+const PER_PAGE = 12;
 
-export default function Readings({ readings, totalCount }) {
+export default function Readings({ readings, totalCount, id }) {
 
   return (
     <div>
@@ -24,21 +25,22 @@ export default function Readings({ readings, totalCount }) {
           <div class="mx-auto py-6 lg:py-12 lg:w-1100">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio List<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ一覧</span></h2>
             <div class="mt-20 px-1">
-              <ul class="flex flex-wrap justify-between md:justify-start">
+              <ul class="flex flex-wrap justify-between">
                 {readings.map(reading => (
-                  <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49% md:w-24% md:mx-1 mb-4 md:mb-24">
-                    <Link href={`readings/${reading.id}`}>
+                  <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49%">
+                    <Link href={`/readings/${reading.id}`}>
                       <a>
                         <div class="lg:px-0">
-                          <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
-                          <p class="flex items-center flex-wrap mt-3 w-full"><span class="futura-lt text-base md:text-xl w-full md:w-3/12">Vol.{reading.no}｜</span><span class="NotoSans-L text-xs text-left w-full md:w-9/12">{reading.title}</span></p>
+                          <div><img src={`${reading.main_image.url}`} /></div>
+                          <p class="text-sm">Vol.{reading.no}｜</p>
+                          <p class="text-xs">{reading.title}</p>
                         </div>
                       </a>
                     </Link>
                   </li>
                 ))}
               </ul>
-              <Pagination totalCount={totalCount} page="1" />
+              <Pagination totalCount={totalCount} page={id} />
             </div>
           </div>
         </main>
@@ -47,18 +49,37 @@ export default function Readings({ readings, totalCount }) {
   )
 }
 
-// データをテンプレートに受け渡す部分の処理を記述します
-export const getStaticProps = async () => {
+export const getStaticPaths = async () => {
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/readings', key)
+  const res = await fetch('https://falconer.microcms.io/api/v1/readings', key)
+  const repos = await res.json();
+
+  const pageNumbers = [];
+  const range = (start, end) =>
+    [...Array(end - start + 1)].map((_, i) => start + i)
+  const paths = range(1, Math.ceil(repos.totalCount / PER_PAGE)).map((repo) => `/readings/page/${repo}`)
+
+  return { paths, fallback: false };
+};
+
+// データをテンプレートに受け渡す部分の処理を記述します
+export const getStaticProps = async (context) => {
+  const id = context.params.id;
+  const key = {
+    headers: { 'X-API-KEY': process.env.API_KEY },
+  };
+
+  const data = await fetch("https://falconer.microcms.io/api/v1/readings?offset=" + id + "&limit=12"
+    , key)
     .then(res => res.json())
     .catch(() => null);
   return {
     props: {
       readings: data.contents,
       totalCount: data.totalCount,
+      id: id,
     },
   };
 };

@@ -100,7 +100,7 @@ export default function Home({ slides, topics, readings }) {
       <Layout>
         <main>
           {/* TOPスライダーセクション START */}
-          <div class="mx-auto">
+          <div class="mx-auto ">
             <Slider {...settings}>
               {renderSlider(slides)}
             </Slider>
@@ -108,7 +108,7 @@ export default function Home({ slides, topics, readings }) {
           {/* TOPスライダーセクション END */}
 
           {/* セカンドビュー START */}
-          <section class="pt-20 mx-auto -mt-2 bg-black text-white text-center lg:max-w-full">
+          <section class="pt-20 mx-auto -mt-2 text-center lg:max-w-full">
             <h2 class="text-base w-3/5 mx-auto md:text-xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-ms md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていいきます。
@@ -120,36 +120,36 @@ export default function Home({ slides, topics, readings }) {
           {/* 取引パートナー様 START */}
           <section class="mx-auto mt-20 md:mt-28 lg:max-w-screen-xl">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
-            <ul class="text-center flex mx-auto w-full mt-12 justify-between overflow-x-auto">
-              <li class="flex flex-col md:w-175 min-w-210 md:min-w-0">
+            <ul class="text-center flex mx-auto w-full mt-12 md:justify-between overflow-x-auto">
+              <li class="flex flex-col md:w-175 min-w-200 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt class="mt-7">有限会社ワンラブ様</dt>
                   <dd className="partner__tag--green">OEM事業</dd>
                 </dl>
               </li>
-              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-210 md:min-w-0">
+              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>レアリーク株式会社様</dt>
                   <dd className="partner__tag--red">卸売事業</dd>
                 </dl>
               </li>
-              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-210 md:min-w-0">
+              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社DMM.com様</dt>
                   <dd className="partner__tag--green">OEM事業</dd>
                 </dl>
               </li>
-              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-210 md:min-w-0">
+              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社東急ハンズ様</dt>
                   <dd className="partner__tag--blue">催事支援</dd>
                 </dl>
               </li>
-              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-210 md:min-w-0">
+              <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>日本郵便株式会社</dt>

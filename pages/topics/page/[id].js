@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import moment from 'moment';
-import Layout from '../../components/layout'
-import { Pagination } from '../../components/PaginationTopics';
+import { Pagination } from '../../../components/PaginationTopics';
+import Layout from '../../../components/layout'
+
+const PER_PAGE = 12;
 
 export default function Topics({ topics, totalCount }) {
-  
+
   //プレスリリース分のみ抽出
   const topic_pr = topics.filter((topic) => (
     topic.category[0] == 'プレスリリース'
@@ -29,7 +30,6 @@ export default function Topics({ topics, totalCount }) {
     })
     this.setState({ topics: updateList })
   }
-
   return (
     <div>
       <Head>
@@ -82,6 +82,7 @@ export default function Topics({ topics, totalCount }) {
   )
 }
 
+
 const getTopicDate = (date) => {
   var d = ''
   d = moment(date)
@@ -90,12 +91,29 @@ const getTopicDate = (date) => {
   )
 }
 
-// データをテンプレートに受け渡す部分の処理を記述します
-export const getStaticProps = async () => {
+export const getStaticPaths = async () => {
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/topics', key)
+  const res = await fetch('https://falconer.microcms.io/api/v1/topics', key)
+  const repos = await res.json();
+
+  const pageNumbers = [];
+  const range = (start, end) =>
+    [...Array(end - start + 1)].map((_, i) => start + i)
+  const paths = range(1, Math.ceil(repos.totalCount / PER_PAGE)).map((repo) => `/topics/page/${repo}`)
+
+  return { paths, fallback: false };
+};
+
+// データをテンプレートに受け渡す部分の処理を記述します
+export const getStaticProps = async (context) => {
+  const id = context.params.id;
+  const key = {
+    headers: { 'X-API-KEY': process.env.API_KEY },
+  };
+  const data = await fetch("https://falconer.microcms.io/api/v1/topics?offset=" + id + "&limit=12"
+    , key)
     .then(res => res.json())
     .catch(() => null);
   return {
