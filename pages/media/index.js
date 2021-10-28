@@ -115,8 +115,8 @@ export default function Media({ medias }) {
                     }
                   </div>
                   <div class="mt-10">
-                    <Link href="https://www.youtube.com/c/BACHICASHLEY/playlists">
-                      <a target="blank_" class="futura_medium_bt text-center text-2xl block w-32 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
+                    <Link href="/readings">
+                      <a class="futura_medium_bt text-center text-2xl block w-40 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
                     </Link>
                   </div>
                   <div class="w-full md:w-500 px-1 mx-auto">

@@ -48,7 +48,7 @@ export default function Topics({ topics, totalCount }) {
           <div class="mx-auto mt-20 pb-6 lg:py-12 lg:w-1100">
             <h1 class="futura-md lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="NotoSans-L text-base">ニュース一覧</p></h1>
             <div>
-              <form action="">
+              {/* <form action="">
                 <div class="custom_select relative w-64 block mx-auto">
                   <select class="bg-black w-full h-14  text-white text-center" onChange={(event) => { filterList(event) }}>
                     <option value=''>カテゴリ</option>
@@ -57,7 +57,7 @@ export default function Topics({ topics, totalCount }) {
                     <option value="メディア">メディア</option>
                   </select>
                 </div>
-              </form>
+              </form> */}
               <ul class="mx-auto w-11/12 md:w-full mt-12">
                 {topics.map(topic => (
                   <li key={topic.id} class="py-4 border-b">
