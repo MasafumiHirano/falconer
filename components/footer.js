@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="lg:flex lg:justify-between lg:flex-row lg:mb-12">
               <div className="flex flex-wrap justify-center lg:block pt-8 lg:pt-0">
                 <Link href="/">
-                  <a className="blcok w-full text-center"><Image src="/images/logo/Falconer_co_Ltd.png" width={227} height={43} alt="falconer_logo" /></a>
+                  <a className="blcok w-full text-center"><img src="/images/logo/Falconer co., Ltd2.png" class="w-52 block mx-auto" alt="falconer_logo" /></a>
                 </Link>
                 <ul class="flex flex-row justify-around mt-4">
                   <li class="w-1/4 flex justify-center items-center">
