@@ -237,14 +237,14 @@ export default function Home({ slides, topics, readings }) {
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-2xl pb-3">RADIO<span class="text-base_s ml-3">ラジオ</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-loose">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
                 </div>
               </div>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner2.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-2xl pb-3">Dialogue<span class="text-base_s ml-3">対談</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-loose">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
                 </div>
               </div>
               {/* 
