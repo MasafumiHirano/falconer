@@ -110,7 +110,7 @@ export default function Home({ slides, topics, readings }) {
           {/* セカンドビュー START */}
           <section class="pt-20 mx-auto -mt-2 text-center lg:max-w-full">
             <h2 class="text-base w-3/5 mx-auto md:text-xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
-            <div class="text-left w-4/5 mt-10 pb-28 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
+            <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
               </p>
             </div>
@@ -118,9 +118,9 @@ export default function Home({ slides, topics, readings }) {
           {/* セカンドビュー END */}
 
           {/* 取引パートナー様 START */}
-          <section class="mx-auto mt-20 md:mt-28 lg:max-w-screen-xl">
+          <section class="mx-auto mt-48 md:mt-52 lg:max-w-screen-xl">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
-            <ul class="text-center flex mx-auto w-full mt-12 md:justify-between overflow-x-auto">
+            <ul class="text-center flex mx-auto w-full px-5 mt-6 md:justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-200 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
@@ -162,9 +162,9 @@ export default function Home({ slides, topics, readings }) {
 
 
           {/* NEWSリスト START */}
-          <section class="mx-auto mt-28 lg:max-w-screen-xl">
+          <section class="mx-auto mt-48 lg:max-w-screen-xl">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans-L">ニュース</span></h2>
-            <ul class="mx-auto w-full px-2 md:px-0 md:w-1050 mt-12">
+            <ul class="mx-auto w-90% md:px-0 md:w-1050 mt-6">
               {
                 topics
                   .slice(0, 4)
@@ -185,7 +185,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-xl font-light block NotoSans-L">事業内容</span></h2>
-            <p class="text-base_s px-2 md:px-0 NotoSans-L 11/12 md:w-2/5 mt-10 mx-auto leading-relaxed">
+            <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
             <ul class="mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
@@ -216,7 +216,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
             <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
-              <h2 className={styles.company__title}>FALCONER info<p class="NotoSans-L">会社情報</p></h2>
+              <h2 className={styles.company__title}>FALCONER info<p>会社情報</p></h2>
               <p className={styles.company__text}>
                 2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br/><br/>モノづくりだけにとどまらない挑戦の意思で未来の人々の幸せとクロスオーバーしていきます。
               </p>
@@ -281,19 +281,19 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <h2 class="mt-20 text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
-          <ul class="mx-auto max-w-full w-ful flex justify-around flex-col md:flex-row">
-            <li class="px-2 mt-4 md:w-600">
+          <h2 class="mt-48 text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
+          <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
+            <li class="mt-6 md:w-600">
               <a href="https://bachicashley.com/" target="_blank">
                 <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />
               </a>
             </li>
-            <li class="px-2 mt-4 md:w-600">
+            <li class="mt-4 md:w-600">
               <a href="https://lurverri.com/" target="_blank">
                 <img src="/images/top/brand_lurverri.jpg" alt="Lurverri" />
               </a>
             </li>
-            <li class="px-2 mt-4 md:w-600">
+            <li class="mt-4 md:w-600">
               <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
                 <img src="/images/top/brand_rakuten.jpg" alt="All Right Leather" />
               </a>

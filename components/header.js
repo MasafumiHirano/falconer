@@ -55,7 +55,7 @@ export default function Header() {
                   </svg> */}
                   <svg xmlns="http://www.w3.org/2000/svg" class="inline-block" fill={isHeightOver ? 'black' : 'white'} viewBox="0 0 228 43">
                     <g id="falconer_logo" data-name="グループ 561" class="" transform="translate(0 15)">
-                      <text id="Falconer_co._Ltd" data-name="Falconer co., Ltd" class="" transform="translate(0 15)" font-size="28" font-family="futura_medium_bt, Futura"><tspan x="50%" text-anchor="middle">Falconer co., Ltd</tspan></text>
+                      <text id="Falconer_co._Ltd." data-name="Falconer co., Ltd" class="" transform="translate(0 15)" font-size="28" font-family="futura_medium_bt, Futura"><tspan x="50%" text-anchor="middle">Falconer co.,Ltd.</tspan></text>
                     </g>
                   </svg>
                 </a>
