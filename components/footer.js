@@ -12,18 +12,18 @@ export default function Footer() {
                 <Link href="/">
                   <a className="blcok w-full text-center"><img src="/images/logo/Falconer co., Ltd2.png" class="w-52 block mx-auto" alt="falconer_logo" /></a>
                 </Link>
-                <ul class="flex flex-row justify-around mt-4">
-                  <li class="w-1/4 flex justify-center items-center">
+                <ul class="flex w-170 md:w-full flex-row justify-around mt-4">
+                  <li class="w-8 flex justify-center items-center">
                     <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                       <img src="/images/top/media_Instagram.svg" alt="Instagram" />
                     </a>
                   </li>
-                  <li class="w-1/4 flex justify-center items-center">
+                  <li class="w-9 flex justify-center items-center">
                     <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                       <img src="/images/top/media_twitter2.svg" alt="Twitter" />
                     </a>
                   </li>
-                  <li class="w-1/4 flex justify-center items-center">
+                  <li class="a w-9 flex justify-center items-center">
                     <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
                       <img src="/images/top/media_youtube2.svg" alt="Youtube" />
                     </a>

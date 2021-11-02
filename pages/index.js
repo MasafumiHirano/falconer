@@ -92,7 +92,7 @@ export default function Home({ slides, topics, readings }) {
   }
 
   return (
-    <div>
+    <div class="break-all">
       <Head>
         <title>株式会社Falconer(ファルコナー)</title>
         <link rel="icon" href="/falconer_favicons.png" />
