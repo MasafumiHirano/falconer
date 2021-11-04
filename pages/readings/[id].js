@@ -63,6 +63,11 @@ export default function readingId({ reading, readinglist }) {
                 __html: `${reading.body}`,
               }}
             />
+            <div id="reading-rich-text" class="helvetica"
+              dangerouslySetInnerHTML={{
+                __html: `${reading.body2}`,
+              }}
+            />
           </div>
           <div class=" md:w-1/4 py-6 lg:py-12">
             <h2 class="bg-black text-white text-center my-3 py-3 NotoSans-L text-lg">最新の記事</h2>

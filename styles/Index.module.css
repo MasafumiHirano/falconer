@@ -132,6 +132,7 @@
   font-size: 0.95rem;
   line-height: 1.625;
   font-family: "ヒラギノ角ゴシック",'NotoSans_Light';
+  text-align: justify;
 }
 .company__button_area {
   padding-top: 150px;

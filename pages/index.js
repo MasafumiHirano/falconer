@@ -111,7 +111,7 @@ export default function Home({ slides, topics, readings }) {
           <section class="pt-20 mx-auto -mt-2 text-center lg:max-w-full">
             <h2 class="text-base w-3/5 mx-auto md:text-xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
-              <p class="">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
+              <p class="text-justify">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
               </p>
             </div>
           </section>
@@ -174,7 +174,7 @@ export default function Home({ slides, topics, readings }) {
                       <div class={`${topics.category_color} rounded-2xl w-32 text-center font-bold md:font-light py-0.5 flex justify-center items-center`}>
                         <span class="text-white NotoSans-L text-sm">{topics.category}</span>
                       </div>
-                      <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-base_s NotoSans-L break-words">{topics.title}</p>
+                      <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-base_s NotoSans-L break-words text-justify">{topics.title}</p>
                     </li>
                   ))
               }
@@ -185,7 +185,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-xl font-light block NotoSans-L">事業内容</span></h2>
-            <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed">
+            <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
             <ul class="mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
@@ -237,14 +237,14 @@ export default function Home({ slides, topics, readings }) {
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-2xl pb-3">RADIO<span class="text-base_s ml-3">ラジオ</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
                 </div>
               </div>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner2.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-2xl pb-3">Dialogue<span class="text-base_s ml-3">対談</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
                 </div>
               </div>
               {/* 
