@@ -12,7 +12,7 @@ export default function Footer() {
                 <Link href="/">
                   <a className="blcok w-full text-center"><img src="/images/logo/Falconer co., Ltd2.png" class="w-52 block mx-auto" alt="falconer_logo" /></a>
                 </Link>
-                <ul class="flex w-170 md:w-full flex-row justify-around mt-4">
+                <ul class="flex w-170 md:w-full flex-row justify-around mt-12">
                   <li class="w-8 flex justify-center items-center">
                     <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
                       <img src="/images/top/media_Instagram.svg" alt="Instagram" />
@@ -30,14 +30,16 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="flex justify-around lg:justify-center leading-8 text-sm w-8/12 mx-auto lg:text-base mt-6 lg:mt-0 text-white">
+              <div className="flex justify-around lg:justify-center leading-8 text-sm w-8/12 mx-auto lg:text-base mt-11 lg:mt-0 text-white">
                 <div className="px-4 lg:mx-12 lg:pr-16">
-                  <h2 className="lg:leading-4"><Link href="/company"><a>会社情報</a></Link></h2>
-                  <h2 className="lg:leading-4 lg:mt-6"><Link href="/media"><a>メディア</a></Link></h2>
+                  <h2 className="lg:leading-4"><Link href="/topics"><a>ニュース</a></Link></h2>
+                  <h2 className="lg:leading-4 lg:mt-6"><Link href="/company/business#site"><a>販売サイト</a></Link></h2>
+                  <h2 className="lg:leading-4 lg:mt-6"><Link href="/company"><a>会社情報</a></Link></h2>
                 </div>
                 <div className="lg:flex justify-between">
                   <div className="lg:mx-12 lg:mt-0">
-                    <h2 className="lg:leading-4"><Link href="/recruit"><a>採用情報</a></Link></h2>
+                    <h2 className="lg:leading-4"><Link href="/media"><a>メディア</a></Link></h2>
+                    <h2 className="lg:leading-4 lg:mt-6"><Link href="/recruit"><a>採用情報</a></Link></h2>
                     <h2 className="lg:leading-4 lg:mt-6"><Link href="/contact"><a>お問い合わせ</a></Link></h2>
                   </div>
                 </div>
