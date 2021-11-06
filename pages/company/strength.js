@@ -11,17 +11,17 @@ export default function Strength() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-        <main class="lg:pb-12" style={{ backgroundColor: "#ffffff" }}>
+        <main class="-mb-4">
           {/*見出し部分*/}
           <div class="mb-6 lg:mb-12">
             <div class="relative">
-              <h1 class="strength_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">Strength<p class="NotoSans-L text-base font-normal">社の強み</p></h1>
+              <h1 class="strength_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">Asset<p class="NotoSans-L text-base font-normal">FALCONERの強み</p></h1>
             </div>
           </div>
           {/*見出し部分 終了*/}
           <div class="mt-24 md:mt-44 lg:flex lg:justify-center">
             <p class="px-3 text-sm md:text-lg text-left md:text-center lg:mb-2">
-              私たちは特別な富裕層ではなく、普通の人達のために<br />世界的な有名ブランドにも負けない品質の製品を<br />適正価格で提供しています。
+            商品を通して繋がる皆様に、幸せに過ごしていただくため<br />私たちは時代に流されることなく、上質な商品を創り出し<br />レザーグッズ会に革命を起こすべく、挑戦を続けていきます。
             </p>
           </div>
           <div class="border-t border-b md:border-t-2 md:border-b-2 border-gray-600 py-10 w-300 lg:w-49% mx-auto mt-24 md:mt-44">
@@ -57,7 +57,7 @@ export default function Strength() {
               <img src="/images/company/spc_system.png"/>
             </div>
           </div>
-          <div class="it_management w-full md:h-900 mt-24 md:mt-36 flex justify-center items-center flex-wrap md:flex-nowrap px-8 d:px-0 py-12">
+          <div class="it_management w-full md:h-900 flex justify-center items-center flex-wrap md:flex-nowrap px-8 md:px-0 py-12">
             <div class="w-full md:w-500 text-white order-1 md:order-2">
               <h3 class="flex items-center text-sm md:text-xl"><img src="/images/company/shape.png" class="mr-1" />IT技術を活用した生産管理</h3>
               <div class="NotoSans-L text-sm md:text-base">
@@ -68,18 +68,18 @@ export default function Strength() {
                 これらの仕組みにより、卸を通さず、ユーザーの需要を素早く製品に反映させ、高品質な製品を安価に提供することで、2016年の創業から僅か5年でグループ年商10億を超えるまでになりました。
               </div>
             </div>
-            <div class="w-full px-2 md:px-0 md:w-auto mt-16 md:mt-0 md:ml-24 order-2 md:order-1">
+            <div class="w-full px-2 md:px-0 md:w-auto mt-16 md:mt-0 md:mr-24 order-2 md:order-1">
               <img src="/images/company/it_management.png" />
               <div class="w-full mt-8 text-xl text-center text-white">現在進行形で随時、必要時に必要な仕組みを導入しています。</div>
             </div>
           </div>
-          <div class="a mt-24 md:mt-32 mb-40 lg:flex lg:justify-center">
+          {/* <div class="a mt-24 md:mt-32 mb-40 lg:flex lg:justify-center">
             <p class="NotoSans-L px-3  text-xs md:text-lg text-left md:text-center lg:mb-2">
               商品を通して繋がる皆様に、幸せに過ごしていただくため<br />
               私たちは時代に流されることなく、上質な商品を創り出し<br />
               レザーグッズ会に革命を起こすべく、挑戦を続けていきます。
             </p>
-          </div>
+          </div> */}
         </main>
       </Layout>
     </div>

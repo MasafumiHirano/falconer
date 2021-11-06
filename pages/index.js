@@ -190,19 +190,19 @@ export default function Home({ slides, topics, readings }) {
             </p>
             <ul class="mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_leather.jpg" alt="レザーアイテム製造・販売" />
+                <img className={styles.business__img} src="/images/top/busi_01.png" alt="レザーアイテム製造・販売" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_apparel.jpg" alt="アパレル" />
+                <img className={styles.business__img} src="/images/top/busi_02.png" alt="アパレル" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_oem.jpg" alt="OEM" />
+                <img className={styles.business__img} src="/images/top/busi_03.png" alt="OEM" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_global.jpg" alt="海外事業" />
+                <img className={styles.business__img} src="/images/top/busi_04.png" alt="海外事業" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/business_ec.jpg" alt="EC事業" />
+                <img className={styles.business__img} src="/images/top/busi_05.png" alt="EC事業" />
               </li>
               <li className={`${styles.business__item} md:w-full md:mt-10`}>
                 <Link href="/company/business">
