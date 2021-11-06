@@ -1,6 +1,5 @@
 // pages/readings/[id].js
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 import moment from 'moment';
 
@@ -24,11 +23,11 @@ export default function readingId({ reading, readinglist }) {
                 <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
                 <div class="flex items-center my-2">
                   <time datetime={`${reading.datetime}`}>{getTopicDate(`${reading.datetime}`)}</time>
-                  <div class="rounded-2xl w-32 text-center bg-purple-400 ml-2">
-                    <span class="text-white NotoSans-L">メディア</span>
+                  <div class="rounded-2xl w-32 text-center bg-purple-400 ml-2 flex items-center justify-center h-6">
+                    <span class="text-white text-xs NotoSans-L">メディア</span>
                   </div>
                 </div>
-                <p class="flex items-center flex-wrap NotoSans-L text-base mt-3 w-full pb-4 border-b border-gray-900">Vol.{reading.no}｜{reading.title}</p>
+                <p class="flex items-center flex-wrap NotoSans-L text-base mt-3 w-full pb-4 border-b border-gray-900">{reading.title}</p>
               </div>
             </a>
           </Link>
@@ -45,11 +44,11 @@ export default function readingId({ reading, readinglist }) {
       <Layout>
         <main class="md:flex max-w-1520 mx-auto">
           <div class="mx-auto py-6 px-2 lg:px-12 lg:py-12 lg:w-1100 md:w-3/4">
-            <h1 class="NotoSans-L text-lg flex items-center justify-start my-3 w-full">Vol.{reading.no}｜{reading.guest}。{reading.title}</h1>
+            <h1 class="NotoSans-L text-lg flex items-center justify-start my-3 w-full">{reading.title}</h1>
             <div class="flex items-center mb-2">
               <time datetime={`${reading.datetime}`}>{getTopicDate(`${reading.datetime}`)}</time>
-              <div class="rounded-2xl w-32 text-center bg-purple-400 ml-2">
-                <span class="text-white NotoSans-L">メディア</span>
+              <div class="rounded-2xl w-32 text-center bg-purple-400 ml-2 flex items-center justify-center h-6">
+                <span class="text-white text-xs NotoSans-L">メディア</span>
               </div>
             </div>
             <img class="object-cover" src={`${reading.main_image.url}`} alt="" />
@@ -63,6 +62,7 @@ export default function readingId({ reading, readinglist }) {
                 __html: `${reading.body}`,
               }}
             />
+
             <div id="reading-rich-text" class="helvetica"
               dangerouslySetInnerHTML={{
                 __html: `${reading.body2}`,
