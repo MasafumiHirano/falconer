@@ -120,40 +120,40 @@ export default function Home({ slides, topics, readings }) {
           {/* 取引パートナー様 START */}
           <section class="mx-auto mt-48 md:mt-52 lg:max-w-screen-xl">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
-            <ul class="text-center flex mx-auto w-full px-5 mt-6 md:justify-between overflow-x-auto">
+            <ul class="text-center flex mx-auto md:w-1050 px-5 mt-6 md:justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-200 md:min-w-0">
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt class="mt-7">有限会社ワンラブ様</dt>
-                  <dd className="partner__tag--green">OEM事業</dd>
+                  <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>レアリーク株式会社様</dt>
-                  <dd className="partner__tag--red">卸売事業</dd>
+                  <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社DMM.com様</dt>
-                  <dd className="partner__tag--green">OEM事業</dd>
+                  <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社東急ハンズ様</dt>
-                  <dd className="partner__tag--blue">催事支援</dd>
+                  <dd className="partner__tag pt_blue">催事支援</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>日本郵便株式会社</dt>
-                  <dd className="partner__tag--red">卸売事業</dd>
+                  <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
             </ul>

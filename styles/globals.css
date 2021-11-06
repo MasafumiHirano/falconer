@@ -297,6 +297,25 @@ div#reading-rich-text span {
   display: block;
 }
 
+
+.partner__tag {
+  font-size: 15px;
+  color: #fff;
+  border-radius: 20px;
+  width: 150px;
+  margin: 8px auto 0;
+  padding: 2px 0;
+}
+.partner__tag.pt_red {
+  background-color: #BC2929;
+}
+.partner__tag.pt_green {
+  background-color: #5FCBC2;
+}
+.partner__tag.pt_blue {
+  background-color: #1C186A;
+}
+
 @media screen and (max-width:480px){
   .title iframe {
       width: 90%;
