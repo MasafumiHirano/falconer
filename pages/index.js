@@ -125,35 +125,35 @@ export default function Home({ slides, topics, readings }) {
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt class="mt-7">有限会社ワンラブ様</dt>
-                  <dd className="partner__tag pt_green">OEM事業</dd>
+                  <dd className="partner__tag bg-black">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>レアリーク株式会社様</dt>
-                  <dd className="partner__tag pt_red">卸売事業</dd>
+                  <dd className="partner__tag bg-black">卸売事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社DMM.com様</dt>
-                  <dd className="partner__tag pt_green">OEM事業</dd>
+                  <dd className="partner__tag bg-black">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社東急ハンズ様</dt>
-                  <dd className="partner__tag pt_blue">催事支援</dd>
+                  <dd className="partner__tag bg-black">催事支援</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>日本郵便株式会社</dt>
-                  <dd className="partner__tag pt_red">卸売事業</dd>
+                  <dd className="partner__tag bg-black">卸売事業</dd>
                 </dl>
               </li>
             </ul>
