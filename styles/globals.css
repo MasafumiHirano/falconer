@@ -275,7 +275,6 @@ div.name{
 .title h1 {
   font-size: 30px;
 }
-
 div.text {
   width: 90%;
   max-width: 1000px;
@@ -283,12 +282,10 @@ div.text {
   font-size: 1.5em;
   line-height: 2em;
 }
-
 .title iframe {
   width: 800px;
   height: 400px;
 }
-
 .title div{
   margin-top: 20px;
 }
@@ -299,20 +296,23 @@ div#reading-rich-text span {
 
 .partner__tag {
   font-size: 15px;
-  color: #fff;
   border-radius: 20px;
+  border: 2px solid;
   width: 150px;
   margin: 8px auto 0;
   padding: 2px 0;
 }
 .partner__tag.pt_red {
-  background-color: #BC2929;
+  border-color: #BC2929;
+  color: #BC2929;
 }
 .partner__tag.pt_green {
-  background-color: #5FCBC2;
+  border-color: #5FCBC2;
+  color: #5FCBC2;
 }
-.partner__tag.pt_blue {
-  background-color: #1C186A;
+.partner__tag.pt_navy {
+  border-color: #1C186A;
+  color: #1C186A;
 }
 
 @media screen and (max-width:480px){

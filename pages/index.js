@@ -108,7 +108,7 @@ export default function Home({ slides, topics, readings }) {
           {/* TOPスライダーセクション END */}
 
           {/* セカンドビュー START */}
-          <section class="pt-20 mx-auto -mt-2 text-center lg:max-w-full">
+          <section class="pt-8 mx-auto -mt-2 text-center lg:max-w-full">
             <h2 class="text-base w-3/5 mx-auto md:text-xl pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="text-justify">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
@@ -125,35 +125,35 @@ export default function Home({ slides, topics, readings }) {
                 <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt class="mt-7">有限会社ワンラブ様</dt>
-                  <dd className="partner__tag bg-black">OEM事業</dd>
+                  <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>レアリーク株式会社様</dt>
-                  <dd className="partner__tag bg-black">卸売事業</dd>
+                  <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社DMM.com様</dt>
-                  <dd className="partner__tag bg-black">OEM事業</dd>
+                  <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>株式会社東急ハンズ様</dt>
-                  <dd className="partner__tag bg-black">催事支援</dd>
+                  <dd className="partner__tag pt_navy">催事支援</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl class="mt-auto">
                   <dt>日本郵便株式会社</dt>
-                  <dd className="partner__tag bg-black">卸売事業</dd>
+                  <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
             </ul>
@@ -171,7 +171,7 @@ export default function Home({ slides, topics, readings }) {
                   .map(topics => (
                     <li key={topics.id} class="flex flex-wrap text-sm md:text-base md:flex-row md:justify-center py-4 border-b">
                       <div class="w-24 md:w-32 py-1 text-sm md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
-                      <div class={`${topics.category_color} rounded-2xl w-32 text-center font-bold md:font-light py-0.5 flex justify-center items-center`}>
+                      <div class={`${topics.category_color} rounded-2xl w-32 text-center font-light py-0.5 flex justify-center items-center`}>
                         <span class="text-white NotoSans-L text-sm">{topics.category}</span>
                       </div>
                       <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-base_s NotoSans-L break-words text-justify">{topics.title}</p>
@@ -206,7 +206,7 @@ export default function Home({ slides, topics, readings }) {
               </li>
               <li className={`${styles.business__item} md:w-full md:mt-10`}>
                 <Link href="/company/business">
-                  <a class="futura_medium_bt text-center text-2xl block w-28 md:w-40 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
+                  <a class="futura_medium_bt text-center text-base block w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
                 </Link>
               </li>
             </ul>
@@ -216,13 +216,13 @@ export default function Home({ slides, topics, readings }) {
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
             <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
-              <h2 className={styles.company__title}>FALCONER info<p>会社情報</p></h2>
+              <h2 className={styles.company__title}>Falconer info<p>会社情報</p></h2>
               <p className={styles.company__text}>
                 2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br/><br/>モノづくりだけにとどまらない挑戦の意思で未来の人々の幸せとクロスオーバーしていきます。
               </p>
               <div className={styles.company__button_area}>
                 <Link href="/company">
-                  <a class="futura_medium_bt text-center text-2xl block w-40 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
+                  <a class="futura_medium_bt text-center text-base block w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
                 </Link>
               </div>
             </section>
@@ -236,15 +236,15 @@ export default function Home({ slides, topics, readings }) {
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
-                  <h3 class="border-b border-white text-2xl pb-3">RADIO<span class="text-base_s ml-3">ラジオ</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">自社ブランドを手がける、FALCONER代表取締役 清水がアイデザイナーやモデルとして活躍中のNANAMIと共にラジオMCとして、ゲストの拘りについて、また成功と幸せについてを掘り下げていく対談プログラム。</p>
+                  <h3 class="border-b border-white text-2xl pb-3">Radio<span class="text-base_s ml-3">ラジオ</span></h3>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">自社ブランドを手掛けるFALCONER代表取締役 清水がアイデザイナー、モデルとして活躍中のNANAMIと共に、ゲストの拘り、成功と幸せについて掘り下げていくプログラム。</p>
                 </div>
               </div>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner2.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-4/5 md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
                   <h3 class="border-b border-white text-2xl pb-3">Dialogue<span class="text-base_s ml-3">対談</span></h3>
-                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">FALCONER設立以前から信仰のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現した対談。</p>
+                  <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">FALCONER設立以前から親交のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現したスペシャル対談。</p>
                 </div>
               </div>
               {/* 
@@ -273,7 +273,7 @@ export default function Home({ slides, topics, readings }) {
               */}
               <div className={styles.media__button_area}>
                 <Link href="/media">
-                <a class="futura_medium_bt text-center text-2xl block w-32 md:w-40 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
+                <a class="futura_medium_bt text-center text-base block w-40 md:w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
                 </Link>
               </div>
             </section>
@@ -283,7 +283,7 @@ export default function Home({ slides, topics, readings }) {
           {/* ブランドセクション START */}
           <h2 class="mt-48 text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
           <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
-            <li class="mt-6 md:w-600">
+            <li class="mt-6 md:mt-4 md:w-600">
               <a href="https://bachicashley.com/" target="_blank">
                 <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />
               </a>

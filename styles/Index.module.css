@@ -36,23 +36,6 @@
   flex-flow: column;
   justify-content: space-between;
 }
-.partner__tag {
-  font-size: 15px;
-  color: #fff;
-  border-radius: 20px;
-  width: 150px;
-  margin: 8px auto 0;
-  padding: 2px 0;
-}
-.partner__tag-red {
-  background-color: #BC2929;
-}
-.partner__green {
-  background-color: #5FCBC2;
-}
-.partner__tag-blue {
-  background-color: #1C186A;
-}
 
 /* 事業内容 */
 .business {
@@ -450,8 +433,8 @@
     left: 6vw;
   }
   .business__item:nth-of-type(6) {
-    top: 0;
-    right: -17vw;
+    top: 35vw;
+    width: 100vw;
   }
   .business__img {
     width: 40vw;

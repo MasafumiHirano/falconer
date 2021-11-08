@@ -35,7 +35,8 @@ const Menu = () => {
   return (
     <div className="">
       <button onClick={toggleDrawer}>
-        <svg xmlns="http://www.w3.org/2000/svg" fill={isHeightOver ? 'black' : 'white'} width="24" height="24" viewBox="0 0 640 1024" role="img">
+      {/* <svg xmlns="http://www.w3.org/2000/svg" fill={isHeightOver ? 'black' : 'white'} width="24" height="24" viewBox="0 0 640 1024" role="img"> */}
+        <svg xmlns="http://www.w3.org/2000/svg" fill="black" width="24" height="24" viewBox="0 0 640 1024" role="img">
           <path d="M0 192h640v128H0zm0 256h640v128H0zm0 256h640v128H0z"/>
         </svg>
       </button>

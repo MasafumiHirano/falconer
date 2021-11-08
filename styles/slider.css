@@ -22,8 +22,12 @@
   bottom: -25px;
 }
 
+#__next .slick-dots li{
+  width: 10px;
+}
+
 #__next .slick-dots li button:before{
-  font-size: 15px;
+  font-size: 10px;
   color: black;
 }
 

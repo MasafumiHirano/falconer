@@ -37,7 +37,8 @@ export default function Header() {
           crossOrigin=""
         />
       </Head>
-      <div className={isHeightOver ? 'header' : 'header_change'}>
+      {/* <div className={isHeightOver ? 'header' : 'header_change'}> */}
+      <div className="header">
         <div className="header__contents mx-auto w-full">
 
           <div className="w-1/4 pt-2 pl-5 flex items-center lg:hidden">
@@ -59,7 +60,7 @@ export default function Header() {
                     </g>
                   </svg> */}
 <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 228 32">
-<g fill={isHeightOver ? 'black' : 'white'}>
+<g fill="black">
 	<path class="st0" d="M11.84,6.09H3.58v5.7h7.97v3.36H3.58v11.29H0V2.73h11.84V6.09z"/>
 	<path class="st0" d="M26.13,11.48h3.47v14.95h-3.47v-1.57c-1.42,1.33-2.95,2-4.59,2c-2.07,0-3.78-0.75-5.13-2.24
 		c-1.34-1.53-2.01-3.43-2.01-5.71c0-2.24,0.67-4.11,2.01-5.6c1.34-1.49,3.02-2.24,5.04-2.24c1.74,0,3.3,0.72,4.68,2.15V11.48z
@@ -122,32 +123,33 @@ export default function Header() {
 
           <ul className="w-1/2 lg:w-6/12 pr-8 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
             <Link href="/topics">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              {/* <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}> */}
+              <a className="header__nav">
                 <li>ニュース</li>
               </a>
             </Link>
             <Link href="/company/business#site">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <a className="header__nav">
                 <li>販売サイト</li>
               </a>
             </Link>
             <Link href="/company">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <a className="header__nav">
                 <li>会社情報</li>
               </a>
             </Link>
             <Link href="/media">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <a className="header__nav">
                 <li>メディア</li>
               </a>
             </Link>
             <Link href="/recruit">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <a className="header__nav">
                 <li>採用情報</li>
               </a>
             </Link>
             <Link href="/contact">
-              <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}>
+              <a className="header__nav">
                 <li>お問い合わせ</li>
               </a>
             </Link>
