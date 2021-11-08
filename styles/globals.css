@@ -301,6 +301,9 @@ div#reading-rich-text span {
   width: 150px;
   margin: 8px auto 0;
   padding: 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .partner__tag.pt_red {
   border-color: #BC2929;
