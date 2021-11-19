@@ -41,12 +41,12 @@ export default function Topics({ topics, totalCount }) {
           {/*見出し部分*/}
           <div class="mb-6 lg:mb-12">
             <div class="relative">
-              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="NotoSans-L text-base">ニュース</p></h1>
+              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="NotoSans-L text-base font-normal">ニュース</p></h1>
             </div>
           </div>
           {/*見出し部分 終了*/}
           <div class="mx-auto mt-20 pb-6 lg:py-12 lg:w-1100">
-            <h1 class="futura-md lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="NotoSans-L text-base">ニュース一覧</p></h1>
+            <h1 class="futura-lt font-bold lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="NotoSans-L text-base font-normal">ニュース一覧</p></h1>
             <div>
               {/* <form action="">
                 <div class="custom_select relative w-64 block mx-auto">

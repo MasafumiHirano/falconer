@@ -54,11 +54,11 @@ export default function Media({ medias }) {
       <Layout>
         <main>
           <div>
-            <div class="mx-auto py-6 pt-12 lg:py-0">
+            <div class="mb-6 lg:mb-12">
               {/*見出し部分*/}
               <div class="mb-6 lg:mb-12">
                 <div class="relative">
-                  <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl media_title h-405 flex items-center justify-center flex-col">Media<p class="hiraginoGo text-base">メディア情報</p></h1>
+                  <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl media_title h-405 flex items-center justify-center flex-col">Media<p class="hiraginoGo text-base font-normal">メディア情報</p></h1>
                 </div>
               </div>
               {/*見出し部分 終了*/}
@@ -66,7 +66,7 @@ export default function Media({ medias }) {
               {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:pt-16 lg:pb-0">{/*RadioSection*/}
-                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">RRadio<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
+                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
                   <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
                     <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={200} height={137} minWidth={0} minheight={0} />
                   </div>

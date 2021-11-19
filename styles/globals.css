@@ -363,6 +363,11 @@ h1.company_title{
   background-size: cover;
 }
 
+.bussiness_title{
+  background-image: url("/images/company/company_topimage.jpeg");
+  background-size: cover;
+}
+
 @media only screen and (max-width: 767px){
   h1.media_title{
     background-image: url("/images/media/media_eyecatch_sp.jpg");
