@@ -22,10 +22,10 @@ export default function Company({ medias }) {
           <div class="mx-auto pb-6 text-center">
             <h1 class="futura-md text-white text-center text-3xl lg:text-4xl company_title flex flex-col justify-center items-center h-405">FALCONER Info<p class="NotoSans-L text-base">会社概要</p></h1>
             <div class="mt-10 md:mt-32 lg:flex lg:justify-center">
-              <p class="px-3 text-xl lg:text-3xl lg:mb-6 text-left md:text-center tracking-widest">今日よりも、もっと幸せな明日を。</p>
+              <p class="text-base w-full mx-auto md:text-xl font-bold NotoSans-L">今日よりも、もっと幸せな明日を。</p>
             </div>
             <div class="mt-10 lg:flex lg:justify-center">
-              <p class="px-3 text-base md:text-lg text-left md:text-center lg:mb-2">
+              <p class="w-90% mx-auto text-base md:text-lg text-justify md:text-center lg:mb-2">
                 高品質かつワクワクする商品を生み出し、お客様の生活をより豊かで幸せなものにします。<br /><br />
                 社員やお取引企業様はもちろん、商品がお客様のお手元に届くまでに関わる全ての人々や世界の幸せと発展に貢献します。<br /><br />
                 地球環境の保全を心がけ、永続的な発展をするために無駄のない流通・運営を行い、毎日の成長を続けます。
@@ -33,7 +33,7 @@ export default function Company({ medias }) {
             </div>
           </div>
           {/* 事業ビジュアル */}
-          <div class="mx-auto mt-20 mb-20 px-2 lg:w-1280">
+          <div class="mx-auto mt-20 mb-20 w-90% md:w-950">
             <div class="flex flex-wrap md:flex-nowrap justify-between md:justify-center mb-6">
               <div class="relative md:hidden w-full mb-2">
                 <Link href="/company/strength"><a>
@@ -64,7 +64,7 @@ export default function Company({ medias }) {
             </div>
 
             {/* 会社概要：本社 */}
-            <h2 class="text-center mt-20 lg:w-full lg:border-b lg:border-black">会社概要</h2>
+            <h2 class="text-center mt-20 w-90% md:w-950 lg:border-b lg:border-black">会社概要</h2>
             <div class="px-4 mt-10 max-w-4xl mx-auto">
               <p class="mt-8 pb-2 text-center border-b">国内拠点・本社</p>
               <p class="mt-4 pb-2 border-b text-sm">会社名<span class="block text-base">株式会社FALCONER</span></p>
@@ -81,10 +81,10 @@ export default function Company({ medias }) {
             </div>
 
             {/* 本社所在地 */}
-            <div class="mt-10 lg:mt-20 w-full"><iframe class="w-full h-300 md:h-600" src="https://www.google.com/maps/d/embed?mid=1hgrz4Opidj5i6qeGCu4nldFqN8HtnfkX"></iframe></div>
+            <div class="mt-10 lg:mt-20 mx-auto px-4 max-w-4xl w-90% md:w-950"><iframe class="w-full h-300 md:h-600" src="https://www.google.com/maps/d/embed?mid=1hgrz4Opidj5i6qeGCu4nldFqN8HtnfkX"></iframe></div>
 
             {/* 会社概要：ロジスティクス */}
-            <div class="px-4 mt-20 max-w-4xl mx-auto">
+            <div class="px-4 mt-20 max-w-4xl mx-auto w-90% md:w-950">
               <p class="mt-8 pb-2 text-center border-b">国内拠点・ロジスティック</p>
               <p class="mt-4 pb-2 border-b text-sm">拠点名<span class="block text-base">株式会社FALCONER　第一配送センター</span></p>
               <p class="mt-4 pb-2 border-b text-sm">所在地<span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里二丁目1810番地</span></p>
