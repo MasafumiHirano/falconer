@@ -33,26 +33,32 @@ export default function Company({ medias }) {
             </div>
           </div>
           {/* 事業ビジュアル */}
-          <div class="mx-auto mt-20 mb-20 lg:w-1280">
-            <div class="flex flex-wrap md:flex-nowrap justify-around md:justify-between mb-6">
-              <div class="relative w-49% md:w-300 lg:h-400">
-                <Link href="/company/message"><a>
-                  <Image src="/images/company/bussiness_2.png" width={300} height={400} />
-                </a></Link>
-              </div>
-              <div class="relative w-49% md:w-300 lg:h-400">
+          <div class="mx-auto mt-20 mb-20 px-2 lg:w-1280">
+            <div class="flex flex-wrap md:flex-nowrap justify-between md:justify-center mb-6">
+              <div class="relative md:hidden w-full mb-2">
                 <Link href="/company/strength"><a>
-                  <Image src="/images/company/bussiness_4.png" width={300} height={400} />
+                  <img src="/images/company/bussiness_4_sp.jpg" class="block w-full" />
                 </a></Link>
               </div>
-              <div class="relative w-49% md:w-300 lg:h-400">
-                <Link href="/company/overview"><a class="block">
-                  <Image src="/images/company/bussiness_1.png" width={300} height={400} />
+              <div class="relative hidden md:block w-49% md:w-300 md:mx-3">
+                <Link href="/company/strength"><a>
+                  <img src="/images/company/bussiness_4.jpg" />
                 </a></Link>
               </div>
-              <div class="relative w-49% md:w-300 lg:h-400">
+              <div class="relative w-49% md:w-300 md:mx-3">
+                <Link href="/company/message"><a>
+                  <picture>
+                    <source media="(min-width: 960px)" srcSet="/images/company/bussiness_2.jpg" />
+                    <img src="/images/company/bussiness_2_sp.jpg" />
+                  </picture>
+                </a></Link>
+              </div>
+              <div class="relative w-49% md:w-300 md:mx-3">
                 <Link href="/company/statement"><a>
-                  <Image src="/images/company/bussiness_3.png" width={300} height={400} />
+                <picture>
+                    <source media="(min-width: 960px)" srcSet="/images/company/bussiness_3.jpg" />
+                    <img src="/images/company/bussiness_3_sp.jpg" />
+                  </picture>
                 </a></Link>
               </div>
             </div>
