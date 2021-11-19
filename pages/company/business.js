@@ -27,7 +27,7 @@ export default function Business() {
             <div class="mx-auto mt-12 lg:w-1280">
               <div class="">
                 <div class="w-full lg:mb-5">
-                  <div class="business_detail bg-black h-250 lg:h-500">
+                  <div class="business_detail h-250 lg:h-500">
                     <img src="/images/company/prod01.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
                     <p class="absolute text-xs text-white NotoSans-L px-2 lg:px-0 lg:w-450 lg:ml-7">
                       <p class="w-11/12 lg:text-2xl lg:w-full mx-auto">レザーアイテム</p>
@@ -36,7 +36,7 @@ export default function Business() {
                   </div>
                 </div>
                 <div class="w-full lg:mb-5">
-                  <div class="business_detail bg-black h-250 lg:h-500">
+                  <div class="business_detail h-250 lg:h-500">
                     <img src="/images/company/prod02.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
                     <p class="absolute text-xs text-white NotoSans-L px-2 lg:px-0 lg:w-450 lg:ml-7">
                       <p class="w-11/12 lg:text-2xl lg:w-full mx-auto">アパレル</p>
@@ -45,7 +45,7 @@ export default function Business() {
                   </div>
                 </div>
                 <div class="w-full lg:mb-5">
-                  <div class="business_detail bg-black h-250 lg:h-500">
+                  <div class="business_detail h-250 lg:h-500">
                     <img src="/images/company/prod03.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
                     <p class="absolute text-xs text-white NotoSans-L px-2 lg:px-0 lg:w-450 lg:ml-7">
                       <p class="w-11/12 lg:text-2xl lg:w-full mx-auto">OEM事業</p>
@@ -54,7 +54,7 @@ export default function Business() {
                   </div>
                 </div>
                 <div class="w-full lg:mb-5">
-                  <div class="business_detail bg-black h-250 lg:h-500">
+                  <div class="business_detail h-250 lg:h-500">
                     <img src="/images/company/prod04.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
                     <p class="absolute text-xs text-white NotoSans-L px-2 lg:px-0 lg:w-450 lg:ml-7">
                       <p class="w-11/12 lg:text-2xl lg:w-full mx-auto">海外事業</p>
