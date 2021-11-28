@@ -66,9 +66,9 @@ export default function Media({ medias }) {
               {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:pt-16 lg:pb-0">{/*RadioSection*/}
-                  <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
+                <h2 class="text-center pb-2 w-full md:w-920 md:mx-auto futura-md text-2xl md:text-3xl border-b border-gray-400 px-4">Radio<span class="text-base_s md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
                   <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
-                    <Image src="/images/media/nanajam_image.jpg" alt="radio-image" width={200} height={137} minWidth={0} minheight={0} />
+                    <img src="/images/media/nanajam_image.jpg" alt="radio-image" />
                   </div>
                 </section>{/*RadioSectionEnd*/}
 
@@ -99,7 +99,7 @@ export default function Media({ medias }) {
                   <div class="mt-28">
                     <h3 class="NotoSans-L text-center text-lg">過去アーカイブはこちらから！</h3>
                   </div>
-                  <div class="w-full px-1 md:w-9/12 flex flex-wrap justify-around mx-auto mt-12">
+                  <div class="w-full px-1 md:w-10/12 flex flex-wrap justify-around mx-auto mt-12">
                     {
                       visibleYoutubePosts
                         .slice(0, 4)
@@ -129,23 +129,23 @@ export default function Media({ medias }) {
                 </section>{/*アーカイブend*/}
 
                 {/*大村崑さんSecction_START*/}
-                <section class="">
-                  <h2 class="pb-2 mt-28 w-full px-1 md:w-720 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
+                <section class="px-4">
+                  <h2 class="pb-2 mt-28 w-full md:w-720 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
                   <div class="w-full mb-16">
-                    <p class="px-4 pt-2 text-ms w-full md:w-650 mx-auto NotoSans-L">
+                    <p class="px-4 pt-2 text-ms w-full md:w-650 mx-auto NotoSans-L text-justify">
                       株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
                     </p>
                   </div>
                   <div class="lg:px-6 lg:py-6 lg:mb-4">
-                    <div class="a max-w-7xl mx-auto flex flex-wrap justify-between pb-20">
+                    <div class="max-w-6xl mx-auto flex flex-wrap justify-between pb-20">
                       <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 md:mr-16 px-1">
-                          <div onClick={toggle} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
-                            <span class="w-2/12 md:w-3/12 ml-3">Vol.1</span>
+                        <div class="w-full md:w-500 px-1">
+                          <div class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
+                            <span class="w-3/12 ml-3">Vol.1</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">時代が変わっても大切なもの</h2>
-                            <span className={open ? 'close_button' : 'open_button'} class="close_button"></span>
+                            <span></span>
                           </div>
-                          <div className={open ? 'intoro isClose mt-4 px-2 text-ms' : 'intoro isOpen mt-4 px-2 mb-12 text-ms'}>
+                          <div className="intoro isOpen mt-4 px-2 mb-12 text-ms">
                             <p>大村崑さんが感じる時代が変わっても変わらない大切なもの。「時間」といいます。若者にも年配者にも平等に、しかし止まらずに流れていきます。だからこそ大切に「今」を生きていく。崑さんのメッセージです。
                               <br />・時代が変わっても変わらない大切なもの
                               <br />・1番を目指せ
@@ -157,7 +157,7 @@ export default function Media({ medias }) {
                         </div>
                       </div>
                       <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 md:mr-16 px-1">
+                        <div class="w-full md:w-500 px-1">
                           <div onClick={toggle2} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.2</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">ふたりの出会い</h2>
@@ -175,7 +175,7 @@ export default function Media({ medias }) {
                         </div>
                       </div>
                       <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 md:mr-16 px-1">
+                        <div class="w-full md:w-500 px-1">
                           <div onClick={toggle3} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.3</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">はたらくことの本質とは</h2>
@@ -193,7 +193,7 @@ export default function Media({ medias }) {
                         </div>
                       </div>
                       <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 md:mr-16 px-1">
+                        <div class="w-full md:w-500 px-1">
                           <div onClick={toggle4} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.4</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">人生を豊かにする人間関係</h2>

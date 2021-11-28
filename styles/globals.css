@@ -341,7 +341,7 @@ h1.media_title{
 
 h1.company_title{
   background-image: url("/images/company/eyechatch.png");
-  background-size: contain;
+  background-size: cover;
 }
 
 .oem_main_image{
@@ -467,4 +467,26 @@ h1.company_title{
 .it_management{
   background-image: url("/images/company/it_manage_bg.jpg");
   background-size: cover;
+}
+
+
+/*////////////////////////////////////// 代表メッセージ //////////////////////////////////////*/
+.message_title{
+  color: #C1A668;
+  width: 100%;
+  font-family: "futura_medium_bt";
+}
+.pickup_text{
+  background-color: #C1A668;
+  color: white;
+  font-size: 20px;
+  font-family: "ヒラギノ角ゴシック","NotoSans_Light";
+}
+@media only screen and (max-width: 767px){
+  .message_title{
+    font-family: "futura_light_bt";
+  }
+  .pickup_text{
+    font-size: 15px;
+  }
 }

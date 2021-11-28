@@ -49,6 +49,7 @@ module.exports = {
         '170': '170px',
         '120': '120px',
         '100': '100px',
+        '93%': '93%',
         '90%': '90%',
         '49%': '49%',
         '24%': '24%',
@@ -84,6 +85,7 @@ module.exports = {
       colors: {
         'falGLD': '#796B58',
         'falSLD': '#9f9e9f',
+        'comGOLD' : '#C1A668',
         'falNAVY': '#1F4370',
         'media_black': '#060000',
         'radio_black': '#5D5D5D',

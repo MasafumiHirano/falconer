@@ -71,10 +71,10 @@ export default function Business() {
           {/* 事業内容セクション END */}
           <section class="w-11/12 max-w-850 mx-auto pt-10" id="site">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">SHOPS<span class="text-base md:text-xl font-light block NotoSans-L">販売サイト</span></h2>
-            <p class="NotoSans-L font-bold border-b-2 border-gray-400 pb-2 text-base lg:text-base NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-8">ALL Right Leather</p>
+            <p class="NotoSans-L border-b-2 border-gray-400 pb-2 text-base md:text-2xl NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-8">All Right Leather</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between">
-              <p class="w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm text-justify leading-normal NotoSans-L mt-4 mb-8">All Right Leatherは、財布・バッグなどの高品質レザーアイテムを中心に、IOQS・glo・Ploom TECH等の電子タバコケースなどメインに取り扱うオンラインショップです。楽天市場店舗にて展開しています。</p>
-              <div class="text-center lg:4/12 ">
+              <p class="w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify leading-normal NotoSans-L mt-4 mb-8">All Right Leatherは、財布・バッグなどの高品質レザーアイテムを中心に、IOQS・glo・Ploom TECH等の電子タバコケースなどメインに取り扱うオンラインショップです。楽天市場店舗にて展開しています。</p>
+              <div class="text-center lg:4/12 mt-4">
                 <a class="block w-300 mx-auto" href='https://www.rakuten.ne.jp/gold/allrightleather/index.html' target="_blank">
                   <Image src="/images/company/allrightleather_rakuten.jpg" width={300} height={180} class="rounded-2xl"/>
                 </a>
@@ -84,30 +84,30 @@ export default function Business() {
               </div>
             </div>
 
-            <p class="NotoSans-L font-bold border-b-2 border-gray-400 pb-2 text-base NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">CASE BANK</p>
+            <p class="NotoSans-L border-b-2 border-gray-400 pb-2 text-base md:text-2xl NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">CASE BANK</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between">
-              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm text-justify NotoSans-L mt-4 mb-8">自社ブランドのBtoC販売を行っています。</p>
-              <div class="text-center lg:4/12 ">
+              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify NotoSans-L mt-4 mb-8">自社ブランドのBtoC販売を行っています。</p>
+              <div class="text-center lg:4/12 mt-4">
                 <a class="block w-300 mx-auto" href='https://www.amazon.co.jp/shops/A3CBIU477KWLAF/' target="_blank">
                   <Image src="/images/company/amazon_casebank.jpg" width={300} height={180}  class="rounded-2xl"/>
                 </a>
               </div>
             </div>
 
-            <p class="NotoSans-L font-bold border-b-2 border-gray-400 pb-2 text-base NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">RafiCaro Amazon</p>
+            <p class="NotoSans-L border-b-2 border-gray-400 pb-2 text-base md:text-2xl NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">RafiCaro amazon</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between">
-              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm text-justify NotoSans-L mt-4 mb-8">自社ブランド・RafiCaroのAmazon旗艦店です。自社直販として最新商品も随時アップロードされます。</p>
-              <div class="text-center lg:4/12 ">
+              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify NotoSans-L mt-4 mb-8">自社ブランド・RafiCaroのamazon販売店です。自社直販として最新商品も随時アップロードされます。</p>
+              <div class="text-center lg:4/12 mt-4">
                 <a class="block w-300 mx-auto" href='https://www.amazon.co.jp/raficaro/' target="_blank">
                   <Image src="/images/company/amazon_raficaro.jpg" width={300} height={180}  class="rounded-2xl"/>
                 </a>
               </div>
             </div>
 
-            <p class="NotoSans-L font-bold border-b-2 border-gray-400 pb-2 text-base NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">Yossy’s Good Time</p>
+            <p class="NotoSans-L border-b-2 border-gray-400 pb-2 text-base md:text-2xl NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">Yossy’s Good Time</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between mb-24">
-              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm text-justify NotoSans-L mt-4 mb-8">財布・バッグなどの北米向けに選定された自社ブランド製品に加え独自の北米向け製品を展開・販売しています。</p>
-              <div class="text-center lg:4/12 ">
+              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify NotoSans-L mt-4 mb-8">財布・バッグなどの北米向けに選定された自社ブランド製品に加え独自の北米向け製品を展開・販売しています。</p>
+              <div class="text-center lg:4/12 mt-4">
                 <a class="block w-300 mx-auto" href='https://www.amazon.com/shops/A1L2ZFITS8JG/' target="_blank">
                   <Image src="/images/company/amazon_yossy.jpg" width={300} height={180} class="rounded-2xl"/>
                 </a>
