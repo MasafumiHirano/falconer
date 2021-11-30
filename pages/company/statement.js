@@ -17,14 +17,14 @@ export default function Statement() {
             <div class="relative">
               <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans-L text-base font-normal">経営思想</p></h1>
             </div>
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-5 md:mt-28 relative">
-              <div class="text-black w-full md:w-3/5 max-w-1050 z-10">
+            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-8 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
-                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 pt-4 pb-8 border-b border-gray-700">STATEMENT</h2>
+                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 py-4 md:pb-8 border-b border-gray-700">STATEMENT</h2>
                   <div class="flex text-left">
-                    <h3 class="text-2xl md:text-5xl md:pl-4 md:mb-10">モノづくりを通じ、人々に幸せを広げ、<span class="block">世界をより良くする。</span></h3>
+                    <h3 class="text-2xl md:text-5xl md:pl-4 md:mb-10 NotoSans-R">モノづくりを通じ、人々に幸せを広げ、<span class="block">世界をより良くする。</span></h3>
                   </div>
-                  <div class="md:pl-4 lg:block text-md md:text-2xl leading-10">
+                  <div class="md:pl-4 mt-4 md:m-0 lg:block text-md md:text-2xl leading-10">
                     <p class="lg:leading-10">
                       私たちが創り出す、最高の商品とは、<br class="hidden lg:block" />上質な素材でデザイン・機能性を意識し、<br class="hidden lg:block" />一流の技術力を持って作り上げられたモノというだけではありません｡<br class="hidden lg:block" /></p>
                     <p class="">{`　`}</p>
@@ -37,13 +37,13 @@ export default function Statement() {
               <img class="w-52 md:w-5/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/statement_image.jpg" />
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-5 md:mt-28 relative">
+            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
               <img class="w-52 md:w-5/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/vision_image.jpg" />
-              <div class="text-black md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
-                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 pt-4 pb-8 border-b border-gray-700">VISION</h2>
+                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 py-4 md:pb-8 border-b border-gray-700">VISION</h2>
                   <div class="flex text-left">
-                    <h3 class="text-2xl md:text-5xl md:pl-4 md:mb-10">今日よりも、もっと幸せな明日を。</h3>
+                    <h3 class="text-2xl md:text-5xl md:pl-4 md:mb-10 NotoSans-R">今日よりも、もっと幸せな明日を。</h3>
                   </div>
                   <div class="md:pl-4 lg:block text-md md:text-2xl leading-10">
                     <div class="mb-8 text-base lg:text-xl leading-8">
@@ -60,12 +60,12 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-5 md:mt-28 relative">
-              <div class="text-black md:w-3/5 max-w-1050 z-10">
+            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
-                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 pt-4 pb-8 border-b border-gray-700">VALUE</h2>
+                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 py-4 md:pb-8 border-b border-gray-700">VALUE</h2>
                   <div class="flex flex-wrap">
-                    <div class="w-full md:w-1/2 mb-9">
+                    <div class="w-full md:w-1/2 mb-9 NotoSans-R">
                       <h3 class="text-2xl md:text-5xl mb-4">強くあれ</h3>
                       <p class="leading-10">大胆かつ、スピーディに実行すること</p>
                       <p class="leading-10">諦めてはいけないときに諦めないこと</p>
@@ -95,11 +95,11 @@ export default function Statement() {
               <img class="w-52 md:w-5/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/value_image.jpg" />
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-5 md:mt-28 relative">
+            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
               <img class="w-52 md:w-5/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/slogan_image.jpg" />
-              <div class="text-black md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
-                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 pt-4 pb-8 border-b border-gray-700">SLOGAN</h2>
+                  <h2 class="NotoSans-L text-comGOLD text-2xl md:text-5xl mb-10 py-4 md:pb-8 border-b border-gray-700">SLOGAN</h2>
                   <div class="text-center tracking-widest mt-5 lg:mt-8">
                     <div class="flex futura-md text-comGOLD text-3xl md:text-6xl flex-col md:flex-row md:mb-8">
                       <span class="md:mr-1">Stay Strong, </span>
@@ -129,8 +129,8 @@ export default function Statement() {
               </div>
             </section>
 
-            <div class="flex justify-center items-center mb-8 mt-24">
-              <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、<br class="block lg:hidden" />強く、優しく、人々を<br class="block lg:hidden" />幸せにします。</h1>
+            <div class="flex justify-center items-center mb-8 mt-24 pb-12">
+              <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、強く、優しく、<br class="block lg:hidden" />人々を幸せにします。</h1>
             </div>
 
             {/*<section class="py-12 lg:py-24 px-3 lg:px-6">
