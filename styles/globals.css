@@ -117,7 +117,7 @@
     font-family: "ヒラギノ角ゴシック","NotoSans_Light";
   }
   .NotoSans-R {
-    font-family: "NotoSans_Regular";
+    font-family: "ヒラギノ角ゴシック","NotoSans_Regular";
   }
   .NotoSans-B {
     font-family: "NotoSans_Bold";
@@ -368,6 +368,12 @@ h1.company_title{
   background-size: cover;
 }
 
+.recruit_title{
+  background-image: url("/images/recruit/recruit_eyecatch.jpg");
+  background-size: cover;
+}
+
+
 @media only screen and (max-width: 767px){
   h1.media_title{
     background-image: url("/images/media/media_eyecatch_sp.jpg");
@@ -383,6 +389,9 @@ h1.company_title{
   }
   .topics_title{
     background-image: url("/images/topics/topics_eyecatch_sp.jpg");
+  }
+  .recruit_title{
+    background-image: url("/images/recruit/recruit_eyecatch_sp.jpg");
   }
 }
 
