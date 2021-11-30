@@ -57,7 +57,7 @@ export default function RECRUIT() {
                       <td class="py-4">
                         雇用形態
                       </td>
-                      <td class="pl-6">
+                      <td class="pl-6 lg:pl-12">
                         正社員/契約社員
                       </td>
                     </tr>
@@ -65,7 +65,7 @@ export default function RECRUIT() {
                       <td class="py-4">
                         給与
                       </td>
-                      <td class="pl-6">
+                      <td class="pl-6 lg:pl-12">
                         月給20万円～30万円＋諸手当
                       </td>
                     </tr>
@@ -73,15 +73,15 @@ export default function RECRUIT() {
                       <td class="py-4">
                         時間
                       </td>
-                      <td class="pl-6">
+                      <td class="pl-6 lg:pl-12">
                         10:00~19:00（内1時間休憩有り）
                       </td>
                     </tr>
                     <tr class="">
-                      <td class="py-4">
+                      <td class="pt-4 align-top">
                         休暇
                       </td>
-                      <td class="pl-6">
+                      <td class="pt-4 pl-6 lg:pl-12">
                         完全週休2日／日曜＋希望休制<br />※年末年始休暇、有給休暇有り
                       </td>
                     </tr>
@@ -122,7 +122,7 @@ export default function RECRUIT() {
                       <td class="py-4 truncate">
                         雇用形態
                       </td>
-                      <td class="pl-6">
+                      <td class="pl-6 lg:pl-12">
                         正社員/契約社員
                       </td>
                     </tr>
@@ -130,21 +130,21 @@ export default function RECRUIT() {
                       <td class="py-4">
                         給与
                       </td>
-                      <td class="pl-6">
+                      <td class="pl-6 lg:pl-12">
                         時給1,100円以上 + 交通費支給
                       </td>
                     </tr>
                     <tr class="">
-                      <td class="py-4">
+                      <td class="pt-4 align-top">
                         シフト
                       </td>
-                      <td class="pl-6">
+                      <td class="pt-4 pl-6 lg:pl-12">
                         <p>【フルタイム】</p>
                         <div>
                           <p>・完全週休二日 / 日曜 + 希望体制</p>
                           <p>・10:00～19:00</p>
                         </div>
-                        <p>【短時間勤務】</p>
+                        <p class="mt-2">【短時間勤務】</p>
                         <div>
                           <p>・週3日以上、1日4時間以上</p>
                           <p>・シフト自由・自己申告</p>
