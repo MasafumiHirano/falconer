@@ -32,7 +32,7 @@ export default function Message() {
                   {/*経歴*/}
                   <div class="border-b border-gray-600 pb-3">
                     <div class="flex justify-between flex-wrap">
-                      <h2 class="NotoSans w-full md:w-auto text-center md:text-left text-2xl md:text-5xl text-gray-700 md:text-black">清水 真輝<span class="futura-md ml-5 text-xl md:text-2xl text-gray-700">Masaki Shimizu</span></h2>
+                      <h2 class="NotoSans w-full md:w-auto text-center md:text-left text-2xl md:text-5xl">清水 真輝<span class="futura-md ml-5 text-xl md:text-2xl">Masaki Shimizu</span></h2>
                       <p class="mx-auto md:mx-0 text-center mt-3 md:mt-0 md:text-right text-sm md:text-base">1987年11月27日生まれ / AB型<br />愛知高校・名古屋学院大学英米科卒業</p>
                     </div>
                   </div>

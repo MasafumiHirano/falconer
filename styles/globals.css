@@ -433,6 +433,10 @@ h1.company_title{
   background-size: cover;
 }
 
+.contact_title{
+  background-image: url("/images/contact/contact_eyecatch.jpg");
+  background-size: cover;
+}
 
 @media only screen and (max-width: 767px){
   h1.media_title{

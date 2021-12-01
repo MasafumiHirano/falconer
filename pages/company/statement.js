@@ -18,11 +18,11 @@ export default function Statement() {
               <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
             </div>
             <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-8 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-8 py-4 border-b border-gray-700">STATEMENT</h2>
                   <div class="flex text-left">
-                    <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-8 NotoSans">モノづくりを通じ、人々に幸せを広げ、<span class="block">世界をより良くする。</span></h3>
+                    <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-8 NotoSans">モノづくりを通じ、<span class="block md:inline-block">人々に幸せを広げ、</span><span class="block">世界をより良くする。</span></h3>
                   </div>
                   <div class="md:pl-4 mt-4 md:m-0 lg:block text-md md:text-xl md:leading-8 font-light">
                     <p class="">
@@ -39,13 +39,13 @@ export default function Statement() {
 
             <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
               <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/vision_image.jpg" />
-              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VISION</h2>
                   <div class="flex text-left">
-                    <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-10 NotoSans">今日よりも、もっと幸せな明日を。</h3>
+                    <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-8 NotoSans">今日よりも、<span class="block md:inline-block">もっと幸せな明日を。</span></h3>
                   </div>
-                  <div class="md:pl-4 lg:block text-md md:text-2xl md:leading-10 font-light">
+                  <div class="md:pl-4 mt-4 md:mt-0 lg:block text-md md:text-2xl md:leading-10 font-light">
                     <div class="mb-8 text-base lg:text-xl">
                       <p class="">高品質かつワクワクする商品を生み出し<br class="hidden lg:block" />お客様の生活をより豊かで幸せなものにします。</p>
                     </div>
@@ -61,29 +61,29 @@ export default function Statement() {
             </section>
 
             <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VALUE</h2>
                   <div class="md:pl-4 flex flex-wrap text-lg">
-                    <div class="w-full md:w-1/2 mb-9 NotoSans">
+                    <div class="w-full md:w-1/2 mb-8 NotoSans">
                       <h3 class="text-2xl md:text-4xl mb-4 md:mb-6">強くあれ</h3>
                       <p class="">大胆かつ、スピーディに実行すること</p>
                       <p class="">諦めてはいけないときに諦めないこと</p>
                       <p class="">怒らず、恐れず、悲しまないこと</p>
                     </div>
-                    <div class="w-full md:w-1/2 mb-9">
+                    <div class="w-full md:w-1/2 mb-8">
                       <h3 class="text-2xl md:text-4xl mb-4 md:mb-6">賢くあれ</h3>
                       <p class="">改善点を常に模索すること</p>
                       <p class="">常識を疑い打破すること</p>
                       <p class="">全ての人が幸せになる方法を探すこと</p>
                     </div>
-                    <div class="w-full md:w-1/2 mb-9">
+                    <div class="w-full md:w-1/2 mb-8">
                       <h3 class="text-2xl md:text-4xl mb-4 md:mb-6">優しくあれ</h3>
                       <p class="">常に暖かい気持ちで考えること</p>
                       <p class="">常に相手の立場で考えること</p>
                       <p class="">第三者への影響を考え<br class="block lg:hidden" />バランスを取ること</p>
                     </div>
-                    <div class="w-full md:w-1/2 mb-9">
+                    <div class="w-full md:w-1/2 mb-8">
                       <h3 class="text-2xl md:text-4xl mb-4 md:mb-6">幸せであれ</h3>
                       <p class="">感謝の気持ちを忘れないこと</p>
                       <p class="">楽しみを見つけること</p>
@@ -97,7 +97,7 @@ export default function Statement() {
 
             <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
               <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/slogan_image.jpg" />
-              <div class="text-black px-8 md:px-0 md:w-3/5 max-w-1050 z-10">
+              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">SLOGAN</h2>
                   <div class="md:pl-4 text-center tracking-widest mt-5 lg:mt-8">

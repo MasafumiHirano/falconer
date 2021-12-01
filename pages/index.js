@@ -118,7 +118,7 @@ export default function Home({ slides, topics, readings }) {
           {/* セカンドビュー END */}
 
           {/* 取引パートナー様 START */}
-          <section class="w-full mx-auto py-24 mt-24 md:py-26 md:mt-26 bg-gray-100">
+          <section class="w-full mx-auto py-24 mt-24 md:py-36 md:mt-24 bg-gray-100">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto md:w-1050 px-5 mt-6 md:justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-200 md:min-w-0">
@@ -188,7 +188,7 @@ export default function Home({ slides, topics, readings }) {
             <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
-            <ul class="mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
+            <ul class="mt-16 md:mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_01.png" alt="レザーアイテム製造・販売" />
               </li>
@@ -204,7 +204,7 @@ export default function Home({ slides, topics, readings }) {
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_05.png" alt="EC事業" />
               </li>
-              <li className={`${styles.business__item} md:w-full md:mt-10`}>
+              <li className={`${styles.business__item} md:w-full md:mt-20`}>
                 <Link href="/company/business">
                   <a class="futura_medium_bt text-center text-base block w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
                 </Link>
