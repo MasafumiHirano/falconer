@@ -457,6 +457,9 @@ h1.company_title{
   .recruit_title{
     background-image: url("/images/recruit/recruit_eyecatch_sp.jpg");
   }
+  .contact_title{
+    background-image: url("/images/contact/contact_eyecatch_sp.jpg");
+  }
 }
 
 

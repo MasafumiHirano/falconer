@@ -59,7 +59,7 @@ export default function CONTACT() {
         <main class="-mb-4 NotoSans">
           <div class="mb-12 md:mb-24">
             <div class="relative">
-              <h1 class="contact_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
+              <h1 class="contact_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">CONTACT<p class="NotoSans text-base font-normal">問い合わせ</p></h1>
             </div>
             <div>
               <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24"/>
