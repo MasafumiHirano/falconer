@@ -152,7 +152,7 @@ export default function Media({ medias }) {
                             </p>
                           </div>
                         </div>
-                        <div className={open ? 'foo isClose' : 'foo isOpen'} class="foo isClose">
+                        <div className={open ? 'foo isClose' : 'foo isOpen'} class="foo isOpen">
                           <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/rkKA_W0srh4`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
