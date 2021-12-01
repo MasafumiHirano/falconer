@@ -19,12 +19,12 @@ export default function Footer() {
                     </a>
                   </li>
                   <li class="w-9 flex justify-center items-center">
-                    <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
+                    <a href="https://twitter.com/Nanami_Upjam" target="_blank">
                       <img src="/images/top/media_twitter2.svg" alt="Twitter" />
                     </a>
                   </li>
                   <li class="a w-9 flex justify-center items-center">
-                    <a href="https://twitter.com/Nanami_Bondjam" target="_blank">
+                    <a href="https://www.youtube.com/channel/UCynRnKX32Zr8Hh_Rst6Mrug" target="_blank">
                       <img src="/images/top/media_youtube2.svg" alt="Youtube" />
                     </a>
                   </li>

@@ -40,7 +40,6 @@
 /* 事業内容 */
 .business {
   margin-top: 165px;
-  padding-bottom: 80px;
 }
 .business__title {
   font-size: 30px;
@@ -93,7 +92,6 @@
   padding-top: 150px;
 }
 .company_background {
-  margin-top: 200px;
   background-image: url("/images/top/company_info_bg.jpg");
   background-position: 50% 50%;
   height: 700px;
@@ -374,7 +372,7 @@
 
   /* 事業内容 */
   .business {
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
   .business__text {
     font-size: 15px;
@@ -445,7 +443,6 @@
     padding: 70px 0 100px;
   }
   .company_background {
-    margin-top: 12rem;
     background-image: url("/images/top/company_info_bg.jpg");
     height: auto;
   }  
@@ -485,7 +482,7 @@
     padding-top: 30px;
   }
   .media_background {
-    margin-top: 12rem;
+    margin-top: 4rem;
   }
   .media__button_area {
     padding-top: 35px;

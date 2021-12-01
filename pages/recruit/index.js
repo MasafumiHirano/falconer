@@ -13,13 +13,13 @@ export default function RECRUIT() {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-        <main class="-mb-4 NotoSans-R">
+        <main class="-mb-4 NotoSans">
           <div class="mb-12 md:mb-24">
             <div class="relative">
-              <h1 class="recruit_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">RECRUIT<p class="NotoSans-L text-base font-normal">採用情報</p></h1>
+              <h1 class="recruit_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">RECRUIT<p class="NotoSans text-base font-normal">採用情報</p></h1>
             </div>
 
-            <div class="mx-auto mt-8 md:mt-28 grid grid-cols-2 grid-rows-3 gap-2 lg:grid-cols-3 lg:grid-rows-2 lg:gap-2 w-fll md:w-1280 px-3 md:px-3">
+            <div class="mx-auto mt-8 md:mt-28 grid grid-cols-2 grid-rows-3 gap-2 lg:grid-cols-3 lg:grid-rows-2 lg:gap-2 w-fll md:w-1100 px-3 md:px-3">
               <Image src="/images/recruit/recruit_01.jpeg" alt="china" width={2000} height={1300} />
               <Image src="/images/recruit/recruit_02.jpeg" alt="china" width={2000} height={1300} />
               <Image src="/images/recruit/recruit_03.jpeg" alt="china" width={2000} height={1300} />
@@ -28,10 +28,10 @@ export default function RECRUIT() {
               <Image src="/images/recruit/recruit_06.jpeg" alt="china" width={2000} height={1300} />
             </div>
 
-            <div class="flex flex-wrap justify-center md:justify-between w-full md:w-1280 px-3 md:px-3 mx-auto">
-              <section class="mt-12 py-10 border border-gray-400 rounded-3xl w-full md:w-580">
-                <div class="mx-auto pb-3 border-b-2 border-gray-500 w-11/12">
-                  <h3 class="flex justify-center items-center py-1 md:py-3 bg-black text-white w-28 md:w-56 text-center mx-auto rounded-2xl md:rounded-lg text-lg md:text-3xl">募集内容①</h3>
+            <div class="flex flex-wrap justify-center md:justify-between w-full md:w-1100 px-3 md:px-3 mx-auto">
+              <section class="mt-12 py-10 border border-gray-400 rounded-3xl w-full md:w-520">
+                <div class="mx-auto pb-6 border-b-2 border-gray-500 w-11/12">
+                  <h3 class="flex justify-center items-center py-1 md:py-3 bg-black text-white w-28 md:w-56 text-center mx-auto rounded-lg text-lg md:text-3xl">募集内容①</h3>
                   <div class="mt-6 md:mt-12">
                     <p class="text-center text-lg lg:text-3xl">ネットショップ運営サポート</p>
                     <p class="text-center text-xs lg:text-base">メディア掲載実績多数！自社ブランドの魅力を発信</p>
@@ -39,7 +39,7 @@ export default function RECRUIT() {
                 </div>
 
                 <div class="mx-auto mt-2 lg:mt-6 w-full">
-                  <table class="w-11/12 mx-auto text-sm md:text-xl">
+                  <table class="w-11/12 mx-auto text-sm md:text-lg">
                     <tr class="">
                       <td class="py-4 align-top">
                         募集職種
@@ -91,14 +91,14 @@ export default function RECRUIT() {
 
                 <Link href="/recruit/detail1">
                   <div class="flex justify-center mt-8">
-                    <button class="w-11/12 bg-comGOLD text-white text-base md:text-2xl py-3 text-center rounded-3xl md:rounded-lg">詳細・エントリーはこちら</button>
+                    <button class="w-11/12 bg-comGOLD text-white text-base md:text-2xl py-3 text-center rounded-lg">詳細・エントリーはこちら</button>
                   </div>
                 </Link>
               </section>
 
-              <section class="mt-12 py-10 border border-gray-400 rounded-3xl w-full md:w-580">
-                <div class="mx-auto pb-3 border-b-2 border-gray-500 w-11/12">
-                  <h3 class="flex justify-center items-center py-1 md:py-3 bg-black text-white w-28 md:w-56 text-center mx-auto rounded-2xl md:rounded-lg text-lg md:text-3xl">募集内容②</h3>
+              <section class="mt-12 py-10 border border-gray-400 rounded-3xl w-full md:w-520">
+                <div class="mx-auto pb-6 border-b-2 border-gray-500 w-11/12">
+                  <h3 class="flex justify-center items-center py-1 md:py-3 bg-black text-white w-28 md:w-56 text-center mx-auto rounded-lg text-lg md:text-3xl">募集内容②</h3>
                   <div class="mt-6 md:mt-12">
                     <p class="text-center text-lg lg:text-3xl">事務処理サポート</p>
                     <p class="text-center text-xs lg:text-base">自由度の高いシフトで、短時間でもフルタイムでもOK</p>
@@ -106,7 +106,7 @@ export default function RECRUIT() {
                 </div>
 
                 <div class="mx-auto mt-2 lg:mt-6 w-full">
-                  <table class="w-11/12 mx-auto text-sm md:text-xl">
+                  <table class="w-11/12 mx-auto text-sm md:text-lg">
                     <tr class="">
                       <td class="py-4 align-top">
                         募集職種
@@ -166,7 +166,7 @@ export default function RECRUIT() {
 
                 {/* ---受付終了--- */}
                 <div class="flex justify-center mt-8">
-                  <p class="w-11/12 bg-gray-500 text-white text-base md:text-2xl py-3 text-center rounded-3xl md:rounded-lg">受付終了しました</p>
+                  <p class="w-11/12 bg-gray-500 text-white text-base md:text-2xl py-3 text-center rounded-lg">受付終了しました</p>
                 </div>
                 {/* ---/受付終了--- */}
 

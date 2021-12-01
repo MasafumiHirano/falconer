@@ -118,41 +118,41 @@ export default function Home({ slides, topics, readings }) {
           {/* セカンドビュー END */}
 
           {/* 取引パートナー様 START */}
-          <section class="mx-auto mt-48 md:mt-52 lg:max-w-screen-xl">
+          <section class="w-full mx-auto py-24 mt-24 md:py-26 md:mt-26 bg-gray-100">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto md:w-1050 px-5 mt-6 md:justify-between overflow-x-auto">
               <li class="flex flex-col md:w-175 min-w-200 md:min-w-0">
-                <img class="mt-auto " src="/images/top/logo_onelove.png" alt="ロゴ" />
+                <img class="mt-auto" src="/images/top/logo_onelove.png" alt="ロゴ" />
                 <dl class="mt-auto">
-                  <dt class="mt-7">有限会社ワンラブ様</dt>
+                  <dt class="mt-6">有限会社ワンラブ様</dt>
                   <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
                 <dl class="mt-auto">
-                  <dt>レアリーク株式会社様</dt>
+                  <dt class="mt-6">レアリーク株式会社様</dt>
                   <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
                 <dl class="mt-auto">
-                  <dt>株式会社DMM.com様</dt>
+                  <dt class="mt-6">株式会社DMM.com様</dt>
                   <dd className="partner__tag pt_green">OEM事業</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
                 <dl class="mt-auto">
-                  <dt>株式会社東急ハンズ様</dt>
+                  <dt class="mt-6">株式会社東急ハンズ様</dt>
                   <dd className="partner__tag pt_navy">催事支援</dd>
                 </dl>
               </li>
               <li class="flex flex-col md:w-175 ml-12 md:ml-0 min-w-200 md:min-w-0">
                 <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
                 <dl class="mt-auto">
-                  <dt>日本郵便株式会社</dt>
+                  <dt class="mt-6">日本郵便株式会社</dt>
                   <dd className="partner__tag pt_red">卸売事業</dd>
                 </dl>
               </li>
@@ -162,7 +162,7 @@ export default function Home({ slides, topics, readings }) {
 
 
           {/* NEWSリスト START */}
-          <section class="mx-auto mt-48 lg:max-w-screen-xl">
+          <section class="mx-auto mt-24 lg:max-w-screen-xl">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans-L">ニュース</span></h2>
             <ul class="mx-auto w-90% md:px-0 md:w-1050 mt-6">
               {
@@ -183,7 +183,7 @@ export default function Home({ slides, topics, readings }) {
           {/* NEWSリスト END */}
 
           {/* 事業内容 START */}
-          <section className={`${styles.business} mx-auto lg:max-w-screen-xl`}>
+          <section className={`${styles.business} mx-auto bg-gray-100 pt-24 pb-56 md:pb-24`}>
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-xl font-light block NotoSans-L">事業内容</span></h2>
             <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
@@ -218,7 +218,7 @@ export default function Home({ slides, topics, readings }) {
             <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
               <h2 className={styles.company__title}>Falconer info<p>会社情報</p></h2>
               <p className={styles.company__text}>
-                2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br/><br/>モノづくりだけにとどまらない挑戦の意思で未来の人々の幸せとクロスオーバーしていきます。
+                2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br /><br />モノづくりだけにとどまらない挑戦の意思で未来の人々の幸せとクロスオーバーしていきます。
               </p>
               <div className={styles.company__button_area}>
                 <Link href="/company">
@@ -273,7 +273,7 @@ export default function Home({ slides, topics, readings }) {
               */}
               <div className={styles.media__button_area}>
                 <Link href="/media">
-                <a class="futura_medium_bt text-center text-base block w-40 md:w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
+                  <a class="futura_medium_bt text-center text-base block w-40 md:w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button.png"></img></a>
                 </Link>
               </div>
             </section>
@@ -281,24 +281,26 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <h2 class="mt-48 text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
-          <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
-            <li class="mt-6 md:mt-4 md:w-600">
-              <a href="https://bachicashley.com/" target="_blank">
-                <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />
-              </a>
-            </li>
-            <li class="mt-4 md:w-600">
-              <a href="https://lurverri.com/" target="_blank">
-                <img src="/images/top/brand_lurverri.jpg" alt="Lurverri" />
-              </a>
-            </li>
-            <li class="mt-4 md:w-600">
-              <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
-                <img src="/images/top/brand_rakuten.jpg" alt="All Right Leather" />
-              </a>
-            </li>
-          </ul>
+          <section class="mt-24 py-24 bg-gray-100 -mb-4">
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
+            <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
+              <li class="mt-6 md:mt-4 md:w-600">
+                <a href="https://bachicashley.com/" target="_blank">
+                  <img src="/images/top/brand_bachicashley.jpg" alt="BACHIC ASHLEY" />
+                </a>
+              </li>
+              <li class="mt-4 md:w-600">
+                <a href="https://lurverri.com/" target="_blank">
+                  <img src="/images/top/brand_lurverri.jpg" alt="Lurverri" />
+                </a>
+              </li>
+              <li class="mt-4 md:w-600">
+                <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
+                  <img src="/images/top/brand_rakuten.jpg" alt="All Right Leather" />
+                </a>
+              </li>
+            </ul>
+          </section>
           {/* ブランドセクション END */}
         </main>
       </Layout>
