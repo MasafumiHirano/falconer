@@ -477,8 +477,7 @@ h1.company_title{
 }
 /*////////////////////////////////////// メディア-アニメーション //////////////////////////////////////*/
 .foo{
-  width: 600px;
-  height: 335px;
+  height: 180px;
   transition: max-width 1.4s, max-height 1.4s;
 }
 .foo.isClose {

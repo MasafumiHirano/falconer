@@ -9,21 +9,6 @@ import Layout from '../../components/layout'
 import React, { useState } from 'react'
 
 export default function Media({ medias }) {
-  const appID = '3888350634542239';
-  const clientToken = '07d4a459f6430871cf1590f093d3069d';
-  const clientAccessToken = `${appID}|${clientToken}`
-
-  const instagramPosts = medias.filter((media) => (
-    media.medianame[0] == 'instagram'
-  ))
-  //instagramの投稿は、4つとりだす。
-  const visibleInstagramPosts = instagramPosts.slice(0, 4)
-
-  const youtubePosts = medias.filter((media) => (
-    media.medianame[0] == 'youtube'
-  ))
-  //youtubeの投稿は、5つとりだす。
-  const visibleYoutubePosts = youtubePosts.slice(0, 4)
 
   // open という名前の state 変数を宣言、初期値 true をセット
   const [open, setOpen] = useState(true)
@@ -66,7 +51,7 @@ export default function Media({ medias }) {
               {/*内容*/}
               <div class="bg-white">
                 <section class="px-4 lg:px-6 py-6 lg:pt-16 lg:pb-0">{/*RadioSection*/}
-                <h2 class="text-center pb-2 w-full md:w-920 md:mx-auto futura-md text-2xl md:text-3xl border-b border-gray-400 px-4">Radio<span class="text-base_s md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
+                  <h2 class="text-center pb-2 w-full md:w-920 md:mx-auto futura-md text-2xl md:text-3xl border-b border-gray-400 px-4">Radio<span class="text-base_s md:text-xl font-light block NotoSans-L">ラジオ</span></h2>
                   <div class="max-w-max mt-10 mb-2 w-36 mx-auto lg:mb-6">
                     <img src="/images/media/nanajam_image.jpg" alt="radio-image" />
                   </div>
@@ -74,8 +59,8 @@ export default function Media({ medias }) {
 
                 <section class="pb-6 lg:pb-16 px-4 lg:px-6">{/*YoutubeSection*/}
                   <div class="lg:px-6 lg:pb-6 lg:mb-4">
-                    <div class="max-w-screen-lg mx-auto flex flex-wrap justify-between lg:grid-rows-2 lg:grid-cols-4 gap-4">
-                      <div class="w-full h-200 md:h-640">
+                    <div class="max-w-screen-lg md:w-920 mx-auto flex flex-wrap justify-between lg:grid-rows-2 lg:grid-cols-4 gap-4">
+                      <div class="w-full h-200 md:h-500">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLL8nhuv2cnCW7G1tXSrM3lUgTkXDSLo4H" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </div>
@@ -99,20 +84,21 @@ export default function Media({ medias }) {
                   <div class="mt-28">
                     <h3 class="NotoSans-L text-center text-lg">過去アーカイブはこちらから！</h3>
                   </div>
-                  <div class="w-full px-1 md:w-10/12 flex flex-wrap justify-around mx-auto mt-12">
-                    {
-                      visibleYoutubePosts
-                        .slice(0, 4)
-                        .map(youtube => (
-                          <div class="w-49% md:w-300 mb-4">
-                            <div class="a h-28 md:h-48">
-                              <iframe src={`https://www.youtube.com/embed/${youtube.postid}`} class="w-full h-full"></iframe>
-                            </div>
-                            <p class="">Vol.{youtube.no}｜</p>
-                            <p class="">{youtube.title}</p>
-                          </div>
-                        ))
-                    }
+                  <div class="w-full px-4 md:w-920 flex flex-wrap justify-around mx-auto mt-12">
+                    <ul class="flex flex-wrap justify-between">
+                      {medias.slice(0,3).map(reading => (
+                        <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full md:w-32% mb-4 md:mb-24">
+                          <Link href={`readings/${reading.id}`}>
+                            <a>
+                              <div class="lg:px-0 flex flex-col">
+                                <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
+                                <p class="flex items-center flex-wrap mt-3 w-full"><span class="futura-lt text-base md:text-xl w-full md:w-3/12">Vol.{reading.no}｜</span><span class="NotoSans-L text-xs text-left w-full md:w-9/12">{reading.title}</span></p>
+                              </div>
+                            </a>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                   <div class="mt-10">
                     <Link href="/readings">
@@ -130,16 +116,16 @@ export default function Media({ medias }) {
 
                 {/*大村崑さんSecction_START*/}
                 <section class="px-4">
-                  <h2 class="pb-2 mt-28 w-full md:w-720 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
+                  <h2 class="pb-2 mt-28 w-full md:w-920 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
                   <div class="w-full mb-16">
-                    <p class="px-4 pt-2 text-ms w-full md:w-650 mx-auto NotoSans-L text-justify">
+                    <p class="px-4 pt-4 text-ms w-full md:w-920 mx-auto NotoSans-L text-justify">
                       株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
                     </p>
                   </div>
                   <div class="lg:px-6 lg:py-6 lg:mb-4">
-                    <div class="max-w-6xl mx-auto flex flex-wrap justify-between pb-20">
-                      <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 px-1">
+                    <div class="max-w-6xl mx-auto flex flex-wrap justify-between pb-20 md:w-920">
+                      <div class="flex md:justify-between flex-wrap md:flex-nowrap w-full mb-12">
+                        <div class="w-full md:w-580 px-1 md:mr-2">
                           <div class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.1</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">時代が変わっても大切なもの</h2>
@@ -152,12 +138,12 @@ export default function Media({ medias }) {
                             </p>
                           </div>
                         </div>
-                        <div className={open ? 'foo isClose' : 'foo isOpen'} class="foo isOpen">
+                        <div class="foo isOpen">
                           <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/rkKA_W0srh4`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
-                      <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 px-1">
+                      <div class="flex md:justify-between flex-wrap md:flex-nowrap w-full mb-12">
+                        <div class="w-full md:w-580 px-1 md:mr-2">
                           <div onClick={toggle2} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.2</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">ふたりの出会い</h2>
@@ -174,8 +160,8 @@ export default function Media({ medias }) {
                           <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/_GM_ZWob3kQ`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
-                      <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 px-1">
+                      <div class="flex md:justify-between flex-wrap md:flex-nowrap w-full mb-12">
+                        <div class="w-full md:w-580 px-1 md:mr-2">
                           <div onClick={toggle3} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.3</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">はたらくことの本質とは</h2>
@@ -192,8 +178,8 @@ export default function Media({ medias }) {
                           <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/ECXHgkpuhOs`} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                       </div>
-                      <div class="flex md:justify-between flex-wrap w-full mb-12">
-                        <div class="w-full md:w-500 px-1">
+                      <div class="flex md:justify-between flex-wrap md:flex-nowrap w-full mb-12">
+                        <div class="w-full md:w-580 px-1 md:mr-2">
                           <div onClick={toggle4} class="w-full flex items-center justify-center border-solid border-b border-black cursor-pointer pb-2">
                             <span class="w-3/12 ml-3">Vol.4</span>
                             <h2 class="w-9/12 text-center border-l border-gray-400 text-base md:text-lg">人生を豊かにする人間関係</h2>
@@ -332,17 +318,18 @@ export default function Media({ medias }) {
   )
 }
 
+// データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/media', key)
+  const data = await fetch('https://falconer.microcms.io/api/v1/readings', key)
     .then(res => res.json())
     .catch(() => null);
   return {
     props: {
-      medias: data.contents
+      medias: data.contents,
     },
   };
-}
+};
 
