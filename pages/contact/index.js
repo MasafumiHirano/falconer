@@ -61,7 +61,7 @@ export default function CONTACT() {
             <div class="relative">
               <h1 class="contact_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">CONTACT<p class="NotoSans text-base font-normal">問い合わせ</p></h1>
             </div>
-            <div class="mt-0 md:mt-20">
+            <div class="mt-10 md:mt-20">
               <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24"/>
               <p class="text-center text-comGOLD text-xs md:text-2xl">製品のご購入のご相談、OEMのご相談について<br/>取材の申し込みなど、お気軽にお問い合わせください。</p>
             </div>
