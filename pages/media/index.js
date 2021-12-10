@@ -66,7 +66,7 @@ export default function Media({ medias }) {
                     </div>
                   </div>
                   <h3 class="NotoSans-L text-center text-lg">過去ナナジャム配信中</h3>
-                  <div class="w-full md:w-500 flex items-center justify-between mx-auto mt-12">
+                  <div class="w-3/4 md:w-500 flex items-center justify-between mx-auto mt-12">
                     <a target="blank_" href="https://www.youtube.com/c/BACHICASHLEY/playlists" class="flex items-center justify-center text-center w-120 lg:w-100">
                       <img src="/images/media/youtube.jpg" class="w-8/12" alt="spotify" />
                     </a>
