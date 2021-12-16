@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
+import { Pagination } from '../../components/PaginationReadings';
 
 import Layout from '../../components/layout'
 
-export default function Readings({readings}) {
+export default function Readings({ readings, totalCount }) {
+
   return (
     <div>
       <Head>
@@ -12,40 +13,35 @@ export default function Readings({readings}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main>
-        <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-          <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">読み物</h1></div>
-          <div>
-            <ul class="pt-6 lg:pt-0 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
-              {readings.map(reading => (
-                <li key={reading.id} class="shadow mt-2 lg:mt-0 hover:bg-gray-100">
-                  <Link href={`readings/${reading.id}`}>
-                    <a>
-                      <div class="px-2 lg:px-0">
-                        <div>
-                          <div><Image class="" src={`${reading.main_image.url}`} width={1100} height={550} alt=""/></div>
-                          <div>
-                            <div class="p-2 h-14 lg:h-20 lg:mb-4 overflow-hidden">
-                              <div class="lg:text-lg font-semibold helvetica" style={{fontSize: "17px"}}>{reading.title}</div>
-                            </div>
-                            <div class="p-2 lg:flex mt-2 lg:mt-0 flex-wrap">
-                              {reading.tag.map(tag => (
-                                <div class="inline-block mr-2 mb-4">
-                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 bg-gray-200 rounded-full text-xs whitespace-nowrap">{tag.tagname}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+        <main>
+          {/*見出し部分*/}
+          <div class="mb-6 lg:mb-12">
+            <h1 class="">
+              <img src="/images/readings/readings_eyecatch.jpg" alt="ラジオ一覧" />
+            </h1>
           </div>
-        </div>
-      </main>
+          {/*見出し部分 終了*/}
+          <div class="mx-auto py-6 lg:py-12 lg:w-1100">
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio List<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ一覧</span></h2>
+            <div class="mt-20 px-1">
+              <ul class="flex flex-wrap justify-between md:justify-start">
+                {readings.map(reading => (
+                  <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49% md:w-24% md:mx-1 mb-4 md:mb-24">
+                    <Link href={`readings/${reading.id}`}>
+                      <a>
+                        <div class="lg:px-0">
+                          <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
+                          <p class="flex items-center flex-wrap mt-3 w-full"><span class="futura-lt text-base md:text-xl w-full md:w-3/12">Vol.{reading.no}｜</span><span class="NotoSans-L text-xs text-left w-full md:w-9/12">{reading.title}</span></p>
+                        </div>
+                      </a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Pagination totalCount={totalCount} page="1" />
+            </div>
+          </div>
+        </main>
       </Layout>
     </div>
   )
@@ -54,7 +50,7 @@ export default function Readings({readings}) {
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
   const key = {
-    headers: {'X-API-KEY': process.env.API_KEY},
+    headers: { 'X-API-KEY': process.env.API_KEY },
   };
   const data = await fetch('https://falconer.microcms.io/api/v1/readings', key)
     .then(res => res.json())
@@ -62,6 +58,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       readings: data.contents,
+      totalCount: data.totalCount,
     },
   };
 };

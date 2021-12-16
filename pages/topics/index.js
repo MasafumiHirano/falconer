@@ -1,10 +1,35 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image'
-
+import Link from 'next/link'
+import moment from 'moment';
 import Layout from '../../components/layout'
+import { Pagination } from '../../components/PaginationTopics';
 
-export default function Topics({topics}) {
+export default function Topics({ topics, totalCount }) {
+  
+  //プレスリリース分のみ抽出
+  const topic_pr = topics.filter((topic) => (
+    topic.category[0] == 'プレスリリース'
+  ))
+  const visibletopic_pr = topic_pr
+  //お知らせ分のみ抽出
+  const topic_info = topics.filter((topic) => (
+    topic.category[0] == 'お知らせ'
+  ))
+  const visibletopic_info = topic_info
+  //メディア分のみ抽出
+  const topic_media = topics.filter((topic) => (
+    topic.category[0] == 'メディア'
+  ))
+  const visibletopic_media = topic_media
+
+  const filterList = (e) => {
+    const updateList = topics.filter((topic) => {
+      topic.category[0] == e.target.value
+    })
+    this.setState({ topics: updateList })
+  }
+
   return (
     <div>
       <Head>
@@ -12,49 +37,63 @@ export default function Topics({topics}) {
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
-      <main class="">
-        <div class="mx-auto py-6 lg:py-12 lg:w-1100">
-          <div><h1 class="Osaka lg:mb-12 font-bold text-xl lg:text-3xl text-center py-2 tracking-wider">新着情報</h1></div>
-          <div>
-            <ul class="pt-6 lg:pt-0 grid lg:grid-cols-3 gap-x-3 lg:gap-x-4 gap-y-6 lg:gap-y-12">
-              {topics.map(topic => (
-                <li key={topic.id} class="shadow mt-2 lg:mt-0 hover:bg-gray-100">
-                  <Link href={`topics/${topic.id}`}>
-                    <a>
-                      <div class="px-2 lg:px-0">
-                        <div>
-                          <div><Image class="" src={`${topic.main_image.url}`} width={1100} height={550} alt=""/></div>
-                          <div>
-                            <div class="p-2 h-14 lg:h-24 lg:mb-4 overflow-hidden">
-                              <div class="lg:text-lg font-semibold helvetica" style={{fontSize: "17px"}}>{topic.title}</div>
-                            </div>
-                            <div class="p-2 lg:flex mt-2 lg:mt-0 flex-wrap">
-                              {topic.tag.map(tag => (
-                                <div class="inline-block mr-2 mb-4">
-                                  <span class="px-2 lg:px-3 py-1 lg:py-1 mb-2 rounded-full bg-gray-200 text-xs whitespace-nowrap">{tag.tagname}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+        <main class="">
+          {/*見出し部分*/}
+          <div class="mb-6 lg:mb-12">
+            <div class="relative">
+              <h1 class="futura-lt text-white text-center font-bold text-3xl lg:text-3xl topics_title h-405 md:h-445 flex items-center justify-center flex-col">News<p class="NotoSans-L text-base font-normal">ニュース</p></h1>
+            </div>
           </div>
-        </div>
-      </main>
+          {/*見出し部分 終了*/}
+          <div class="mx-auto mt-20 pb-6 lg:py-12 lg:w-1100">
+            <h1 class="futura-lt font-bold lg:mb-12 text-3xl text-center py-2 tracking-wider">News List<p class="NotoSans-L text-base font-normal">ニュース一覧</p></h1>
+            <div>
+              {/* <form action="">
+                <div class="custom_select relative w-64 block mx-auto">
+                  <select class="bg-black w-full h-14  text-white text-center" onChange={(event) => { filterList(event) }}>
+                    <option value=''>カテゴリ</option>
+                    <option value="プレスリリース">プレスリリース</option>
+                    <option value="お知らせ">お知らせ</option>
+                    <option value="メディア">メディア</option>
+                  </select>
+                </div>
+              </form> */}
+              <ul class="mx-auto w-11/12 md:w-full mt-12">
+                {topics.map(topic => (
+                  <li key={topic.id} class="py-4 border-b">
+                    <Link href={`topics/${topic.id}`}>
+                      <a class="flex flex-wrap md:flex-row md:justify-center">
+                        <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topic.datetime}`)}</div>
+                        <div class={`${topic.category_color} rounded-2xl w-32 text-center`}>
+                          <span class="text-white NotoSans-L">{topic.category}</span>
+                        </div>
+                        <p class="w-full mt-2 md:mt-0 md:w-9/12 md:ml-4 NotoSans-L break-words">{topic.title}</p>
+                      </a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Pagination totalCount={totalCount} />
+            </div>
+          </div>
+        </main>
       </Layout>
     </div>
+  )
+}
+
+const getTopicDate = (date) => {
+  var d = ''
+  d = moment(date)
+  return (
+    d.format("YYYY.MM.DD")
   )
 }
 
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
   const key = {
-    headers: {'X-API-KEY': process.env.API_KEY},
+    headers: { 'X-API-KEY': process.env.API_KEY },
   };
   const data = await fetch('https://falconer.microcms.io/api/v1/topics', key)
     .then(res => res.json())
@@ -62,6 +101,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       topics: data.contents,
+      totalCount: data.totalCount,
     },
   };
 };
