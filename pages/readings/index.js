@@ -9,7 +9,7 @@ export default function Readings({ readings, totalCount }) {
   return (
     <div>
       <Head>
-        <title>読み物</title>
+        <title>読み物｜Page1</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
@@ -52,7 +52,7 @@ export const getStaticProps = async () => {
   const key = {
     headers: { 'X-API-KEY': process.env.API_KEY },
   };
-  const data = await fetch('https://falconer.microcms.io/api/v1/readings', key)
+  const data = await fetch('https://falconer.microcms.io/api/v1/readings?limit=12', key)
     .then(res => res.json())
     .catch(() => null);
   return {
