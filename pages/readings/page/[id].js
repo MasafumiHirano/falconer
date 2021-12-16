@@ -10,7 +10,7 @@ export default function Readings({ readings, totalCount, id }) {
   return (
     <div>
       <Head>
-        <title>読み物</title>
+        <title>読み物｜Page{id}</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
@@ -25,15 +25,14 @@ export default function Readings({ readings, totalCount, id }) {
           <div class="mx-auto py-6 lg:py-12 lg:w-1100">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">Radio List<span class="text-base md:text-xl font-light block NotoSans-L">ラジオ一覧</span></h2>
             <div class="mt-20 px-1">
-              <ul class="flex flex-wrap justify-between">
+              <ul class="flex flex-wrap justify-between md:justify-start">
                 {readings.map(reading => (
-                  <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49%">
-                    <Link href={`/readings/${reading.id}`}>
+                  <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49% md:w-24% md:mx-1 mb-4 md:mb-24">
+                    <Link href={`readings/${reading.id}`}>
                       <a>
                         <div class="lg:px-0">
-                          <div><img src={`${reading.main_image.url}`} /></div>
-                          <p class="text-sm">Vol.{reading.no}｜</p>
-                          <p class="text-xs">{reading.title}</p>
+                          <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
+                          <p class="flex items-center flex-wrap mt-3 w-full"><span class="futura-lt text-base md:text-xl w-full md:w-3/12">Vol.{reading.no}｜</span><span class="NotoSans-L text-xs text-left w-full md:w-9/12">{reading.title}</span></p>
                         </div>
                       </a>
                     </Link>
