@@ -13,6 +13,7 @@
   font-weight: 200;
   font-display: swap;
 }
+
 @font-face {
   font-family: "futura_medium_bt";
   src: url("/fonts/futura_medium_bt.woff") format('woff');
@@ -90,95 +91,114 @@
   font-style: normal;
   font-weight: 100;
   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Thin.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Thin.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Thin.otf) format('opentype');
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Thin.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Thin.otf) format('opentype');
 }
+
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 200;
   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Light.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Light.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Light.otf) format('opentype');
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Light.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Light.otf) format('opentype');
 }
+
 @font-face {
-   font-family: 'Noto Sans Japanese';
-   font-style: normal;
-   font-weight: 300;
-   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.otf) format('opentype');
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.otf) format('opentype');
 }
+
 @font-face {
-   font-family: 'Noto Sans Japanese';
-   font-style: normal;
-   font-weight: 400;
-   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.otf) format('opentype');
- }
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Regular.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans Japanese';
-   font-style: normal;
-   font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.otf) format('opentype');
- }
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Medium.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans Japanese';
-   font-style: normal;
-   font-weight: 700;
-   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.otf) format('opentype');
- }
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Bold.otf) format('opentype');
+}
+
 @font-face {
-   font-family: 'Noto Sans Japanese';
-   font-style: normal;
-   font-weight: 900;
-   src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.otf) format('opentype');
- }
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-Black.otf) format('opentype');
+}
+
 /*////////////////////////////////////// カスタムユーティリティ //////////////////////////////////////*/
 @layer utilities {
   .futura-lt {
     font-family: "futura_light_bt";
   }
+
   .futura-md {
     font-family: "futura_medium_bt";
   }
+
   .futura-co {
     font-family: "futura_condensed_medium";
   }
+
   .helvetica {
     font-family: "Helvetica";
   }
+
   .chuGo {
     font-family: "chuGothic_md";
   }
+
   .midashiGo {
     font-family: "midashiGoMB31";
   }
+
   .hiraginoGo {
-    font-family: "ヒラギノ角ゴシック","メイリオ",sans-serif;
+    font-family: "ヒラギノ角ゴシック", "メイリオ", sans-serif;
   }
+
   .Osaka {
     font-family: "Osaka_custom";
   }
+
   .MpC1-b {
     font-family: "M_plus_RC1_bold";
   }
+
   .NotoSans-L {
-    font-family: "ヒラギノ角ゴシック","NotoSans_Light";
+    font-family: "ヒラギノ角ゴシック", "NotoSans_Light";
   }
+
   .NotoSans-R {
-    font-family: "ヒラギノ角ゴシック","NotoSans_Regular";
+    font-family: "ヒラギノ角ゴシック", "NotoSans_Regular";
   }
+
   .NotoSans-B {
     font-family: "NotoSans_Bold";
   }
+
   .NotoSans {
     font-family: "Noto Sans Japanese";
   }
@@ -212,18 +232,19 @@ h1 {
 }
 
 .header_top_change {
-  display:none
+  display: none
 }
 
 .header__contents {
   display: flex;
   justify-content: unset;
 }
-@media only screen and (min-width: 1100px){
+
+@media only screen and (min-width: 1100px) {
   .header__contents {
     justify-content: space-between;
   }
-}  
+}
 
 .header__nav {
   background-color: white;
@@ -255,61 +276,68 @@ h1 {
   min-width: 340px !important;
 }
 
-.w-3split{
+.w-3split {
   width: 30%
 }
-@media only screen and (min-width: 700px){
-  .w-3split{
+
+@media only screen and (min-width: 700px) {
+  .w-3split {
     width: 32%
   }
 }
 
-a.custom_button{
+a.custom_button {
   color: white;
-	background: #000000;
+  background: #000000;
   position: relative;
 }
 
-a.custom_button:after {        /*白いひし型 */  
-	display: block;
-	content: "";
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	top: 50%;
-	right: 20px;
-	width: 8px;
-	height: 8px;
-	margin-top: -4px;
-	background: #fff;
+a.custom_button:after {
+  /*白いひし型 */
+  display: block;
+  content: "";
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 50%;
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #fff;
 }
 
-a.custom_button:before {        /*バックグラウンドと同じ色のひし型をずらして「before要素」を隠す */  
-	display: block;
-	content: "";
-	position: absolute;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	top: 50%;
-	right: 25px;
-	width: 8px;
-	height: 8px;
-	margin-top: -4px;
-	background: #000000;
+a.custom_button:before {
+  /*バックグラウンドと同じ色のひし型をずらして「before要素」を隠す */
+  display: block;
+  content: "";
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 50%;
+  right: 25px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #000000;
   z-index: 999;
 }
-a.custom_button:hover:before {        /*「after要素」のマウスオーバー（カラーを合わせる） */  
-	background: #000000;
+
+a.custom_button:hover:before {
+  /*「after要素」のマウスオーバー（カラーを合わせる） */
+  background: #000000;
 }
 
 .custom_select select {
   -webkit-appearance: none;
-  appearance: none; /* デフォルトのスタイルを無効 */
+  appearance: none;
+  /* デフォルトのスタイルを無効 */
   position: relative;
 }
 
 .custom_select select::-ms-expand {
-  display: none; /* デフォルトのスタイルを無効(IE用) */
+  display: none;
+  /* デフォルトのスタイルを無効(IE用) */
 }
 
 .custom_select::before {
@@ -323,18 +351,21 @@ a.custom_button:hover:before {        /*「after要素」のマウスオーバ�
 }
 
 /*////////////////////////////////////// ラジオ向けCSS //////////////////////////////////////*/
-div.name{
+div.name {
   margin-top: 30px;
   font-weight: bold;
 }
+
 .title {
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
 }
+
 .title h1 {
   font-size: 30px;
 }
+
 div.text {
   width: 90%;
   max-width: 1000px;
@@ -342,11 +373,13 @@ div.text {
   font-size: 1.5em;
   line-height: 2em;
 }
+
 .title iframe {
   width: 800px;
   height: 400px;
 }
-.title div{
+
+.title div {
   margin-top: 20px;
 }
 
@@ -365,27 +398,30 @@ div#reading-rich-text span {
   justify-content: center;
   align-items: center;
 }
+
 .partner__tag.pt_red {
   border-color: #BC2929;
   color: #BC2929;
 }
+
 .partner__tag.pt_green {
   border-color: #5FCBC2;
   color: #5FCBC2;
 }
+
 .partner__tag.pt_navy {
   border-color: #1C186A;
   color: #1C186A;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
   .title iframe {
-      width: 90%;
-      height: 200px;
-  }   
+    width: 90%;
+    height: 200px;
+  }
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1100px) {
   .instagram-media {
     width: 100% !important;
     max-width: 1100px !important;
@@ -394,115 +430,130 @@ div#reading-rich-text span {
 }
 
 /*////////////////////////////////////// 各ページアイキャッチ //////////////////////////////////////*/
-h1.media_title{
+h1.media_title {
   background-image: url("/images/media/media_eyecatch.jpg");
   background-size: cover;
 }
 
-h1.company_title{
+h1.company_title {
   background-image: url("/images/company/eyechatch.png");
   background-size: cover;
 }
 
-.oem_main_image{
+.oem_main_image {
   background-image: url("/images/oem/topimage.png");
 }
 
-.topics_title{
+.topics_title {
   background-image: url("/images/topics/topics_eyecatch.jpg");
   background-size: cover;
 }
 
-.strength_title{
+.strength_title {
   background-image: url("/images/company/strength_eyecatch.jpg");
   background-size: cover;
   background-position: 50% 100%;
 }
-.readings_title{
+
+.readings_title {
   background-image: url("/images/readings/readings_eyecatch.jpg");
   background-size: cover;
 }
 
-.bussiness_title{
+.bussiness_title {
   background-image: url("/images/company/company_topimage.jpeg");
   background-size: cover;
 }
 
-.recruit_title{
+.recruit_title {
   background-image: url("/images/recruit/recruit_eyecatch.jpg");
   background-size: cover;
 }
 
-.contact_title{
+.contact_title {
   background-image: url("/images/contact/contact_eyecatch.jpg");
   background-size: cover;
 }
 
-@media only screen and (max-width: 767px){
-  h1.media_title{
+@media only screen and (max-width: 767px) {
+  h1.media_title {
     background-image: url("/images/media/media_eyecatch_sp.jpg");
     background-size: cover;
   }
-  h1.company_title{
+
+  h1.company_title {
     background-image: url("/images/company/eyechatch_sp.png");
     background-size: cover;
     background-position: 50% 100%;
   }
-  .oem_main_image{
+
+  .oem_main_image {
     background-image: url("/images/oem/topimage_sp.png");
   }
-  .topics_title{
+
+  .topics_title {
     background-image: url("/images/topics/topics_eyecatch_sp.jpg");
   }
-  .recruit_title{
+
+  .recruit_title {
     background-image: url("/images/recruit/recruit_eyecatch_sp.jpg");
   }
-  .contact_title{
+
+  .contact_title {
     background-image: url("/images/contact/contact_eyecatch_sp.jpg");
   }
 }
 
 
 /*////////////////////////////////////// 事業内容ページ //////////////////////////////////////*/
-.business_detail{
+.business_detail {
   position: relative;
 }
-.business_detail p{
+
+.business_detail p {
   top: 20px;
 }
-@media only screen and (max-width: 767px){
-  .business_detail p{
+
+@media only screen and (max-width: 767px) {
+  .business_detail p {
     bottom: 5vw;
   }
 }
+
 /*////////////////////////////////////// メディア-アニメーション //////////////////////////////////////*/
-.foo{
+.foo {
   height: 180px;
   transition: max-width 1.4s, max-height 1.4s;
 }
+
 .foo.isClose {
   max-width: 0;
   max-height: 0;
   overflow: hidden;
 }
+
 .foo.isOpen {
   max-width: 700px;
   max-height: 390px;
   overflow: hidden;
 }
-.intoro p{
+
+.intoro p {
   width: 100%;
   height: auto;
   overflow: hidden;
   transition: max-height 1.4s;
 }
-.intoro.isClose p{
+
+.intoro.isClose p {
   max-height: 0;
 }
-.intoro.isOpen p{
+
+.intoro.isOpen p {
   max-height: 200px;
 }
-.open_button::after{
+
+.open_button::after {
   display: block;
   content: "";
   background-image: url("/images/media/close.jpg");
@@ -511,7 +562,8 @@ h1.company_title{
   width: 20px;
   height: 20px;
 }
-.close_button::after{
+
+.close_button::after {
   display: block;
   content: "";
   background-image: url("/images/media/open.jpg");
@@ -520,12 +572,14 @@ h1.company_title{
   width: 14px;
   height: 22px;
 }
-@media only screen and (max-width: 767px){
-  .foo{
+
+@media only screen and (max-width: 767px) {
+  .foo {
     width: 100%;
     height: 205px;
     transition: unset;
   }
+
   .foo.isOpen {
     max-width: 100%;
     height: 200px;
@@ -534,33 +588,74 @@ h1.company_title{
 }
 
 /*////////////////////////////////////// 強み //////////////////////////////////////*/
-.self_maker{
+.self_maker {
   background-image: url("/images/company/self_maker_bg.jpg");
   background-size: cover;
 }
 
-.it_management{
+.it_management {
   background-image: url("/images/company/it_manage_bg.jpg");
   background-size: cover;
 }
 
 
 /*////////////////////////////////////// 代表メッセージ //////////////////////////////////////*/
-.message_title{
+.message_title {
   color: #C1A668;
   width: 100%;
   font-family: "futura_medium_bt";
 }
-.pickup_text{
+
+.pickup_text {
   background-color: #C1A668;
   color: white;
   font-size: 20px;
 }
-@media only screen and (max-width: 767px){
-  .message_title{
+
+@media only screen and (max-width: 767px) {
+  .message_title {
     font-family: "futura_light_bt";
   }
-  .pickup_text{
+
+  .pickup_text {
     font-size: 15px;
+  }
+}
+
+/*////////////////////////////////////// 記事ページ //////////////////////////////////////*/
+.video1 {
+  position: relative;
+  width: 49%;
+  height: 0;
+  padding-top: 27.65%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.video2 {
+  position: relative;
+  width: 49%;
+  height: 0;
+  padding-top: 27.65%;
+  float: right;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .video1 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    float: none;
+    margin-bottom: 50px;
+  }
+  .video2 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    float: none;
+    margin-bottom: 50px;
   }
 }

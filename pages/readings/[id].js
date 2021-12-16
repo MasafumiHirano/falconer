@@ -38,7 +38,7 @@ export default function readingId({ reading, readinglist }) {
   return (
     <>
       <Head>
-        <title>{reading.title}</title>
+        <title>{reading.guest}　{reading.title}</title>
         <link rel="icon" href="/falconer_favicons.png" />
       </Head>
       <Layout>
