@@ -170,8 +170,8 @@ export default function Home({ slides, topics, readings }) {
                   .slice(0, 4)
                   .map(topics => (
                     <li key={topics.id}>
-                      <Link href={`topics/${topics.id}`}>
-                        <a class="flex flex-wrap md:flex-nowrap text-sm md:text-base md:flex-row py-4 border-b">
+                      <Link href={topics.link ? topics.link : `topics/${topics.id}`}>
+                        <a class="flex flex-wrap md:flex-nowrap text-sm md:text-base md:flex-row py-4 border-b" target={topics.link && "blank_"}>
                           <div class="w-24 md:w-32 py-1 text-sm md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
                           <div class={`${topics.category_color} rounded-2xl w-32 text-center font-light py-0.5 flex justify-center items-center`}>
                             <span class="text-white NotoSans-L text-sm">{topics.category}</span>

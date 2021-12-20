@@ -70,7 +70,8 @@ export const getStaticProps = async (context) => {
     headers: { 'X-API-KEY': process.env.API_KEY },
   };
 
-  const data = await fetch("https://falconer.microcms.io/api/v1/readings?offset=" + id + "&limit=12"
+  const data = await fetch(
+    `https://falconer.microcms.io/api/v1/readings?offset=${(id - 1) * 12}&limit=12`
     , key)
     .then(res => res.json())
     .catch(() => null);
