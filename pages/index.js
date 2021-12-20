@@ -169,12 +169,16 @@ export default function Home({ slides, topics, readings }) {
                 topics
                   .slice(0, 4)
                   .map(topics => (
-                    <li key={topics.id} class="flex flex-wrap text-sm md:text-base md:flex-row md:justify-center py-4 border-b">
-                      <div class="w-24 md:w-32 py-1 text-sm md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
-                      <div class={`${topics.category_color} rounded-2xl w-32 text-center font-light py-0.5 flex justify-center items-center`}>
-                        <span class="text-white NotoSans-L text-sm">{topics.category}</span>
-                      </div>
-                      <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-base_s NotoSans-L break-words text-justify">{topics.title}</p>
+                    <li key={topics.id}>
+                      <Link href={`topics/${topics.id}`}>
+                        <a class="flex flex-wrap md:flex-nowrap text-sm md:text-base md:flex-row py-4 border-b">
+                          <div class="w-24 md:w-32 py-1 text-sm md:text-center">{getTopicDate(`${topics.datetime}`)}</div>
+                          <div class={`${topics.category_color} rounded-2xl w-32 text-center font-light py-0.5 flex justify-center items-center`}>
+                            <span class="text-white NotoSans-L text-sm">{topics.category}</span>
+                          </div>
+                          <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-base_s NotoSans-L break-words text-justify md:truncate max-w-3xl">{topics.title}</p>
+                        </a>
+                      </Link>
                     </li>
                   ))
               }
