@@ -60,7 +60,7 @@ export default function Header() {
                     </g>
                   </svg> */}
                   <p class="text-0.55rem md:text-xs min-w-100 -ml-3 md:ml-0 mr-1 flex items-center NotoSans-L">株式会社FALCONER</p>
-                  <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 228 32" class="mx-1 md:mx-0">
+                  <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 228 32" class="-ml-4 md:mx-0">
                   <g fill="black">
                     <path class="st0" d="M11.84,6.09H3.58v5.7h7.97v3.36H3.58v11.29H0V2.73h11.84V6.09z"/>
                     <path class="st0" d="M26.13,11.48h3.47v14.95h-3.47v-1.57c-1.42,1.33-2.95,2-4.59,2c-2.07,0-3.78-0.75-5.13-2.24
