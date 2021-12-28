@@ -105,10 +105,10 @@ export default function Home({ slides, topics, readings }) {
             <Slider {...settings}>
               {renderSlider(slides)}
             </Slider>
-            <div class="w-full absolute top-24 md:top-24">
+            <div class="w-full absolute top-32 md:top-48  ">
               <div class="w-full pl-2 md:pl-20 text-white top_title">
                 <h1 class="text-4xl md:text-5xl futura-md">Stay Strong,<br class="md:hidden" />Stay Kind,<br class="md:hidden" />Stay Happy</h1>
-                <div class="leading-6 NotoSans-L text-base md:text-xl mt-2">
+                <div class="leading-6 md:leading-10 NotoSans-L text-base md:text-xl mt-2">
                   <p>今日よりも、もっと幸せな明日を</p>
                   <p>最高品質の戦略的モノづくりカンパニー</p>
                 </div>
