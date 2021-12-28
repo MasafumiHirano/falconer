@@ -118,7 +118,7 @@ export default function Home({ slides, topics, readings }) {
           {/* TOPスライダーセクション END */}
 
           {/* セカンドビュー START */}
-          <section class="pt-8 mx-auto -mt-2 text-center lg:max-w-full">
+          <section class="pt-8 mt-4 mx-auto text-center lg:max-w-full">
             <h2 class="text-base w-4/5 md:w-3/5 mx-auto md:text-xl md:pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="text-justify">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
@@ -350,12 +350,12 @@ export default function Home({ slides, topics, readings }) {
             <div class="text-center mt-10">
               <Link href="/contact">
                 <a>
-                  <button class="bg-comGOLD w-72 text-black font-bold py-2 rounded-2xl">まずは問い合わせしてみる</button>
+                  <button class="bg-comGOLD w-72 text-white font-bold py-2 rounded-2xl">まずは問い合わせしてみる</button>
                 </a>
               </Link>
             </div>
             <div class="mt-8">
-              <p class="mt-2 text-center text-3xl helvetica"><a class="w-52 block mx-auto text-white" href="tel:+81-52-734-7065">052-734-7065</a></p>
+              <p class="mt-2 text-center text-3xl helvetica"><a class="w-52 block mx-auto text-black" href="tel:+81-52-734-7065">052-734-7065</a></p>
               <p class="text-center text-black text-xs mt-4">受付時間　10:00～19:00 (日曜 隔週土曜定休)</p>
             </div>
           </section>
