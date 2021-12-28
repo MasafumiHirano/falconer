@@ -350,6 +350,10 @@ a.custom_button:hover:before {
   z-index: 99;
 }
 
+.top_title{
+  text-shadow: 0px 2px 3px darkgrey
+}
+
 /*////////////////////////////////////// ラジオ向けCSS //////////////////////////////////////*/
 div.name {
   margin-top: 30px;
@@ -388,10 +392,10 @@ div#reading-rich-text span {
 }
 
 .partner__tag {
-  font-size: 15px;
+  font-size: 0.65rem;
   border-radius: 20px;
-  border: 2px solid;
-  width: 150px;
+  border: 1px solid;
+  width: 95%;
   margin: 8px auto 0;
   padding: 2px 0;
   display: flex;

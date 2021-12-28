@@ -80,6 +80,7 @@ module.exports = {
         '1.7rem': '1.7rem',
         '3.5xl': '2rem',
         '4.5xl': '2.8rem',
+        '0.55rem': '0.55rem',
         'ml': '19px',
         'ms': '15px',
         '25px': '25px',
@@ -89,12 +90,14 @@ module.exports = {
         'falSLD': '#9f9e9f',
         'comGOLD' : '#C1A668',
         'falNAVY': '#1F4370',
+        'falContact': '#A5A5A5',
         'media_black': '#060000',
         'radio_black': '#5D5D5D',
       },
       minWidth: {
         '200': '200px',
         '210': '210px',
+        '100': '100px',
       },
       maxWidth: {
         '1520': '1520px',
