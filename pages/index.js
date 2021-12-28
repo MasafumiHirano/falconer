@@ -193,7 +193,7 @@ export default function Home({ slides, topics, readings }) {
                           <div class={`${topics.category_color} rounded-2xl w-32 text-center font-light py-0.5 flex justify-center items-center`}>
                             <span class="text-white NotoSans-L text-sm">{topics.category}</span>
                           </div>
-                          <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-xs font-semibold NotoSans-L break-words text-justify md:truncate max-w-3xl md:flex md:items-center">{topics.title}</p>
+                          <p class="w-full mt-2 md:mt-0 md:w-auto md:ml-4 text-xs font-bold md:font-semibold NotoSans-L break-words text-justify md:truncate max-w-3xl md:flex md:items-center">{topics.title}</p>
                         </a>
                       </Link>
                     </li>
@@ -214,19 +214,19 @@ export default function Home({ slides, topics, readings }) {
             </p>
             <ul class="mt-16 md:mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/busi_01.png" alt="レザーアイテム製造・販売" />
+                <img className={styles.business__img} src="/images/top/busi_01.jpg" alt="レザーアイテム製造・販売" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/busi_02.png" alt="アパレル" />
+                <img className={styles.business__img} src="/images/top/busi_02.jpg" alt="アパレル" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/busi_03.png" alt="OEM" />
+                <img className={styles.business__img} src="/images/top/busi_03.jpg" alt="OEM" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/busi_04.png" alt="海外事業" />
+                <img className={styles.business__img} src="/images/top/busi_04.jpg" alt="海外事業" />
               </li>
               <li className={styles.business__item}>
-                <img className={styles.business__img} src="/images/top/busi_05.png" alt="EC事業" />
+                <img className={styles.business__img} src="/images/top/busi_05.jpg" alt="EC事業" />
               </li>
               <li className={`${styles.business__item} md:w-full md:mt-20`}>
                 <Link href="/company/business">
@@ -265,11 +265,9 @@ export default function Home({ slides, topics, readings }) {
                   <h3 class="border-b border-white text-2xl pb-3">Radio<span class="text-base_s ml-3">ラジオ</span></h3>
                   <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">
                     自社ブランドを手掛けるFALCONER代表取締役 清水がアイデザイナー、モデルとして活躍中のNANAMIと共に、ゲストの拘り、成功と幸せについて掘り下げていくプログラム。
-                    <div className={styles.media__button_area}>
-                      <Link href="/media">
-                        <a class="futura_medium_bt text-center text-white text-base block w-40 md:w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button_wh.png"></img></a>
-                      </Link>
-                    </div>
+                    <Link href="/media">
+                      <a class="futura_medium_bt text-center text-white text-base block w-40 md:w-40 mx-auto mt-6">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button_wh.png"></img></a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -279,11 +277,9 @@ export default function Home({ slides, topics, readings }) {
                   <h3 class="border-b border-white text-2xl pb-3">Dialogue<span class="text-base_s ml-3">対談</span></h3>
                   <p class="mt-3 text-base_s break-all leading-relaxed md:leading-loose text-justify">
                     FALCONER設立以前から親交のある喜劇俳優の大村崑さんと、会社設立を経験し社長として歩みを進める今だからこそ実現したスペシャル対談。
-                    <div className={styles.media__button_area}>
-                      <Link href="/media#Dialogue">
-                        <a class="futura_medium_bt text-center text-base text-white block w-40 md:w-40 mx-auto">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button_wh.png"></img></a>
-                      </Link>
-                    </div>
+                    <Link href="/media#Dialogue">
+                      <a class="futura_medium_bt text-center text-white text-base block w-40 md:w-40 mx-auto mt-12">詳細はこちら<img class="w-full -mt-2" src="/images/top/more_button_wh.png"></img></a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -316,7 +312,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア END */}
 
           {/* ブランドセクション START */}
-          <section class="mt-24 py-24 bg-gray-100 -mb-4">
+          <section class="mt-24 md:mt-40 py-24 bg-gray-100 -mb-4">
             <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
             <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
               <li class="mt-6 md:mt-4 md:w-600">
@@ -348,19 +344,19 @@ export default function Home({ slides, topics, readings }) {
           {/* ブランドセクション END */}
 
           {/* 問合せセクション START */}
-          <section class="py-12 bg-falContact -mb-4">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-white">CONTACT<span class="text-base md:text-xl font-light block NotoSans-L">お問合せ</span></h2>
-            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto md:text-xl mt-8 text-center NotoSans-L text-white">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
+          <section class="py-24 -mb-4">
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-black">CONTACT<span class="text-base md:text-xl font-light block NotoSans-L">お問合せ</span></h2>
+            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto md:text-xl mt-8 text-center NotoSans-L text-black">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
             <div class="text-center mt-10">
               <Link href="/contact">
                 <a>
-                  <button class="bg-yellow-400 w-72 text-white font-bold py-2 rounded-2xl">まずは問い合わせしてみる</button>
+                  <button class="bg-comGOLD w-72 text-black font-bold py-2 rounded-2xl">まずは問い合わせしてみる</button>
                 </a>
               </Link>
             </div>
             <div class="mt-8">
               <p class="mt-2 text-center text-3xl helvetica"><a class="w-52 block mx-auto text-white" href="tel:+81-52-734-7065">052-734-7065</a></p>
-              <p class="text-center text-white text-xs mt-4">受付時間　10:00～19:00 (日曜 隔週土曜定休)</p>
+              <p class="text-center text-black text-xs mt-4">受付時間　10:00～19:00 (日曜 隔週土曜定休)</p>
             </div>
           </section>
           {/* 問合せセクション END */}

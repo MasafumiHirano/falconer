@@ -12,6 +12,11 @@ export default function Footer() {
                 <Link href="/">
                   <a className="blcok w-full text-center"><img src="/images/logo/fal_logo_wh.png" class="w-52 block mx-auto" alt="falconer_logo" /></a>
                 </Link>
+                <div class="text-white text-xs mt-4 md:mt-2 text-center md:text-left">
+                  〒465-0068 愛知県名古屋市名東区牧の里三丁目104番地の2<br/>
+                  MAIL：info@falconer.co.jp<br/>
+                  TEL：052-734-7065
+                </div>
                 <ul class="flex w-170 md:w-full flex-row justify-around mt-12">
                   <li class="w-8 flex justify-center items-center">
                     <a href="https://www.instagram.com/masaki.s_japan/" target="_blank">
