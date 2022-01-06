@@ -115,8 +115,8 @@ export default function Media({ medias }) {
                 </section>{/*アーカイブend*/}
 
                 {/*大村崑さんSecction_START*/}
-                <section class="px-4">
-                  <h2 class="pb-2 mt-28 w-full md:w-920 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
+                <section class="px-4 pt-12 -mt-8" id="Dialogue">
+                  <h2 class="pb-2 mt-24 w-full md:w-920 mx-auto text-center futura-md text-1.7rem md:text-3xl border-b border-gray-400">Dialogue<span class="text-base md:text-lg font-light block NotoSans-L">対談</span></h2>
                   <div class="w-full mb-16">
                     <p class="px-4 pt-4 text-ms w-full md:w-920 mx-auto NotoSans-L text-justify">
                       株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さん。以前よりお世話になっている崑さんと、会社設立を経験し社長として歩を進める「今」だからこそ実現できた対談。<br></br>芸能界で数々の実績を残してきた崑さんと綴る、「本当の幸せ」とは！？「仕事の流儀」とは！？濃密なスペシャル対談です。
