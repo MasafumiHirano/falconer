@@ -93,6 +93,7 @@ module.exports = {
         'falContact': '#A5A5A5',
         'media_black': '#060000',
         'radio_black': '#5D5D5D',
+        'p_yellow': '#ffff00',
       },
       minWidth: {
         '200': '200px',
