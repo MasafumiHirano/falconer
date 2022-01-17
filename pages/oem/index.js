@@ -51,20 +51,28 @@ export default function MEDIACONTACT() {
 
   return (
     <div>
-      <main class="chuGo">
+      <main class="NotoSans">
+        <div class="mt-8">
+          <a href="#contactform" class="fixed blcok bottom-1 right-1 z-50">
+            <picture>
+              <source media="(max-width: 760px)" srcSet="/images/oem/contact_follow_sp.png" />
+              <img src="/images/oem/contact_follow.png" />
+            </picture>
+          </a>
+        </div>
         <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
-          <div class="text-center absolute bottom-24 md:bottom-40 w-full"><button class="w-72 md:w-580 py-4 md:py-6 text-xs bg-falNAVY text-center text-white">CONTACT</button></div>
-          <p class="text-center absolute bottom-16 md:bottom-24 w-full text-falNAVY text-base md:text-25px">革製品のOEM/ODMならお任せください。</p>
+          <div class="text-center absolute bottom-20 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div></div>
+          <p class="text-center absolute bottom-14 md:bottom-24 w-full text-falNAVY text-base md:text-25px">革製品のOEM/ODMならお任せください。</p>
         </div>
         <div class="bg-falNAVY text-white text-center py-7 text-2xl md:text-7xl">
           <h2>他社OEMで不満、<br class="md:hidden block" />お悩みはありませんか？</h2>
         </div>
         <div class="mt-9 px-4 text-0.55rem text-center">
           <ul class="text-falNAVY flex flex-wrap justify-around">
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem1.png" /></div><p>想定より到着原価が高く<br />売れず売れ残った</p></li>
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem2.png" /></div><p>納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p>低コストで商品を作ると<br />クオリティが低い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p>思わぬ不備が出てきて<br />対応に手を焼く</p></li>
+            <li class="flex flex-col w-32"><div><img src="/images/oem/problem1.png" /></div><p class="mt-4">想定より到着原価が高く<br />売れず売れ残った</p></li>
+            <li class="flex flex-col w-32"><div><img src="/images/oem/problem2.png" /></div><p class="mt-4">納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
+            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p class="mt-4">低コストで商品を作ると<br />クオリティが低い</p></li>
+            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p class="mt-4">思わぬ不備が出てきて<br />対応に手を焼く</p></li>
           </ul>
         </div>
         <div class="mt-8">
@@ -176,8 +184,8 @@ export default function MEDIACONTACT() {
         </div>
         <div class="bg_oemclear -mt-8 z-20">
           <div class="px-2 py-4 text-white">
-            <div class="text-xs border-white border text-center mt-4 px-12 py-4 leading-8">当社では数十万円で販売する高級ブランド品の<br class="block md:hiddne"/><span class="text-xl text-p_yellow">「職人製造エリア」</span><span class="text-xl">と、</span><br class="block md:hiddne"/>
-              数千円で販売する<br class="block md:hiddne"/><span class="text-xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl">を</span><br class="block md:hiddne"/>自社工場敷地内で運営しており、
+            <div class="text-xs border-white border text-center mt-4 px-12 py-4 leading-8">当社では数十万円で販売する高級ブランド品の<br class="block md:hiddne" /><span class="text-xl text-p_yellow">「職人製造エリア」</span><span class="text-xl">と、</span><br class="block md:hiddne" />
+              数千円で販売する<br class="block md:hiddne" /><span class="text-xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl">を</span><br class="block md:hiddne" />自社工場敷地内で運営しており、
               高級ブランドで培った高品質な製造ノウハウと、量産品製造で培ったコスト削減、
               効率化ノウハウの両方を保有しており、
               お客様のニーズに合わせたクオリティと<span class="text-sm text-p_yellow">価格の調整が可能です。</span></div>
@@ -185,7 +193,7 @@ export default function MEDIACONTACT() {
         </div>
         <div class="bg_image px-2 pb-8">
           <div>
-            <h2 class="mx-auto w-56 text-2xl my-6 text-center text-falNAVY leading-10">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block md:hidden" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
+            <h2 class="mx-auto w-52 text-2xl my-6 text-center text-falNAVY leading-10">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block md:hidden" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
           </div>
           <div class="text-falNAVY mt-10 text-base w-9/12 mx-auto">お客様の言われるままに対応するのではなく、お客様の利益が最大化される戦略的な「売れるモノづくり」をご提案させていただきます。</div>
           <div>
@@ -201,51 +209,89 @@ export default function MEDIACONTACT() {
               </picture>
             </div>
           </div>
-          <div class="bg-white rounded-3xl mx-auto pt-12 pb-8 mt-3">
+          <div class="bg-white rounded-3xl mx-auto pt-12 pb-8 mt-3 shadow-lg">
             <div class="flex flex-col">
-              <div class="w-8 mx-auto"><img src="/images/oem/no1.jpg" class="w-full"/></div>
-              <p class="w-320 mt-1 mx-auto text-base text-justify">注文したい商品の大まかな概要と、最終顧客への販売予定価格、希望ロット、仕入れ希望価格をお知らせ下さい。</p>
+              <div class="w-8 mx-auto"><img src="/images/oem/no1.jpg" class="w-full" /></div>
+              <p class="w-320 mt-4 mx-auto text-base text-justify">注文したい商品の大まかな概要と、最終顧客への販売予定価格、希望ロット、仕入れ希望価格をお知らせ下さい。</p>
               <picture class="mx-auto mt-2">
                 <source media="(max-width: 760px)" srcSet="/images/oem/line2_sp.png" />
-                <img src="/images/oem/line2.png"/>
+                <img src="/images/oem/line2.png" />
               </picture>
             </div>
             <div class="flex flex-col mt-14">
-              <div class="w-10 mx-auto"><img src="/images/oem/no2.jpg" class="w-full"/></div>
-              <p class="w-320 mt-1 mx-auto text-base text-justify">エンドユーザー様にお喜び頂けるクオリティを保ちながらお客様のビジネスにしっかりとした利益が出るよう製造の仕方、素材、外箱など付属品仕様をご提案させて頂きます。</p>
+              <div class="w-10 mx-auto"><img src="/images/oem/no2.jpg" class="w-full" /></div>
+              <p class="w-320 mt-4 mx-auto text-base text-justify">エンドユーザー様にお喜び頂けるクオリティを保ちながらお客様のビジネスにしっかりとした利益が出るよう製造の仕方、素材、外箱など付属品仕様をご提案させて頂きます。</p>
               <picture class="mx-auto mt-2">
                 <source media="(max-width: 760px)" srcSet="/images/oem/line2_sp.png" />
-                <img src="/images/oem/line2.png"/>
+                <img src="/images/oem/line2.png" />
               </picture>
             </div>
             <div class="flex flex-col mt-14">
-              <div class="w-10 mx-auto"><img src="/images/oem/no3.jpg" class="w-full"/></div>
-              <p class="w-320 mt-1 mx-auto text-base text-justify">ファーストサンプルは最短1-2週間でご確認いただけます。確認後、仕様の微修正があればご意見を聴取して検討反映した上で再サンプルをご用意いたします。</p>
+              <div class="w-10 mx-auto"><img src="/images/oem/no3.jpg" class="w-full" /></div>
+              <p class="w-320 mt-4 mx-auto text-base text-justify">ファーストサンプルは最短1-2週間でご確認いただけます。確認後、仕様の微修正があればご意見を聴取して検討反映した上で再サンプルをご用意いたします。</p>
               <picture class="mx-auto mt-2">
                 <source media="(max-width: 760px)" srcSet="/images/oem/line2_sp.png" />
-                <img src="/images/oem/line2.png"/>
+                <img src="/images/oem/line2.png" />
               </picture>
             </div>
             <p class="text-red-500 text-xl text-center mt-5">
-              手直しが無ければ<br/>1.5～2ヶ月程度で<br/>量産品のお届けが可能です。
+              手直しが無ければ<br />1.5～2ヶ月程度で<br />量産品のお届けが可能です。
             </p>
           </div>
         </div>
-        <div class="mx-auto pt-12 lg:w-920">
-          <div class=""><h1 class="text-xl lg:text-3xl text-center mb-6 pb-2 border-b-2 border-falGLD border-solid">お問い合わせ</h1></div>
+        <div class="pb-11">
+          <h3 class="bg-falNAVY py-3 text-center text-white text-2xl font-extralight">5年で300万個、<br class="block md:hidden" />合計20億円を売り上げた</h3>
+          <div class="flex flex-col">
+            <div class="text-falNAVY text-center text-2.5xl font-extralight pt-4">代表 清水真輝が<br class="block md:hidden" />直接ご相談に乗ります。</div>
+            <div class="w-200 mx-auto mt-5"><img src="/images/oem/ceo.png" /></div>
+            <div class="text-falNAVY w-72 mt-5 mx-auto text-sm text-justify">世界中を回って良質な原材料の調達先を開拓し、自ら生産工場の管理も行い、僅か5年で自社ブランドの販売数300万個、総額20億円を売り上げた経営者本人が直接、お客様の立場に立ってご相談に乗ります。</div>
+            <div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div>
+          </div>
+          <div class="mt-11">
+            <div>
+              <h2 class="text-center text-falNAVY text-2xl font-light tracking-wide font-sans">Instagram</h2>
+              <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
+            </div>
+            <div class="w-72 md:w-580 mx-auto mt-8">
+              <ul class="flex flex-wrap justify-between w-full">
+                <li class="w-49%"><a href="https://www.instagram.com/p/CFPB9cMDobd/" target="blank_" class="block"><img src="/images/oem/insta_1.png" class="w-full" /></a></li>
+                <li class="w-49%"><a href="https://www.instagram.com/p/CHzodi0pU0S/" target="blank_" class="block"><img src="/images/oem/insta_2.png" class="w-full" /></a></li>
+                <li class="w-49% mt-2 md:mt-0"><a href="https://www.instagram.com/p/CFwWJWKj6u_/" target="blank_" class="block"><img src="/images/oem/insta_3.png" class="w-full" /></a></li>
+                <li class="w-49% mt-2 md:mt-0"><a href="https://www.instagram.com/p/CFtv1ltD0BQ/" target="blank_" class="block"><img src="/images/oem/insta_4.png" class="w-full" /></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-11">
+            <div>
+              <h2 class="text-center text-falNAVY text-2xl font-light tracking-wide font-sans">Instagram</h2>
+              <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
+            </div>
+            <div class="w-72 md:w-580 mx-auto mt-8"><img src="/images/oem/lot.png" /></div>
+            <div class="text-falNAVY text-center text-2.5xl font-extralight pt-4">最低ロット数は2色<br class="block md:hidden" />500個位から承ります</div>
+            <div class="w-72 mt-5 mx-auto text-sm text-justify">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
+            <div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div>
+          </div>
+        </div>
+        <div class="bg-gray-100 py-6">
+          <h3 class="text-falNAVY text-base text-center">大変申し訳ありませんが、<br class="block md:hidden" />場合によってはご注文を<br class="block md:hidden" />お断りさせて頂くこともあります。</h3>
+          <div class="w-72 md:w-580 mx-auto mt-11 text-justify text-sm">OEM製造は作って終わりではなく、その商品が最終の消費者に全て完売し、ご満足頂けることがゴールです。その為、当社がご注文を受けた結果、お客様に不良在庫が生じたり、お客様の損になりそうな場合、ご注文をお断りさせて頂くことがあります。<br /><br />
+            当社としてもリピートオーダーを頂かないと、大変な手間だけかかり、利益は殆どありませんし、何よりお取引したお客様が不良在庫を抱えてしまうような取引は決してしたくありません。<br /><br />
+            また、既存のお客様との利益相反がありそうな場合もお受けする事が出来ませんのでご了承下さい。</div>
+          <p class="text-falNAVY text-base text-center mt-11">まずは、お気軽にご相談ください！</p>
+        </div>
+
+        {/* 入力フォーム */}
+        <div class="mx-auto pt-12 lg:w-920" id="contactform">
           <div>
-            <p class="text-center">メディアについてのご相談など、お気軽にお問い合わせください。</p>
+            <h2 class="text-center text-falNAVY text-2xl tracking-wide">お問い合わせ</h2>
+            <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
-          <div class="mt-12">
-            <p class="text-center">お問い合わせダイヤル</p>
-            <p class="mt-2 text-center text-3xl helvetica"><a class="hover:text-gray-500" href="tel:+81-52-734-7065">052-734-7065</a></p>
-          </div>
-          <div class=" bg-gray-100 py-16 px-4 overflow-hidden sm:px-6 lg:px-8">
+          <div class="pb-8 px-4 overflow-hidden sm:px-6 lg:px-8">
             <div class="relative max-w-xl mx-auto">
               <div class="mt-12">
                 <div class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                   <div class="sm:col-span-2">
-                    <label for="company" class="block text-sm font-medium text-gray-700">御社名・店舗名</label>
+                    <label for="company" class="block text-sm font-medium text-gray-700">会社名・組織名</label>
                     <div class="mt-1">
                       <input
                         type="text"
@@ -361,7 +407,7 @@ export default function MEDIACONTACT() {
                   <div class="sm:col-span-2">
                     <button
                       disabled={!(name && email && body)}
-                      class={`${disabled ? '' : 'hover:bg-falGLD'} disabled:opacity-50 disabled:pointer-events-none w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-falGLD focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500`}
+                      class={`${disabled ? '' : 'hover:bg-falNAVY'} disabled:opacity-50 disabled:pointer-events-none w-full inline-flex items-center justify-center px-6 py-3 border border-transparent shadow-sm text-base font-medium text-white bg-falNAVY focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500`}
                       onClick={handleSubmit}
                     >
                       送信
@@ -371,7 +417,6 @@ export default function MEDIACONTACT() {
               </div>
             </div>
           </div>
-
         </div>
       </main>
     </div>
