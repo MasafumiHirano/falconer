@@ -17,7 +17,7 @@ export default function readingId({ reading, readinglist }) {
     return (
       read.contents?.map(reading => (
         <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full px-4 md:px-0 md:mx-0 mb-4 md:mb-24">
-          <Link href={`readings/${reading.id}`}>
+          <Link href={topic.link ? topic.link : `./${topic.id}`}>
             <a>
               <div class="lg:px-0">
                 <div class="w-full"><img src={`${reading.main_image.url}`} /></div>

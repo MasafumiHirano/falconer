@@ -61,18 +61,18 @@ export default function MEDIACONTACT() {
           </a>
         </div>
         <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
-          <div class="text-center absolute bottom-24 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div></div>
-          <p class="text-center absolute bottom-16 md:bottom-24 w-full text-falNAVY text-base md:text-25px">革製品のOEM/ODMならお任せください。</p>
+          <div class="text-center absolute bottom-20 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div></div>
+          <p class="text-center absolute bottom-14 md:bottom-24 w-full text-falNAVY text-base md:text-25px">革製品のOEM/ODMならお任せください。</p>
         </div>
         <div class="bg-falNAVY text-white text-center py-7 text-2xl md:text-7xl">
           <h2>他社OEMで不満、<br class="md:hidden block" />お悩みはありませんか？</h2>
         </div>
         <div class="mt-9 px-4 text-0.55rem text-center">
           <ul class="text-falNAVY flex flex-wrap justify-around">
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem1.png" /></div><p>想定より到着原価が高く<br />売れず売れ残った</p></li>
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem2.png" /></div><p>納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p>低コストで商品を作ると<br />クオリティが低い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p>思わぬ不備が出てきて<br />対応に手を焼く</p></li>
+            <li class="flex flex-col w-32"><div><img src="/images/oem/problem1.png" /></div><p class="mt-4">想定より到着原価が高く<br />売れず売れ残った</p></li>
+            <li class="flex flex-col w-32"><div><img src="/images/oem/problem2.png" /></div><p class="mt-4">納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
+            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p class="mt-4">低コストで商品を作ると<br />クオリティが低い</p></li>
+            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p class="mt-4">思わぬ不備が出てきて<br />対応に手を焼く</p></li>
           </ul>
         </div>
         <div class="mt-8">
@@ -193,7 +193,7 @@ export default function MEDIACONTACT() {
         </div>
         <div class="bg_image px-2 pb-8">
           <div>
-            <h2 class="mx-auto w-56 text-2xl my-6 text-center text-falNAVY leading-10">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block md:hidden" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
+            <h2 class="mx-auto w-52 text-2xl my-6 text-center text-falNAVY leading-10">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block md:hidden" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
           </div>
           <div class="text-falNAVY mt-10 text-base w-9/12 mx-auto">お客様の言われるままに対応するのではなく、お客様の利益が最大化される戦略的な「売れるモノづくり」をご提案させていただきます。</div>
           <div>
