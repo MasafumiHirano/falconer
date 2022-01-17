@@ -17,7 +17,7 @@ export default function topicsId({ topics, topicslist }) {
     return (
       read.contents?.map(topics => (
         <li key={topics.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full px-4 md:px-0 md:mx-0 mb-4 md:mb-24">
-          <Link href={`topics/${topics.id}`}>
+          <Link href={`./${topics.id}`}>
             <a>
               <div class="lg:px-0">
                 <div class="w-full"><img src={`${topics.main_image.url}`} /></div>

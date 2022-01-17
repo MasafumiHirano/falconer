@@ -663,3 +663,104 @@ h1.company_title {
     margin-bottom: 50px;
   }
 }
+
+
+/*////////////////////////////////////// OEM //////////////////////////////////////*/
+.bg_oemgrey{ 
+  padding-bottom: calc(10vw + 10px);  
+    position: relative;
+    overflow: hidden;
+    background-color:#fff;
+}
+.bg_oemgrey::before {
+   content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 10vw solid #E6E6E6;  /* 三角を白に */ 
+      border-left: 100vw solid transparent;
+}
+.bg_oemgrey::after {
+  content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 10vw solid #E6E6E6;   /* 三角を白に */ 
+      border-right: 100vw solid transparent;
+}
+.bg_oemnavy{ 
+  padding-bottom: calc(10vw + 10px);  
+    position: relative;
+    overflow: hidden;
+    background-color:#E6E6E6;
+}
+.bg_oemnavy::before {
+   content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 10vw solid #1F4370;  /* 三角を白に */ 
+      border-left: 100vw solid transparent;
+}
+.bg_oemnavy::after {
+  content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 10vw solid #1F4370;   /* 三角を白に */ 
+      border-right: 100vw solid transparent;
+}
+.bg_oemclear{ 
+  background-color:#1F4370;
+}
+.bg_image{ 
+  padding-top: calc(10vw + 10px);  
+  background-image: url("/images/oem/bg_image.jpg");
+  background-size: cover;
+  position: relative;
+}
+.bg_image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 10vw solid #1F4370;  /* 三角を白に */ 
+  border-left: 50vw solid transparent;
+}
+.bg_image::after {
+ content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 10vw solid #1F4370;   /* 三角を白に */ 
+  border-right: 50vw solid transparent;
+}
+@media only screen and (max-width: 767px) {
+  .bg_oemgrey{ 
+    padding-bottom: calc(25vw + 10px);  
+  }
+  .bg_oemgrey::before {
+    border-bottom: 25vw solid #E6E6E6;  /* 三角を白に */ 
+  }
+  .bg_oemgrey::after {
+    border-bottom: 25vw solid #E6E6E6;   /* 三角を白に */ 
+  }
+  .bg_oemnavy{ 
+    padding-bottom: calc(25vw + 10px);  
+  }
+  .bg_oemnavy::before {
+    border-bottom: 25vw solid #1F4370;  /* 三角を白に */ 
+  }
+  .bg_oemnavy::after {
+    border-bottom: 25vw solid #1F4370;  /* 三角を白に */ 
+  }
+  .bg_image{ 
+    padding-top: calc(12.5vw + 10px);
+  }
+  .bg_image::before {
+    border-top: 12.5vw solid #1F4370;
+  }
+  .bg_image::after {
+    border-top: 12.5vw solid #1F4370;
+  }
+}
