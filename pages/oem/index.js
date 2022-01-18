@@ -64,26 +64,26 @@ export default function MEDIACONTACT() {
           <div class="text-center absolute bottom-20 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div></div>
           <p class="text-center absolute bottom-14 md:bottom-24 w-full text-falNAVY text-base md:text-25px">革製品のOEM/ODMならお任せください。</p>
         </div>
-        <div class="bg-falNAVY text-white text-center py-7 text-2xl md:text-7xl">
+        <div class="bg-falNAVY text-white text-center py-7 text-2xl md:text-6xl">
           <h2>他社OEMで不満、<br class="md:hidden block" />お悩みはありませんか？</h2>
         </div>
-        <div class="mt-9 px-4 text-0.55rem text-center">
-          <ul class="text-falNAVY flex flex-wrap justify-around">
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem1.png" /></div><p class="mt-4">想定より到着原価が高く<br />売れず売れ残った</p></li>
-            <li class="flex flex-col w-32"><div><img src="/images/oem/problem2.png" /></div><p class="mt-4">納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p class="mt-4">低コストで商品を作ると<br />クオリティが低い</p></li>
-            <li class="flex flex-col w-32 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p class="mt-4">思わぬ不備が出てきて<br />対応に手を焼く</p></li>
+        <div class="mt-9 md:mt-28 px-4 text-0.55rem md:text-xl text-center">
+          <ul class="text-falNAVY flex flex-wrap justify-around md:w-1480 mx-auto">
+            <li class="flex flex-col w-32 md:w-300"><div><img src="/images/oem/problem1.png" /></div><p class="mt-4">想定より到着原価が高く<br />売れず売れ残った</p></li>
+            <li class="flex flex-col w-32 md:w-300"><div><img src="/images/oem/problem2.png" /></div><p class="mt-4">納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
+            <li class="flex flex-col w-32 md:w-300 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" /></div><p class="mt-4">低コストで商品を作ると<br />クオリティが低い</p></li>
+            <li class="flex flex-col w-32 md:w-300 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" /></div><p class="mt-4">思わぬ不備が出てきて<br />対応に手を焼く</p></li>
           </ul>
         </div>
-        <div class="mt-8">
+        <div class="mt-8 md:mt-32">
           <picture class="flex justify-center">
             <source media="(max-width: 760px)" srcSet="/images/oem/line_sp.png" />
             <img src="/images/oem/line.png" />
           </picture>
         </div>
-        <div class="text-falNAVY mt-9 text-center bg_oemgrey">
-          <p class="text-xl w-52 mx-auto">成功し続けてきた<br class="md:hidden block" />ノウハウを知る当社が</p>
-          <p class="text-3xl w-64 mx-auto mt-2"><span class="text-red-500">売れる</span>モノづくりを提供します。</p>
+        <div class="text-falNAVY mt-9 md:mt-20 text-center bg_oemgrey">
+          <p class="text-xl md:text-4xl w-52 md:w-full text-center mx-auto">成功し続けてきた<br class="block md:hidden" />ノウハウを知る当社が</p>
+          <p class="text-3xl md:text-6xl w-64 md:w-full text-center mx-auto mt-2 md:mt-8"><span class="text-red-500">売れる</span>モノづくりを提供します。</p>
         </div>
         <div class="bg_oemnavy z-0">
           <div>
