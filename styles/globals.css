@@ -202,6 +202,9 @@
   .NotoSans {
     font-family: "Noto Sans Japanese";
   }
+  .YuMincho{
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
 }
 
 /*////////////////////////////////////// カスタムCSS //////////////////////////////////////*/
@@ -725,7 +728,7 @@ h1.company_title {
   top: 0;
   left: 0;
   border-top: 10vw solid #1F4370;  /* 三角を白に */ 
-  border-left: 50vw solid transparent;
+  border-left: calc(50vw - 8px) solid transparent;
 }
 .bg_image::after {
  content: '';
@@ -733,7 +736,7 @@ h1.company_title {
   top: 0;
   right: 0;
   border-top: 10vw solid #1F4370;   /* 三角を白に */ 
-  border-right: 50vw solid transparent;
+  border-right: calc(50vw - 8px) solid transparent;
 }
 @media only screen and (max-width: 767px) {
   .bg_oemgrey{ 
@@ -759,8 +762,10 @@ h1.company_title {
   }
   .bg_image::before {
     border-top: 12.5vw solid #1F4370;
+    border-left: 50vw solid transparent;
   }
   .bg_image::after {
     border-top: 12.5vw solid #1F4370;
+    border-right: 50vw solid transparent;
   }
 }
