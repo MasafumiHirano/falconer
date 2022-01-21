@@ -105,6 +105,7 @@ module.exports = {
         '1.7rem': '1.7rem',
         '3.5xl': '2rem',
         '4.5xl': '2.8rem',
+        '0.65rem': '0.65rem',
         '0.55rem': '0.55rem',
         'ml': '19px',
         'ms': '15px',

@@ -736,7 +736,7 @@ h1.company_title {
   top: 0;
   right: 0;
   border-top: 10vw solid #1F4370;   /* 三角を白に */ 
-  border-right: calc(50vw - 8px) solid transparent;
+  border-right: calc(50vw - 6px) solid transparent;
 }
 @media only screen and (max-width: 767px) {
   .bg_oemgrey{ 
