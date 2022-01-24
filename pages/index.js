@@ -97,6 +97,7 @@ export default function Home({ slides, topics, readings }) {
       <Head>
         <title>株式会社Falconer(ファルコナー)</title>
         <link rel="icon" href="/falconer_favicons.png" />
+        <meta property="og:image" content="https://www.falconer.co.jp/images/top/thumbnail.jpg" />
       </Head>
       <Layout>
         <main>
