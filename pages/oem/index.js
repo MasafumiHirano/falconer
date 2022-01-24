@@ -60,6 +60,15 @@ export default function MEDIACONTACT() {
 
   return (
     <div>
+      <Head>
+        <title>売れるモノづくりを提供します。OEM｜ODM</title>
+        <meta property="og:url" content="https://www.falconer.co.jp/oem" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="OEM・ODMのご依頼承ります" />
+        <meta property="og:description" content="創業たったの5年で300万個、合計20億円。売れるモノづくりを提供します。" />
+        <meta property="og:site_name" content="株式会社FALCONER" />
+        <meta property="og:image" content="https://www.falconer.co.jp/images/oem/thumbnail_oem.jpg" />
+      </Head>
       <main class="NotoSans">
         <div class="">
           <a href="#contactform" class="fixed blcok bottom-1 md:bottom-4 md:right-1 right-4 z-50">
