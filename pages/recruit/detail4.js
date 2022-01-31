@@ -39,8 +39,8 @@ export default function RECRUIT() {
               <div class="pt-4 lg:pt-12">
                 <div class="bg-white shadow-lg p-6">
                   <div class="lg:flex justify-center">
-                    <p class="text-center text-lg lg:text-2xl font-semibold">自社ブランドの魅力を発信</p>
-                    <p class="text-center text-lg lg:text-2xl font-semibold">【 ECサイト運営スタッフ 】</p>
+                    <p class="text-center text-lg lg:text-2xl font-semibold"></p>
+                    <p class="text-center text-lg lg:text-2xl font-semibold">【 配送センター管理スタッフ 】</p>
                     <p class="text-center text-lg lg:text-2xl font-semibold">※未経験OK</p>
                   </div>
                 </div>
@@ -55,26 +55,31 @@ export default function RECRUIT() {
                 <h1 class="text-lg lg:text-2xl font-semibold border-b border-gray-700">仕事内容</h1>
 
                 <div class="mt-4 lg:mt-8 text-xs lg:text-lg">
-                  <p>【 商品登録や商品の閲覧データ分析などのECサイト運営業務 】運営の基礎から学べる！</p>
-                  <p>自社オリジナル商品で"Happyを届けるお仕事"一緒にしませんか？</p>
+                  <p>【受発注伝票の作成やお客様からの商品に関する問い合わせ対応等】</p>
+                  <p>梱包スペースや事務室は冷暖房完備</p>
+                  <p>★IT化や外部との協⼒体制の確⽴で無理なく活躍︕</p>
                 </div>
 
                 <div class="mt-4 lg:mt-8">
                   <h1 class="text-blue-500 font-semibold text-base lg:text-lg">具体的には</h1>
                   <div class="mt-4">
-                    <h1 class="font-semibold text-base lg:text-lg mb-2">商品登録</h1>
+                    <h1 class="font-semibold text-base lg:text-lg mb-2">受注管理</h1>
                     <div class="text-xs lg:text-lg">
-                      <p>写真や商品の説明、価格などを登録します。</p>
-                      <p>特集用のバナーや広告などを作成することも。</p>
-                      <p>その際はデザイナーと協力して進めます。</p>
+                      <p>発注する伝票、お客様に発送するための伝票などを作成します。</p>
                     </div>
                   </div>
 
                   <div class="mt-4">
-                    <h1 class="font-semibold text-base lg:text-lg mb-2">データ分析</h1>
+                    <h1 class="font-semibold text-base lg:text-lg mb-2">お客様対応</h1>
                     <div class="text-xs lg:text-lg">
-                      <p>商品の売り上げ状況や閲覧データなどを分析。そのデータをもとに、</p>
-                      <p>「 次はこの人たちが買いたくなるような企画を計画しよう！ 」などの施策を練ります。</p>
+                      <p>お客様から頂いた、発送時期や商品の詳細についての質問に対してメールや電話で回答します。</p>
+                    </div>
+                  </div>
+
+                  <div class="mt-4">
+                    <h1 class="font-semibold text-base lg:text-lg mb-2">倉庫管理</h1>
+                    <div class="text-xs lg:text-lg">
+                      <p>発送する商品をピックアップしたり、⼊荷した商品を倉庫内に綺麗に収めます。</p>
                     </div>
                   </div>
                 </div>
@@ -82,26 +87,10 @@ export default function RECRUIT() {
                 <div class="mt-4 lg:mt-8">
                   <h1 class="text-blue-500 font-semibold text-base lg:text-lg mb-4">入社後の流れ</h1>
                   <div class="text-xs lg:text-lg">
-                    <p>商品を売るために、まず学ぶべきは基礎の基礎。</p>
-                    <p>検索して商品がヒットするまでの仕組みや、</p>
-                    <p>データ分析ツールの使い方などを学んでいきます。</p>
-                    <p>基礎を学んだら、あとは実践。</p>
-                    <p>正解がない分、悩むことも多いと思います。</p>
-                    <p>ですが、そんな時こそ周りの先輩たちを頼って、</p>
-                    <p>色々なことを吸収してくださいね！</p>
-                  </div>
-                </div>
-
-                <div class="mt-4 lg:mt-8">
-                  <h1 class="text-blue-500 font-semibold text-base lg:text-lg mb-4">いい意味で楽をしよう。</h1>
-                  <div class="text-xs lg:text-lg">
-                    <p>"人にしかできないことをやる"</p>
-                    <p>そのために、なるべく人がやらなくてもいい</p>
-                    <p>細かな作業は、システムで処理できるような環境にしています。</p>
-                    <p>閲覧データなどはシステムが処理。</p>
-                    <p>その結果を見て、施策を考えるのが私たちの仕事です。</p>
-                    <p>より質のいい仕事をするために、無駄を省く。</p>
-                    <p>それが当社のモットーです。</p>
+                    <p>受注管理・お客様対応・倉庫管理、いずれかの業務から覚えていただく予定です。</p>
+                    <p>先輩やパートさん達が、作業の進め⽅をイチから教えますので安⼼してくださいね。</p>
+                    <p>だいたい2〜3ヶ⽉後には、パートさん達と連携を取りながらリーダーとして指⽰出しも︕</p>
+                    <p>配送センターのまとめ役としての活躍も少しずつ増やしていきましょう︕</p>
                   </div>
                 </div>
               </div>
@@ -110,9 +99,8 @@ export default function RECRUIT() {
                 <h1 class="text-lg lg:text-2xl font-semibold border-b border-gray-700">対象となる方</h1>
 
                 <div class="mt-4 lg:mt-8 text-xs lg:text-lg">
-                  <p>【 ★20代・30代活躍中★未経験OK／33歳以下の若手(※)を育成前提で募集 】</p>
-                  <p>新しいことに挑戦したい。安定を手に入れたい。夢あるあなたを応援します。</p>
-                  <p class="mt-4">※若年層の長期キャリア形成を図るため。</p>
+                  <p>【 未経験OK★PC操作に苦⼿意識がなければOK︕ 】</p>
+                  <p>レザーアイテムが好き︕体を動かすことが好き︕PC作業が好き︕どんなきっかけでもOK</p>
                   <p class="mt-4">私たちには、まだまだやりたいことがたくさん。</p>
                   <p>だからこそ新しく入ってくる方にも</p>
                   <p>何か夢や目標をもって取り組んで欲しいと思っています。</p>
@@ -129,16 +117,21 @@ export default function RECRUIT() {
                 <div class="mt-4">
                   <h1 class="font-semibold text-base lg:text-lg">▼必要なスキル</h1>
                   <ul class="list-disc list-inside pl-4 text-xs lg:text-lg">
-                    <li>Excelで簡単な計算ができる程度の知識</li>
+                    <li>基本的なPCスキル（★伝票作成時にPCを使⽤します︕）
+                      <p class="mt-4 mb-2">お任せしたいのは、メンバーに指⽰を出したり、時には⼀緒に汗を流したり…など、チームをまとめていくこと。<br />だからこそ、</p>
+                    </li>
+                    <li>誰かと⼀緒に何かを成し遂げることが好き︕</li>
+                    <li>周りのメンバーを思いやりながら⽴ち回れる︕
+                      <p class="mt-4 mb-2">という⽅を是⾮お迎えしたいと思っています。<br />背伸びも不要・⾃称でOK︕興味がある⽅は、ぜひご応募ください︕</p>
+                    </li>
                   </ul>
                 </div>
 
                 <div class="mt-4">
                   <h1 class="font-semibold text-base lg:text-lg">▼あれば活かせます</h1>
                   <ul class="list-disc list-inside pl-4 text-xs lg:text-lg">
-                    <li>営業経験</li>
-                    <li>販売職経験</li>
-                    <li>販促企画経験</li>
+                    <li>フォークリフトの操作経験・免許</li>
+                    <li>⼩売店でのバックヤード業務経験(発注、在庫管理など)</li>
                   </ul>
                 </div>
               </div>
@@ -181,7 +174,7 @@ export default function RECRUIT() {
                         給与
                       </td>
                       <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                        <p>【 月給25万円～35万円＋諸手当 】</p>
+                        <p>【 月給20万円～30万円＋諸手当 】</p>
                         <p class="mt-4 font-semibold">＼ 目標に向かって、成長できる！ ／</p>
                         <p>「 月5万円給与UPをしていきたい！ 」</p>
                         <p>……例えば、そんなことも叶えられる環境。</p>
@@ -190,7 +183,7 @@ export default function RECRUIT() {
                         <p class="mt-4">自分の立てた明確な目標に向かって努力ができるので、</p>
                         <p>モチベーション高く活躍できるはずです！</p>
                         <p class="mt-4 font-semibold">初年度の年収</p>
-                        <p>300万円～420万円</p>
+                        <p>240万円～360万円</p>
                       </td>
                     </tr>
                     <tr class="bg-gray-100 lg:bg-gray-50">
@@ -232,25 +225,6 @@ export default function RECRUIT() {
                     </tr>
                     {/*<!-- More items... -->*/}
                   </table>
-                </div>
-              </div>
-
-              <div class="pt-4 lg:pt-12">
-                <h1 class="text-lg lg:text-2xl font-semibold border-b border-gray-700">会社・仕事の魅力</h1>
-
-                <div class="mt-4 lg:mt-8">
-                  <h1 class="text-blue-500 font-semibold text-base lg:text-lg mb-4">心を分析し、動かす。そして商品と気持ちを届ける。</h1>
-                  <div class="text-xs lg:text-lg">
-                    <p>最初こそ、そのノウハウを身に付け</p>
-                    <p>一人前として活躍して欲しいですが、</p>
-                    <p>当社での未来はそれだけではありません。</p>
-                    <p>新規立ち上げ中・構想中の事業等、</p>
-                    <p>常に新しいことに挑戦し、人も会社も成長しています。</p>
-                    <p class="mt-4">同じ仕事を極めるのも立派な事。それも大賛成です。</p>
-                    <p>でも、もし当社で働くうちにやりたいことが見つかったら？</p>
-                    <p>私達は、その背中を押してあげたい。</p>
-                    <p class="mt-4">新しいことができる、挑戦できるのが、当社の魅力ですから。</p>
-                  </div>
                 </div>
               </div>
             </div>

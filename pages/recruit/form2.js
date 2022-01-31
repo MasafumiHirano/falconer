@@ -8,7 +8,7 @@ import Layout from '../../components/layout'
 
 export default function FORM() {
   const router = useRouter();
-  const [type] = useState("事務処理サポート");
+  const [type] = useState("事務処理STAFF");
   const [name, setName] = useState("");
   const [furigana, setFurigana] = useState("");
   const [birthday, setBirthday] = useState("");

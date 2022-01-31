@@ -40,8 +40,8 @@ export default function RECRUIT() {
                 <div class="bg-white shadow-lg p-6">
                   <div class="lg:flex justify-center">
                     <p class="text-center text-lg lg:text-2xl font-semibold">自社ブランドの魅力を発信</p>
-                    <p class="text-center text-lg lg:text-2xl font-semibold">【 ECサイト運営スタッフ 】</p>
-                    <p class="text-center text-lg lg:text-2xl font-semibold">※未経験OK</p>
+                    <p class="text-center text-lg lg:text-2xl font-semibold">【 ECサイト運営店長 】</p>
+                    <p class="text-center text-lg lg:text-2xl font-semibold">※モール運用経験有りの方</p>
                   </div>
                 </div>
                 <div class="mt-4 lg:mt-8 text-xs lg:text-lg">
@@ -110,9 +110,8 @@ export default function RECRUIT() {
                 <h1 class="text-lg lg:text-2xl font-semibold border-b border-gray-700">対象となる方</h1>
 
                 <div class="mt-4 lg:mt-8 text-xs lg:text-lg">
-                  <p>【 ★20代・30代活躍中★未経験OK／33歳以下の若手(※)を育成前提で募集 】</p>
+                  <p>【 ★20代・30代活躍中★ 】</p>
                   <p>新しいことに挑戦したい。安定を手に入れたい。夢あるあなたを応援します。</p>
-                  <p class="mt-4">※若年層の長期キャリア形成を図るため。</p>
                   <p class="mt-4">私たちには、まだまだやりたいことがたくさん。</p>
                   <p>だからこそ新しく入ってくる方にも</p>
                   <p>何か夢や目標をもって取り組んで欲しいと思っています。</p>
@@ -129,6 +128,7 @@ export default function RECRUIT() {
                 <div class="mt-4">
                   <h1 class="font-semibold text-base lg:text-lg">▼必要なスキル</h1>
                   <ul class="list-disc list-inside pl-4 text-xs lg:text-lg">
+                    <li>ECモール（楽天・Yahoo・Amazonなど）での運用経験</li>
                     <li>Excelで簡単な計算ができる程度の知識</li>
                   </ul>
                 </div>
@@ -181,7 +181,7 @@ export default function RECRUIT() {
                         給与
                       </td>
                       <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                        <p>【 月給25万円～35万円＋諸手当 】</p>
+                        <p>【 月給30万円～50万円＋諸手当 】</p>
                         <p class="mt-4 font-semibold">＼ 目標に向かって、成長できる！ ／</p>
                         <p>「 月5万円給与UPをしていきたい！ 」</p>
                         <p>……例えば、そんなことも叶えられる環境。</p>
@@ -190,7 +190,7 @@ export default function RECRUIT() {
                         <p class="mt-4">自分の立てた明確な目標に向かって努力ができるので、</p>
                         <p>モチベーション高く活躍できるはずです！</p>
                         <p class="mt-4 font-semibold">初年度の年収</p>
-                        <p>300万円～420万円</p>
+                        <p>360万円～600万円</p>
                       </td>
                     </tr>
                     <tr class="bg-gray-100 lg:bg-gray-50">
