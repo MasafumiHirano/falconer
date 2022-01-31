@@ -152,7 +152,7 @@ export default function RECRUIT() {
                       雇用形態
                     </td>
                     <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                      正社員/契約社員
+                      正社員
                     </td>
                   </tr>
                   <tr class="bg-white">
@@ -190,7 +190,7 @@ export default function RECRUIT() {
                       <p class="mt-4">自分の立てた明確な目標に向かって努力ができるので、</p>
                       <p>モチベーション高く活躍できるはずです！</p>
                       <p class="mt-4 font-semibold">初年度の年収</p>
-                      <p>250万円～400万円</p>
+                      <p>300万円～420万円</p>
                     </td>
                   </tr>
                   <tr class="bg-gray-100 lg:bg-gray-50">
