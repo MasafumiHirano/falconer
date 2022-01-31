@@ -128,7 +128,7 @@ export default function RECRUIT() {
                 <div class="mt-4">
                   <h1 class="font-semibold text-base lg:text-lg">▼必要なスキル</h1>
                   <ul class="list-disc list-inside pl-4 text-xs lg:text-lg">
-                    <li>ECモールでの運用経験</li>
+                    <li>ECモール（楽天・Yahoo・Amazonなど）での運用経験</li>
                     <li>Excelで簡単な計算ができる程度の知識</li>
                   </ul>
                 </div>
