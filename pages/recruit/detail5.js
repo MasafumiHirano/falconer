@@ -99,6 +99,13 @@ export default function RECRUIT() {
                     <p>例えば…発送時期や商品の詳細についてなど</p>
                   </div>
                 </div>
+                
+                <div class="mt-4">
+                  <h1 class="font-semibold text-base lg:text-lg mb-2">事務作業</h1>
+                  <div class="text-xs lg:text-lg">
+                    <p>各店舗への出品データ作成等の事務作業</p>
+                  </div>
+                </div>
               </div>
 
               <div class="pt-4 lg:pt-12">
@@ -132,13 +139,13 @@ export default function RECRUIT() {
                         <p>〇フルタイム</p>
                         <ul class="list-disc list-inside pl-1">
                           <li>完全週休二日／日曜＋希望休制</li>
-                          <li>10:00~19:00</li>
+                          <li>10:00~19:00（または9:00~18:00）</li>
                         </ul>
                         <p class="mt-4">〇短時間契約</p>
                         <ul class="list-disc list-inside pl-1">
                           <li>週3日以上、1日5時間以上</li>
                           <li>シフト自由・自己申告</li>
-                          <li>10：00 ～ 19：00 （左記内で実働4時間以上）</li>
+                          <li>9：00 ～ 19：00 （左記内で実働5時間以上）</li>
                         </ul>
                         <p class="mt-4">シフトも自由度が高いので、</p>
                         <p>「子どもが帰ってくるまで」や「午後から夕方まで」など</p>
