@@ -40,7 +40,7 @@ export default function RECRUIT() {
               <div class="bg-white shadow-lg p-6">
                 <div class="lg:flex justify-center">
                   <p class="text-center text-lg lg:text-2xl font-semibold">自社ブランドの魅力を発信</p>
-                  <p class="text-center text-lg lg:text-2xl font-semibold">【 ECサイト運営スタッフ 】</p>
+                  <p class="text-center text-lg lg:text-2xl font-semibold">【 ECサイト運営店長 】</p>
                   <p class="text-center text-lg lg:text-2xl font-semibold">※未経験OK</p>
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function RECRUIT() {
                       雇用形態
                     </td>
                     <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                      正社員/契約社員
+                      正社員
                     </td>
                   </tr>
                   <tr class="bg-white">
@@ -181,7 +181,7 @@ export default function RECRUIT() {
                       給与
                     </td>
                     <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                      <p>【 月給25万円～35万円＋諸手当 】</p>
+                      <p>【 月給30万円～50万円＋諸手当 】</p>
                       <p class="mt-4 font-semibold">＼ 目標に向かって、成長できる！ ／</p>
                       <p>「 月5万円給与UPをしていきたい！ 」</p>
                       <p>……例えば、そんなことも叶えられる環境。</p>
@@ -190,7 +190,7 @@ export default function RECRUIT() {
                       <p class="mt-4">自分の立てた明確な目標に向かって努力ができるので、</p>
                       <p>モチベーション高く活躍できるはずです！</p>
                       <p class="mt-4 font-semibold">初年度の年収</p>
-                      <p>250万円～400万円</p>
+                      <p>360万円～600万円</p>
                     </td>
                   </tr>
                   <tr class="bg-gray-100 lg:bg-gray-50">
