@@ -49,7 +49,6 @@ export default function CONTACT() {
   const handleSubmit = e => {
     e.preventDefault();
     sendEmail();
-    
     const data = {
       company: company,
       homepage: homepage,
@@ -78,6 +77,7 @@ export default function CONTACT() {
       });
   };
 
+
   return (
     <div>
       <Head>
@@ -91,8 +91,8 @@ export default function CONTACT() {
               <h1 class="contact_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">CONTACT<p class="NotoSans text-base font-normal">問い合わせ</p></h1>
             </div>
             <div class="mt-10 md:mt-20">
-              <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24"/>
-              <p class="text-center text-comGOLD text-xs md:text-2xl">製品のご購入のご相談、OEMのご相談について<br/>取材の申し込みなど、お気軽にお問い合わせください。</p>
+              <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24" />
+              <p class="text-center text-comGOLD text-xs md:text-2xl">製品のご購入のご相談、OEMのご相談について<br />取材の申し込みなど、お気軽にお問い合わせください。</p>
             </div>
             <div class="mt-12">
               <p class="text-center">お問い合わせダイヤル</p>
@@ -222,7 +222,6 @@ export default function CONTACT() {
 
                     <div class="sm:col-span-2">
                       <button
-                        disabled={!(name && email && body)}
                         class={`${disabled ? '' : 'hover:bg-falGLD'} disabled:opacity-50 disabled:pointer-events-none w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-comGOLD focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500`}
                         onClick={handleSubmit}
                       >
