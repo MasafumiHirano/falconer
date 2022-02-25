@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import axios from "axios";
 
 import Layout from '../../components/layout'
-import { init, send } from 'emailjs-com';
 
 export default function CONTACT() {
   const router = useRouter();
@@ -19,37 +18,9 @@ export default function CONTACT() {
   const [body, setBody] = useState("");
   const [disabled, setDisabled] = useState(true);
 
-  const sendEmail = () => {
-    const user_id = "user_vztWjBsF612MhfNYgDaVL"
-    const service_id = "service_s42wnsp";
-    const template_id = "template_woah9qa";
-    console.log("ids："+user_id+":"+service_id+":"+template_id)
-    if ((user_id != undefined) && (service_id != undefined) && (template_id != undefined)) {
-      init(user_id);
-
-      const template_param = {
-        to_name: name,
-        email: email,
-        company: company,
-        homepage: homepage,
-        name: name,
-        furigana: furigana,
-        email: email,
-        phoneNumber: phoneNumber,
-        contactBy: contactBy,
-        message: body
-      };
-
-      send(service_id, template_id, template_param).then(() => {
-        console.log("success to send email");
-      })
-    } 
-  }
-
   const handleSubmit = e => {
     e.preventDefault();
-    sendEmail();
-    
+
     const data = {
       company: company,
       homepage: homepage,
