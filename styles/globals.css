@@ -482,6 +482,11 @@ h1.company_title {
   background-size: cover;
 }
 
+.mission_title {
+  background-image: url("/images/company/eyecatch_mission.jpg");
+  background-size: cover;
+}
+
 @media only screen and (max-width: 767px) {
   h1.media_title {
     background-image: url("/images/media/media_eyecatch_sp.jpg");
@@ -508,6 +513,10 @@ h1.company_title {
 
   .contact_title {
     background-image: url("/images/contact/contact_eyecatch_sp.jpg");
+  }
+  .mission_title {
+    background-image: url("/images/company/eyecatch_mission_sp.jpg");
+    background-size: cover;
   }
 }
 

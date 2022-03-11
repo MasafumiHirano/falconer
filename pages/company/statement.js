@@ -15,7 +15,7 @@ export default function Statement() {
         <main class="-mb-4 NotoSans">
           <div class="mb-12 md:mb-24">
             <div class="relative">
-              <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
+              <h1 class="mission_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
             </div>
             <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
               <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10">

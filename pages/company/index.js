@@ -20,53 +20,51 @@ export default function Company({ medias }) {
       <Layout>
         <main class="font-sans">
           <div class="mx-auto pb-6 text-center">
-            <h1 class="futura-md text-white text-center text-3xl lg:text-4xl company_title flex flex-col justify-center items-center h-405">FALCONER Info<p class="NotoSans-L text-base">会社概要</p></h1>
+            <h1 class="futura-md text-white text-center text-3xl lg:text-4xl company_title flex flex-col justify-center items-center h-405">FALCONER Info<p class="NotoSans-L text-base">ファルコナーについて</p></h1>
             <div class="mt-10 md:mt-32 lg:flex lg:justify-center">
-              <p class="text-base w-full mx-auto md:text-xl font-bold NotoSans-L">今日よりも、もっと幸せな明日を。</p>
+              <p class="text-lg w-full mx-auto md:text-xl NotoSans-L">今日よりも、もっと幸せな明日を。</p>
             </div>
             <div class="mt-10 md:mt-20 lg:flex lg:justify-center">
               <p class="w-90% mx-auto text-base md:text-lg text-justify md:text-center lg:mb-2">
-                高品質かつワクワクする商品を生み出し、お客様の生活をより豊かで幸せなものにします。<br /><br />
-                社員やお取引企業様はもちろん、商品がお客様のお手元に届くまでに関わる全ての人々や世界の幸せと発展に貢献します。<br /><br />
-                地球環境の保全を心がけ、永続的な発展をするために無駄のない流通・運営を行い、毎日の成長を続けます。
+                高品質かつワクワクする商品を生み出し、<br class="hidden lg:block" />お客様の生活をより豊かで幸せなものにします。<br /><br />
+                社員やお取引企業様はもちろん、商品がお客様のお手元に<br class="hidden lg:block" />届くまでに関わる全ての人々や世界の幸せと発展に貢献します。<br /><br />
+                地球環境の保全を心がけ、永続的な発展をするために<br class="hidden lg:block" />無駄のない流通・運営を行い、毎日の成長を続けます。
               </p>
             </div>
           </div>
           {/* 事業ビジュアル */}
           <div class="mx-auto mt-10 mb-20 w-90% md:w-950">
-            <div class="flex flex-wrap md:flex-nowrap justify-between md:justify-center mb-6">
-              <div class="relative md:hidden w-full mb-2">
-                <Link href="/company/strength"><a>
-                  <img src="/images/company/bussiness_4_sp.jpg" class="block w-full" />
-                </a></Link>
-              </div>
-              <div class="relative hidden md:block w-49% md:w-300 md:mx-3">
-                <Link href="/company/strength"><a>
-                  <img src="/images/company/bussiness_4.jpg" />
-                </a></Link>
-              </div>
-              <div class="relative w-49% md:w-300 md:mx-3">
-                <Link href="/company/message"><a>
+            <div class="flex flex-wrap justify-between mb-6">
+              <div class="relative w-full">
+                <Link href="/company/statement"><a>
                   <picture>
-                    <source media="(min-width: 960px)" srcSet="/images/company/bussiness_2.jpg" />
-                    <img src="/images/company/bussiness_2_sp.jpg" />
+                    <source media="(min-width: 960px)" srcSet="/images/company/mission.jpg" />
+                    <img src="/images/company/mission_sp.jpg" />
                   </picture>
                 </a></Link>
               </div>
-              <div class="relative w-49% md:w-300 md:mx-3">
-                <Link href="/company/statement"><a>
+              <div class="relative w-49% mt-1 lg:mt-3">
+                <Link href="/company/message"><a>
+                  <picture>
+                    <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
+                    <img src="/images/company/ceo_sp.jpg" />
+                  </picture>
+                </a></Link>
+              </div>
+              <div class="relative w-49% mt-1 lg:mt-3">
+                <Link href="/company/strength"><a>
                 <picture>
-                    <source media="(min-width: 960px)" srcSet="/images/company/bussiness_3.jpg" />
-                    <img src="/images/company/bussiness_3_sp.jpg" />
+                    <source media="(min-width: 960px)" srcSet="/images/company/strength.jpg" />
+                    <img src="/images/company/strength_sp.jpg" />
                   </picture>
                 </a></Link>
               </div>
             </div>
 
             {/* 会社概要：本社 */}
-            <h2 class="text-center mt-20 w-90% md:w-950 lg:border-b lg:border-black">会社概要</h2>
+            <h2 class="text-center mt-20 mx-auto w-90% md:w-950 lg:border-b lg:border-black text-lg">会社概要</h2>
             <div class="px-4 mt-10 max-w-4xl mx-auto">
-              <p class="mt-8 pb-2 text-center border-b">国内拠点・本社</p>
+              <p class="mt-8 pb-2 text-center border-b text-lg">国内拠点・本社</p>
               <p class="mt-4 pb-2 border-b text-sm">会社名<span class="block text-base">株式会社FALCONER</span></p>
               <p class="mt-4 pb-2 border-b text-sm">代表取締役<span class="block text-base">清水 真輝</span></p>
               <p class="mt-4 pb-2 border-b text-sm">設立<span class="block text-base">2016年7月</span></p>
