@@ -15,13 +15,18 @@ export default function Strength() {
           {/*見出し部分*/}
           <div class="mb-6 lg:mb-12">
             <div class="relative">
-              <h1 class="strength_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">Asset<p class="NotoSans text-base font-normal">FALCONERの強み</p></h1>
+              <h1 class="strength_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">STRENGTH<p class="NotoSans text-base font-normal">FALCONERの強み</p></h1>
             </div>
           </div>
           {/*見出し部分 終了*/}
+          <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-2xl">
+            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statementY">ミッション</a></p>
+            <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">弊社の強み</p>
+            <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
+          </div>
           <div class="mt-16 md:mt-44 lg:flex lg:justify-center">
             <p class="px-8 text-sm md:text-lg text-left md:text-center lg:mb-2 md:leading-10">
-            商品を通して繋がる皆様に、幸せに過ごしていただくため私たちは時代に流されることなく、<br class="hidden md:inline-block"/>上質な商品を創り出しレザーグッズ会に革命を起こすべく、挑戦を続けていきます。
+              商品を通して繋がる皆様に、幸せに過ごしていただくため私たちは時代に流されることなく、<br class="hidden md:inline-block" />上質な商品を創り出しレザーグッズ会に革命を起こすべく、挑戦を続けていきます。
             </p>
           </div>
           <div class="border-t border-b md:border-t-2 md:border-b-2 border-gray-600 pt-16 pb-10 w-300 lg:w-49% mx-auto mt-16 md:mt-44">
@@ -50,7 +55,7 @@ export default function Strength() {
               </div>
             </div>
             <div class="w-full px-2 md:px-0 md:w-auto mt-16 md:mt-0 md:ml-24">
-              <img src="/images/company/spc_system.png"/>
+              <img src="/images/company/spc_system.png" />
             </div>
           </div>
           <div class="it_management w-full md:h-900 flex justify-center items-center flex-wrap md:flex-nowrap px-8 md:px-0 py-12">
@@ -68,6 +73,11 @@ export default function Strength() {
               <img src="/images/company/it_management.png" />
               <div class="w-full mt-8 text-lg text-center text-white">現在進行形で随時、必要時に必要な仕組みを導入しています。</div>
             </div>
+          </div>
+          <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statementY">ミッション</a></p>
+            <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">弊社の強み</p>
+            <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
           </div>
           {/* <div class="a mt-24 md:mt-32 mb-40 lg:flex lg:justify-center">
             <p class="NotoSans px-3  text-xs md:text-lg text-left md:text-center lg:mb-2">

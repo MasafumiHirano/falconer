@@ -17,6 +17,12 @@ export default function Statement() {
             <div class="relative">
               <h1 class="mission_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
             </div>
+            {/*ナビゲーション*/}
+            <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-2xl">
+              <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+              <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
+            </div>
             <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
               <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
@@ -133,6 +139,12 @@ export default function Statement() {
 
             <div class="flex justify-center items-center mb-8 mt-24 pb-12">
               <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、強く、優しく、<br class="block lg:hidden" />人々を幸せにします。</h1>
+            </div>
+
+            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+              <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+              <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
             </div>
 
             {/*<section class="py-12 lg:py-24 px-3 lg:px-6">

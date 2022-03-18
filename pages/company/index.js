@@ -44,7 +44,7 @@ export default function Company({ medias }) {
                 </a></Link>
               </div>
               <div class="relative w-49% mt-1 lg:mt-3">
-                <Link href="/company/message"><a>
+                <Link href="/company/about_ceo"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
                     <img src="/images/company/ceo_sp.jpg" />
