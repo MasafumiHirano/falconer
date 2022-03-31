@@ -20,7 +20,7 @@ export default function Strength() {
           </div>
           {/*見出し部分 終了*/}
           <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-2xl">
-            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statementY">ミッション</a></p>
+            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
             <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">弊社の強み</p>
             <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
           </div>
@@ -83,7 +83,7 @@ export default function Strength() {
             <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_6.jpg"/></div>
           </div>
           <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
-            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statementY">ミッション</a></p>
+            <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
             <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">弊社の強み</p>
             <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
           </div>
