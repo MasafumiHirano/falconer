@@ -29,7 +29,7 @@ export default function design_system({ medias }) {
           <div class="mx-auto w-2/3">
             <div class="flex flex-wrap">
               <a href="#page_spec" class="flex justify-between w-1/2 px-8">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/rakuten.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
@@ -38,7 +38,7 @@ export default function design_system({ medias }) {
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#thumbnail" class="flex justify-between w-1/2 px-8">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/rakuten.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
@@ -47,7 +47,7 @@ export default function design_system({ medias }) {
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#ec_spec" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/rakuten.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
@@ -56,15 +56,15 @@ export default function design_system({ medias }) {
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#page_sample" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
-                  <img class="w-9 h-9" src="/images/design/amazon.png" />
+                <div class="flex w-3/12 items-center justify-end">
+                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">商品ページサンプル</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#color_spec" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/rakuten.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
                   <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
@@ -73,21 +73,21 @@ export default function design_system({ medias }) {
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#amazon_thumbnail" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">Amazonサムネイル</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#amazon_goodsimage" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
+                <div class="flex w-3/12 items-center justify-end">
                   <img class="w-9 h-9" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">商品画像</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
-              <a href="#amazon_contents" class="flex justify-between w-1/2 px-8 mt-7">
-                <div class="flex w-3/12 items-center">
+              <a href="#amazon_contents " class="flex justify-between w-1/2 px-8 mt-7">
+                <div class="flex w-3/12 items-cente justify-end">
                   <img class="w-9 h-9" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">Amazon商品紹介コンテンツ</div>

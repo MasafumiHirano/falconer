@@ -41,10 +41,10 @@ export default function Strength() {
               このきびしい課題に向き合い、どうすれば品質を高く保ちながらコストを抑えることができるのか、そうして培ってきた努力と実現する強みが弊社にはあります。<br />
             </div>
           </div>
-          <div class="self_maker w-full md:h-900 mt-24 md:mt-36 flex justify-center items-center flex-wrap md:flex-nowrap px-8 d:px-0 py-12">
-            <div class="w-full md:w-500">
-              <h3 class="flex items-center text-sm md:text-2xl"><img src="/images/company/shape.png" class="mr-1" />中間業者を徹底排除した自社製造</h3>
-              <div class="NotoSans text-sm md:text-lg md:mt-4">
+          <div class="it_management w-full mt-24 md:mt-36 flex justify-center items-center">
+            <div class="text-white w-90% lg:w-720 md:px-3 py-16">
+              <h3 class="flex items-center justify-center text-lg md:text-2xl"><img src="/images/company/shape.png" class="mr-1" />中間業者を徹底排除した自社製造</h3>
+              <div class="NotoSans text-sm md:text-lg mt-16 text-justify">
                 この業界は流通が複雑に入り組んでいます。他企業ではバイヤー経由での中国生産者との繋がりがあるため消費者の手元に製品が届くまで、いくつもの卸を経由します。<br />
                 <br />
                 複雑な流通経路にかかる費用はそのまま価格に転嫁されてしまいます。さらに扱う業者によってはブローカーに中抜きされていたり、他社と仕入れが被り、ライバルに情報を漏らされたりと、国内担当者もコントロールができていないことがあります。<br />
@@ -54,14 +54,14 @@ export default function Strength() {
                 当社は社長自身が何年も世界各国を周り、良質な原材料の直接取引先を開拓し商社やブローカーなどの中間マージンを徹底的に排除してきました。そして自ら中国へ訪問し、生産者とのつながりを得たことで高品質でありながら、コストを抑えて製品を作り出すことができるのです。
               </div>
             </div>
-            <div class="w-full px-2 md:px-0 md:w-auto mt-16 md:mt-0 md:ml-24">
-              <img src="/images/company/spc_system.png" />
-            </div>
           </div>
-          <div class="it_management w-full md:h-900 flex justify-center items-center flex-wrap md:flex-nowrap px-8 md:px-0 py-12">
-            <div class="w-full md:w-500 text-white order-1 md:order-2">
-              <h3 class="flex items-center text-sm md:text-2xl font-light"><img src="/images/company/shape.png" class="mr-1" />IT技術を活用した生産管理</h3>
-              <div class="NotoSans text-sm md:text-lg md:mt-4 font-extralight">
+          <div class="w-full px-5 md:w-auto my-16 md:py-24">
+            <img src="/images/company/spc_system.png" class="block mx-auto"/>
+          </div>
+          <div class="self_maker w-full flex justify-center items-center flex-wrap md:flex-nowrap px-8 md:px-0">
+            <div class="w-90% md:w-720 md:px-3 py-36">
+              <h3 class="flex items-center justify-center text-lg md:text-2xl font-light"><img src="/images/company/shape.png" class="mr-1" />IT技術を活用した生産管理</h3>
+              <div class="NotoSans text-sm md:text-lg mt-16 font-extralight text-justify">
                 社生産工場では、トヨタ生産方式を導入し、在庫、生産、受注、発注の管理をシステムで一貫して行うことで、不良品やミスを根絶。<br />
                 <br />
                 また、商品開発は、独自開発の市場調査ツールで、時代背景に即した企画や競合他社との差別化や優位化を行う事でお客様に喜ばれる商品づくりを行なっています。<br />
@@ -69,10 +69,18 @@ export default function Strength() {
                 これらの仕組みにより、卸を通さず、ユーザーの需要を素早く製品に反映させ、高品質な製品を安価に提供することで、2016年の創業から僅か5年でグループ年商10億を超えるまでになりました。
               </div>
             </div>
-            <div class="w-full px-2 md:px-0 md:w-auto mt-16 md:mt-0 md:mr-24 order-2 md:order-1">
-              <img src="/images/company/it_management.png" />
-              <div class="w-full mt-8 text-lg text-center text-white">現在進行形で随時、必要時に必要な仕組みを導入しています。</div>
-            </div>
+          </div>
+          <div class="w-full px-5 md:px-0 md:w-auto mt-16">
+            <img src="/images/company/it_management.jpg" class="block mx-auto pt-28" />
+            <div class="w-full mt-24 text-lg lg:text-3xl text-center">現在進行形で随時、<br class="lg:hidden"/>必要時に必要な仕組みを導入しています。</div>
+          </div>
+          <div class="py-12 lg:pt-52 lg:pb-24 w-93% max-w-1000 mx-auto flex flex-wrap justify-around">
+            <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_1.jpg" /></div>
+            <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_2.jpg" /></div>
+            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_3.jpg" /></div>
+            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_4.jpg"/></div>
+            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_5.jpg"/></div>
+            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_6.jpg"/></div>
           </div>
           <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
             <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statementY">ミッション</a></p>

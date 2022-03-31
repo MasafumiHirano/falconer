@@ -683,7 +683,7 @@ h1.company_title {
 }
 
 .it_management {
-  background-image: url("/images/company/it_manage_bg.jpg");
+  background-image: url("/images/company/strength_bg1.jpg");
   background-size: cover;
 }
 
@@ -691,8 +691,9 @@ h1.company_title {
 /*////////////////////////////////////// 代表メッセージ //////////////////////////////////////*/
 .message_title {
   color: #C1A668;
-  width: 100%;
-  font-family: "futura_medium_bt";
+  width: 300px;
+  height: 300px;
+  border: 1px solid #C1A668;
 }
 
 .pickup_text {
@@ -703,7 +704,8 @@ h1.company_title {
 
 @media only screen and (max-width: 767px) {
   .message_title {
-    font-family: "futura_light_bt";
+    width: 113px;
+    height: 113px;
   }
 
   .pickup_text {

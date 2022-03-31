@@ -17,46 +17,34 @@ export default function Message() {
             <div class="relative">
               <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">MESSAGE<p class="NotoSans text-base font-normal">代表メッセージ</p></h1>
             </div>
+            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+              <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
+            </div>
             <div class="w-90% md:w-1280 mx-auto mt-8 md:mt-52">
-              {/*社長紹介*/}
-              <section class="flex flex-wrap md:flex-nowrap">
-                {/*画像ブロック*/}
-                <div class="w-full md:w-1/4">
-                  <picture>
-                    <source media="(min-width: 960px)" srcSet="/images/company/ceo_image.jpg" />
-                    <img src="/images/company/ceo_image_sp.jpg" />
-                  </picture>
-                </div>
-                {/*テキスト*/}
-                <div class="w-full md:w-3/4 md:ml-5 mt-9 md:mt-0">
-                  {/*経歴*/}
-                  <div class="border-b border-gray-600 pb-3">
-                    <div class="flex justify-between flex-wrap">
-                      <h2 class="NotoSans w-full md:w-auto text-center md:text-left text-2xl md:text-5xl">清水 真輝<span class="futura-md ml-5 text-xl md:text-2xl">Masaki Shimizu</span></h2>
-                      <p class="mx-auto md:mx-0 text-center mt-3 md:mt-0 md:text-right text-sm md:text-base">1987年11月27日生まれ / AB型<br />愛知高校・名古屋学院大学英米科卒業</p>
-                    </div>
-                  </div>
-                  {/*本文*/}
-                  <div class="mt-4 text-justify NotoSans text-base md:text-lg leading-6 md:leading-7">
-                    毎月仕事で様々な国を訪れて解った事があります。日本人の多くはとにかく顔が暗いのです。日本の長い歴史を振り返ってもどれほどの期間が天下太平だったのでしょう。衣食住・衛生・治安的に安定した生活がほとんどの人に与えられてる今なぜこんなにも日本人の心や顔は暗いのでしょうか。<br /><br />
+              {/*intro*/}
+              <section>
+                <div class="py-20 border-t border-b border-gray-700">
+                  <img src="/images/company/intro.jpg" class="block mx-auto" />
+                  <p class="w-full lg:w-1050 px-6 text-justify mt-12 mx-auto text-xl font-light">毎月仕事で様々な国を訪れて解った事があります。日本人の多くはとにかく顔が暗いのです。日本の長い歴史を振り返ってもどれほどの期間が天下太平だったのでしょう。衣食住・衛生・治安的に安定した生活がほとんどの人に与えられてる今なぜこんなにも日本人の心や顔は暗いのでしょうか。<br /><br />
                     現代の日本社会は物質的に豊かな時代になったと言えるでしょう。しかしその一方で、情報や生き方が多様・複雑化する中で何を信念に生きていくかが分からなくなっているのではないでしょうか。<br /><br />
                     望まぬ戦争に巻き込まれた多くの人の血の上に今の平和な日本や世界各国が築かれ、そしてまだ世界では生命の担保さえ出来ない国がたくさんあります。その中で私たちがこうして平和に暮らせるのは、平和で美しい世界、そして日本を作るために生きてきた多くの偉大な先人達のおかげです。<br /><br />
-                    このような人達が毎日暗い顔をして生きていたり、我先に利益や自分個人の安定や安全に執着して生きている多くの日本人を見たら、どの様な気持ちでしょうか？私たちはその様な時代を生き抜いた先人達を尊び、感謝をして、後世の人たちが綺麗な地球で平和に暮らしていくために、毎日天命を尽くすしかないのではないでしょうか。
-                  </div>
+                    このような人達が毎日暗い顔をして生きていたり、我先に利益や自分個人の安定や安全に執着して生きている多くの日本人を見たら、どの様な気持ちでしょうか？私たちはその様な時代を生き抜いた先人達を尊び、感謝をして、後世の人たちが綺麗な地球で平和に暮らしていくために、毎日天命を尽くすしかないのではないでしょうか。</p>
                 </div>
               </section>
               {/*Message1*/}
               <section class="flex flex-wrap md:flex-nowrap mt-11 md:mt-28">
                 {/*タイトルブロック*/}
                 <div class="w-full md:w-1/4">
-                  <h2 class="futura-lt md:futura-md text-center md:text-right text-3xl md:text-5xl message_title">Message.1</h2>
+                  <h2 class="NotoSans mx-auto flex justify-center items-center text-lg md:text-5xl message_title">Message.1</h2>
                 </div>
                 {/*テキスト*/}
                 <div class="w-full md:w-3/4 md:ml-5">
                   {/*サブタイトル*/}
-                  <div class="border-b border-gray-600 pb-3 md:pb-4">
-                    <div class="flex justify-between flex-wrap">
-                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-xl md:text-4xl">「照于一隅」一隅を照らす</h3>
+                  <div class="pb-3 md:pb-4">
+                    <div class="flex justify-center flex-wrap">
+                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-comGOLD text-xl lg:text-5xl">「照于一隅」一隅を照らす</h3>
                     </div>
                   </div>
                   {/*本文*/}
@@ -71,15 +59,15 @@ export default function Message() {
               {/*Message2*/}
               <section class="flex flex-wrap md:flex-nowrap mt-11 md:mt-28">
                 {/*タイトルブロック*/}
-                <div class="w-full md:w-1/4">
-                  <h2 class="futura-lt md:futura-md text-center md:text-right text-3xl md:text-5xl message_title">Message.2</h2>
+                <div class="w-full md:w-1/4 lg:order-2">
+                  <h2 class="NotoSans mx-auto flex justify-center items-center text-lg md:text-5xl message_title">Message.2</h2>
                 </div>
                 {/*テキスト*/}
-                <div class="w-full md:w-3/4 md:ml-5">
+                <div class="w-full md:w-3/4 lg:mr-5 lg:order-1">
                   {/*経歴*/}
-                  <div class="border-b border-gray-600 pb-3 md:pb-4">
-                    <div class="flex justify-between flex-wrap">
-                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-xl md:text-4xl">万物への感謝を<span class="block md:inline-block">胸に秘めて生きていく</span></h3>
+                  <div class="pb-3 md:pb-4">
+                    <div class="flex justify-center flex-wrap">
+                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-comGOLD text-xl lg:text-5xl">万物への感謝を胸に秘めて生きていく</h3>
                     </div>
                   </div>
                   {/*本文*/}
@@ -94,14 +82,14 @@ export default function Message() {
               <section class="flex flex-wrap md:flex-nowrap mt-11 md:mt-28">
                 {/*タイトルブロック*/}
                 <div class="w-full md:w-1/4">
-                  <h2 class="futura-lt md:futura-md text-center md:text-right text-3xl md:text-5xl message_title">Message.3</h2>
+                  <h2 class="NotoSans mx-auto flex justify-center items-center text-lg md:text-5xl message_title">Message.3</h2>
                 </div>
                 {/*テキスト*/}
                 <div class="w-full md:w-3/4 md:ml-5">
                   {/*経歴*/}
-                  <div class="border-b border-gray-600 pb-3 md:pb-4">
-                    <div class="flex justify-between flex-wrap">
-                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-xl md:text-4xl md:leading-10">強くなければ生きていけない、<span class="block">優しくなければ<span class="block md:inline-block">生きていく資格がない</span></span></h3>
+                  <div class="pb-3 md:pb-4">
+                    <div class="flex justify-center flex-wrap">
+                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-comGOLD text-xl lg:text-5xl md:leading-10 text-center lg:text-left">強くなければ生きていけない、<span class="block">優しくなければ生きていく資格がない</span></h3>
                     </div>
                   </div>
                   {/*本文*/}
@@ -117,15 +105,15 @@ export default function Message() {
               {/*Message4*/}
               <section class="flex flex-wrap md:flex-nowrap mt-11 md:mt-28 mb-11 md:mb-28">
                 {/*タイトルブロック*/}
-                <div class="w-full md:w-1/4">
-                  <h2 class="futura-lt md:futura-md text-center md:text-right text-3xl md:text-5xl message_title">Message.4</h2>
+                <div class="w-full md:w-1/4 lg:order-2">
+                  <h2 class="NotoSans mx-auto flex justify-center items-center text-lg md:text-5xl message_title">Message.4</h2>
                 </div>
                 {/*テキスト*/}
-                <div class="w-full md:w-3/4 md:ml-5">
+                <div class="w-full md:w-3/4 lg:mr-5 lg:order-1">
                   {/*経歴*/}
-                  <div class="border-b border-gray-600 pb-3 md:pb-4">
-                    <div class="flex justify-between flex-wrap">
-                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-xl md:text-4xl">道心の中に衣食あり、<span class="block md:inline-block">衣食の中に道心なし</span></h3>
+                  <div class="pb-3 md:pb-4">
+                    <div class="flex justify-center flex-wrap">
+                      <h3 class="NotoSans mt-10 md:mt-0 md:pt-1 text-comGOLD text-xl lg:text-5xl md:leading-10">道心の中に衣食あり、<span class="block md:inline-block">衣食の中に道心なし</span></h3>
                     </div>
                   </div>
                   {/*本文*/}
@@ -136,6 +124,11 @@ export default function Message() {
                   </div>
                 </div>
               </section>
+              <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+                <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
+                <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+                <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
+              </div>
             </div>
           </div>
           {/*見出し部分 終了*/}

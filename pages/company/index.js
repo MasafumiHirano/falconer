@@ -33,9 +33,9 @@ export default function Company({ medias }) {
             </div>
           </div>
           {/* 事業ビジュアル */}
-          <div class="mx-auto mt-10 mb-20 w-90% md:w-950">
+          <div class="mx-auto mt-10 mb-20 w-90% max-w-1000">
             <div class="flex flex-wrap justify-between mb-6">
-              <div class="relative w-full">
+              <div class="relative">
                 <Link href="/company/statement"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/mission.jpg" />
@@ -43,7 +43,7 @@ export default function Company({ medias }) {
                   </picture>
                 </a></Link>
               </div>
-              <div class="relative w-49% mt-1 lg:mt-3">
+              <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
                 <Link href="/company/about_ceo"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
@@ -51,9 +51,9 @@ export default function Company({ medias }) {
                   </picture>
                 </a></Link>
               </div>
-              <div class="relative w-49% mt-1 lg:mt-3">
+              <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
                 <Link href="/company/strength"><a>
-                <picture>
+                  <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/strength.jpg" />
                     <img src="/images/company/strength_sp.jpg" />
                   </picture>
