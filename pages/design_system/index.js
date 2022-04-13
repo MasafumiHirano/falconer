@@ -14,81 +14,81 @@ export default function design_system({ medias }) {
   return (
     <div>
       {/* サイドメニュー */}
-      <aside class="fixed w-60 left-0 top-0 bg-black text-white h-screen">
-        <h1 class="futura-md text-4xl mt-9 ml-4">FALCONER<br />Design<br />Notes</h1>
-        <ul class="w-full pl-10 mt-10">
+      <aside class="fixed w-32 lg:w-60 left-0 top-0 bg-black text-white h-screen">
+        <h1 class="futura-md text-xl lg:text-4xl mt-9 ml-4">FALCONER<br />Design<br />Notes</h1>
+        <ul class="w-full pl-1 lg:pl-10 mt-10">
           <li><a class="flex flex-row"><span class="w-4/6">商品ページ</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7"><span class="w-4/6">ロゴ・素材</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
         </ul>
       </aside>
       {/* 本文 */}
-      <main class="NotoSans pl-60 ">
+      <main class="NotoSans pl-36 lg:pl-60 ">
         {/* インデックス */}
         <section>
           <h2 class="text-center NotoSans font-bold text-3xl mt-20 mb-14">商品ページ周り仕様</h2>
-          <div class="mx-auto w-2/3">
+          <div class="mx-auto w-full max-w-1050">
             <div class="flex flex-wrap">
               <a href="#page_spec" class="flex justify-between w-1/2 px-8">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/rakuten.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">全体概要</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#thumbnail" class="flex justify-between w-1/2 px-8">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/rakuten.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">サムネイル</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#ec_spec" class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/rakuten.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">共通コンセプト(EC向け)</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#page_sample" class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/rakuten.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">商品ページサンプル</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#color_spec" class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/rakuten.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/amazon.png" />
-                  <img class="w-9 h-9 ml-2" src="/images/design/yahoo.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/rakuten.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10 ml-2" src="/images/design/yahoo.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">カラ―仕様</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#amazon_thumbnail" class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">Amazonサムネイル</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#amazon_goodsimage" class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-center justify-end">
-                  <img class="w-9 h-9" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">商品画像</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </a>
               <a href="#amazon_contents " class="flex justify-between w-1/2 px-8 mt-7">
                 <div class="flex w-3/12 items-cente justify-end">
-                  <img class="w-9 h-9" src="/images/design/amazon.png" />
+                  <img class="w-8 h-8 lg:w-10 lg:h-10" src="/images/design/amazon.png" />
                 </div>
                 <div class="w-7/12 flex items-center text-xl">Amazon商品紹介コンテンツ</div>
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
@@ -118,7 +118,7 @@ export default function design_system({ medias }) {
           <div class="mt-24">
             <img class="block mx-auto" src="/images/design/rakuten_layout.jpg" />
           </div>
-          <div class="mt-20 w-1050 mx-auto px-6">
+          <div class="mt-20 max-w-1000 w-10/12 mx-auto">
             <h3 class="text-xl font-bold">違和感なくカートボタンへたどり着けるように。</h3>
             <p class="mt-3 text-xl">サムネから商品ページに入り(興味を引く)、商品のポジティブなイメージや使用イメージをすり込んだのち(イメージの拡大)、仕様を説明し(疑問・不安を除く)。基本的な流れとしてはこのようなイメージ。<br /><br />
               楽天やAmazonのスライドを想定して基本的に1200px×1200px画像の連結。<br />
@@ -149,7 +149,7 @@ export default function design_system({ medias }) {
               <img src="/images/design/thumbnail_rule.jpg" />
             </div>
           </div>
-          <div class="mt-20 w-1050 mx-auto px-6">
+          <div class="mt-20 max-w-1000 w-10/12 mx-auto px-6">
             <p class="mt-3 text-xl font-normal">
               商品ページ全体とも共通したコンセプト”シンプルに、直感的に。”<br />
               バッグ類はファッション全体を含めたコーディネートの一部としてとらえ、サムネイルも引き気味の写真を使用。<br />
@@ -184,7 +184,7 @@ export default function design_system({ medias }) {
             <div class="flex items-end"><img src="/images/design/yahoo_l.png" /></div>
           </div>
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">共通コンセプト(EC向け)</h2>
-          <div class="mt-16 w-1050 mx-auto px-6">
+          <div class="mt-16 max-w-1000 w-10/12 mx-auto px-6">
             <h3 class="text-xl font-bold">シンプルに、直感的に。</h3>
             <p class="mt-3 text-xl font-normal">
               高クオリティの写真をベースに、”見てわかる”商品ページを目指す。<br />
@@ -197,7 +197,7 @@ export default function design_system({ medias }) {
               ・全体的にイメージ写真の割合を増やす。
             </p>
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <h2 class="text-3xl pb-3 font-bold border-b-2 border-green-800">レイアウト目安</h2>
             <h3 class="mt-7 text-xl font-bold">商品ページLPを制作→ブロックをトリミングしてスライド画像に。</h3>
             <p class="text-xl text-justify mt-3">前提として、あくまで構成は上からスクロールして見ていく商品ページLPとして制作し、各々ブロックを1200px×1200pxでトリミングした物を楽天のスライド用画像として使用する。</p>
@@ -207,14 +207,14 @@ export default function design_system({ medias }) {
           <div class="mt-16 flex justify-center">
             <img src="/images/design/concept.jpg" />
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-justify">実際は中央分けではないがそういったレイアウトをページ全体で徹底することにより、中央で分けたレイアウトのように見せる。</p>
             <p class="mt-7 text-xl text-justify">個々で明確にレイアウトを区切るというよりもグループで「こういう区切りをしている傾向がある」くらいの感覚でレイアウトを整理し、見る側に自動的に「しっかりとルール化されたされたレイアウト」と認識させる。</p>
           </div>
           <div class="mt-16 flex justify-center">
             <img src="/images/design/concept2.jpg" />
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <h3 class="mt-7 text-xl font-bold">LPとしてのデザインを第一に保った上で、ブロック内のレイアウトを構想する。</h3>
             <div class="mt-7"><img class="inline-block -ml-3" src="/images/design/caution.jpg"/><span class="text-xl">ブロックでのレイアウトを整えたとしても、それらがLPに仕上がった際にレイアウトのバランスが悪くならないよう、LPを前提としたレイアウトバランスを構想する。</span></div>
           </div>
@@ -241,21 +241,21 @@ export default function design_system({ medias }) {
             <div class="flex items-end"><img src="/images/design/yahoo_l.png" /></div>
           </div>
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">カラー仕様</h2>
-          <div class="mt-16 w-1050 mx-auto px-6">
+          <div class="mt-16 max-w-1000 w-10/12 mx-auto px-6">
             <h3 class="text-xl font-bold">全体のトーン・彩度を落として安っぽさの排除</h3>
             <p class="mt-3 text-xl font-normal">高級感を出すと言うよりは安っぽさを削っていくイメージで全体のトーンを統一。</p>
           </div>
           <div class="mt-24 flex justify-center">
             <img src="/images/design/color.jpg" />
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl font-normal">上記は仕様としてして設定するものの、例外はその理由を以って認められる。例えば商品によりポップに見せたい場合などや、鮮やかなカラーを訴求として打ち出したい、など。</p>
           </div>
-          <div class="mt-16 w-1050 mx-auto px-6">
+          <div class="mt-16 max-w-1000 w-10/12 mx-auto px-6">
             <h3 class="text-xl font-bold">個々の商品ページによるカラー指定はなし。</h3>
             <p class="mt-3 text-xl font-normal">個々の商品ページによるカラー指定は特になし。ターゲット、商品のイメージ、ブランドなどに要素によりそれぞれのページに合ったカラー選択を行う。</p>
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <h3 class="text-xl font-bold text-red-700"><img class="inline-block mr-2" src="/images/design/caution.jpg"/>注意</h3>
             <div class="mt-1"><span class="text-xl">レディースだからと言ってピンクや赤の多用は禁物。「男性がつくった女性向け」感の元凶となる場合が多い。また、同じく、ピンクや赤の多用はわかりやすくレディースっぽさが出てしまう。</span></div>
           </div>
@@ -272,10 +272,10 @@ export default function design_system({ medias }) {
           <div class="flex justify-center mt-14">
             <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href=""><span class="w-93% NotoSans font-medium text-base text-center">Amazon商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-justify">背景を#ffffffホワイトに設定し、写真の切り抜きを載せる。サムネイルがバリエーションの画像にもなるのでバリエーションの分だけ制作。</p>
           </div>
-          <div class="mt-32 w-1050 mx-auto px-6">
+          <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-center">スタイリッシュさを重視</p>
             <p class="mt-1 text-xl text-justify">
               Amaoznというモールの特性上、クオリティの低いもの(所謂中華っぽい)だけは避ける。<br />
@@ -315,7 +315,7 @@ export default function design_system({ medias }) {
           <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7">
             <p class="w-64 text-xl">サイズ / 1200px×1200px<br/>解像度 / 72ppi</p>
           </div>
-          <div class="mt-12 w-1050 mx-auto px-6">
+          <div class="mt-12 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-center">画像は白抜きサムネイル1枚＋訴求画像5~6枚(動画を入れる場合、5枚)。</p>
           </div>
           <div class="w-96 mx-auto flex justify-center items-center mt-12 text-xl">
@@ -323,11 +323,11 @@ export default function design_system({ medias }) {
             ・基本的に画像1枚につき、1訴求<br />
             ・大見出し＋シンプルな説明文
           </div>
-          <div class="mt-12 w-1050 mx-auto px-6">
+          <div class="mt-12 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-center text-red-700">注 : #ffffffホワイト部分はは画像なしと判断され、自動トリミングされます。</p>
           </div>
-          <div class="mt-16 flex mx-auto justify-center max-w-7xl">
-            <img class="max-w-7xl" src="/images/design/amazon_imagespec.jpg" />
+          <div class="mt-16 flex mx-auto justify-center max-w-1000">
+            <img class="w-full max-w-1000" src="/images/design/amazon_imagespec.jpg" />
           </div>
         </section>
         {/* Amazon商品紹介コンテンツ */}
@@ -342,8 +342,8 @@ export default function design_system({ medias }) {
           <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7">
             <p class="w-64 text-xl">サイズ / 1200px×1200px<br/>解像度 / 72ppi</p>
           </div>
-          <div class="mt-16 flex mx-auto justify-center max-w-7xl">
-            <img class="max-w-7xl" src="/images/design/amazon_imagespec2.jpg" />
+          <div class="mt-16 flex mx-auto justify-center w-full">
+            <img class="w-full" src="/images/design/amazon_imagespec2.jpg" />
           </div>
         </section>
       </main>

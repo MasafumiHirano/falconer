@@ -17,7 +17,7 @@ export default function Message() {
             <div class="relative">
               <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">MESSAGE<p class="NotoSans text-base font-normal">代表メッセージ</p></h1>
             </div>
-            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-base">
               <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
               <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
               <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
@@ -124,7 +124,7 @@ export default function Message() {
                   </div>
                 </div>
               </section>
-              <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+              <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-base">
                 <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>
                 <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
                 <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>

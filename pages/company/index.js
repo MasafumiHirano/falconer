@@ -41,6 +41,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/mission.jpg" />
                     <img src="/images/company/mission_sp.jpg" />
                   </picture>
+                  <span class="text-white absolute right-2 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm ">ミッション</span>
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
@@ -49,6 +50,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
                     <img src="/images/company/ceo_sp.jpg" />
                   </picture>
+                  <span class="text-white absolute right-2 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">代表紹介</span>
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
@@ -57,6 +59,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/strength.jpg" />
                     <img src="/images/company/strength_sp.jpg" />
                   </picture>
+                  <span class="text-white absolute right-1 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">弊社の強み</span>
                 </a></Link>
               </div>
             </div>
@@ -70,10 +73,10 @@ export default function Company({ medias }) {
               <p class="mt-4 pb-2 border-b text-sm">設立<span class="block text-base">2016年7月</span></p>
               <p class="mt-4 pb-2 border-b text-sm">資本金<span class="block text-base">10,000,000円</span></p>
               <p class="mt-4 pb-2 border-b text-sm">事業内容<span class="block text-base">レザー小物及び雑貨の各種製の製造販売<br />インターネットによる販売</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">許認可<span class="block text-base">一般建築業許可　古物商許可<br />愛知県公安委員会 第543311801500号</span></p>
+              <p class="mt-4 pb-2 border-b text-sm">許認可<span class="block text-base">古物商許可<br />愛知県公安委員会 第543311801500号</span></p>
               <p class="mt-4 pb-2 border-b text-sm">所在地<span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里三丁目104番地の2</span></p>
               <p class="mt-4 pb-2 border-b text-sm">Tel / Fax<span class="block text-base">052-734-7065</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">取引銀行<span class="block text-base">三十三銀行／三菱東京UFJ銀行／大垣共立銀行</span></p>
+              <p class="mt-4 pb-2 border-b text-sm">取引銀行<span class="block text-base">三菱東京UFJ / 三十三銀行 / 瀬戸信用金庫 / 愛知銀行 / 大垣共立銀行</span></p>
               <p class="mt-4 pb-2 border-b text-sm">顧問弁護士<span class="block text-base">横木増井法律事務所</span></p>
               <p class="mt-4 pb-2 border-b text-sm">顧問弁理士<span class="block text-base">かすがい特許事務所</span></p>
             </div>

@@ -18,7 +18,7 @@ export default function Statement() {
               <h1 class="mission_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
             </div>
             {/*ナビゲーション*/}
-            <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-2xl">
+            <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-base">
               <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
               <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
               <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
@@ -141,7 +141,7 @@ export default function Statement() {
               <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、強く、優しく、<br class="block lg:hidden" />人々を幸せにします。</h1>
             </div>
 
-            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-2xl">
+            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-base">
               <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
               <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
               <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
