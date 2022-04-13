@@ -23,10 +23,10 @@ export default function Statement() {
               <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
               <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
             </div>
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10 order-2 lg:order-1">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
-                  <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-8 py-4 border-b border-gray-700">STATEMENT</h2>
+                  <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">STATEMENT</h2>
                   <div class="flex text-left">
                     <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-8 NotoSans">モノづくりを通じ、<span class="block md:inline-block">人々に幸せを広げ、</span><span class="block">世界をより良くする。</span></h3>
                   </div>
@@ -40,11 +40,17 @@ export default function Statement() {
                   </div>
                 </div>
               </div>
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/statement_image.jpg" />
+              <picture class="w-full md:w-4/12 max-w-650 lg:static order-1 lg:order-2 mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/statement_image.jpg" />
+                <img class="w-full" src="/images/company/statement_image_sp.jpg" />
+              </picture>
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/vision_image.jpg" />
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
+              <picture class="w-full md:w-4/12 max-w-650 lg:static mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/vision_image.jpg" />
+                <img class="w-full" src="/images/company/vision_image_sp.jpg" />
+              </picture>
               <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VISION</h2>
@@ -66,8 +72,8 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10 order-2 lg:order-1">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VALUE</h2>
                   <div class="md:pl-4 flex flex-wrap text-lg">
@@ -98,11 +104,17 @@ export default function Statement() {
                   </div>
                 </div>
               </div>
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/value_image.jpg" />
+              <picture class="w-full md:w-4/12 max-w-650 lg:static order-1 lg:order-2 mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/value_image.jpg" />
+                <img class="w-full" src="/images/company/value_image_sp.jpg" />
+              </picture>
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/slogan_image.jpg" />
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
+              <picture class="w-full md:w-4/12 max-w-650 lg:static mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/slogan_image.jpg" />
+                <img class="w-full" src="/images/company/slogan_image_sp.jpg" />
+              </picture>
               <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">SLOGAN</h2>
@@ -114,7 +126,7 @@ export default function Statement() {
                     </div>
                   </div>
                   <div class="md:pl-4 text-base md:text-lg">
-                    <div class="mt-12 mb-2">
+                    <div class="mt-4 lg:mt-12 mb-2">
                       <h3 class="mb-8 text-2xl md:text-4xl">Stay Strong</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を強くします。<br class="hidden lg:block" />商品は最上級の素材と製法にこだわります。<br class="hidden lg:block" /></p>
                       <p>{`　`}</p>

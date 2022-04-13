@@ -72,15 +72,15 @@ export default function Strength() {
           </div>
           <div class="w-full px-5 md:px-0 md:w-auto py-16 bg-gray-100">
             <img src="/images/company/it_management.png" class="block mx-auto pt-28" />
-            <div class="w-full mt-24 text-lg lg:text-3xl text-center">現在進行形で随時、<br class="lg:hidden"/>必要時に必要な仕組みを導入しています。</div>
+            <div class="w-full mt-8 lg:mt-24 text-base font-medium lg:text-3xl text-center">現在進行形で随時、<br class="lg:hidden"/>必要時に必要な仕組みを導入しています。</div>
           </div>
-          <div class="py-12 lg:pt-52 lg:pb-24 w-93% max-w-1000 mx-auto flex flex-wrap justify-around">
+          <div class="py-12 lg:pt-52 lg:pb-24 w-93% max-w-1000 mx-auto flex flex-wrap justify-between lg:justify-around">
             <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_1.jpg" /></div>
             <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_2.jpg" /></div>
-            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_3.jpg" /></div>
-            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_4.jpg"/></div>
-            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_5.jpg"/></div>
-            <div class="w-49% lg:w-auto mt-4"><img src="/images/company/strength_img_6.jpg"/></div>
+            <div class="w-49% lg:w-auto mt-2 lg:mt-4"><img src="/images/company/strength_img_3.jpg" /></div>
+            <div class="w-49% lg:w-auto mt-2 lg:mt-4"><img src="/images/company/strength_img_4.jpg"/></div>
+            <div class="w-49% lg:w-auto mt-2 lg:mt-4"><img src="/images/company/strength_img_5.jpg"/></div>
+            <div class="w-49% lg:w-auto mt-2 lg:mt-4"><img src="/images/company/strength_img_6.jpg"/></div>
           </div>
           <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-base">
             <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/statement">ミッション</a></p>

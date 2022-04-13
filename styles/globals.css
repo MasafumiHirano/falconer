@@ -685,7 +685,7 @@ h1.company_title {
 
 @media only screen and (max-width: 767px) {
   .self_maker {
-    background-size: cover;
+    background-size: 430%;
     background-position: right 30% bottom 0;
   }
 }

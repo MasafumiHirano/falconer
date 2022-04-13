@@ -35,11 +35,11 @@ export default function AboutCeo() {
                   {/*経歴*/}
                   <div class="border-b border-gray-600 pb-2">
                     <div class="flex justify-between flex-wrap">
-                      <h2 class="NotoSans-L w-full md:w-auto text-center md:text-left text-2xl md:text-3xl">清水 真輝<span class="futura-md ml-5 text-xl md:text-2xl text-gray-500">Masaki Shimizu</span></h2>
+                      <h2 class="NotoSans font-normal w-full md:w-auto text-center md:text-left text-2xl md:text-3xl">清水 真輝<span class="futura-md ml-5 text-xl md:text-2xl text-gray-500">Masaki Shimizu</span></h2>
                     </div>
                   </div>
                   {/*本文*/}
-                  <div class="mt-2 text-justify NotoSans-L text-base leading-6 md:leading-7">
+                  <div class="mt-2 text-justify NotoSans text-base leading-6 md:leading-7">
                     愛知高校・名古屋学院大学英米科卒業、1987年11月27日生まれ（AB型）<br />
                     肌育生活（現株式会社エスペランサ）（基礎化粧品の企画製造販売）を立ち上げる傍ら<br />
                     株式会社ホワイトハウス（輸入車ディーラー）・株式会社ボルテックス（不動産）<br />
@@ -53,10 +53,10 @@ export default function AboutCeo() {
               {/*Instagrarm*/}
               <section class="mt-20 lg:mt-52">
                 <div class="flex flex-col justify-center items-center">
-                  <img src="/images/top/media_Instagram.svg" alt="Instagram" />
-                  <span class="NotoSans-L text-2xl">Instagram</span>
+                  <img src="/images/top/media_Instagram.svg" alt="Instagram" class="block mx-auto h-20 lg:h-24" />
+                  <span class="NotoSans font-normal text-2xl lg:mt-5">Instagram</span>
                 </div>
-                <div class="w-full lg:w-950 mx-auto flex flex-row flex-wrap justify-between">
+                <div class="w-full lg:w-920 mt-2 lg:mt-8 mx-auto flex flex-row flex-wrap justify-between">
                   <div class="w-49% lg:w-32% mt-2 lg:mt-4"><img src="/images/company/insta1.jpg" class="w-full" /></div>
                   <div class="w-49% lg:w-32% mt-2 lg:mt-4"><img src="/images/company/insta2.jpg" class="w-full" /></div>
                   <div class="w-49% lg:w-32% mt-2 lg:mt-4"><img src="/images/company/insta3.jpg" class="w-full" /></div>
@@ -69,17 +69,17 @@ export default function AboutCeo() {
             {/*Instagrarm*/}
             <section class="mt-20 lg:mt-52 bg-gray-200">
               <div class="text-center pt-10 lg:pt-20">
-                <img src="/images/company/youtube.png" alt="Youtube" class="block mx-auto w-36" />
-                <p class="text-2xl mt-2 lg:mt-4">Youtube</p>
+                <img src="/images/company/youtube.png" alt="Youtube" class="block mx-auto h-20 lg:h-24" />
+                <p class="text-2xl mt-0 lg:mt-4">Youtube</p>
               </div>
-              <div class="w-11/12 md:w-3/4 lg:w-7/12 mt-8 mx-auto flex flex-col lg:flex-row pb-20">
+              <div class="w-11/12 md:w-3/4 lg:w-7/12 mt-4 lg:mt-9 mx-auto flex flex-col lg:flex-row pb-20">
                 <div><img src="/images/company/dialogue.png" /></div>
                 <div class="md:ml-5 mt-9 md:mt-0">
                   <div class="border-b border-gray-600 pb-4">
                     <h2 class="NotoSans font-normal w-full md:w-auto text-center md:text-left text-base md:text-3xl">喜劇俳優・大村崑さんとの<br class="hidden lg:block" />スペシャル対談</h2>
                   </div>
                   {/*本文*/}
-                  <div class="mt-4 w-5/6 lg:w-full mx-auto text-justify NotoSans font-bold text-sm lg:text-xl leading-10">
+                  <div class="mt-7 w-5/6 lg:w-full mx-auto text-justify NotoSans font-bold text-sm lg:text-xl leading-9 lg:leading-10">
                     株式会社FALCONER代表、清水真輝が会社設立以前から親交のある喜劇俳優の大村崑さんと対談が配信中。
                     <a class="block w-full lg:w-3/4 mx-auto mt-8 md:mt-20 border border-black" href="/media#Dialogue"><div class="flex justify-center items-center py-2 lg:py-3">視聴はコチラから</div></a>
                   </div>
