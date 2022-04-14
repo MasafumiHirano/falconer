@@ -130,7 +130,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 取引パートナー様 START */}
           <section class="w-full mx-auto py-24 mt-24 md:py-36 md:mt-24 bg-gray-100">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base_s md:text-ms font-light block NotoSans-L">取引パートナー様</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base_s md:text-ms font-light block NotoSans">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto md:w-1050 px-5 mt-6 md:justify-between overflow-x-auto">
               <li class="flex flex-col md:w-28 min-w-120 md:min-w-0">
                 <div class="flex flex-col h-24">
@@ -219,7 +219,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* NEWSリスト START */}
           <section class="mx-auto mt-24 lg:max-w-screen-xl">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans-L">ニュース</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans">ニュース</span></h2>
             <ul class="mx-auto w-90% md:px-0 md:w-1050 mt-6">
               {
                 topics
@@ -247,7 +247,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto bg-gray-100 pt-24 pb-56 md:pb-24`}>
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-xl font-light block NotoSans-L">事業内容</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-ms font-light block NotoSans">事業内容</span></h2>
             <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
@@ -297,7 +297,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア START */}
           <div className={styles.media_background}>
             <section className={`${styles.media} mx-auto lg:max-w-screen-xl`}>
-              <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base_s md:text-xl font-light block NotoSans-L">メディア</span></h2>
+              <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base_s md:text-ms font-light block NotoSans">メディア</span></h2>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-full md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
@@ -352,7 +352,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* ブランドセクション START */}
           <section class="mt-24 md:mt-40 py-24 bg-gray-100 -mb-4">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base_s md:text-ms font-light block NotoSans">ブランド</span></h2>
             <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
               <li class="mt-6 md:mt-4 md:w-600">
                 <a href="https://bachicashley.com/" target="_blank">
@@ -384,12 +384,12 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 問合せセクション START */}
           <section class="py-24 -mb-4">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-black">CONTACT<span class="text-base md:text-xl font-light block NotoSans-L">お問い合せ</span></h2>
-            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto lg:text-base mt-8 text-center NotoSans-L text-black">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-black">CONTACT<span class="text-base_s md:text-ms font-light block NotoSans">お問い合せ</span></h2>
+            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto lg:text-base_s mt-8 text-center NotoSans text-black">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
             <div class="text-center mt-10">
               <Link href="/contact">
                 <a>
-                  <button class="bg-comGOLD w-72 text-white NotoSans-L h-12 lg:h-16 rounded-2xl">まずは問い合わせしてみる</button>
+                  <button class="bg-comGOLD w-72 text-white NotoSans h-12 lg:h-16 rounded-2xl">まずは問い合わせしてみる</button>
                 </a>
               </Link>
             </div>
@@ -398,19 +398,19 @@ export default function Home({ slides, topics, readings }) {
                 <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7075">
                   <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/houzin.png" /></div>
                   <div class="flex flex-col items-center justify-center">
-                    <span class="NotoSans-L text-sm lg:text-base">法人窓口はコチラ</span>
+                    <span class="NotoSans text-sm lg:text-base">法人窓口はコチラ</span>
                     <span class="futura-lt text-2xl lg:text-4xl mt-2">052-734-7065</span>
                   </div>
                 </a>
                 <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto mt-6 md:mt-0" href="tel:+81-52-734-7065">
                   <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/kojin.png" /></div>
                   <div class="flex flex-col items-center justify-center">
-                    <span class="NotoSans-L text-sm lg:text-base">一般・個人の方コチラ</span>
+                    <span class="NotoSans text-sm lg:text-base">一般・個人の方コチラ</span>
                     <span class="futura-lt text-2xl lg:text-4xl">052-734-7075</span>
                   </div>
                 </a>
               </div>
-              <p class="text-center text-black text-xs lg:text-2xl mt-4 lg:mt-8">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
+              <p class="text-center text-black text-xs lg:text-base_s mt-4 lg:mt-8">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
             </div>
           </section>
           {/* 問合せセクション END */}

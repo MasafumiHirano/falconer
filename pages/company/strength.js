@@ -31,7 +31,7 @@ export default function Strength() {
           </div>
           <div class="border-t border-b md:border-t-2 md:border-b-2 border-gray-600 pt-16 pb-10 w-300 lg:w-49% mx-auto mt-16 md:mt-44">
             <img src="/images/company/ourstrength.png" class="block w-30% min-w-250 mx-auto" />
-            <div class="NotoSans md:w-600 mx-auto mt-8 mb-7 text-sm lg:text-base lg:leading-normal text-justify">
+            <div class="NotoSans md:w-600 mx-auto mt-8 mb-7 text-sm lg:text-base_s lg:leading-normal text-justify">
               これまでレザーグッズの世界は完全に二極化されてきました。一方は高品質だけれども、普通の人には手が届かないほど高額な有名ブランド。もう一方は安価だけれど低品質で、すぐに使い捨てられてしまう製品。<br />
               <br />
               私達は、その状況を打ち壊したいと考えました。<br />
@@ -74,7 +74,7 @@ export default function Strength() {
             <img src="/images/company/it_management.png" class="block mx-auto pt-28" />
             <div class="w-full mt-8 lg:mt-24 text-base font-medium lg:text-3xl text-center">現在進行形で随時、<br class="lg:hidden"/>必要時に必要な仕組みを導入しています。</div>
           </div>
-          <div class="py-12 lg:pt-52 lg:pb-24 w-93% max-w-1000 mx-auto flex flex-wrap justify-between lg:justify-around">
+          <div class="pt-12 lg:pt-52 w-93% max-w-1000 mx-auto flex flex-wrap justify-between lg:justify-around">
             <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_1.jpg" /></div>
             <div class="w-49% lg:w-auto"><img src="/images/company/strength_img_2.jpg" /></div>
             <div class="w-49% lg:w-auto mt-2 lg:mt-4"><img src="/images/company/strength_img_3.jpg" /></div>

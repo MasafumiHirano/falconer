@@ -68,17 +68,17 @@ export default function Company({ medias }) {
             <h2 class="text-center mt-20 mx-auto w-90% md:w-950 lg:border-b lg:border-black text-lg">会社概要</h2>
             <div class="px-4 mt-10 max-w-4xl mx-auto">
               <p class="mt-8 pb-2 text-center border-b text-lg">国内拠点・本社</p>
-              <p class="mt-4 pb-2 border-b text-sm">会社名<span class="block text-base">株式会社FALCONER</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">代表取締役<span class="block text-base">清水 真輝</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">設立<span class="block text-base">2016年7月</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">資本金<span class="block text-base">10,000,000円</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">事業内容<span class="block text-base">レザー小物及び雑貨の各種製の製造販売<br />インターネットによる販売</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">許認可<span class="block text-base">古物商許可<br />愛知県公安委員会 第543311801500号</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">所在地<span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里三丁目104番地の2</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">Tel / Fax<span class="block text-base">052-734-7065</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">取引銀行<span class="block text-base">三菱東京UFJ / 三十三銀行 / 瀬戸信用金庫 / 愛知銀行 / 大垣共立銀行</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">顧問弁護士<span class="block text-base">横木増井法律事務所</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">顧問弁理士<span class="block text-base">かすがい特許事務所</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">会社名</span><span class="block text-base">株式会社FALCONER</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">代表取締役</span><span class="block text-base">清水 真輝</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">設立</span><span class="block text-base">2016年7月</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">資本金</span><span class="block text-base">10,000,000円</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">事業内容</span><span class="block text-base">レザー小物及び雑貨の各種製の製造販売<br />インターネットによる販売</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">許認可</span><span class="block text-base"><span class="block lg:inline-block lg:mr-4">古物商許可</span>愛知県公安委員会 第543311801500号</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">所在地</span><span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里三丁目104番地の2</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">Tel / Fax</span><span class="block text-base">052-734-7065</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">取引銀行</span><span class="block text-base">三菱東京UFJ / 三十三銀行 / 瀬戸信用金庫 / 愛知銀行 / 大垣共立銀行(順不同)</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問弁護士</span><span class="block text-base">横木増井法律事務所</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問弁理士</span><span class="block text-base">かすがい特許事務所</span></p>
             </div>
 
             {/* 本社所在地 */}
