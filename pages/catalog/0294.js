@@ -14,9 +14,9 @@ export default function catalog0294() {
       </Head>
       <Layout>
         <main role="main" class="pt-8 NotoSans">
-          <section class="flex flex-wrap p-7">
+          <section class="flex flex-wrap justify-center p-7">
             <h2 class="text-center w-1050 text-3xl font-bold mx-auto mt-3 mb-8 border-b-4 border-double border-black pb-2">商品カタログ</h2>
-            <p class="py-10 text-black-900 text-xl font-bold w-full">[HIGH FIVE] IQOS対応ケース イルマ対応 3デュオ対応 ケース カバー サフィアーノレザー コンパクト ポーチ</p>
+            <p class="py-10 text-black-900 text-xl font-bold w-4/5">[HIGH FIVE] IQOS対応ケース イルマ対応 3デュオ対応 ケース カバー サフィアーノレザー コンパクト ポーチ</p>
             <div class="w-5/12"><img src="https://m.media-amazon.com/images/I/612ID0yAe9L._AC_SL1200_.jpg" /></div>
             <dl class="w-6/12 pl-8">
               <dt class="bg-red-200 px-4 flex items-center font-bold">型番</dt><dd class="pt-4 pb-7 ml-7">ac-z-0294</dd>
