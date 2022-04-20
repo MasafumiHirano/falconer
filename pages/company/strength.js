@@ -26,7 +26,7 @@ export default function Strength() {
           </div>
           <div class="mt-16 md:mt-44 lg:flex lg:justify-center">
             <p class="px-8 text-sm lg:text-base text-left md:text-center lg:mb-2 md:leading-10 w-90% lg:w-full m-auto">
-              商品を通して繋がる皆様に、幸せに過ごしていただくため私たちは時代に流されることなく、<br class="hidden md:inline-block" />上質な商品を創り出しレザーグッズ会に革命を起こすべく、挑戦を続けていきます。
+              商品を通して繋がる皆様に、幸せに過ごしていただくため私たちは時代に流されることなく、<br class="hidden md:inline-block" />上質な商品を創り出しレザーグッズ界に革命を起こすべく、挑戦を続けていきます。
             </p>  
           </div>
           <div class="border-t border-b md:border-t-2 md:border-b-2 border-gray-600 pt-16 pb-10 w-300 lg:w-49% mx-auto mt-16 md:mt-44">

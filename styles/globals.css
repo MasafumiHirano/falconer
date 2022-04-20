@@ -699,9 +699,10 @@ h1.company_title {
 /*////////////////////////////////////// 代表メッセージ //////////////////////////////////////*/
 .message_title {
   color: #C1A668;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border: 1px solid #C1A668;
+  font-size: 2.5rem;
 }
 
 .pickup_text {
@@ -712,8 +713,9 @@ h1.company_title {
 
 @media only screen and (max-width: 767px) {
   .message_title {
-    width: 113px;
-    height: 113px;
+    width: 150px;
+    height: 150px;
+    font-size: 0.95rem;
   }
 
   .pickup_text {

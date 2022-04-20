@@ -127,19 +127,19 @@ export default function Statement() {
                   </div>
                   <div class="md:pl-4 text-base md:text-lg">
                     <div class="mt-4 lg:mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Strong</h3>
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Strong</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を強くします。<br class="hidden lg:block" />商品は最上級の素材と製法にこだわります。<br class="hidden lg:block" /></p>
                       <p>{`　`}</p>
                       <p class="">人や社会、世界に対して常に「強さ」を大切にすることで、<br class="hidden lg:block" />弱きものが苦しまない正しい社会を目指します。</p>
                     </div>
                     <div class="mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Kind</h3>
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Kind</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を温かくします。<br class="hidden lg:block" />商品は常に最高の使い易さを提供します。</p>
                       <p>{`　`}</p>
                       <p class="">人や社会、世界に対して常に「優しさ」を大切にすることで、<br class="hidden lg:block" />我々のビジネスが世界を幸せにできるよう努めます。</p>
                     </div>
                     <div class="mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Happy</h3>
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Happy</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を幸せにします。<br class="hidden lg:block" />商品は常に理屈を超えた満足感を与えます。</p>
                       <p>{`　`}</p>
                       <p class="">我々はビジネスを通じて一時的な幸せではなく、<br class="hidden lg:block" />全ての人々や世界が永続的に幸せでいられるよう、常に考え努力していきます。</p>
@@ -149,7 +149,7 @@ export default function Statement() {
               </div>
             </section>
 
-            <div class="flex justify-center items-center mb-8 mt-24 pb-12">
+            <div class="flex justify-center items-center mb-8 mt-24">
               <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、強く、優しく、<br class="block lg:hidden" />人々を幸せにします。</h1>
             </div>
 

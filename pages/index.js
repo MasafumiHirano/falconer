@@ -410,7 +410,7 @@ export default function Home({ slides, topics, readings }) {
                   </div>
                 </a>
               </div>
-              <p class="text-center text-black text-xs lg:text-base_s mt-4 lg:mt-8">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
+              <p class="text-center text-black text-sm lg:text-base_s mt-4 lg:mt-8 NotoSans">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
             </div>
           </section>
           {/* 問合せセクション END */}
