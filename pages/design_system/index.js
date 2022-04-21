@@ -245,8 +245,11 @@ export default function design_system({ medias }) {
             <div class="flex items-center"><img src="/images/design/yahoo_l.png" /></div>
           </div>
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">商品ページサンプル</h2>
-          <div class="mt-16 flex justify-center">
-            <img src="/images/design/goodspage_sample.png" />
+          <div class="mt-16 flex justify-center max-w-1050 mx-auto">
+            <img class="w-full" src="/images/design/goodspage_sample.jpg" />
+          </div>
+          <div class="mt-16 flex justify-center max-w-1050 mx-auto">
+            <img class="w-full" src="/images/design/DSC_0865.jpg" />
           </div>
         </section>
         {/* カラ―仕様 */}
