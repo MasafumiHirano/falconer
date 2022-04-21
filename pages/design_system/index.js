@@ -248,9 +248,6 @@ export default function design_system({ medias }) {
           <div class="mt-16 flex justify-center max-w-1050 mx-auto">
             <img class="w-full" src="/images/design/goodspage_sample.jpg" />
           </div>
-          <div class="mt-16 flex justify-center max-w-1050 mx-auto">
-            <img class="w-full" src="/images/design/DSC_0865.jpg" />
-          </div>
         </section>
         {/* カラ―仕様 */}
         <section class="mt-52" id="color_spec">
@@ -362,7 +359,11 @@ export default function design_system({ medias }) {
           <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7">
             <p class="w-64 text-xl">サイズ / 1200px×1200px<br/>解像度 / 72ppi</p>
           </div>
-          <div class="mt-16 flex mx-auto justify-center">
+          <div class="mt-10 NotoSans text-xl font-bold flex w-950 mx-auto justify-between">
+            <span class="pl-4">PC</span>
+            <span class="pr-12">SP</span>
+          </div>
+          <div class="mt-2 flex mx-auto justify-center">
             <img class="block mx-auto" src="/images/design/amazon_imagespec2.jpg" />
           </div>
           <div class="mt-16 flex mx-auto justify-center">
