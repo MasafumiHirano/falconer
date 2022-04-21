@@ -144,7 +144,7 @@ export default function design_system({ medias }) {
             <p class="w-full text-center mx-auto text-xl leading-7">背景に物撮り、またはモデル写真を配置、その上にカラーバリエーションとして商品の切り抜き画像をのせる。</p>
           </div>
           <div class="flex justify-center mt-14">
-            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://item.rakuten.co.jp/allrightleather/waa7146/" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">サムネイル商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
+            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://item.rakuten.co.jp/allrightleather/bge7315/" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">サムネイル商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
           </div>
           <div class="mt-24">
             <h3 class="text-red-700 text-center text-xl font-bold">禁止事項</h3>
@@ -234,7 +234,7 @@ export default function design_system({ medias }) {
             <div class="flex justify-end"><a class="mr-10 w-250 h-10 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a></div>
           </div>
           <div class="mt-16 flex justify-center">
-            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="http://85557bea4e50247f.main.jp/download/sample.zip" download="http://85557bea4e50247f.main.jp/download/sample.zip" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="http://85557bea4e50247f.main.jp/download/sample.zip" download="http://85557bea4e50247f.main.jp/download/sample.zip"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
         </section>
         {/* 商品ページサンプル */}
@@ -318,7 +318,7 @@ export default function design_system({ medias }) {
             </p>
           </div>
           <div class="mt-16 flex justify-center">
-            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="http://85557bea4e50247f.main.jp/download/sample amazon.zip" download="http://85557bea4e50247f.main.jp/download/sample amazon.zip" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="http://85557bea4e50247f.main.jp/download/sample amazon.zip" download="http://85557bea4e50247f.main.jp/download/sample amazon.zip"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
         </section>
         {/* Amazon商品画像 */}
