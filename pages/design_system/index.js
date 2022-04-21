@@ -234,8 +234,9 @@ export default function design_system({ medias }) {
             <div class="flex justify-end"><a class="mr-10 w-250 h-10 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a></div>
           </div>
           <div class="mt-16 flex justify-center">
-            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://85557bea4e50247f.main.jp/download/sample.zip" download="https://85557bea4e50247f.main.jp/download/sample.zip"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/1HmFP-tU9fYQR0edjuvHQO8X2Hds0vJDx/view?usp=sharing" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
+          <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
         </section>
         {/* 商品ページサンプル */}
         <section class="mt-52" id="page_sample">
@@ -318,8 +319,9 @@ export default function design_system({ medias }) {
             </p>
           </div>
           <div class="mt-16 flex justify-center">
-            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://85557bea4e50247f.main.jp/download/sample amazon.zip" download="https://85557bea4e50247f.main.jp/download/sample amazon.zip"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/1HmFP-tU9fYQR0edjuvHQO8X2Hds0vJDx/view?usp=sharing" target="blank_" ><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
+          <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
         </section>
         {/* Amazon商品画像 */}
         <section class="mt-52" id="amazon_goodsimage">
