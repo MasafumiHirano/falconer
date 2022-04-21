@@ -246,7 +246,7 @@ export default function design_system({ medias }) {
           </div>
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">商品ページサンプル</h2>
           <div class="mt-16 flex justify-center">
-            <img src="/images/design/goodspage_sample.jpg" />
+            <img src="/images/design/goodspage_sample.png" />
           </div>
         </section>
         {/* カラ―仕様 */}
@@ -284,9 +284,6 @@ export default function design_system({ medias }) {
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">Amazonサムネイル仕様</h2>
           <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7">
             <p class="w-64 text-xl">サイズ / 長い方の辺 1800px<br/>解像度 / 72ppi</p>
-          </div>
-          <div class="flex justify-center mt-14">
-            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://www.amazon.co.jp/dp/B08MF5VWLD" target="_blank" ><span class="w-93% NotoSans font-medium text-base text-center">Amazon商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
           </div>
           <div class="mt-32 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-justify">背景を#ffffffホワイトに設定し、写真の切り抜きを載せる。サムネイルがバリエーションの画像にもなるのでバリエーションの分だけ制作。</p>
@@ -342,6 +339,9 @@ export default function design_system({ medias }) {
           </div>
           <div class="mt-12 max-w-1000 w-10/12 mx-auto px-6">
             <p class="text-xl text-center text-red-700">注 : #ffffffホワイト部分はは画像なしと判断され、自動トリミングされます。</p>
+          </div>
+          <div class="flex justify-center mt-14">
+            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://www.amazon.co.jp/dp/B08MF5VWLD" target="_blank" ><span class="w-93% NotoSans font-medium text-base text-center">Amazon商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
           </div>
           <div class="mt-16 flex mx-auto justify-center max-w-1000">
             <img class="w-full max-w-1000" src="/images/design/amazon_imagespec.jpg" />
