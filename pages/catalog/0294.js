@@ -16,8 +16,8 @@ export default function catalog0294() {
         <main role="main" class="pt-8 NotoSans">
           <section class="flex flex-wrap justify-center p-7">
             <h2 class="text-center w-1050 text-3xl font-bold mx-auto mt-3 mb-8 border-b-4 border-double border-black pb-2">商品カタログ</h2>
-            <p class="py-10 text-black-900 text-xl font-bold w-4/5">[HIGH FIVE] IQOS対応ケース ケース カバー サフィアーノレザー コンパクト ポーチ</p>
-            <div class="w-5/12"><img src="https://m.media-amazon.com/images/I/612ID0yAe9L._AC_SL1200_.jpg" /></div>
+            <p class="py-10 text-black-900 text-xl font-bold w-4/5">[HIGH FIVE] ILUMA対応ケース カバー サフィアーノレザー コンパクト ポーチ</p>
+            <div class="w-5/12"><img src="/images/catalog/ac-z-0294iro.jpg" /></div>
             <dl class="w-6/12 pl-8">
               <dt class="bg-red-200 px-4 flex items-center font-bold">型番</dt><dd class="pt-4 pb-7 ml-7">ac-z-0294</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">売価</dt><dd class="pt-4 pb-7 ml-7">メーカー希望小売価格：2,980円</dd>
@@ -27,7 +27,7 @@ export default function catalog0294() {
               <dt class="bg-red-200 px-4 flex items-center font-bold">製造販売元</dt><dd class="pt-4 pb-7 ml-7">株式会社FALCONER (株式会社ファルコナー)</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">商品説明</dt><dd class="pt-4 pb-7 ml-7">
                 <ul class="list-disc">
-                  <li>【互換する機種】ILUMA対応ケース 3DUO対応ケース　IQOS3対応ケース　※ケースのみの販売となります。</li>
+                  <li>【互換する機種】ILUMA対応ケース 3DUO対応ケース　※ケースのみの販売となります。</li>
                   <li>本体とヒートスティックをまとめて持ち運びできるケース</li>
                   <li>▼ 全て収納したままアクション ▼ 本体をホルダーから取り出しはもちろん ヒートスティックの取り出しも 電源ON/OFFも 充電も 全てはケースに入れたままスムーズに。</li>
                   <li>素材もPoint PUサフィアーノレザーを使用しているので、 汚れた時にはさっとヒト拭きでメンテナンス完了。 内側は柔らかなスウェード調の生地を使用し 大切なでデバイスを優しく守ります。</li>
