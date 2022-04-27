@@ -6,11 +6,6 @@ import Layout from '../../components/layout'
 import { Link as Scroll } from 'react-scroll';
 
 export default function design_system({ medias }) {
-  const youtubePosts = medias.filter((media) => (
-    media.medianame[0] == 'youtube'
-  ))
-  //youtubeの投稿は、4つとりだす。
-  const visibleYoutubePosts = youtubePosts.slice(0, 4)
 
   return (
     <div>
@@ -390,18 +385,4 @@ export default function design_system({ medias }) {
       </footer>
     </div>
   )
-}
-
-export const getStaticProps = async () => {
-  const key = {
-    headers: { 'X-API-KEY': process.env.API_KEY },
-  };
-  const data = await fetch('https://falconer.microcms.io/api/v1/media', key)
-    .then(res => res.json())
-    .catch(() => null);
-  return {
-    props: {
-      medias: data.contents
-    },
-  };
 }
