@@ -26,6 +26,7 @@ export default function MEDIACONTACT() {
   const handleSubmit = e => {
     e.preventDefault();
 
+    {/* 
     const data = {
       company: company,
       homepage: homepage,
@@ -37,6 +38,22 @@ export default function MEDIACONTACT() {
       contactBy: contactBy,
       lot_count: lot_count,
       lot_color: lot_color,
+      category: category,
+      body: body
+    };
+  */}
+    
+    const data = {
+      company: company,
+      homepage: homepage,
+      name1: name1,
+      name2: name2,
+      email: email,
+      phoneNumber: phoneNumber,
+      role: role,
+      contactBy: contactBy,
+      lotcount: lot_count,
+      lotcolor: lot_color,
       category: category,
       body: body
     };
@@ -54,7 +71,7 @@ export default function MEDIACONTACT() {
         router.push("/contact_success");
       })
       .catch(err => {
-        console.log(err);
+        console.log(data);
       });
   };
 
