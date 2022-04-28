@@ -41,7 +41,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/mission.jpg" />
                     <img src="/images/company/mission_sp.jpg" />
                   </picture>
-                  <span class="text-white absolute right-2 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm ">ミッション</span>
+                  <span class="text-white absolute right-1 bottom-2 text-xss lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm ">ミッション</span>
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
@@ -50,7 +50,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
                     <img src="/images/company/ceo_sp.jpg" />
                   </picture>
-                  <span class="text-white absolute right-2 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">代表紹介</span>
+                  <span class="text-white absolute right-1 bottom-2 text-xss lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">代表紹介</span>
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
@@ -59,7 +59,7 @@ export default function Company({ medias }) {
                     <source media="(min-width: 960px)" srcSet="/images/company/strength.jpg" />
                     <img src="/images/company/strength_sp.jpg" />
                   </picture>
-                  <span class="text-white absolute right-1 bottom-2 text-xs lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">弊社の強み</span>
+                  <span class="text-white absolute right-1 bottom-2 text-xss lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">弊社の強み</span>
                 </a></Link>
               </div>
             </div>

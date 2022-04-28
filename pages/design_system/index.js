@@ -15,6 +15,7 @@ export default function design_system({ medias }) {
         <ul class="w-full pl-1 lg:pl-10 mt-10">
           <li><a class="flex flex-row"><span class="w-4/6">商品ページ</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7"><span class="w-4/6">ロゴ・素材</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
+          <li><a class="flex flex-row mt-7" href="/design_system/lpspec"><span class="w-4/6">ブランドVI</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
         </ul>
       </aside>
       {/* 本文 */}

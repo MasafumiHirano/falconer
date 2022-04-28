@@ -27,18 +27,21 @@ export default function Message() {
               {/*intro*/}
               <section class="w-300 lg:w-49% mx-auto">
                 <div class="py-20 border-t border-b border-gray-700">
-                  <img src="/images/company/intro.jpg" class="block mx-auto" />
+                  <div class="relative w-300 px-5">
+                    <img src="/images/company/black_band.png" class="block w-full" />
+                    <div class="text-white absolute flex items-center justify-center m-auto top-0 right-0 bottom-0 left-0"><span>はじめに</span></div>
+                  </div>
                   <p class="w-full lg:w-600 px-6 text-justify mt-12 mx-auto text-base_s lg:text-base_s font-light">毎月仕事で様々な国を訪れて解った事があります。日本人の多くはとにかく顔が暗いのです。日本の長い歴史を振り返ってもどれほどの期間が天下太平だったのでしょう。衣食住・衛生・治安的に安定した生活がほとんどの人に与えられてる今なぜこんなにも日本人の心や顔は暗いのでしょうか。<br /><br />
                     現代の日本社会は物質的に豊かな時代になったと言えるでしょう。しかしその一方で、情報や生き方が多様・複雑化する中で何を信念に生きていくかが分からなくなっているのではないでしょうか。<br /><br />
                     望まぬ戦争に巻き込まれた多くの人の血の上に今の平和な日本や世界各国が築かれ、そしてまだ世界では生命の担保さえ出来ない国がたくさんあります。その中で私たちがこうして平和に暮らせるのは、平和で美しい世界、そして日本を作るために生きてきた多くの偉大な先人達のおかげです。<br /><br />
                     このような人達が毎日暗い顔をして生きていたり、我先に利益や自分個人の安定や安全に執着して生きている多くの日本人を見たら、どの様な気持ちでしょうか？私たちはその様な時代を生き抜いた先人達を尊び、感謝をして、後世の人たちが綺麗な地球で平和に暮らしていくために、毎日天命を尽くすしかないのではないでしょうか。</p>
                 </div>
               </section>
-              <div class="lg:w-1280 mx-auto">
+              <div class="w-10/12 lg:w-1280 mx-auto">
                 {/*Message1*/}
                 <section class="flex flex-wrap justify-center lg:justify-start md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-thin md:text-4xl message_title">Message.1</h2>
+                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-bold md:text-4xl message_title">Message.1</h2>
                   {/*テキスト*/}
                   <div class="w-full lg:w-8/12">
                     {/*サブタイトル*/}
@@ -59,7 +62,7 @@ export default function Message() {
                 {/*Message2*/}
                 <section class="flex flex-wrap justify-center lg:justify-end md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-thin md:text-4xl message_title lg:order-2">Message.2</h2>
+                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-bold md:text-4xl message_title lg:order-2">Message.2</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12 lg:order-1">
                     {/*経歴*/}
@@ -79,7 +82,7 @@ export default function Message() {
                 {/*Message3*/}
                 <section class="flex flex-wrap justify-center lg:justify-start md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-thin md:text-4xl message_title">Message.3</h2>
+                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-bold md:text-4xl message_title">Message.3</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12">
                     {/*経歴*/}
@@ -101,13 +104,13 @@ export default function Message() {
                 {/*Message4*/}
                 <section class="flex flex-wrap justify-center lg:justify-end md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-thin md:text-4xl message_title lg:order-2">Message.4</h2>
+                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-bold md:text-4xl message_title lg:order-2">Message.4</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12 lg:mr-5 lg:order-1">
                     {/*経歴*/}
                     <div class="pb-3 md:pb-4">
                       <div class="flex justify-center lg:justify-start flex-wrap">
-                        <h3 class="NotoSans font-medium mt-10 md:mt-0 md:pt-1 text-comGOLD text-base lg:text-4xl md:leading-10">道心の中に衣食あり、<span class="block md:inline-block">衣食の中に道心なし</span></h3>
+                        <h3 class="NotoSans font-medium mt-10 md:mt-0 md:pt-1 text-comGOLD text-base lg:text-4xl md:leading-10">道心の中に衣食あり、衣食の中に道心なし</h3>
                       </div>
                     </div>
                     {/*本文*/}

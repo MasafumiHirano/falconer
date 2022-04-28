@@ -41,7 +41,7 @@ export default function AboutCeo() {
                   {/*本文*/}
                   <div class="mt-4 lg:mt-1 text-justify NotoSans text-base leading-6 md:leading-9">
                     愛知高校・名古屋学院大学英米科卒業、1987年11月27日生まれ（AB型）<br />
-                    肌育生活（現株式会社エスペランサ）（基礎化粧品の企画製造販売）を立ち上げる傍ら<br />
+                    肌育生活（現株式会社エスペランサ）（基礎化粧品の企画製造販売）を立ち上げる傍ら<br class="hidden lg:block"/>
                     株式会社ホワイトハウス（輸入車ディーラー）・株式会社ボルテックス（不動産）<br />
                     KDDI株式会社で営業職を経験し、株式会社ファルコナーを創業。<br />
                     KDDI株式会社では入社直後から月販8台の拠点を月販平均400台の販売拠点にし、<br />

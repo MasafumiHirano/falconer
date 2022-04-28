@@ -10,6 +10,7 @@ export default function lpspec() {
         <ul class="w-full pl-1 lg:pl-10 mt-10">
           <li><a class="flex flex-row"><span class="w-4/6">商品ページ</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7"><span class="w-4/6">ロゴ・素材</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
+          <li><a class="flex flex-row mt-7" href="/design_system/lpspec"><span class="w-4/6">ブランドVI</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
         </ul>
       </aside>
       {/* 本文 */}
@@ -80,8 +81,9 @@ export default function lpspec() {
               その他、内包するコンテンツや表示内容により、サブカラー、アクセントカラーを各々選定して使用。トーンに関して、後述を参照。
             </p>
             <div class="mt-16 flex justify-center">
-              <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-arl_grey text-arl_brown" href="https://drive.google.com/file/d/1HmFP-tU9fYQR0edjuvHQO8X2Hds0vJDx/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon2.png" /><span class="NotoSans font-bold text-xl text-left">PSDカラースウォッチ<br />ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon2.png" /></span></a>
+              <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-arl_grey text-arl_brown" href="https://drive.google.com/file/d/1MkXDo5dkibICdqrowpZIP5F_RJzukqWA/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon2.png" /><span class="NotoSans font-bold text-xl text-left">PSDカラースウォッチ<br />ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon2.png" /></span></a>
             </div>
+            <p class="text-center font-sm">※Googleドライブからのダウンロードになります</p>
           </div>
         </section>
         <section class="mt-80">
@@ -104,8 +106,7 @@ export default function lpspec() {
             文章はフォントウェイト軽めのシンプルなゴシック体、見出しは個性フォントの使用も可。
           </p>
           <h3 class="NotoSans font-bold text-xl mt-32 max-w-850 mx-auto">説明や長尺の文章など、「読ませる」部分に使用。</h3>
-          <div class="mt-20 w-768 mx-auto">
-            <h4>説明や長尺の文章など、「読ませる」部分に使用。</h4>
+          <div class="mt-2 w-768 mx-auto">
             <div class="flex justify-between">
               <p class="NotoSans font-medium text-4.5xl">Noto Sans JP</p>
               <p class="NotoSans text-xl pt-4">Noto Sans JP - 日本語・現行使用 / 各ウェイト</p>
@@ -118,20 +119,51 @@ export default function lpspec() {
             </div>
             <div class="mt-14 w-450 mx-auto">
               <div class="flex justify-between">
-                <p class="text-4xl w-36 text-right">見出し１</p>
+                <p class="text-4xl w-40 text-right">見出し１</p>
                 <p class="flex items-center">フォントサイズ : 30px~40px</p>
               </div>
               <div class="flex justify-between mt-8">
-                <p class="text-3xl w-36 text-right">見出し２</p>
+                <p class="text-3xl w-40 text-right">見出し２</p>
                 <p class="flex items-center">フォントサイズ : 20px~30px</p>
               </div>
               <div class="flex justify-between mt-8">
-                <p class="text-2xl w-36 text-right">見出し３</p>
+                <p class="text-2xl w-40 text-right">見出し３</p>
                 <p class="flex items-center">フォントサイズ : 15px~20px</p>
               </div>
               <div class="flex justify-between mt-8">
-                <p class="text-xl w-36 text-right">通常分</p>
+                <p class="text-xl w-40 text-right">通常分</p>
                 <p class="flex items-center">フォントサイズ : 10px~20px</p>
+              </div>
+            </div>
+          </div>
+          <h3 class="NotoSans font-bold text-xl mt-52 max-w-850 mx-auto">見出しや、値段など、英数部分でアクセントとして使用。</h3>
+          <div class="mt-2 w-768 mx-auto">
+            <div class="flex justify-between">
+              <p class="Jost font-medium text-4.5xl">Jost*</p>
+              <p class="NotoSans text-xl pt-4">Jost - 英数・現行使用 / 各ウェイト</p>
+            </div>
+            <div class="flex justify-end">
+              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-arl_grey text-arl_brown" href="https://fonts.google.com/specimen/Jost" target="_blank">
+                <span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span>
+                <span><img class="h-5 mr-8" src="/images/design/dl_icon2.png" /></span>
+              </a>
+            </div>
+            <div class="mt-14 w-450 mx-auto Jost">
+              <div class="flex justify-between">
+                <p class="text-4xl w-40 text-right">Heading1</p>
+                <p class="flex items-center">Font size : 30px~40px</p>
+              </div>
+              <div class="flex justify-between mt-8">
+                <p class="text-3xl w-40 text-right">Heading2</p>
+                <p class="flex items-center">Font size : 20px~30px</p>
+              </div>
+              <div class="flex justify-between mt-8">
+                <p class="text-2xl w-40 text-right">Heading3</p>
+                <p class="flex items-center">Font size : 15px~20px</p>
+              </div>
+              <div class="flex justify-between mt-8">
+                <p class="text-xl w-40 text-right">Paragraph</p>
+                <p class="flex items-center">Font size : 10px~20px</p>
               </div>
             </div>
           </div>
