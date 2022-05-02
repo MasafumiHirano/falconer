@@ -27,7 +27,7 @@ export default function Message() {
               {/*intro*/}
               <section class="w-300 lg:w-49% mx-auto">
                 <div class="py-20 border-t border-b border-gray-700">
-                  <div class="relative w-300 px-5">
+                  <div class="relative w-300 px-5 mx-auto">
                     <img src="/images/company/black_band.png" class="block w-full" />
                     <div class="text-white absolute flex items-center justify-center m-auto top-0 right-0 bottom-0 left-0"><span>はじめに</span></div>
                   </div>
@@ -41,7 +41,7 @@ export default function Message() {
                 {/*Message1*/}
                 <section class="flex flex-wrap justify-center lg:justify-start md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-bold md:text-4xl message_title">Message.1</h2>
+                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-medium md:text-4xl message_title">Message.1</h2>
                   {/*テキスト*/}
                   <div class="w-full lg:w-8/12">
                     {/*サブタイトル*/}
@@ -62,7 +62,7 @@ export default function Message() {
                 {/*Message2*/}
                 <section class="flex flex-wrap justify-center lg:justify-end md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-bold md:text-4xl message_title lg:order-2">Message.2</h2>
+                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-medium md:text-4xl message_title lg:order-2">Message.2</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12 lg:order-1">
                     {/*経歴*/}
@@ -82,7 +82,7 @@ export default function Message() {
                 {/*Message3*/}
                 <section class="flex flex-wrap justify-center lg:justify-start md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-bold md:text-4xl message_title">Message.3</h2>
+                  <h2 class="NotoSans lg:mr-14 flex justify-center items-center text-base font-medium md:text-4xl message_title">Message.3</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12">
                     {/*経歴*/}
@@ -104,7 +104,7 @@ export default function Message() {
                 {/*Message4*/}
                 <section class="flex flex-wrap justify-center lg:justify-end md:flex-nowrap mt-11 md:mt-28">
                   {/*タイトルブロック*/}
-                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-bold md:text-4xl message_title lg:order-2">Message.4</h2>
+                  <h2 class="NotoSans lg:ml-14 flex justify-center items-center text-base font-medium md:text-4xl message_title lg:order-2">Message.4</h2>
                   {/*テキスト*/}
                   <div class="w-full md:w-8/12 lg:mr-5 lg:order-1">
                     {/*経歴*/}

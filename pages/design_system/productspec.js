@@ -2,67 +2,33 @@
 import Layout from '../../components/layout'
 import LeftMenu  from '../../components/design_leftmenu'
 
-export default function lpspec() {
+export default function productspec() {
   return (
     <div>
-      <LeftMenu />
+      {/* サイドメニュー */}
+      <LeftMenu/>
       {/* 本文 */}
       <main class="NotoSans pl-36 lg:pl-60 ">
         <section>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-20 mb-14">LP仕様</h2>
+          <h2 class="text-center NotoSans font-bold text-3xl mt-20 mb-14">All Right Leather 店舗 VI</h2>
           <div class="w-500 mx-auto flex justify-center">
-            <div class="flex items-end"><img src="/images/design/rakuten_l.png" /></div>
+            <div class="flex items-end"><img src="/images/design/allrightleather_logo.png" /></div>
           </div>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-36">セールLP</h2>
+          <h2 class="text-center NotoSans font-bold text-3xl mt-36">コンセプト</h2>
           <div class="mt-16 max-w-1000 w-10/12 mx-auto px-6">
             <p class="mt-3 text-xl font-normal max-w-1050">
-              楽天での各々月でのイベントの際に公開するセールを特集したLP。目的としてはスーパーセール、マラソンなどの楽天イベントでお買い物モードになっているお客様をLPへ誘導し、お得な情報をわかりやすく表示・まとめることにより障害なく購入へ案内する旨にある。<br /><br />
-              ポイントは大規模に営業をかけないこと。「売るLP」ではなく、「買わない理由がないLP」と言ったイメージ。<br />
-              イベント中はお客様が比較的「買うつもり」であり、「ポジティブな状態」であるのでこちらがポジティブな営業をかけて買う気にさせる必要がない。それよりもいかにネガティブな要素を排除して「ポジティブな状態のまま購入までいけるか」を重視する。<br /><br />
-              ここで言うネガティブな要素とは主に複雑で分かりづらいこと。情報を過多に入れ込みすぎ、見づらく、欲しい情報を探さないと見つけられないなど。値段で勝負するセール中は、(特に新規客は)当店でなくても安い条件の店はいくらでもあるので分かりづらい場所で買い物を続ける意味は多くない。<br /><br />
-              よって、<span class=" text-red-700">シンプルに、見やすく、必要な情報を必要なだけ、必要な場所に入れ込む。</span><br />
-              そんなイメージで制作する。
+              レザーを中心に、ナイロンやファブリックを使用した、高品質のファッションアイテムを適正価格で販売。マーケットからその時のトレンドをいち早く吸い上げ、ブラッシュアップ・洗練させたアイテムを発信。
             </p>
           </div>
-          <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-36">
-            <p class="w-64 text-xl">レスポンシブ<br />スマートフォン / 375×667<br />PC / 1920×1080</p>
-          </div>
+          <h2 class="text-center NotoSans font-bold text-3xl mt-36">テーマ<br />「わかりやすさ」「安っぽさの排除」=「洗練」</h2>
           <div class="mt-16 max-w-1000 w-10/12 mx-auto px-6">
             <p class="mt-3 text-xl font-normal max-w-1050">
-              トーンマナーはその時のテーマで自由に設定する。ただし基本として、商品ページと同じカラートーンでの構築を推奨。
+              商品の訴求をシンプルに見せる。ショップの箱は落ち着いたトーンで統一し、商品の画像などで色彩をみせる。
             </p>
-            <h3 class="mt-5 text-xl text-center font-bold max-w-1050">商品ページカラートーンへのリンクURL。</h3>
-            <p class="mt-32 text-xl font-normal max-w-1050">
-            また、他店舗との差別化としてアニメーションや動き、動作エフェクトなどを加えてページをリッチに仕上げる。店舗コンセプトとして「安っぽさの排除」を念頭に入れる。
+            <p class="mt-3 text-xl font-normal max-w-650 mx-auto">
+              ・ベースとしてリッチなページを目指すというよりも粗を極限まで落とすことで洗練さを表現する(ベーシックなデザイン要素を心がける / 高画質な写真を使う / 整頓するetc.,)<br />
+              ・情報の整理 / 文言の簡略・短小化 / カラーの統一etc.,でわかりやすく
             </p>
-            <h3 class="mt-5 text-xl text-center font-bold max-w-1050">ページ内エフェクトのサンプル(ページ内リンク)</h3>
-          </div>
-          <div class="mt-40"><img src="/images/design/effect_sample.png" class="block mx-auto" /></div>
-          <div class="mt-24 max-w-1520 px-20 w-10/12 mx-auto">
-            <dl class="flex justify-around flex-row">
-              <dt class="w-1/6 font-bold">PocketPengulns</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.pocketpenguins.com/">https://www.pocketpenguins.com/</a></dd>
-              <dt class="w-1/6 font-bold">yogibo</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://yogibo.jp/">https://yogibo.jp/</a></dd>
-            </dl>
-            <dl class="flex justify-around flex-row mt-11">
-              <dt class="w-1/6 font-bold">タマチャンショップ</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/kyunan/">https://www.rakuten.ne.jp/gold/kyunan/</a></dd>
-              <dt class="w-1/6 font-bold">soulberry</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://item.rakuten.co.jp/soulberry/c/0000000175/">https://item.rakuten.co.jp/soulberry/c/0000000175/</a></dd>
-            </dl>
-            <dl class="flex justify-around flex-row mt-11">
-              <dt class="w-1/6 font-bold">神戸レタス</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/mobacaba/">https://www.rakuten.ne.jp/gold/mobacaba/</a></dd>
-              <dt class="w-1/6 font-bold">STYLE on BAG</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/style-on-bag/">https://www.rakuten.ne.jp/gold/style-on-bag/</a></dd>
-            </dl>
-            <dl class="flex justify-around flex-row mt-11">
-              <dt class="w-1/6 font-bold">The Garden</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/thegarden/">https://www.rakuten.ne.jp/gold/thegarden/</a></dd>
-              <dt class="w-1/6 font-bold">MODERN DECO</dt>
-              <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/dondon/">https://www.rakuten.ne.jp/gold/dondon/</a></dd>
-            </dl>
           </div>
         </section>
         <section>
