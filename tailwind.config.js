@@ -120,6 +120,7 @@ module.exports = {
         'media_black': '#060000',
         'radio_black': '#5D5D5D',
         'p_yellow': '#ffff00',
+        'oemGray': '#E6E6E6',
       },
       minWidth: {
         '200': '200px',
@@ -128,6 +129,7 @@ module.exports = {
       },
       maxWidth: {
         '1520': '1520px',
+        '1280': '1280px',
         '1050': '1050px',
         '850': '850px',
         '650': '650px',        

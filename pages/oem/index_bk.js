@@ -42,7 +42,7 @@ export default function MEDIACONTACT() {
       body: body
     };
   */}
-
+    
     const data = {
       company: company,
       homepage: homepage,
@@ -87,53 +87,48 @@ export default function MEDIACONTACT() {
         <meta property="og:image" content="https://www.falconer.co.jp/images/oem/thumbnail_oem.jpg" />
       </Head>
       <main class="NotoSans">
-        <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
-          <p class="font-bold lg:font-normal text-lg lg:text-6xl pt-8 lg:pt-24 text-center">創業たったの5年で300万個、合計20億円</p>
-          <h1 class="font-bold leading-snug lg:leading-relaxed text-center"><span class="block lg:inline-block">売れる</span>モノづくりを<br />提供します</h1>
-          <p class="text-xs lg:text-3xl text-black text-center">大手輸入車メーカー、大手携帯キャリア、プロ野球球団、<br />
-            大手ペットショップ、芸能人プロデュースブランドなど実績多数<br />
-            ※2022年4月までの実績</p>
-          <div class="text-center absolute bottom-20 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs md:text-2xl bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div></div>
-          <p class="text-center absolute bottom-12 md:bottom-24 w-full text-falNAVY text-base font-medium lg:font-bold md:text-25px text-shadow-md">革製品のOEM/ODMならお任せください。</p>
-          <img src="/images/oem/arrow_down.png" class="absolute right-3 lg:right-5 bottom-12 lg:bottom-28 w-8 lg:w-14" />
-        </div>
-        <div class="text-falNAVY text-center mt-8 lg:mt-24 text-2xl md:text-6xl">
-          <h2 class="font-bold lg:font-medium">他社OEMで不満、<br class="md:hidden block" />お悩みはありませんか？</h2>
-        </div>
-        <div class="follow_button ml-auto z-50">
-          <a href="#contactform">
+        <div class="">
+          <a href="#contactform" class="fixed blcok bottom-1 md:bottom-4 md:right-1 right-4 z-50">
             <picture>
               <source media="(max-width: 760px)" srcSet="/images/oem/contact_follow_sp.png" />
-              <img src="/images/oem/contact_follow.png" class="w-full" />
+              <img src="/images/oem/contact_follow.png" class="md:w-10/12"/>
             </picture>
           </a>
         </div>
-        <div class="mt-8 px-4 text-0.65rem md:text-xl text-center">
-          <ul class="text-falNAVY flex flex-wrap justify-between w-full lg:px-10 max-w-1280 mx-auto">
-            <li class="flex w-full md:w-1/2"><div class="w-24 lg:w-200"><img src="/images/oem/problem1.png" class="w-full md:block md:mx-auto" /></div><p class="flex items-center text-left pl-8 text-lg lg:text-3xl">想定より到着原価が高く<br />売れず売れ残った</p></li>
-            <li class="flex w-full md:w-1/2 mt-7 lg:mt-0"><div class="w-24 lg:w-200"><img src="/images/oem/problem2.png" class="w-full md:block md:mx-auto" /></div><p class="flex items-center text-left pl-8 text-lg lg:text-3xl">納期が遅く時間が掛かり<br />利益になるまでが長い</p></li>
-            <li class="flex w-full md:w-1/2 mt-7 lg:mt-24"><div class="w-24 lg:w-200"><img src="/images/oem/problem3.png" class="w-full md:block md:mx-auto" /></div><p class="flex items-center text-left pl-8 text-lg lg:text-3xl">低コストで商品を作ると<br />品質がとても低くなる</p></li>
-            <li class="flex w-full md:w-1/2 mt-7 lg:mt-24"><div class="w-24 lg:w-200"><img src="/images/oem/problem4.png" class="w-full md:block md:mx-auto" /></div><p class="flex items-center text-left pl-8 text-lg lg:text-3xl">思わない不備が出てきて<br />対応に手を焼いてしまう</p></li>
+        <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
+          <div class="text-center absolute bottom-20 md:bottom-40 w-full"><div class="w-72 md:w-580 mt-8 mx-auto"><a class="block py-4 md:py-6 w-full text-xs md:text-2xl bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div></div>
+          <p class="text-center absolute bottom-12 md:bottom-24 w-full text-falNAVY text-base md:text-25px text-shadow-md">革製品のOEM/ODMならお任せください。</p>
+        </div>
+        <div class="bg-falNAVY text-white text-center py-7 text-2xl md:text-6xl">
+          <h2 class="YuMincho font-medium">他社OEMで不満、<br class="md:hidden block" />お悩みはありませんか？</h2>
+        </div>
+        <div class="mt-9 md:mt-28 px-4 text-0.65rem md:text-xl text-center">
+          <ul class="text-falNAVY flex flex-wrap justify-between w-72 md:w-9/12 mx-auto">
+            <li class="flex flex-col w-32 md:w-1/4"><div><img src="/images/oem/problem1.png" class="md:block md:mx-auto" /></div><p class="mt-4">想定より到着原価が高く<br />売れず売れ残った</p></li>
+            <li class="flex flex-col w-32 md:w-1/4"><div><img src="/images/oem/problem2.png" class="md:block md:mx-auto" /></div><p class="mt-4">納期が遅く時間が掛かり<br />お金になるまでが長い</p></li>
+            <li class="flex flex-col w-32 md:w-1/4 mt-12 md:mt-0"><div><img src="/images/oem/problem3.png" class="md:block md:mx-auto" /></div><p class="mt-4">低コストで商品を作ると<br />クオリティが低い</p></li>
+            <li class="flex flex-col w-32 md:w-1/4 mt-12 md:mt-0"><div><img src="/images/oem/problem4.png" class="md:block md:mx-auto" /></div><p class="mt-4">思わぬ不備が出てきて<br />対応に手を焼く</p></li>
           </ul>
         </div>
-        <div class="text-falNAVY bg-oemGray mt-9 pb-9 md:mt-20 text-center font-bold">
-          <h2 class="text-2xl lg:text-5xl font-bold py-4 lg:py-16">そのお悩み解決できます！</h2>
-          <div class="lg:flex lg:justify-between w-11/12 max-w-1280 mx-auto">
-            <img src="/images/oem/miniwallet.png" class="" />
-            <img src="/images/oem/longwallet.png" class="mt-4 lg:mt-0" />
-          </div>
-          <p class="text-xl md:text-4xl w-full text-center mx-auto mt-4 lg:mt-12">成功し続ける当社が<br class="block md:hidden" />5年間で20億円を売るノウハウ</p>
-          <p class="text-4xl md:text-6xl w-full text-center mx-auto mt-2 md:mt-8 md:mb-8"><span class="text-red-500">売れる</span>モノづくりを<br class="lg:hidden" />提供します。</p>
+        <div class="mt-8 md:mt-32">
+          <picture class="flex justify-center">
+            <source media="(max-width: 760px)" srcSet="/images/oem/line_sp.png" />
+            <img src="/images/oem/line.png" />
+          </picture>
         </div>
-        <div class="z-0">
+        <div class="text-falNAVY mt-9 md:mt-20 text-center bg_oemgrey YuMincho font-bold">
+          <p class="text-xl md:text-4xl w-52 md:w-full text-center mx-auto">成功し続けてきた<br class="block md:hidden" />ノウハウを知る当社が</p>
+          <p class="text-3xl md:text-6xl w-64 md:w-full text-center mx-auto mt-2 md:mt-8 md:mb-8"><span class="text-red-500">売れる</span>モノづくりを提供します。</p>
+        </div>
+        <div class="bg_oemnavy z-0">
           <div>
-            <h2 class="text-center text-falNAVY text-2xl md:text-3xl mt-28 lg:mt-48 font-bold">弊社の強み</h2>
+            <h2 class="text-center text-falNAVY text-2xl md:text-3xl YuMincho font-bold">弊社の強み</h2>
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
-          <div class="mt-12 lg:pb-72">
+          <div class="mt-12">
             <ul class="md:flex md:flex-row justify-center md:w-10/12 mx-auto">
-              <li class="relative md:1/3 lg:mr-4">
-                <div class="bg-black"><img src="/images/oem/strong1.png" class="opacity-80" /></div>
+              <li class="relative md:1/3">
+                <div class="bg-black"><img src="/images/oem/strong1.png" class="opacity-80"/></div>
                 <div class="absolute top-16 md:top-20 w-full text-white font-normal md:font-light">
                   <h3 class="text-center text-2xl">売れる商品企画</h3>
                   <p class="text-ms md:text-lg mt-14 md:mt-16 w-300 md:w-9/12 text-justify mx-auto">単なる商品製作ではなく、自社開発の独自の市場調査ツールを駆使することで、時代背景に即した企画や競合他社との差別化をする提案を行います。</p>
@@ -146,7 +141,7 @@ export default function MEDIACONTACT() {
                   <p class="text-ms md:text-lg mt-14 md:mt-16 w-300 md:w-9/12 text-justify mx-auto">自社工場の徹底した品質管理だけでなく、現地の職人との信頼関係を大切にしてきました。裁縫、折り、塗り等の専門技術に加え、細部を妥協しない「モノづくり」を心がけ高品質の製品を提供します。</p>
                 </div>
               </li>
-              <li class="relative md:1/3 lg:ml-4">
+              <li class="relative md:1/3">
                 <div class="bg-black"><img src="/images/oem/strong3.png" class="opacity-80" /></div>
                 <div class="absolute top-16 md:top-20 w-full text-white font-normal md:font-light">
                   <h3 class="text-center text-2xl">中間コストの徹底排除</h3>
@@ -155,121 +150,85 @@ export default function MEDIACONTACT() {
               </li>
             </ul>
           </div>
-          <div class="pt-24 bg-oemGray">
-            <h2 class="text-center text-falNAVY text-2xl md:text-3xl font-bold">他社との違い</h2>
+          <div>
+            <h2 class="text-center text-falNAVY text-2xl md:text-3xl mt-12 md:mt-52 YuMincho font-bold">他社との違い</h2>
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
-          <div class="pt-9 bg-oemGray">
+          <div class="mt-9">
             <p class="text-base text-falNAVY w-72 md:w-full text-justify md:text-center mx-auto">通常、革製品を製造委託先を探す場合、安価な海外の量産工場か、<br class="hidden md:block" />高価な国内製造工場の二択になりますが、どちらも様々な問題にぶつかります。</p>
           </div>
-          <div class="md:pt-14 pb-16 lg:pb-28 bg-oemGray">
-            <div class="mx-auto max-w-1280 flex flex-col md:flex-row md:mx-auto ">
-              <div class="md:w-1/2 mt-7">
-                <div class="w-9/12 md:11/12 md:w-full mx-auto"><img src="/images/oem/japan.png" class="block mx-auto" /></div>
-                <div class="text-falNAVY mt-6 md:mt-12 max-w-xl mx-auto">
-                  <h3 class="pl-12 md:pl-28 text-2xl py-2">国内メリット</h3>
-                  <picture class="">
-                    <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
-                    <img src="/images/oem/hr.png" />
-                  </picture>
-                  <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
-                    <li>・海外より信用できる</li>
-                    <li>・コミュニケーションがスムーズ</li>
-                    <li>・打ち合わせや立ち合いなどの管理が容易</li>
-                    <li>・安定した生産性と品質</li>
-                    <li>・納期が早く、送料が安い</li>
-                  </ul>
-                  <h3 class="pl-12 md:pl-28 text-2xl py-2 mt-7 md:mt-14">国内デメリット</h3>
-                  <picture class="">
-                    <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
-                    <img src="/images/oem/hr.png" />
-                  </picture>
-                  <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
-                    <li>・値段が高いので数が売れない</li>
-                    <li>・素材の選択肢が狭い</li>
-                    <li>・他社との差別化が図れない</li>
-                    <li>・セールがしにくい</li>
-                  </ul>
-                </div>
+          <div class="flex flex-col md:flex-row md:w-11/12 md:mx-auto md:mt-14">
+            <div class="md:w-1/2 mt-7">
+              <div class="w-9/12 md:11/12 md:w-full mx-auto"><img src="/images/oem/japan.png" class="block mx-auto" /></div>
+              <div class="text-falNAVY mt-6 md:mt-12 max-w-xl mx-auto">
+                <h3 class="pl-12 md:pl-28 text-2xl py-2">国内メリット</h3>
+                <picture class="">
+                  <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
+                  <img src="/images/oem/hr.png" />
+                </picture>
+                <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
+                  <li>・海外より信用できる</li>
+                  <li>・コミュニケーションがスムーズ</li>
+                  <li>・打ち合わせや立ち合いなどの管理が容易</li>
+                  <li>・安定した生産性と品質</li>
+                  <li>・納期が早く、送料が安い</li>
+                </ul>
+                <h3 class="pl-12 md:pl-28 text-2xl py-2 mt-7 md:mt-14">国内デメリット</h3>
+                <picture class="">
+                  <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
+                  <img src="/images/oem/hr.png" />
+                </picture>
+                <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
+                  <li>・値段が高いので数が売れない</li>
+                  <li>・素材の選択肢が狭い</li>
+                  <li>・他社との差別化が図れない</li>
+                  <li>・セールがしにくい</li>
+                </ul>
               </div>
-              <div class="md:w-1/2 mt-12 md:mt-7 bg-oemGray">
-                <div class="w-9/12 md:11/12 md:w-full mx-auto"><img src="/images/oem/world.png" class="block mx-auto" /></div>
-                <div class="text-falNAVY mt-6 md:mt-12 max-w-xl mx-auto">
-                  <h3 class="pl-12 md:pl-28 text-2xl py-2">海外メリット</h3>
-                  <picture class="">
-                    <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
-                    <img src="/images/oem/hr.png" />
-                  </picture>
-                  <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
-                    <li>・人件費等の製造コストが安くあがる</li>
-                    <li>・人手が多いため、量産体制が取りやすい</li>
-                    <li>・手間のかかる製品を任せられ時間が増える</li>
-                  </ul>
-                  <h3 class="pl-12 md:pl-28 text-2xl py-2 mt-7 md:mt-28">海外デメリット</h3>
-                  <picture class="">
-                    <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
-                    <img src="/images/oem/hr.png" />
-                  </picture>
-                  <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
-                    <li>・レスポンスが遅い、納期が遅れる</li>
-                    <li>・国内担当者もコントロールできていない</li>
-                    <li>・他社と仕入れが被る</li>
-                    <li>・クオリティが低い</li>
-                    <li>・素材は選べず、嘘の材質で納品される</li>
-                    <li>・ブローカーに中抜きされる</li>
-                    <li>・ライバルに情報を漏らされる</li>
-                  </ul>
-                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-7">
+              <div class="w-9/12 md:11/12 md:w-full mx-auto"><img src="/images/oem/world.png" class="block mx-auto" /></div>
+              <div class="text-falNAVY mt-6 md:mt-12 max-w-xl mx-auto">
+                <h3 class="pl-12 md:pl-28 text-2xl py-2">海外メリット</h3>
+                <picture class="">
+                  <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
+                  <img src="/images/oem/hr.png" />
+                </picture>
+                <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
+                  <li>・人件費等の製造コストが安くあがる</li>
+                  <li>・人手が多いため、量産体制が取りやすい</li>
+                  <li>・手間のかかる製品を任せられ時間が増える</li>
+                </ul>
+                <h3 class="pl-12 md:pl-28 text-2xl py-2 mt-7 md:mt-28">海外デメリット</h3>
+                <picture class="">
+                  <source media="(max-width: 760px)" srcSet="/images/oem/hr_sp.png" />
+                  <img src="/images/oem/hr.png" />
+                </picture>
+                <ul class="pl-10 md:pl-28 -mt-2 md:-mt-20 text-base md:leading-6">
+                  <li>・レスポンスが遅い、納期が遅れる</li>
+                  <li>・国内担当者もコントロールできていない</li>
+                  <li>・他社と仕入れが被る</li>
+                  <li>・クオリティが低い</li>
+                  <li>・素材は選べず、嘘の材質で納品される</li>
+                  <li>・ブローカーに中抜きされる</li>
+                  <li>・ライバルに情報を漏らされる</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="z-20">
-          <div class="px-2 pt-4 py-8 md:py-4 bg-falNAVY text-white">
-            <div class="text-2xl md:text-6xl text-center mt-4 px-6 md:px-0 py-4 md:py-10 leading-8 md:leading-loose md:w-4/5 mx-auto font-bold">一般企業と当社の違いは<br />納品までの<span class="text-p_yellow">圧倒的なスピード<br />コスト×品質</span>の<span class="text-p_yellow">コントロール</span>
-            </div>
-          </div>
-        </div>
-        <div class="bg-oemGray text-falNAVY pt-14 pb-14 lg:pt-48 lg:pb-48">
-          <div>
-            <h3 class="font-bold text-2xl lg:text-5xl text-center">＜　一般企業の場合　＞</h3>
-            <img src="/images/oem/oem01.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
-            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 lg:px-16 mx-auto text-base font-bold lg:text-5xl text-center">発注から9人以上の伝言ゲームを経て納品されるため時間が掛かり、人的ミスも多発し低品質の原因に。<br class="hidden lg:block"/>また中間業者の関与により高コストになりがちです。</p>
-          </div>
-          <div class="mt-16 lg:mt-48">
-            <h3 class="font-bold text-2xl lg:text-5xl text-center">＜　当社の場合　＞</h3>
-            <img src="/images/oem/oem02.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
-            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 mx-auto text-base font-bold lg:text-5xl text-center">FALCONERはすべて「直取引」の自社一貫製造。<br />中間業者の関与が全くないので、発注から納品まで早く<br />製造コストを抑えながら、高品質に。</p>
-          </div>
-          <p class="font-bold mt-12 lg:mt-24 text-2xl lg:text-6xl text-center">単純明快だから<span class="text-red-500 block lg:inline-block">早くて、安くて、高品質！</span></p>
-
-          <div class="mt-8 md:mt-32">
-            <picture class="flex justify-center">
-              <source media="(max-width: 760px)" srcSet="/images/oem/line3_sp.png" />
-              <img src="/images/oem/line3.png" />
-            </picture>
-          </div>
-          <div class="text-center bottom-20 md:bottom-40 w-full mt-12 lg:mt-24"><div class="w-80 lg:w-600 mx-auto"><a class="block py-4 md:py-6 w-full text-sm md:text-3xl bg-falNAVY font-bold text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div></div>
-        </div>
-        <div class="bg-falNAVY pb-16">
-          <h2 class="text-center text-white text-2xl md:text-3xl font-bold pt-12 lg:pt-36">工場について</h2>
-          <div class="mx-auto border-white border-t-8 w-14 md:w-24 mt-1"></div>
-          <div class="flex flex-wrap justify-between w-11/12 max-w-1280 mx-auto mt-9 lg:mt-24">
-            <span class="w-49% lg:w-24%"><img src="/images/oem/plant_01.png" class="" /></span>
-            <span class="w-49% lg:w-24%"><img src="/images/oem/plant_04.png" /></span>
-            <span class="w-49% lg:w-24% mt-2 lg:mt-0"><img src="/images/oem/plant_02.png" /></span>
-            <span class="w-49% lg:w-24% mt-2 lg:mt-0"><img src="/images/oem/plant_03.png" /></span>
-          </div>
-          <div class="w-11/12 md:w-4/5 text-sm md:text-4xl border-white border lg:border-none text-center mt-4 px-6 md:px-0 py-4 md:py-10 leading-8 md:leading-loose mx-auto font-bold text-white">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
-            数千円で販売する<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl md:text-4xl">を</span><br class="block md:hidden" />自社工場敷地内で運営しており、<br />
-            高級ブランドで培った高品質な製造ノウハウと、<br class="block md:hidden" />量産品製造で培ったコスト削減、<br />
-            効率化ノウハウの両方を保有しているため、<br />
-            お客様のニーズに合わせた<br class="block md:hidden" />クオリティと<span class="text-sm md:text-4xl text-p_yellow">価格の調整が可能です。</span>
+        <div class="bg_oemclear -mt-8 z-20">
+          <div class="px-2 pt-4 py-8 md:py-4 text-white">
+            <div class="text-sm md:text-4xl border-white border text-center mt-4 px-6 md:px-0 py-4 md:py-10 leading-8 md:leading-loose md:w-4/5 mx-auto font-bold">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
+              数千円で販売する<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl md:text-4xl">を</span><br class="block md:hidden" />自社工場敷地内で運営しており、<br  />
+              高級ブランドで培った高品質な製造ノウハウと、<br class="block md:hidden" />量産品製造で培ったコスト削減、<br />
+              効率化ノウハウの両方を保有しているため、<br />
+              お客様のニーズに合わせたクオリティと<br class="block md:hidden" /><span class="text-sm md:text-4xl text-p_yellow">価格の調整が可能です。</span></div>
           </div>
         </div>
         <div class="bg_image px-2 pb-8 md:pb-40">
           <div>
-            <h2 class="mx-auto w-72 md:w-full px-1 text-3xl md:text-5xl md:py-20 text-center text-falNAVY leading-10 md:leading-normal font-semibold">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
+            <h2 class="mx-auto w-72 md:w-full px-1 text-3xl md:text-5xl my-10 md:py-20 text-center text-falNAVY leading-10 md:leading-normal font-semibold">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
           </div>
           <div class="mt-10 md:mt-16 text-base md:text-3xl w-9/12 mx-auto md:text-center">お客様の言われるままに対応するのではなく、お客様の利益が最大化される<br class="md:block hidden" />戦略的な「売れるモノづくり」をご提案させていただきます。</div>
           <div>
@@ -322,21 +281,22 @@ export default function MEDIACONTACT() {
           </div>
         </div>
         <div class="pb-11 md:w-7/12 mx-auto">
-          <h3 class="bg-falNAVY py-3 md:py-6 md:mt-20 text-center text-white text-2xl md:text-5xl font-medium">5年で300万個、<br class="block md:hidden" />合計20億円を売り上げた</h3>
+          <h3 class="bg-falNAVY py-3 md:py-6 md:mt-20 text-center text-white text-2xl md:text-5xl YuMincho font-medium">5年で300万個、<br class="block md:hidden" />合計20億円を売り上げた</h3>
           <div class="flex flex-col md:flex-row md:justify-start">
+            <div class="text-falNAVY text-center md:hidden text-2.5xl font-medium pt-4 YuMincho">代表 清水真輝が<br />直接ご相談に乗ります</div>
             <div class="w-200 md:w-320 mx-auto md:mx-0 mt-5"><img src="/images/oem/ceo.png" class="md:block md:w-full" /></div>
             <div class="text-center md:text-left w-auto md:w-8/12 md:ml-8">
-              <div class="text-falNAVY w-11/12 lg:w-full mx-auto text-2xl lg:text-4xl font-bold lg:font-medium pt-4 border-b-2 pb-6 border-falNAVY leading-snug">代表 清水真輝が<br />直接ご相談に乗ります。</div>
-              <div class="text-falNAVY w-11/12 lg:w-full mt-6 mx-auto text-sm md:text-xl text-justify md:text-left md:leading-relaxed">世界中を回って良質な原材料の調達先を開拓し、自ら生産工場の管理も行い、僅か5年で自社ブランドの販売数300万個、総額20億円を売り上げた経営者本人が直接、お客様の立場に立ってご相談に乗ります。</div>
-              <div class="w-11/12 md:w-full mt-8 mx-auto md:mt-10 md:ml-auto md:mr-0"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white rounded-xl lg:rounded" href="#contactform">まずは無料でお問い合わせ</a></div>
+              <div class="text-falNAVY hidden md:block text-4xl font-medium pt-4 border-b-4 pb-6 border-falNAVY leading-snug YuMincho">代表 清水真輝が<br />直接ご相談に乗ります。</div>
+              <div class="w-72 md:w-auto md:mr-16 mt-6 mx-auto text-sm md:text-xl text-justify md:text-left md:leading-relaxed">世界中を回って良質な原材料の調達先を開拓し、自ら生産工場の管理も行い、僅か5年で自社ブランドの販売数300万個、総額20億円を売り上げた経営者本人が直接、お客様の立場に立ってご相談に乗ります。</div>
+              <div class="w-72 md:w-520 mt-8 md:mt-10 mx-auto md:ml-auto md:mr-0"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div>
             </div>
           </div>
           <div class="mt-11 md:mt-28">
             <div>
-              <h2 class="text-center text-falNAVY text-2xl md:text-3xl tracking-wide font-medium">Instagram</h2>
+              <h2 class="text-center text-falNAVY text-2xl md:text-3xl tracking-wide YuMincho font-medium">Instagram</h2>
               <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
             </div>
-            <div class="w-11/12 md:w-full mx-auto mt-8 md:mt-16">
+            <div class="w-72 md:w-full mx-auto mt-8 md:mt-16">
               <ul class="flex flex-wrap justify-between w-full">
                 <li class="w-49% md:w-24%"><a href="https://www.instagram.com/p/CFPB9cMDobd/" target="blank_" class="block"><img src="/images/oem/insta_1.png" class="w-full" /></a></li>
                 <li class="w-49% md:w-24%"><a href="https://www.instagram.com/p/CHzodi0pU0S/" target="blank_" class="block"><img src="/images/oem/insta_2.png" class="w-full" /></a></li>
@@ -346,35 +306,30 @@ export default function MEDIACONTACT() {
             </div>
           </div>
           <div>
-            <h2 class="text-center text-falNAVY text-2xl md:text-3xl mt-12 md:mt-24 tracking-wide font-medium">ロット</h2>
+            <h2 class="text-center text-falNAVY text-2xl md:text-3xl mt-12 md:mt-24 tracking-wide YuMincho font-medium">ロット</h2>
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
-          <div class="flex flex-col md:flex-row md:justify-start lg:mt-24">
-            <div class="w-11/12 lg:w-580 pl-10 mx-auto md:mx-0 mt-5 md:mt-0">
-              <picture class="mx-auto mt-4">
-                <source media="(max-width: 760px)" srcSet="/images/oem/oemlot_sp.png" />
-                <img src="/images/oem/oemlot.png" />
-              </picture>
-            </div>
+          <div class="flex flex-col md:flex-row md:justify-start md:mt-6">
+            <div class="w-72 md:w-320 mx-auto md:mx-0 mt-5 md:mt-0"><img src="/images/oem/lot.png" class="md:block md:w-full" /></div>
             <div class="text-center md:text-left w-auto md:w-8/12 md:ml-8">
-              <div class="text-falNAVY text-center md:text-left text-2.5xl md:text-3xl border-b-2 pb-2 w-11/12 mx-auto border-falNAVY pt-4 md:pt-0 font-medium md:leading-normal">最低ロット数は2色<br  />500個位から承ります</div>
-              <div class="w-11/12 mx-auto mt-6 text-falNAVY text-base md:text-xl text-justify md:text-left md:leading-relaxed">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
-              <div class="w-11/12 md:w-520 mt-8 mx-auto md:mt-10 md:ml-auto md:mr-0 lg:hidden"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div>
+              <div class="text-falNAVY text-center md:text-left text-2.5xl md:text-3xl pt-4 md:pt-0 YuMincho font-medium md:leading-normal">最低ロット数は2色<br class="block md:hidden" />500個位から承ります</div>
+              <div class="w-72 md:w-auto md:mr-16 mt-6 mx-auto text-sm md:text-xl text-justify md:text-left md:leading-relaxed">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
+              <div class="w-72 md:w-520 mt-8 md:mt-24 mx-auto md:ml-auto md:mr-0"><a class="block py-4 md:py-6 w-full text-xs bg-falNAVY text-center text-white" href="#contactform">CONTACT</a></div>
             </div>
           </div>
         </div>
         <div class="bg-gray-100 py-6 pb-8 md:w-7/12 mx-auto md:mt-24">
-          <h3 class="text-falNAVY md:mt-4 text-xl md:text-4xl text-center font-semibold md:leading-snug">大変申し訳ありませんが、<br />場合によってはご注文を<br />お断りさせて頂くこともあります。</h3>
+          <h3 class="text-falNAVY md:mt-4 text-xl md:text-4xl text-center YuMincho font-semibold md:leading-snug">大変申し訳ありませんが、<br />場合によってはご注文を<br />お断りさせて頂くこともあります。</h3>
           <div class="w-72 md:w-720 mx-auto mt-11 text-justify text-sm md:text-2xl">OEM製造は作って終わりではなく、その商品が最終の消費者に全て完売し、ご満足頂けることがゴールです。その為、当社がご注文を受けた結果、お客様に不良在庫が生じたり、お客様の損になりそうな場合、ご注文をお断りさせて頂くことがあります。<br /><br />
             当社としてもリピートオーダーを頂かないと、大変な手間だけかかり、利益は殆どありませんし、何よりお取引したお客様が不良在庫を抱えてしまうような取引は決してしたくありません。<br /><br />
             また、既存のお客様との利益相反がありそうな場合もお受けする事が出来ませんのでご了承下さい。</div>
-          <p class="text-falNAVY text-xl md:text-3xl text-center mt-11 font-medium">まずは、お気軽にご相談ください！</p>
+          <p class="text-falNAVY text-xl md:text-3xl text-center mt-11 YuMincho font-medium">まずは、お気軽にご相談ください！</p>
         </div>
 
         {/* 入力フォーム */}
         <div class="mx-auto pt-12 lg:w-920" id="contactform">
           <div>
-            <h2 class="text-center text-falNAVY text-2xl md:text-3xl tracking-wide font-medium">お問い合わせ</h2>
+            <h2 class="text-center text-falNAVY text-2xl md:text-3xl tracking-wide YuMincho font-medium">お問い合わせ</h2>
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
           <div class="pb-8 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -523,7 +478,7 @@ export default function MEDIACONTACT() {
                     </div>
                   </div>
                   <div class="sm:col-span-2">
-                    <label for="message" class="text-base text-gray-700 flex flex-row items-center">お問い合わせ内容<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
+                  <label for="message" class="text-base text-gray-700 flex flex-row items-center">お問い合わせ内容<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
                     <div class="mt-1">
                       <textarea id="message" name="message" rows="4"
                         class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"

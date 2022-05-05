@@ -448,7 +448,16 @@ h1.company_title {
 }
 
 .oem_main_image {
-  background-image: url("/images/oem/topimage.png");
+  background-image: url("/images/oem/topimage.jpg");
+  color: #1F4370;
+}
+
+.oem_main_image h1{
+  font-size: 114px;
+}
+
+.oem_main_image h1>span{
+  color: #E40000;
 }
 
 .topics_title {
@@ -495,7 +504,11 @@ h1.company_title {
   }
 
   .oem_main_image {
-    background-image: url("/images/oem/topimage_sp.png");
+    background-image: url("/images/oem/topimage_sp.jpg");
+  }
+
+  .oem_main_image h1{
+    font-size: 52px;
   }
 
   .topics_title {
@@ -717,17 +730,18 @@ h1.company_title {
   background-color:#1F4370;
 }
 .bg_image{ 
-  padding-top: calc(10vw + 10px);  
+  /* padding-top: calc(10vw + 10px); */  
   background-image: url("/images/oem/bg_image.jpg");
   background-size: cover;
   position: relative;
 }
+/*
 .bg_image::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  border-top: 10vw solid #1F4370;  /* 三角を白に */ 
+  border-top: 10vw solid #1F4370;
   border-left: calc(50vw - 8px) solid transparent;
 }
 .bg_image::after {
@@ -735,9 +749,16 @@ h1.company_title {
   position: absolute;
   top: 0;
   right: 0;
-  border-top: 10vw solid #1F4370;   /* 三角を白に */ 
+  border-top: 10vw solid #1F4370;
   border-right: calc(50vw - 6px) solid transparent;
 }
+*/
+.follow_button{
+  position: sticky;
+  width: 142px;
+  top: 80%;
+} 
+
 @media only screen and (max-width: 767px) {
   .bg_oemgrey{ 
     padding-bottom: calc(25vw + 10px);  
@@ -757,6 +778,7 @@ h1.company_title {
   .bg_oemnavy::after {
     border-bottom: 25vw solid #1F4370;  /* 三角を白に */ 
   }
+  /*
   .bg_image{ 
     padding-top: calc(12.5vw + 10px);
   }
@@ -768,4 +790,9 @@ h1.company_title {
     border-top: 12.5vw solid #1F4370;
     border-right: 50vw solid transparent;
   }
+  */
+  
+.follow_button{
+  display: none;
+} 
 }
