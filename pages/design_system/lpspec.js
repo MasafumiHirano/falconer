@@ -37,7 +37,7 @@ export default function lpspec() {
             </p>
             <h3 class="mt-5 text-xl text-center font-bold max-w-1050">ページ内エフェクトのサンプル(ページ内リンク)</h3>
           </div>
-          <div class="mt-40"><img src="/images/design/effect_sample.png" class="block mx-auto" /></div>
+          <div class="mt-40"><img src="/images/design/effect_sample.png" class="block mx-auto w-1100" /></div>
           <div class="mt-24 max-w-1520 px-20 w-10/12 mx-auto">
             <dl class="flex justify-around flex-row">
               <dt class="w-1/6 font-bold">PocketPengulns</dt>
