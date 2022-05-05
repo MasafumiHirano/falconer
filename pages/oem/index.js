@@ -226,7 +226,7 @@ export default function MEDIACONTACT() {
         </div>
         <div class="z-20">
           <div class="px-2 pt-4 py-8 md:py-4 bg-falNAVY text-white">
-            <div class="text-2xl md:text-6xl text-center mt-4 px-6 md:px-0 py-4 md:py-10 leading-8 md:leading-loose md:w-4/5 mx-auto font-bold">一般企業と当社の違いは<br />納品までの<span class="text-p_yellow">圧倒的なスピード<br />コスト×品質</span>の<span class="text-p_yellow">コントロール</span>
+            <div class="text-2xl md:text-6xl text-center mt-4 px-0 py-4 md:py-10 leading-8 md:leading-loose md:w-4/5 mx-auto font-bold">一般企業と当社の違いは<br />納品までの<span class="text-p_yellow">圧倒的なスピード<br />コスト×品質</span>の<span class="text-p_yellow">コントロール</span>
             </div>
           </div>
         </div>
@@ -234,12 +234,12 @@ export default function MEDIACONTACT() {
           <div>
             <h3 class="font-bold text-2xl lg:text-5xl text-center">＜　一般企業の場合　＞</h3>
             <img src="/images/oem/oem01.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
-            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 lg:px-16 mx-auto text-base font-bold lg:text-5xl text-center">発注から9人以上の伝言ゲームを経て納品されるため時間が掛かり、人的ミスも多発し低品質の原因に。<br class="hidden lg:block"/>また中間業者の関与により高コストになりがちです。</p>
+            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 lg:px-16 mx-auto text-base font-bold lg:text-5xl text-justify lg:text-center">発注から9人以上の伝言ゲームを経て納品されるため時間が掛かり、人的ミスも多発し低品質の原因に。<br class="hidden lg:block"/>また中間業者の関与により高コストになりがちです。</p>
           </div>
           <div class="mt-16 lg:mt-48">
             <h3 class="font-bold text-2xl lg:text-5xl text-center">＜　当社の場合　＞</h3>
             <img src="/images/oem/oem02.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
-            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 mx-auto text-base font-bold lg:text-5xl text-center">FALCONERはすべて「直取引」の自社一貫製造。<br />中間業者の関与が全くないので、発注から納品まで早く<br />製造コストを抑えながら、高品質に。</p>
+            <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 mx-auto text-base font-bold lg:text-5xl text-justify lg:text-center">FALCONERはすべて「直取引」の自社一貫製造。<br class="hidden lg:block"/>中間業者の関与が全くないので、発注から納品まで早く<br class="hidden lg:block"/>製造コストを抑えながら、高品質に。</p>
           </div>
           <p class="font-bold mt-12 lg:mt-24 text-2xl lg:text-6xl text-center">単純明快だから<span class="text-red-500 block lg:inline-block">早くて、安くて、高品質！</span></p>
 
@@ -260,7 +260,7 @@ export default function MEDIACONTACT() {
             <span class="w-49% lg:w-24% mt-2 lg:mt-0"><img src="/images/oem/plant_02.png" /></span>
             <span class="w-49% lg:w-24% mt-2 lg:mt-0"><img src="/images/oem/plant_03.png" /></span>
           </div>
-          <div class="w-11/12 md:w-4/5 text-sm md:text-4xl border-white border lg:border-none text-center mt-4 px-6 md:px-0 py-4 md:py-10 leading-8 md:leading-loose mx-auto font-bold text-white">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
+          <div class="w-11/12 md:w-4/5 text-sm md:text-4xl border-white border lg:border-none text-center mt-4 px-2 md:px-0 py-4 md:py-10 leading-8 md:leading-loose mx-auto font-bold text-white">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
             数千円で販売する<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl md:text-4xl">を</span><br class="block md:hidden" />自社工場敷地内で運営しており、<br />
             高級ブランドで培った高品質な製造ノウハウと、<br class="block md:hidden" />量産品製造で培ったコスト削減、<br />
             効率化ノウハウの両方を保有しているため、<br />
@@ -268,10 +268,10 @@ export default function MEDIACONTACT() {
           </div>
         </div>
         <div class="bg_image px-2 pb-8 md:pb-40">
-          <div>
-            <h2 class="mx-auto w-72 md:w-full px-1 text-3xl md:text-5xl md:py-20 text-center text-falNAVY leading-10 md:leading-normal font-semibold">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
+          <div class="">
+            <h2 class="mx-auto w-72 md:w-full px-1 text-3xl md:text-5xl py-9 md:py-20 text-center text-falNAVY leading-10 md:leading-normal font-semibold">お客様のご要望に<br class="block md:hidden" />対して分析を行い<br class="block" /><span class="text-red-500">WIN × WIN</span>となる最適で最高の提案を</h2>
           </div>
-          <div class="mt-10 md:mt-16 text-base md:text-3xl w-9/12 mx-auto md:text-center">お客様の言われるままに対応するのではなく、お客様の利益が最大化される<br class="md:block hidden" />戦略的な「売れるモノづくり」をご提案させていただきます。</div>
+          <div class="mt-0 md:mt-16 text-base md:text-3xl w-9/12 mx-auto md:text-center">お客様の言われるままに対応するのではなく、お客様の利益が最大化される<br class="md:block hidden" />戦略的な「売れるモノづくり」をご提案させていただきます。</div>
           <div>
             <div class="flex justify-center items-end mt-6 md:mt-28 md:mb-10">
               <picture class="">
