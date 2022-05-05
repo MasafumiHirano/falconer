@@ -1,6 +1,6 @@
 
 import Layout from '../../components/layout'
-import LeftMenu  from '../../components/design_leftmenu'
+import LeftMenu from '../../components/design_leftmenu'
 
 export default function lpspec() {
   return (
@@ -33,7 +33,7 @@ export default function lpspec() {
             </p>
             <h3 class="mt-5 text-xl text-center font-bold max-w-1050">商品ページカラートーンへのリンクURL。</h3>
             <p class="mt-32 text-xl font-normal max-w-1050">
-            また、他店舗との差別化としてアニメーションや動き、動作エフェクトなどを加えてページをリッチに仕上げる。店舗コンセプトとして「安っぽさの排除」を念頭に入れる。
+              また、他店舗との差別化としてアニメーションや動き、動作エフェクトなどを加えてページをリッチに仕上げる。店舗コンセプトとして「安っぽさの排除」を念頭に入れる。
             </p>
             <h3 class="mt-5 text-xl text-center font-bold max-w-1050">ページ内エフェクトのサンプル(ページ内リンク)</h3>
           </div>
@@ -64,136 +64,276 @@ export default function lpspec() {
               <dd class="w-2/6"><a target="blank_" href="https://www.rakuten.ne.jp/gold/dondon/">https://www.rakuten.ne.jp/gold/dondon/</a></dd>
             </dl>
           </div>
-        </section>
-        <section>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-36">ロゴ</h2>
-          <div class="mt-10 text-xl font-normal max-w-850 mx-auto flex justify-around">
-            <div class="flex items-center"><img src="/images/design/allrightleather_logo.png" /></div>
-            <div class="flex items-center"><img src="/images/design/allrightleather_logo2.png" /></div>
-          </div>
-          <p class="mt-10 text-xl font-normal max-w-500 px-10 mx-auto">
-            載せたい箇所により2つの形態を選んで使用。
-          </p>
-        </section>
-        <section>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-36">ブランドカラー</h2>
-          <h3 class="text-center NotoSans font-bold text-xl mt-14">ショップカラー</h3>
-          <p class="mt-10 text-xl font-normal max-w-1050 px-10 mx-auto">
-            個々のオリジナルページ(商品ページ・コンテンツページ・ブランドページetc.,)を除いた、箱側のデザインでの使用カラー。
-          </p>
-          <div>
-            <div class="mx-auto flex w-580 px-5 mt-20">
-              <div class="colorbox bg-arl_brown"></div>
-              <div class="ml-6 flex flex-col">
-                <p class="NotoSans font-bold text-xl">#60554a</p>
-                <p class="NotoSans font-normal text-xl mt-2">
-                  RGB / R96 : G85 : B74<br />
-                  CMYK / C55% : M56% : Y64% : K33%<br />
-                  Lab / L37 : a3 : b8<br />
-                  HSB / H30 : S23 : B38</p>
-              </div>
-            </div>
-            <div class="mx-auto flex mt-16 w-580 px-5">
-              <div class="colorbox bg-arl_grey"></div>
-              <div class="ml-6 flex flex-col">
-                <p class="NotoSans font-bold text-xl">#60554a</p>
-                <p class="NotoSans font-normal text-xl mt-2">
-                  RGB / 237 : G236 : B235<br />
-                  CMYK / C6% : M5% : Y5% : K0%<br />
-                  Lab / L93 : a0 : b1<br />
-                  HSB / H30 : S1 : B93
-                </p>
-              </div>
-            </div>
-            <p class="mt-24 text-xl font-normal max-w-850 mx-auto">
-              その他、内包するコンテンツや表示内容により、サブカラー、アクセントカラーを各々選定して使用。トーンに関して、後述を参照。
-            </p>
-            <div class="mt-16 flex justify-center">
-              <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-arl_grey text-arl_brown" href="https://drive.google.com/file/d/1MkXDo5dkibICdqrowpZIP5F_RJzukqWA/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon2.png" /><span class="NotoSans font-bold text-xl text-left">PSDカラースウォッチ<br />ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon2.png" /></span></a>
-            </div>
-            <p class="text-center font-sm">※Googleドライブからのダウンロードになります</p>
+          <div class="flex w-650 mx-auto justify-around mt-52">
+            <img class="w-320" src="/images/design/lpspec_image_pc.jpg" />
+            <img class="w-48" src="/images/design/lpspec_image_sp.jpg" />
           </div>
         </section>
-        <section class="mt-80">
-          <h2 class="text-center NotoSans font-bold text-3xl">カラ―仕様</h2>
-          <p class="mt-10 text-xl font-bold max-w-850 px-10 mx-auto">
-            全体のトーン・彩度を落として安っぽさの排除
-          </p>
-          <p class="text-xl font-normal max-w-850 px-10 mx-auto">
-            高級感を出すと言うよりは安っぽさを削っていくイメージで全体のトーンを統一。
-          </p>
-          <div class="mt-24 flex justify-center"><img src="/images/design/color.jpg"/></div>
-          <p class="text-xl font-normal max-w-850 px-10 mx-auto mt-6">
-          メインカラーは前述の通り。サブカラーやアクセントカラーとしてこれらのトーンを使用する(個々のコンテンツやブランドページなどはそれぞれ規定のカラー設定をしている場合があるため)。
-          </p>
-        </section>
         <section>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-20 mb-14">フォント</h2>
-          <h3 class="NotoSans font-bold text-xl mt-36 max-w-850 mx-auto">無機質・中性的・スマートを念頭に。</h3>
-          <p class="text-xl font-normal max-w-850 mx-auto">
-            文章はフォントウェイト軽めのシンプルなゴシック体、見出しは個性フォントの使用も可。
-          </p>
-          <h3 class="NotoSans font-bold text-xl mt-32 max-w-850 mx-auto">説明や長尺の文章など、「読ませる」部分に使用。</h3>
-          <div class="mt-2 w-768 mx-auto">
+          <h2 class="text-center NotoSans font-bold text-3xl mt-48 mb-14">フォント</h2>
+          <div class="mt-2 w-920 mx-auto">
             <div class="flex justify-between">
-              <p class="NotoSans font-medium text-4.5xl">Noto Sans JP</p>
-              <p class="NotoSans text-xl pt-4">Noto Sans JP - 日本語・現行使用 / 各ウェイト</p>
+              <p class="Jost font-medium text-4.5xl w-320">Jost*</p>
+              <p class="NotoSans text-xl w-450 pt-4 text-left">Jost*-各ウェイト(元Renner*)<br /><br />最大90px - 見出しなど。<br />最大45px - 値段。<br />30~45px - 通常文・ボタンなど。</p>
             </div>
             <div class="flex justify-end">
-              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-arl_grey text-arl_brown" href="https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto" target="_blank">
+              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-green-500 text-white mt-4" href="https://fonts.google.com/specimen/Jost" target="_blank">
                 <span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span>
-                <span><img class="h-5 mr-8" src="/images/design/dl_icon2.png" /></span>
+                <span><img class="h-5 mr-8" src="/images/design/dl_icon.png" /></span>
               </a>
             </div>
-            <div class="mt-14 w-450 mx-auto">
-              <div class="flex justify-between">
-                <p class="text-4xl w-40 text-right">見出し１</p>
-                <p class="flex items-center">フォントサイズ : 30px~40px</p>
+            <div class="flex justify-between mt-8">
+              <p class="NotoSans font-medium text-4.5xl w-320">Noto Sans JP</p>
+              <p class="NotoSans text-xl w-450 pt-4 text-left">Noto Sans JP - 日本語・現行使用 / 各ウェイト<br /><br />最大35px - 見出しなど。<br />10~20px - 通常文・ボタンなど。</p>
+            </div>
+            <div class="flex justify-end">
+              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-green-500 text-white mt-4" href="https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto" target="_blank">
+                <span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span>
+                <span><img class="h-5 mr-8" src="/images/design/dl_icon.png" /></span>
+              </a>
+            </div>
+            <div class="flex justify-between mt-8">
+              <p class="Oswald font-medium text-4.5xl w-320">Oswald</p>
+              <p class="NotoSans text-xl w-450 pt-4 text-left">Oswald - 各ウェイト(英数のみ)<br /><br />最大75px - 見出しなど。<br />最大40px - 値段。<br />25~40px - 通常文・ボタンなど。</p>
+            </div>
+            <div class="flex justify-end">
+              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-green-500 text-white mt-4" href="https://fonts.google.com/specimen/Oswald?query=oswald" target="_blank">
+                <span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span>
+                <span><img class="h-5 mr-8" src="/images/design/dl_icon.png" /></span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-left w-300 mx-auto NotoSans font-bold text-3xl mt-48 mb-14">セール対象商品リスト<br />商品レイアウト</h2>
+          <p class="NotoSans text-xl mt-8 text-center">3カラム、または4カラムで展開。必要であれば割引率のバッジや二重価格の表示も挿入。情報は最低限にとどめる。</p>
+          <div class="w-920 mx-auto mt-10 flex justify-between">
+            <div class="flex flex-col w-4/12">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="w-7/12">
+              <p class="NotoSans text-xl font-bold">セール対象商品情報基本レイアウト</p>
+              <p class="NotoSans text-xl font-normal leading-8">
+                ・商品画像(サムネイルなど)<br />
+                ・商品タイトル(短く、シンプルに)<br />
+                ・割引前の斜線価格<br />
+                ・割引後価格<br />
+                ・割引率(バッヂなど)<br />
+                ・リンクボタン
+              </p>
+              <p class="NotoSans text-xl font-bold mt-8">リンクボタン</p>
+              <p class="NotoSans text-xl font-normal leading-8">
+                デフォルト文言 : 詳細はこちら<br />
+                その他特別な事例の場合、他の文言可<br />
+                例:<br />
+                クーポン獲得、20%OFF割引、おすすめ商品、など。
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-left w-400 mx-auto NotoSans font-bold text-3xl mt-48 mb-14">カラム別デザイン ex. <img class="inline-block ml-6" src="/images/design/Arrow_down.png" /></h2>
+          <p class="w-1100 Jost text-xl mx-auto">1100px</p>
+          <img class="block mx-auto" src="/images/design/1100line.png" />
+          <div class="w-1100 mx-auto flex">
+            <div class="w-500"><img src="/images/design/waa7019_01.png" class="w-full" /></div>
+            <div class="w-600 flex flex-wrap justify-around">
+              <img src="/images/design/bge7223_01.png" class="w-290" />
+              <img src="/images/design/bge7223_02.png" class="w-290" />
+              <p class="NotoSans w-full text-sm text-center mt-5">イタリアンレザーの小さい財布</p>
+              <p class="Jost font-light w-full text-4xl text-red-600 text-center mt-8"><span class="text-gray-400 line-through text-xl">¥3,480</span><img class="inline-block w-2 ml-3 mr-3" src="/images/design/arrow-right.jpg" />¥3,480<span class="NotoSans font-bold text-0.55rem text-black">送料無料</span></p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+          </div>
+          <div class="w-1100 mx-auto flex mt-16">
+            <div class="w-500"><img src="/images/design/waa7019_01.png" class="w-full" /></div>
+            <div class="w-600 flex flex-wrap justify-around">
+              <img src="/images/design/bge7223_01.png" class="w-290" />
+              <img src="/images/design/bge7223_02.png" class="w-290" />
+              <p class="NotoSans w-full text-sm text-center mt-5">イタリアンレザーの小さい財布</p>
+              <p class="Jost font-light w-full text-4xl text-red-600 text-center mt-8"><span class="text-gray-400 line-through text-xl">¥3,480</span><img class="inline-block w-2 ml-3 mr-3" src="/images/design/arrow-right.jpg" />¥3,480<span class="NotoSans font-bold text-0.55rem text-black">送料無料</span></p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+          </div>
+          <div class="w-1100 mx-auto flex mt-16">
+            <div class="w-600 flex flex-wrap justify-around">
+              <img src="/images/design/bge7223_01.png" class="w-290" />
+              <img src="/images/design/bge7223_02.png" class="w-290" />
+              <p class="NotoSans w-full text-sm text-center mt-5">イタリアンレザーの小さい財布</p>
+              <p class="Jost font-light w-full text-4xl text-red-600 text-center mt-8"><span class="text-gray-400 line-through text-xl">¥3,480</span><img class="inline-block w-2 ml-3 mr-3" src="/images/design/arrow-right.jpg" />¥3,480<span class="NotoSans font-bold text-0.55rem text-black">送料無料</span></p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="w-500"><img src="/images/design/waa7019_01.png" class="w-full" /></div>
+          </div>
+          <div class="w-1100 mx-auto flex mt-16">
+            <div class="w-600 flex flex-wrap justify-around">
+              <img src="/images/design/bge7223_01.png" class="w-290" />
+              <img src="/images/design/bge7223_02.png" class="w-290" />
+              <p class="NotoSans w-full text-sm text-center mt-5">イタリアンレザーの小さい財布</p>
+              <p class="Jost font-light w-full text-4xl text-red-600 text-center mt-8"><span class="text-gray-400 line-through text-xl">¥3,480</span><img class="inline-block w-2 ml-3 mr-3" src="/images/design/arrow-right.jpg" />¥3,480<span class="NotoSans font-bold text-0.55rem text-black">送料無料</span></p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="w-500"><img src="/images/design/waa7019_01.png" class="w-full" /></div>
+          </div>
+        </section>
+        <section>
+          <p class="w-1100 Jost text-xl mx-auto mt-56">1100px</p>
+          <img class="block mx-auto" src="/images/design/1100line.png" />
+          <p class="w-1100 Jost text-xl mx-auto mt-2">300px</p>
+          <div class="w-1100 mx-auto"><img class="" src="/images/design/300line.png" /></div>
+          <div class="w-1100 mx-auto mt-4 flex justify-between">
+            <div class="flex flex-col w-300">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="flex flex-col w-300">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="flex flex-col w-300 relative">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-200 mt-4" />
+              <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
+            </div>
+          </div>
+          <p class="w-1100 Jost text-xl mx-auto mt-10">300px</p>
+          <div class="w-1100 mx-auto"><img class="" src="/images/design/300line.png" /></div>
+          <div class="w-1100 mx-auto mt-4 flex justify-between">
+            <div class="flex flex-col w-300">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="flex flex-col w-300">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-200 mt-4" />
+            </div>
+            <div class="flex flex-col w-300 relative">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-200 mt-4" />
+              <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
+            </div>
+          </div>
+          <p class="w-1100 Jost text-xl mx-auto mt-10">200px</p>
+          <div class="w-1100 mx-auto"><img class="w-200" src="/images/design/200line.png" /></div>
+          <div class="w-1100 mx-auto mt-4 flex justify-between">
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200 relative">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+              <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
+              <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
+            </div>
+          </div>
+          <p class="w-1100 Jost text-xl mx-auto mt-10">200px</p>
+          <div class="w-1100 mx-auto"><img class="w-200" src="/images/design/200line.png" /></div>
+          <div class="w-1100 mx-auto mt-4 flex justify-between">
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
+            </div>
+            <div class="flex flex-col w-200 relative">
+              <img src="/images/design/goods_image.jpg" />
+              <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+              <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+              <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+              <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
+              <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="mt-40">
+            <h3 class="text-center font-bold text-3xl">スマートフォン</h3>
+            <p class="text-center font-medium text-xl">2カラムで横幅いっぱいに表示が基本。</p>
+            <div class="bg_smartphon mx-auto px-20 pt-36 mt-10 flex flex-wrap justify-around">
+              <div class="flex flex-col w-52">
+                <img src="/images/design/goods_image.jpg" />
+                <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+                <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+                <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
               </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-3xl w-40 text-right">見出し２</p>
-                <p class="flex items-center">フォントサイズ : 20px~30px</p>
+              <div class="flex flex-col w-52 relative">
+                <img src="/images/design/goods_image.jpg" />
+                <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+                <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+                <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+                <img src="/images/design/goods_button.jpg" class="block mx-auto w-40 mt-4" />
+                <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
               </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-2xl w-40 text-right">見出し３</p>
-                <p class="flex items-center">フォントサイズ : 15px~20px</p>
+              <div class="flex flex-col w-52">
+                <img src="/images/design/goods_image.jpg" />
+                <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+                <p class="Jost font-light text-4xl text-red-600 text-center mt-8">¥2,086</p>
+                <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
               </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-xl w-40 text-right">通常分</p>
-                <p class="flex items-center">フォントサイズ : 10px~20px</p>
+              <div class="flex flex-col w-52 relative">
+                <img src="/images/design/goods_image.jpg" />
+                <p class="NotoSans text-sm text-center mt-5">イタリアンレザー 二つ折りコンパクト財布</p>
+                <p class="text-gray-400 line-through text-xl text-center mt-8">¥3,480</p>
+                <p class="Jost font-light text-4xl text-red-600 text-center">¥2,086</p>
+                <img src="/images/design/goods_button2.png" class="block mx-auto w-40 mt-4" />
+                <img src="/images/design/30off.png" class="-top-8 -left-8 absolute" />
               </div>
             </div>
           </div>
-          <h3 class="NotoSans font-bold text-xl mt-52 max-w-850 mx-auto">見出しや、値段など、英数部分でアクセントとして使用。</h3>
-          <div class="mt-2 w-768 mx-auto">
-            <div class="flex justify-between">
-              <p class="Jost font-medium text-4.5xl">Jost*</p>
-              <p class="NotoSans text-xl pt-4">Jost - 英数・現行使用 / 各ウェイト</p>
-            </div>
-            <div class="flex justify-end">
-              <a class="mr-10 w-250 h-11 rounded-full flex justify-between items-center bg-arl_grey text-arl_brown" href="https://fonts.google.com/specimen/Jost" target="_blank">
-                <span class="w-93% NotoSans font-medium text-base text-center">ダウンロードサイトへ</span>
-                <span><img class="h-5 mr-8" src="/images/design/dl_icon2.png" /></span>
-              </a>
-            </div>
-            <div class="mt-14 w-450 mx-auto Jost">
-              <div class="flex justify-between">
-                <p class="text-4xl w-40 text-right">Heading1</p>
-                <p class="flex items-center">Font size : 30px~40px</p>
-              </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-3xl w-40 text-right">Heading2</p>
-                <p class="flex items-center">Font size : 20px~30px</p>
-              </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-2xl w-40 text-right">Heading3</p>
-                <p class="flex items-center">Font size : 15px~20px</p>
-              </div>
-              <div class="flex justify-between mt-8">
-                <p class="text-xl w-40 text-right">Paragraph</p>
-                <p class="flex items-center">Font size : 10px~20px</p>
-              </div>
-            </div>
+          <div class="mt-16 flex justify-center">
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルXDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
+          </div>
+          <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
+        </section>
+        <section>
+          <div class="mt-80 text-center">
+            <img src="/images/design/lpsample.jpg" class="block mx-auto"/>
           </div>
         </section>
       </main>
