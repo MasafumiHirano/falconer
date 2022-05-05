@@ -350,7 +350,7 @@ export default function MEDIACONTACT() {
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
           <div class="flex flex-col md:flex-row md:justify-start lg:mt-24">
-            <div class="w-11/12 lg:w-580 pl-10 mx-auto md:mx-0 mt-5 md:mt-0">
+            <div class="w-11/12 lg:w-580 lg:pl-10 mx-auto md:mx-0 mt-5 md:mt-0">
               <picture class="mx-auto mt-4">
                 <source media="(max-width: 760px)" srcSet="/images/oem/oemlot_sp.png" />
                 <img src="/images/oem/oemlot.png" />
