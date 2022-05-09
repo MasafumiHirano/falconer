@@ -55,9 +55,10 @@ export default function Strength() {
               </div>
             </div>
           </div>
-          <div class="w-full px-5 md:w-auto my-0 py-20 lg:py-32 bg-gray-100">
-            <img src="/images/company/spc_system.png" class="block mx-auto"/>
-          </div>
+          <picture class="w-full block px-5 md:w-auto my-0 py-20 lg:py-32 bg-gray-100">
+              <source media="(min-width: 960px)" srcSet="/images/company/spc_system.png" />
+              <img class="block mx-auto" src="/images/company/spc_system_sp.png" />
+          </picture>
           <div class="self_maker w-full flex justify-center items-center flex-wrap md:flex-nowrap px-8 md:px-0 lg:bg-bottom">
             <div class="w-90% md:w-720 md:px-3 py-20">
               <h3 class="flex items-center justify-center text-lg md:text-2xl font-light"><img src="/images/company/shape.png" class="mr-1" />IT技術を活用した生産管理</h3>
