@@ -15,12 +15,18 @@ export default function Statement() {
         <main class="-mb-4 NotoSans">
           <div class="mb-12 md:mb-24">
             <div class="relative">
-              <h1 class="company_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
+              <h1 class="mission_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">PHILOSOPHY<p class="NotoSans text-base font-normal">経営思想</p></h1>
             </div>
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10">
+            {/*ナビゲーション*/}
+            <div class="flex w-11/12 lg:w-768 mx-auto mt-20 lg:mt-24 NotoSans font-normal text-sm lg:text-base">
+              <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+              <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
+            </div>
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-4 md:px-0 w-full md:w-3/5 max-w-1050 z-10 order-2 lg:order-1">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
-                  <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-8 py-4 border-b border-gray-700">STATEMENT</h2>
+                  <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">STATEMENT</h2>
                   <div class="flex text-left">
                     <h3 class="text-2xl md:text-4xl md:pl-4 md:mb-8 NotoSans">モノづくりを通じ、<span class="block md:inline-block">人々に幸せを広げ、</span><span class="block">世界をより良くする。</span></h3>
                   </div>
@@ -34,11 +40,17 @@ export default function Statement() {
                   </div>
                 </div>
               </div>
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/statement_image.jpg" />
+              <picture class="w-full md:w-4/12 max-w-650 lg:static order-1 lg:order-2 mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/statement_image.jpg" />
+                <img class="w-full" src="/images/company/statement_image_sp.jpg" />
+              </picture>
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/vision_image.jpg" />
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
+              <picture class="w-full md:w-4/12 max-w-650 lg:static mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/vision_image.jpg" />
+                <img class="w-full" src="/images/company/vision_image_sp.jpg" />
+              </picture>
               <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VISION</h2>
@@ -60,8 +72,8 @@ export default function Statement() {
               </div>
             </section>
 
-            <section class="flex md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
-              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-end w-full md:w-93% md:ml-auto mt-16 md:mt-28 relative">
+              <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10 order-2 lg:order-1">
                 <div class="border-t-4 border-comGOLD mr-0 md:mr-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">VALUE</h2>
                   <div class="md:pl-4 flex flex-wrap text-lg">
@@ -92,11 +104,17 @@ export default function Statement() {
                   </div>
                 </div>
               </div>
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 right-0 z-0 opacity-20 md:opacity-100" src="/images/company/value_image.jpg" />
+              <picture class="w-full md:w-4/12 max-w-650 lg:static order-1 lg:order-2 mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/value_image.jpg" />
+                <img class="w-full" src="/images/company/value_image_sp.jpg" />
+              </picture>
             </section>
 
-            <section class="flex md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
-              <img class="w-52 md:w-4/12 max-w-650 absolute md:static bottom-0 left-0 z-0 opacity-20 md:opacity-100" src="/images/company/slogan_image.jpg" />
+            <section class="flex flex-wrap lg:flex-nowrap md:justify-start w-full md:w-93% md:mr-auto mt-16 md:mt-28 relative">
+              <picture class="w-full md:w-4/12 max-w-650 lg:static mb-12 lg:mb-0">
+                <source media="(min-width: 960px)" srcSet="/images/company/slogan_image.jpg" />
+                <img class="w-full" src="/images/company/slogan_image_sp.jpg" />
+              </picture>
               <div class="text-black px-4 md:px-0 md:w-3/5 max-w-1050 z-10">
                 <div class="border-t-4 border-comGOLD ml-0 md:ml-11">
                   <h2 class="NotoSans text-comGOLD text-2xl md:text-4xl mb-10 py-4 border-b border-gray-700">SLOGAN</h2>
@@ -108,20 +126,20 @@ export default function Statement() {
                     </div>
                   </div>
                   <div class="md:pl-4 text-base md:text-lg">
-                    <div class="mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Strong</h3>
+                    <div class="mt-4 lg:mt-12 mb-2">
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Strong</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を強くします。<br class="hidden lg:block" />商品は最上級の素材と製法にこだわります。<br class="hidden lg:block" /></p>
                       <p>{`　`}</p>
                       <p class="">人や社会、世界に対して常に「強さ」を大切にすることで、<br class="hidden lg:block" />弱きものが苦しまない正しい社会を目指します。</p>
                     </div>
                     <div class="mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Kind</h3>
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Kind</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を温かくします。<br class="hidden lg:block" />商品は常に最高の使い易さを提供します。</p>
                       <p>{`　`}</p>
                       <p class="">人や社会、世界に対して常に「優しさ」を大切にすることで、<br class="hidden lg:block" />我々のビジネスが世界を幸せにできるよう努めます。</p>
                     </div>
                     <div class="mt-12 mb-2">
-                      <h3 class="mb-8 text-2xl md:text-4xl">Stay Happy</h3>
+                      <h3 class="mb-8 lg:mb-4 text-2xl md:text-4xl">Stay Happy</h3>
                       <p class="">私たちの商品は身に着けるお客様の心を幸せにします。<br class="hidden lg:block" />商品は常に理屈を超えた満足感を与えます。</p>
                       <p>{`　`}</p>
                       <p class="">我々はビジネスを通じて一時的な幸せではなく、<br class="hidden lg:block" />全ての人々や世界が永続的に幸せでいられるよう、常に考え努力していきます。</p>
@@ -131,8 +149,14 @@ export default function Statement() {
               </div>
             </section>
 
-            <div class="flex justify-center items-center mb-8 mt-24 pb-12">
+            <div class="flex justify-center items-center mb-8 mt-24">
               <h1 class="text-2xl lg:text-3xl font-bold ml-4 midashiGo text-center leading-10">Falconerは、強く、優しく、<br class="block lg:hidden" />人々を幸せにします。</h1>
+            </div>
+
+            <div class="flex w-11/12 lg:w-768 mx-auto my-20 lg:my-24 NotoSans font-normal text-sm lg:text-base">
+              <p class="w-32% border-r-2 text-comGOLD border-comGOLD text-center">ミッション</p>
+              <p class="w-32% border-r-2 border-comGOLD text-center"><a href="/company/strength">弊社の強み</a></p>
+              <p class="w-32% text-center"><a href="/company/about_ceo">代表紹介</a></p>
             </div>
 
             {/*<section class="py-12 lg:py-24 px-3 lg:px-6">

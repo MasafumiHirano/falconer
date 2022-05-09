@@ -23,7 +23,7 @@ export default function CONTACT() {
     const user_id = "user_vztWjBsF612MhfNYgDaVL"
     const service_id = "service_s42wnsp";
     const template_id = "template_woah9qa";
-    console.log("ids："+user_id+":"+service_id+":"+template_id)
+    console.log("ids：" + user_id + ":" + service_id + ":" + template_id)
     if ((user_id != undefined) && (service_id != undefined) && (template_id != undefined)) {
       init(user_id);
 
@@ -43,13 +43,13 @@ export default function CONTACT() {
       send(service_id, template_id, template_param).then(() => {
         console.log("success to send email");
       })
-    } 
+    }
   }
 
   const handleSubmit = e => {
     e.preventDefault();
     sendEmail();
-    
+
     const data = {
       company: company,
       homepage: homepage,
@@ -91,16 +91,12 @@ export default function CONTACT() {
               <h1 class="contact_title futura-lt text-white text-center font-bold text-3xl lg:text-3xl h-405 flex items-center justify-center flex-col">CONTACT<p class="NotoSans text-base font-normal">問い合わせ</p></h1>
             </div>
             <div class="mt-10 md:mt-20">
-              <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24"/>
-              <p class="text-center text-comGOLD text-xs md:text-2xl">製品のご購入のご相談、OEMのご相談について<br/>取材の申し込みなど、お気軽にお問い合わせください。</p>
-            </div>
-            <div class="mt-12">
-              <p class="text-center">お問い合わせダイヤル</p>
-              <p class="mt-2 text-center text-3xl helvetica"><a class="hover:text-gray-500 border-b-4 border-comGOLD w-52 block mx-auto" href="tel:+81-52-734-7065">052-734-7065</a></p>
+              <img src="images/contact/icon.png" class="block mx-auto w-12 md:w-24" />
+              <p class="text-center text-comGOLD text-xs md:text-2xl">製品のご購入のご相談、OEMのご相談について<br />取材の申し込みなど、お気軽にお問い合わせください。</p>
             </div>
             <div class="mt-24">
               <p class="text-center">メールでのお問い合わせ</p>
-              <p class="mt-2 text-center text-3xl helvetica"><span class="hover:text-gray-500 border-b-4 border-comGOLD w-52 block mx-auto">MAIL form</span></p>
+              <p class="mt-2 text-center text-3xl helvetica"><span class="border-b-4 border-comGOLD w-52 block mx-auto">MAIL form</span></p>
             </div>
             <div class="pb-16 px-4 overflow-hidden sm:px-6 lg:px-8">
               <div class="relative max-w-xl mx-auto">
@@ -230,6 +226,29 @@ export default function CONTACT() {
                       </button>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div class="mt-24">
+                <p class="text-center">お電話でのお問合せ</p>
+                <p class="mt-2 text-center text-3xl helvetica"><a class="border-b-4 border-comGOLD w-52 block mx-auto" href="tel:+81-52-734-7065">TEL contact</a></p>
+                <div class="mt-8">
+                  <div class="mt-2 w-full max-w-1050 text-3xl helvetica flex flex-col justify-between md:flex-row mx-auto">
+                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7075">
+                      <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/houzin.png" /></div>
+                      <div class="flex flex-col items-center justify-center">
+                        <span class="NotoSans-L text-sm lg:text-base">法人窓口はコチラ</span>
+                        <span class="futura-lt text-2xl lg:text-4xl mt-2">052-734-7075</span>
+                      </div>
+                    </a>
+                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto mt-6 md:mt-0" href="tel:+81-52-734-7065">
+                      <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/kojin.png" /></div>
+                      <div class="flex flex-col items-center justify-center">
+                        <span class="NotoSans-L text-sm lg:text-base">一般・個人の方コチラ</span>
+                        <span class="futura-lt text-2xl lg:text-4xl">052-734-6075</span>
+                      </div>
+                    </a>
+                  </div>
+                  <p class="text-center text-black text-xs lg:text-2xl mt-4 lg:mt-8">受付時間　10:00～18:00 <br />（法人は19:00まで対応、日曜・土曜定休）</p>
                 </div>
               </div>
             </div>

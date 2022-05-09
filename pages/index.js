@@ -120,9 +120,9 @@ export default function Home({ slides, topics, readings }) {
 
           {/* セカンドビュー START */}
           <section class="pt-8 mt-4 mx-auto text-center lg:max-w-full">
-            <h2 class="text-base w-4/5 md:w-3/5 mx-auto md:text-xl md:pt-20 font-bold NotoSans-L">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
+            <h2 class="text-base w-4/5 md:w-3/5 mx-auto md:text-xl lg:text-2xl md:pt-20 NotoSans font-bold">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
             <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
-              <p class="text-justify">私たちが掲げるのは人々の「幸せ」<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
+              <p class="text-justify">私たちが掲げるのは人々の「幸せ」。<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
               </p>
             </div>
           </section>
@@ -130,49 +130,87 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 取引パートナー様 START */}
           <section class="w-full mx-auto py-24 mt-24 md:py-36 md:mt-24 bg-gray-100">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base md:text-xl font-light block NotoSans-L">取引パートナー様</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">PARTNERS<span class="text-base_s md:text-ms font-light block NotoSans">取引パートナー様</span></h2>
             <ul class="text-center flex mx-auto md:w-1050 px-5 mt-6 md:justify-between overflow-x-auto">
-              <li class="flex flex-col md:w-28 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_kddi.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">KDDI株式会社様</dt>
-                  <dd className="partner__tag pt_red">卸売事業</dd>
-                </dl>
+              <li class="flex flex-col md:w-28 min-w-120 md:min-w-0">
+                <div class="flex flex-col h-24">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_kddi.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">KDDI株式会社様</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
+                <div class="flex flex-col mt-8">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/docomo.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">株式会社NTTドコモ様</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
               </li>
-              <li class="flex flex-col md:w-28 ml-8 md:ml-0 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_dmm.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">株式会社DMM.com様</dt>
-                  <dd className="partner__tag pt_green">OEM事業</dd>
-                </dl>
+              <li class="flex flex-col md:w-28 ml-12 md:ml-0 min-w-120 md:min-w-0">
+                <div class="flex flex-col h-24">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_dmm.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">株式会社DMM.com様</dt>
+                    <dd className="partner__tag pt_green">OEM事業</dd>
+                  </dl>
+                </div>
+                <div class="flex flex-col mt-8">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/amazon.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">Amazon.com inc様</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
               </li>
-              <li class="flex flex-col md:w-28 ml-8 md:ml-0 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">株式会社東急ハンズ様</dt>
-                  <dd className="partner__tag pt_navy">催事支援</dd>
-                </dl>
+              <li class="flex flex-col md:w-28 ml-12 md:ml-0 min-w-120 md:min-w-0">
+                <div class="flex flex-col h-24">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_jp_post.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">日本郵便株式会社</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
+                <div class="flex flex-col mt-8">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/toyota.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">トヨタ自動車株式会社様</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
               </li>
-              <li class="flex flex-col md:w-28 ml-8 md:ml-0 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_jp_post.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">日本郵便株式会社</dt>
-                  <dd className="partner__tag pt_red">卸売事業</dd>
-                </dl>
+              <li class="flex flex-col md:w-28 ml-12 md:ml-0 min-w-120 md:min-w-0">
+                <div class="flex flex-col h-24">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_tokyu_hands.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">株式会社東急ハンズ様</dt>
+                    <dd className="partner__tag pt_navy">催事支援</dd>
+                  </dl>
+                </div>
+                <div class="flex flex-col mt-8">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/axis.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">株式会社AXIS様</dt>
+                    <dd className="partner__tag pt_green">OEM事業</dd>
+                  </dl>
+                </div>
               </li>
-              <li class="flex flex-col md:w-28 ml-8 md:ml-0 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_onelove.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">有限会社ワンラブ様</dt>
-                  <dd className="partner__tag pt_green">OEM事業</dd>
-                </dl>
-              </li>
-              <li class="flex flex-col md:w-28 ml-8 md:ml-0 min-w-100 md:min-w-0">
-                <img class="mt-auto" src="/images/top/logo_rareleak.png" alt="ロゴ" />
-                <dl class="mt-4">
-                  <dt class="mt-0 text-0.55rem">レアリーク株式会社様</dt>
-                  <dd className="partner__tag pt_red">卸売事業</dd>
-                </dl>
+              <li class="flex flex-col md:w-28 ml-12 md:ml-0 min-w-120 md:min-w-0">
+                <div class="flex flex-col h-24">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_onelove.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">有限会社ワンラブ様</dt>
+                    <dd className="partner__tag pt_green">OEM事業</dd>
+                  </dl>
+                </div>
+                <div class="flex flex-col mt-8">
+                  <div class="flex-grow w-100 h-8 mx-auto relative"><img class="m-auto top-0 bottom-0 right-0 left-0 absolute" src="/images/top/logo_rareleak.png" alt="ロゴ" /></div>
+                  <dl class="mt-4">
+                    <dt class="mt-0 text-0.55rem">レアリーク株式会社様</dt>
+                    <dd className="partner__tag pt_red">卸売事業</dd>
+                  </dl>
+                </div>
               </li>
             </ul>
           </section>
@@ -181,7 +219,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* NEWSリスト START */}
           <section class="mx-auto mt-24 lg:max-w-screen-xl">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans-L">ニュース</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">NEWS<span class="text-base_s md:text-ms font-light block NotoSans">ニュース</span></h2>
             <ul class="mx-auto w-90% md:px-0 md:w-1050 mt-6">
               {
                 topics
@@ -209,7 +247,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 事業内容 START */}
           <section className={`${styles.business} mx-auto bg-gray-100 pt-24 pb-56 md:pb-24`}>
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-xl font-light block NotoSans-L">事業内容</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BUSINESS / PRODUCTS<span class="text-base_s md:text-ms font-light block NotoSans">事業内容</span></h2>
             <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
@@ -241,7 +279,7 @@ export default function Home({ slides, topics, readings }) {
           {/* 会社情報 START */}
           <div className={`${styles.company_background}`}>
             <section className={`${styles.company} mx-auto lg:max-w-screen-xl`}>
-              <h2 className={styles.company__title}>Falconer info<p>会社情報</p></h2>
+              <h2 className={styles.company__title}>Falconer info<p>ファルコナーについて</p></h2>
               <p className={styles.company__text}>
                 2016年の誕生以来、私たちはビジネスに関わる全ての人々の幸せを追求する姿勢を一貫して崩さず、邁進してきました。<br /><br />
                 市場の求めているモノづくり、市場を創造するモノづくり。モノづくりだけにとどまらない挑戦の意思を持って、生産から顧客納品まで全てを自社一括で管理。<br /><br />
@@ -259,7 +297,7 @@ export default function Home({ slides, topics, readings }) {
           {/* メディア START */}
           <div className={styles.media_background}>
             <section className={`${styles.media} mx-auto lg:max-w-screen-xl`}>
-              <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base_s md:text-xl font-light block NotoSans-L">メディア</span></h2>
+              <h2 class="text-center futura-md text-2xl md:text-3xl">MEDIA<span class="text-base_s md:text-ms font-light block NotoSans">メディア</span></h2>
               <div className={styles.media__img_area}>
                 <img className={styles.media__img} src="/images/top/media_banner.jpg" alt="メディア" />
                 <div class="bg-media_black text-white px-4 md:px-12 NotoSans-L flex flex-col justify-center h-72 w-full md:w-500 mx-auto mt-2 md:absolute md:opacity-95">
@@ -314,7 +352,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* ブランドセクション START */}
           <section class="mt-24 md:mt-40 py-24 bg-gray-100 -mb-4">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base md:text-xl font-light block NotoSans-L">ブランド</span></h2>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl">BRAND<span class="text-base_s md:text-ms font-light block NotoSans">ブランド</span></h2>
             <ul class="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
               <li class="mt-6 md:mt-4 md:w-600">
                 <a href="https://bachicashley.com/" target="_blank">
@@ -346,18 +384,33 @@ export default function Home({ slides, topics, readings }) {
 
           {/* 問合せセクション START */}
           <section class="py-24 -mb-4">
-            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-black">CONTACT<span class="text-base md:text-xl font-light block NotoSans-L">お問合せ</span></h2>
-            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto md:text-xl mt-8 text-center NotoSans-L text-black">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
+            <h2 class="text-center futura-md text-1.7rem md:text-3xl text-black">CONTACT<span class="text-base_s md:text-ms font-light block NotoSans">お問い合せ</span></h2>
+            <h3 class="text-sm w-4/5 md:w-3/5 mx-auto lg:text-base_s mt-8 text-center NotoSans text-black">製品やファルコナーについてなど、<br />こちらからお気軽にお問い合わせ頂けます。</h3>
             <div class="text-center mt-10">
               <Link href="/contact">
                 <a>
-                  <button class="bg-comGOLD w-72 text-white font-bold py-2 rounded-2xl">まずは問い合わせしてみる</button>
+                  <button class="bg-comGOLD w-72 text-white NotoSans h-12 lg:h-16 rounded-2xl">まずは問い合わせしてみる</button>
                 </a>
               </Link>
             </div>
-            <div class="mt-8">
-              <p class="mt-2 text-center text-3xl helvetica"><a class="w-52 block mx-auto text-black" href="tel:+81-52-734-7065">052-734-7065</a></p>
-              <p class="text-center text-black text-xs mt-4">受付時間　10:00～19:00 (日曜 隔週土曜定休)</p>
+            <div class="mt-14">
+              <div class="mt-2 w-full max-w-1050 text-3xl helvetica flex flex-col justify-between md:flex-row mx-auto">
+                <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7075">
+                  <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/houzin.png" /></div>
+                  <div class="flex flex-col items-center justify-center">
+                    <span class="NotoSans text-sm lg:text-base">法人窓口はコチラ</span>
+                    <span class="futura-lt text-2xl lg:text-4xl mt-2">052-734-7065</span>
+                  </div>
+                </a>
+                <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto mt-6 md:mt-0" href="tel:+81-52-734-7065">
+                  <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/kojin.png" /></div>
+                  <div class="flex flex-col items-center justify-center">
+                    <span class="NotoSans text-sm lg:text-base">一般・個人の方コチラ</span>
+                    <span class="futura-lt text-2xl lg:text-4xl">052-734-7075</span>
+                  </div>
+                </a>
+              </div>
+              <p class="text-center text-black text-sm lg:text-base_s mt-4 lg:mt-8 NotoSans">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
             </div>
           </section>
           {/* 問合せセクション END */}
