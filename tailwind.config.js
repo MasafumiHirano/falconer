@@ -124,6 +124,7 @@ module.exports = {
         'media_black': '#060000',
         'radio_black': '#5D5D5D',
         'p_yellow': '#ffff00',
+        'oemGray': '#E6E6E6',
         'arl_brown': '#60554A',
         'arl_grey': '#EDECEB',
       },
@@ -136,6 +137,7 @@ module.exports = {
       },
       maxWidth: {
         '1520': '1520px',
+        '1280': '1280px',
         '1050': '1050px',
         '1000': '1000px',
         '850': '850px',
