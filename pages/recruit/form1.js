@@ -22,6 +22,7 @@ export default function FORM() {
   const [education, setEducation] = useState("");
   const [currentStatus, setCurrentStatus] = useState("");
   const [currentIncome, setCurrentIncome] = useState("");
+  const [desireIncome, setDesireIncome] = useState("");
   const [spouse, setSpouse] = useState("");
   const [experienceNumber, setExperienceNumber] = useState("");
   const [experienceOccupation, setExperienceOccupation] = useState("");
@@ -49,6 +50,7 @@ export default function FORM() {
       education: education,
       currentStatus: currentStatus,
       currentIncome: currentIncome,
+      desireIncome: desireIncome,
       spouse: spouse,
       experienceNumber: experienceNumber,
       experienceOccupation: experienceOccupation,
@@ -84,7 +86,7 @@ export default function FORM() {
       <Layout>
         <main class="bg-gray-100">
           <div class="mx-auto pt-12 lg:w-1100">
-            <p class="text-center mb-4 text-xl">【{type}】</p>
+            <p class="text-center mb-4 text-xl">【正社員】</p>
             <p class="text-center">※当応募内容についてはエントリー、並びに1次選考も兼ねて確認させて頂いております。予めご了承ください。</p>
 
             <div class=" bg-gray-100 py-8 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -99,22 +101,17 @@ export default function FORM() {
                         <div class="ml-2 inline-block">
                           <input type="radio" name="type" id="type" autocomplete="organization" value={"ネットショップ運営店長（正社員）"}
                             onChange={e => setType(e.target.value)} />
-                          <label for="male">ネットショップ運営店長（正社員）</label>
+                          <label for="type" class="pl-2">ネットショップ運営店長（正社員）</label>
                         </div>
                         <div class="ml-2 inline-block">
-                          <input type="radio" name="type" id="type" autocomplete="organization" value={"ネットショップ運営サポート（正社員）"}
+                          <input type="radio" name="type" id="type2" autocomplete="organization" value={"ネットショップ運営サポート（正社員）"}
                             onChange={e => setType(e.target.value)} />
-                            <label for="male">ネットショップ運営サポート（正社員）</label>
+                            <label for="type2" class="pl-2">ネットショップ運営サポート（正社員）</label>
                         </div>
                         <div class="ml-2 inline-block">
-                          <input type="radio" name="type" id="type" autocomplete="organization" value={"配送センター管理スタッフ（正社員）"}
+                          <input type="radio" name="type" id="type3" autocomplete="organization" value={"配送センター管理スタッフ（正社員）"}
                             onChange={e => setType(e.target.value)} />
-                            <label for="male">配送センター管理スタッフ（正社員）</label>
-                        </div>
-                        <div class="ml-2 inline-block">
-                          <input type="radio" name="type" id="type" autocomplete="organization" value={"事務処理STAFF（パート・アルバイト）"}
-                            onChange={e => setType(e.target.value)} />
-                            <label for="male">事務処理STAFF（パート・アルバイト）</label>
+                            <label for="type3" class="pl-2">配送センター管理スタッフ（正社員）</label>
                         </div>
                       </div>
                     </div>
@@ -328,6 +325,27 @@ export default function FORM() {
                       <label for="currentIncome" class="block text-sm font-medium text-gray-700">現在（直近）の年収<span class="text-gray-500"> (任意)</span></label>
                       <div class="mt-1 relative rounded-md shadow-sm">
                         <select name="currentIncome" id="currentIncome" onChange={e => setCurrentIncome(e.target.value)}
+                          class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
+                        >
+                          <option value="">Please select...</option>
+                          <option value="199万円以下">199万円以下</option>
+                          <option value="200~249万円">200~249万円</option>
+                          <option value="250~299万円">250~299万円</option>
+                          <option value="300~349万円">300~349万円</option>
+                          <option value="350~399万円">350~399万円</option>
+                          <option value="400~449万円">400~449万円</option>
+                          <option value="450~499万円">450~499万円</option>
+                          <option value="500~549万円">500~549万円</option>
+                          <option value="550~599万円">550~599万円</option>
+                          <option value="600万以上">600万以上</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="sm:col-span-2">
+                      <label for="desiredincome" class="block text-sm font-medium text-gray-700">希望年収<span class="text-gray-500"> (任意)</span></label>
+                      <div class="mt-1 relative rounded-md shadow-sm">
+                        <select name="desiredincome" id="desiredincome" onChange={e => setDesireIncome(e.target.value)}
                           class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-md"
                         >
                           <option value="">Please select...</option>
