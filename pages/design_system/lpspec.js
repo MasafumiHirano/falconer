@@ -326,10 +326,12 @@ export default function lpspec() {
               </div>
             </div>
           </div>
+          {/* 
           <div class="mt-16 flex justify-center">
             <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルXDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
           <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
+          */}
         </section>
         <section>
           <div class="mt-80 text-center">
