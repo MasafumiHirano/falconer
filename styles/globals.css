@@ -946,6 +946,12 @@ h1.company_title {
 }
 
 
+@media only screen and (max-width: 1024px) {
+  .oem_main_image h1{
+    font-size: 75px;
+  }
+}
+
 /*////////////////////////////////////// 事業内容ページ //////////////////////////////////////*/
 .business_detail {
   position: relative;
@@ -1225,11 +1231,13 @@ h1.company_title {
   }
   */
   
+}
+
+@media only screen and (max-width: 1024px) {
   .follow_button{
     display: none;
   } 
 }
-
 
 /*////////////////////////////////////// デザインページ //////////////////////////////////////*/
 
