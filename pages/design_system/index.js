@@ -84,8 +84,8 @@ export default function design_system({ medias }) {
                 <div class="w-1/12 flex items-center justify-center"><img src="/images/design/arrow.png" /></div>
               </Scroll>
             </div>
-            <div class="justify-center mt-24 hidden">
-              <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href=""><span class="w-93% NotoSans font-medium text-base text-center">外部委託業者様へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
+            <div class="justify-center mt-24">
+              <a class="w-300 h-12 rounded-full flex justify-center items-center bg-green-500 text-white mx-auto" href="/DownLoad/design/resume.pdf" target="blank_"><span class="w-93% NotoSans font-medium text-base text-center">外部委託業者様へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
             </div>
           </div>
         </section>
@@ -99,14 +99,14 @@ export default function design_system({ medias }) {
           <h2 class="text-center NotoSans font-bold text-3xl mt-8">商品ページ仕様</h2>
           <h3 class="text-center NotoSans font-bold text-3xl mt-16">全体概要</h3>
           <p class="mt-3 text-center text-3xl">商品ページの商品詳細に全て画像で挿入する。</p>
-          <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7">
-            <p class="w-60 text-xl">ファイル名 : ○○○(品番)<br />横幅 : 1200px<br />解像度 : 72ppi</p>
+          <div class="w-450 h-44 mx-auto bg-blue-200 flex justify-center items-center mt-7 px-6">
+            <p class="text-xl">ファイル名 : ○○○(品番)<br />横幅 : 1200px<br />解像度 : 72ppi<br/>※書き出し時に横幅変更の場合あり<br/>(「外部委託業者様へ」をご覧ください。)</p>
           </div>
           <div class="mt-11">
             <p class="w-500 mx-auto text-xl leading-7">・幅1200pxのワイヤーフレーム<br />・各モール向けに1200px×1200pxの正方形で区切り<br />・サムネイル / イメージ / 詳細 / バリエーションで構成</p>
           </div>
           <div class="flex justify-center mt-14">
-            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://item.rakuten.co.jp/allrightleather/waa7146/" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">全体概要商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
+            <a class="w-300 h-12 rounded-full flex justify-between items-center bg-green-500 text-white" href="https://item.rakuten.co.jp/allrightleather/waa7146/" target="_blank"><span class="w-93% NotoSans font-medium text-base text-center">楽天商品ページ一例へ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
           </div>
           <div class="mt-24">
             <img class="block mx-auto" src="/images/design/rakuten_layout.jpg" />
@@ -139,7 +139,7 @@ export default function design_system({ medias }) {
           <div class="mt-24">
             <h3 class="text-red-700 text-center text-xl font-bold">禁止事項</h3>
             <div class="mt-8 flex justify-center">
-              <img src="/images/design/thumbnail_rule.jpg" />
+              <img src="/images/design/thumbnail_rule.png" />
             </div>
           </div>
           <div class="mt-20 max-w-1000 w-10/12 mx-auto px-6">
@@ -227,6 +227,12 @@ export default function design_system({ medias }) {
             <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/1HmFP-tU9fYQR0edjuvHQO8X2Hds0vJDx/view?usp=sharing" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
           <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
+          <div class="mt-10">
+            <h3 class="mt-32 max-w-1000 w-10/12 mx-auto text-3xl pb-3 mb-3 font-bold border-b-2 border-green-800">ライティング</h3>
+            <p class="max-w-1000 w-10/12 mx-auto text-xl text-justify">各訴求説明はシンプルな言葉選びと、短い文章で行う(読みたいと思える段落構成)。</p>
+            <p class="w-450 px-4 mx-auto text-xl mt-6">・見出し55~65px<br/>・通常文等30~45px<br/>※フォントにより差異アリ</p>
+          </div>
+          <img src="/images/design/writing_sample.jpg" class="block mt-7 mx-auto"/>
         </section>
         {/* 商品ページサンプル */}
         <section class="mt-52" id="page_sample">
@@ -234,7 +240,6 @@ export default function design_system({ medias }) {
             <div class="flex items-end"><img src="/images/design/rakuten_l.png" /></div>
             <div class="flex items-center"><img src="/images/design/yahoo_l.png" /></div>
           </div>
-          <h2 class="text-center NotoSans font-bold text-3xl mt-8">商品ページサンプル</h2>
           <div class="mt-16 flex justify-center max-w-1050 mx-auto">
             <img class="w-full" src="/images/design/goodspage_sample.jpg" />
           </div>
