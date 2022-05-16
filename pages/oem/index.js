@@ -88,7 +88,7 @@ export default function MEDIACONTACT() {
       </Head>
       <main class="NotoSans">
         <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
-          <p class="font-bold lg:font-normal text-lg md:text-3xl lg:text-6xl pt-8 lg:pt-24 text-center">創業たったの5年で300万個、合計20億円</p>
+          <p class="font-bold lg:font-normal text-lg md:text-3xl lg:text-4xl xl:text-6xl pt-8 lg:pt-24 text-center">創業たったの5年で300万個、合計20億円</p>
           <h1 class="font-bold lg:mt-7 leading-tight lg:leading-snug text-center lg:tracking-widest NotoSans lg:pl-6"><span class="block lg:inline-block">売れる</span>モノづくりを<br />提供します</h1>
           <p class="text-xs md:text-base lg:text-3xl text-black text-center mt-2 lg:mt-10 lg:leading-relaxed">大手輸入車メーカー、大手携帯キャリア、<br class="lg:hidden"/>プロ野球球団、<br class="hidden lg:block "/>
             大手ペットショップ、<br class="lg:hidden" />芸能人プロデュースブランドなど実績多数<br />
@@ -126,8 +126,8 @@ export default function MEDIACONTACT() {
         <div class="text-falNAVY bg-oemGray mt-9 py-28 lg:pt-0 lg:pb-9 md:mt-20 text-center font-bold">
           <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold pb-4 lg:py-16">そのお悩み解決できます！</h2>
           <div class="lg:flex lg:justify-between w-11/12 max-w-1280 mx-auto">
-            <img src="/images/oem/miniwallet.png" class="block mx-auto" />
-            <img src="/images/oem/longwallet.png" class="block mx-auto mt-4 lg:mt-0" />
+            <img src="/images/oem/miniwallet.png" class="block mx-auto lg:max-w-50%" />
+            <img src="/images/oem/longwallet.png" class="block mx-auto lg:max-w-50% mt-4 lg:mt-0" />
           </div>
           <p class="text-xl md:text-2xl lg:text-4xl w-full text-center mx-auto mt-4 lg:mt-12 lg:tracking-widest">成功し続ける当社が<br class="block md:hidden" />5年間で20億円を売るノウハウ</p>
           <p class="text-4xl md:text-5xl lg:text-6xl w-full text-center mx-auto mt-2 md:mt-8 md:mb-8 NotoSans lg:tracking-wide"><span class="text-red-500">売れる</span>モノづくりを<br class="lg:hidden" />提供します</p>
