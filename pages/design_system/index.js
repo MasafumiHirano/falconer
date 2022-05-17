@@ -212,6 +212,12 @@ export default function design_system({ medias }) {
             <div class="mt-7"><img class="inline-block -ml-3" src="/images/design/caution.jpg" /><span class="text-xl">ブロックでのレイアウトを整えたとしても、それらがLPに仕上がった際にレイアウトのバランスが悪くならないよう、LPを前提としたレイアウトバランスを構想する。</span></div>
           </div>
           <div class="mt-10">
+            <h3 class="mt-32 max-w-1000 w-10/12 mx-auto text-3xl pb-3 mb-3 font-bold border-b-2 border-green-800">ライティング</h3>
+            <p class="max-w-1000 w-10/12 mx-auto text-xl text-justify">各訴求説明はシンプルな言葉選びと、短い文章で行う(読みたいと思える段落構成)。</p>
+            <p class="w-450 px-4 mx-auto text-xl mt-6">・見出し55~65px<br/>・通常文等30~45px<br/>※フォントにより差異アリ</p>
+          </div>
+          <img src="/images/design/writing_sample.jpg" class="block mt-7 mx-auto"/>
+          <div class="mt-10">
             <h3 class="mt-32 max-w-1000 w-10/12 mx-auto text-3xl pb-3 mb-3 font-bold border-b-2 border-green-800">フォント</h3>
             <p class="max-w-1000 w-10/12 mx-auto text-xl text-justify">フォントは説明などの長尺の文章はNoto Sans JPを使用。<span class="text-red-700">ただし、見出しやキャッチコピーなどデザイン性を考慮したいような部分であったり、特定の個性を表現したい商品</span>であれば長尺文であっても他のフォントの使用は可。</p>
           </div>
@@ -227,12 +233,6 @@ export default function design_system({ medias }) {
             <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/1HmFP-tU9fYQR0edjuvHQO8X2Hds0vJDx/view?usp=sharing" target="_blank"><img class="ml-4" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-center">サンプルPSDダウンロード</span><span><img class="mr-4" src="/images/design/dl_icon.png" /></span></a>
           </div>
           <p class="text-center text-sm">※Googleドライブからのダウンロードになります</p>
-          <div class="mt-10">
-            <h3 class="mt-32 max-w-1000 w-10/12 mx-auto text-3xl pb-3 mb-3 font-bold border-b-2 border-green-800">ライティング</h3>
-            <p class="max-w-1000 w-10/12 mx-auto text-xl text-justify">各訴求説明はシンプルな言葉選びと、短い文章で行う(読みたいと思える段落構成)。</p>
-            <p class="w-450 px-4 mx-auto text-xl mt-6">・見出し55~65px<br/>・通常文等30~45px<br/>※フォントにより差異アリ</p>
-          </div>
-          <img src="/images/design/writing_sample.jpg" class="block mt-7 mx-auto"/>
         </section>
         {/* 商品ページサンプル */}
         <section class="mt-52" id="page_sample">
