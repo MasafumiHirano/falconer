@@ -907,6 +907,13 @@ h1.company_title {
   background-size: cover;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .oem_main_image h1{
+    font-size: 75px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   h1.media_title {
     background-image: url("/images/media/media_eyecatch_sp.jpg");
@@ -942,13 +949,6 @@ h1.company_title {
   .mission_title {
     background-image: url("/images/company/eyecatch_mission_sp.jpg");
     background-size: cover;
-  }
-}
-
-
-@media only screen and (max-width: 1024px) {
-  .oem_main_image h1{
-    font-size: 75px;
   }
 }
 

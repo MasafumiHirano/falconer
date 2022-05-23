@@ -114,6 +114,7 @@ module.exports = {
         'ms': '15px',
         '25px': '25px',
         'xss': '11px',
+        '40px': '40px',
       },
       colors: {
         'falGLD': '#796B58',
