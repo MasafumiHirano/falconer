@@ -275,11 +275,11 @@ export default function MEDIACONTACT() {
             <span class="w-49% md:w-24% mt-2 md:mt-0"><img src="/images/oem/plant_02.png" /></span>
             <span class="w-49% md:w-24% mt-2 md:mt-0"><img src="/images/oem/plant_03.png" /></span>
           </div>
-          <div class="w-11/12 md:w-4/5 text-sm md:text-3xl lg:text-2xl xl:text-4xl border-white border lg:border-none text-center mt-4 px-2 md:px-0 py-4 md:py-10 leading-8 md:leading-loose mx-auto font-bold text-white">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl lg:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-3xl lg:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
-            数千円で販売する<br class="block md:hidden" /><span class="text-xl md:text-4xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl md:text-3xl lg:text-4xl">を</span><br class="block md:hidden" />自社工場敷地内で運営しており、<br />
+          <div class="w-11/12 md:w-4/5 lg:w-11/12 xl:w-w4/5 text-sm md:text-3xl lg:text-2xl xl:text-4xl border-white border lg:border-none text-center mt-4 px-2 md:px-0 py-4 md:py-10 leading-8 md:leading-loose mx-auto font-bold text-white">当社では数十万円で販売する高級ブランド品の<br class="block md:hidden" /><span class="text-xl md:text-4xl lg:text-3xl xl:text-4xl text-p_yellow">「職人製造エリア」</span><span class="text-xl md:text-3xl lg:text-2xl xl:text-4xl">と、<br class="md:block hidden" /></span><br class="block md:hidden" />
+            数千円で販売する<br class="block md:hidden" /><span class="text-xl md:text-4xl lg:text-3xl xl:text-4xl text-p_yellow">「量産品の製造エリア」</span><span class="text-xl md:text-3xl lg:text-2xl xl:text-4xl">を</span><br class="block md:hidden" />自社工場敷地内で運営しており、<br />
             高級ブランドで培った高品質な製造ノウハウと、<br class="block md:hidden" />量産品製造で培ったコスト削減、<br />
             効率化ノウハウの両方を保有しているため、<br />
-            お客様のニーズに合わせた<br class="block md:hidden" />クオリティと<span class="text-sm md:text-4xl text-p_yellow md:block lg:inline-block">価格の調整が可能です。</span>
+            お客様のニーズに合わせた<br class="block md:hidden" />クオリティと<span class="text-sm md:text-4xl lg:text-3xl xl:text-4xl text-p_yellow md:block lg:inline-block">価格の調整が可能です。</span>
           </div>
         </div>
         <div class="bg_image px-2 pb-8 md:pb-40">
