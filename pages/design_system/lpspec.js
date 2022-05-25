@@ -31,7 +31,7 @@ export default function lpspec() {
             <p class="mt-3 text-xl font-normal max-w-1050">
               トーンマナーはその時のテーマで自由に設定する。ただし基本として、商品ページと同じカラートーンでの構築を推奨。
             </p>
-            <h3 class="mt-5 text-xl text-center font-bold max-w-1050">商品ページカラートーンへのリンクURL。</h3>
+            <h3 class="mt-5 text-xl text-center font-bold max-w-1050"><a class="border-b pb-2 border-black" href="/design_system/#color_spec">商品ページカラーはこちら</a></h3>
             <p class="mt-32 text-xl font-normal max-w-1050">
               また、他店舗との差別化としてアニメーションや動き、動作エフェクトなどを加えてページをリッチに仕上げる。店舗コンセプトとして「安っぽさの排除」を念頭に入れる。
             </p>
