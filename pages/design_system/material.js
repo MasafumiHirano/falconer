@@ -20,8 +20,8 @@ export default function productspec() {
               <div class="w-1/3 flex flex-col justify-around h-800">
                 <div><img class="mx-auto" src="/images/design/domteporna.png" /></div>
                 <div><img class="mx-auto" src="/images/design/domtepornaitaly.png" /></div>
-                <div><img class="mx-auto" src="/images/design/highfive1.png" /></div>
-                <div><img class="mx-auto" src="/images/design/highfive2.png" /></div>
+                <div><img class="mx-auto" src="/images/design/HighFive1.png" /></div>
+                <div><img class="mx-auto" src="/images/design/HighFive2.png" /></div>
                 <div><img class="mx-auto" src="/images/design/charis.png" /></div>
                 <div><img class="mx-auto" src="/images/design/malta.png" /></div>
                 <div><img class="mx-auto" src="/images/design/malta2.png" /></div>
