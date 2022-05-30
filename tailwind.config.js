@@ -128,6 +128,16 @@ module.exports = {
         'oemGray': '#E6E6E6',
         'arl_brown': '#60554A',
         'arl_grey': '#EDECEB',
+        rafi: {
+          'FFCE59': '#FFCE59',
+          '303030': '#303030',
+          '5F5F5F': '#5F5F5F',
+          '8F8F8F': '#8F8F8F',
+          'BEBEBE': '#BEBEBE',
+          'EDEDED': '#EDEDED',
+          'FFE29B': '#FFE29B',
+          'FFF5DE': '#FFF5DE',
+        },
       },
       minWidth: {
         '250': '250px',
@@ -139,6 +149,7 @@ module.exports = {
       maxWidth: {
         '1520': '1520px',
         '1280': '1280px',
+        '1100': '1100px',
         '1050': '1050px',
         '1000': '1000px',
         '850': '850px',
