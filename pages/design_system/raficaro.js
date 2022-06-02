@@ -67,7 +67,7 @@ export default function productspec() {
           <p class="mt-4 text-gray-500 text-base text-center">※カラーチップクリックでクリップボードにコピー</p>
           <h3 class="text-center NotoSans font-bold text-xl mt-14">メインカラー</h3>
           <div>
-            <div class="mx-auto flex w-580 px-5 mt-10">
+            <div class="mx-auto flex w-580 px-5 mt-10 flex-wrap">
               <CopyToClipboard text="FFCE59">
                 <div class="colorbox bg-rafi-FFCE59 cursor-pointer">
                   <span></span>
@@ -81,6 +81,7 @@ export default function productspec() {
                   Lab / L86 : a9 : b63<br />
                   HSB / H42 : S65 : B100</p>
               </div>
+              <p class="text-sm w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
             </div>
             <h3 class="text-center NotoSans font-bold text-xl mt-28">サブカラー</h3>
             <div class="flex max-w-1280 px-12 mx-auto flex-wrap justify-around">
@@ -88,6 +89,7 @@ export default function productspec() {
                 <CopyToClipboard text="000000">
                   <div class="colorbox_mini bg-black cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#000000</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -102,6 +104,7 @@ export default function productspec() {
                 <CopyToClipboard text="303030">
                   <div class="colorbox_mini bg-rafi-303030 cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#303030</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -116,6 +119,7 @@ export default function productspec() {
                 <CopyToClipboard text="5F5F5F">
                   <div class="colorbox_mini bg-rafi-5F5F5F cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#5f5f5f</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -130,6 +134,7 @@ export default function productspec() {
                 <CopyToClipboard text="8F8F8F">
                   <div class="colorbox_mini bg-rafi-8F8F8F cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#8f8f8f</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -145,6 +150,7 @@ export default function productspec() {
                 <CopyToClipboard text="BEBEBE">
                   <div class="colorbox_mini bg-rafi-BEBEBE cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#bebebe</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -159,6 +165,7 @@ export default function productspec() {
                 <CopyToClipboard text="EDEDED">
                   <div class="colorbox_mini bg-rafi-EDEDED cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#ededed</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -173,6 +180,7 @@ export default function productspec() {
                 <CopyToClipboard text="FFE29B">
                   <div class="colorbox_mini bg-rafi-FFE29B cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#ffe29b</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -187,6 +195,7 @@ export default function productspec() {
                 <CopyToClipboard text="FFF5DE">
                   <div class="colorbox_mini bg-rafi-FFF5DE cursor-pointer"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#fff5de</p>
                   <p class="NotoSans font-normal text-base_s mt-1">
@@ -201,6 +210,7 @@ export default function productspec() {
                 <CopyToClipboard text="FFFFFF">
                   <div class="colorbox_mini bg-white cursor-pointer border"></div>
                 </CopyToClipboard>
+                <p class="text-xs w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
                 <div class="flex flex-col w-full">
                   <p class="NotoSans font-bold text-xl mt-1">#ffffff</p>
                   <p class="NotoSans font-normal text-base_s mt-1">

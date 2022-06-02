@@ -1,6 +1,7 @@
 
 import Layout from '../../components/layout'
 import LeftMenu  from '../../components/design_leftmenu'
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function productspec() {
   return (
@@ -48,8 +49,10 @@ export default function productspec() {
             個々のオリジナルページ(商品ページ・コンテンツページ・ブランドページetc.,)を除いた、箱側のデザインでの使用カラー。
           </p>
           <div>
-            <div class="mx-auto flex w-580 px-5 mt-20">
-              <div class="colorbox bg-arl_brown"></div>
+            <div class="mx-auto flex w-580 px-5 mt-20 flex-wrap">
+              <CopyToClipboard text="60554A">
+                <div class="colorbox bg-arl_brown cursor-pointer"></div>
+              </CopyToClipboard>
               <div class="ml-6 flex flex-col">
                 <p class="NotoSans font-bold text-xl">#60554a</p>
                 <p class="NotoSans font-normal text-xl mt-2">
@@ -58,11 +61,14 @@ export default function productspec() {
                   Lab / L37 : a3 : b8<br />
                   HSB / H30 : S23 : B38</p>
               </div>
+              <p class="text-sm w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
             </div>
-            <div class="mx-auto flex mt-16 w-580 px-5">
-              <div class="colorbox bg-arl_grey"></div>
+            <div class="mx-auto flex mt-16 w-580 px-5 flex-wrap">
+              <CopyToClipboard text="EDECEB">
+                <div class="colorbox bg-arl_grey cursor-pointer"></div>
+              </CopyToClipboard>
               <div class="ml-6 flex flex-col">
-                <p class="NotoSans font-bold text-xl">#60554a</p>
+                <p class="NotoSans font-bold text-xl">#edeceb</p>
                 <p class="NotoSans font-normal text-xl mt-2">
                   RGB / 237 : G236 : B235<br />
                   CMYK / C6% : M5% : Y5% : K0%<br />
@@ -70,6 +76,7 @@ export default function productspec() {
                   HSB / H30 : S1 : B93
                 </p>
               </div>
+              <p class="text-sm w-full">※カラーチップクリックで<br/>クリップボードにコピー</p>
             </div>
             <p class="mt-24 text-xl font-normal max-w-850 mx-auto">
               その他、内包するコンテンツや表示内容により、サブカラー、アクセントカラーを各々選定して使用。トーンに関して、後述を参照。

@@ -7,9 +7,9 @@ export default function DesignLeftMenu() {
         <ul class="w-full pl-1 lg:pl-10 mt-10">
           <li><a class="flex flex-row" href="/design_system/"><span class="w-4/6">商品ページ</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           {/* <li><a class="flex flex-row mt-7"><span class="w-4/6">ロゴ・素材</span><span><img src="/images/design/arrow_wh.png" /></span></a></li> */}
-          <li><a class="flex flex-row mt-7" href="/design_system/productspec"><span class="w-4/6">ブランドVI</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
+          <li><a class="flex flex-row mt-7" href="/design_system/productspec"><span class="w-4/6">AllRightLeather</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7" href="/design_system/raficaro"><span class="w-4/6">Raficaro</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
-          <li><a class="flex flex-row mt-7" href="/design_system/lpspec"><span class="w-4/6">セールLP仕様</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
+          <li><a class="flex flex-row mt-7" href="/design_system/lpspec"><span class="w-4/6">セールLP</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7" href="/design_system/material"><span class="w-4/6">素材集</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
         </ul>
       </aside>
