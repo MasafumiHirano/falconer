@@ -141,7 +141,7 @@ export default function productspec() {
               <p class="text-center text-xl">Webページに動きをつけたい際に参考になるモーションのサンプルサイトです。</p>
             </div>
             <div class="mt-16 flex justify-center">
-              <a class="w-450 h-16 rounded-full flex justify-center items-center bg-green-500 text-white mx-auto" href="/DownLoad/design/resume.pdf" target="blank_"><span class="w-93% NotoSans font-medium text-base text-center">webサイトへ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
+              <a class="w-450 h-16 rounded-full flex justify-center items-center bg-green-500 text-white mx-auto" href="http://foxcodex.html.xdomain.jp/index.html" target="blank_"><span class="w-93% NotoSans font-medium text-base text-center">webサイトへ</span><span><img class="mr-4" src="/images/design/arrow_wh.png" /></span></a>
             </div>
           </div>
         </section>
