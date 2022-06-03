@@ -138,6 +138,12 @@ module.exports = {
           'FFE29B': '#FFE29B',
           'FFF5DE': '#FFF5DE',
         },
+        domtepo: {
+          'FFB629': 'FFB629',
+          '9B7323': '9B7323',
+          'EDC984': 'EDC984',
+          'D9AA4E': 'D9AA4E',
+        },
       },
       minWidth: {
         '250': '250px',

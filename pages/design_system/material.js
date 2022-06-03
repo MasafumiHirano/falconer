@@ -18,25 +18,25 @@ export default function productspec() {
             <h2 class="text-3xl text-center w-full">ブランドロゴ</h2>
             <div class="mx-auto w-1280 flex mt-10">
               <div class="w-1/3 flex flex-col justify-around h-800">
-                <div><img class="mx-auto" src="/images/design/domteporna.png" /></div>
-                <div><img class="mx-auto" src="/images/design/domtepornaitaly.png" /></div>
-                <div><img class="mx-auto" src="/images/design/HighFive1.png" /></div>
-                <div><img class="mx-auto" src="/images/design/HighFive2.png" /></div>
-                <div><img class="mx-auto" src="/images/design/charis.png" /></div>
-                <div><img class="mx-auto" src="/images/design/malta.png" /></div>
-                <div><img class="mx-auto" src="/images/design/malta2.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/domteporna.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/domtepornaitaly.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/HighFive1.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/HighFive2.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/charis.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/malta.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/malta2.png" /></div>
               </div>
               <div class="w-1/3 flex flex-col justify-around h-800">
-                <div><img class="mx-auto" src="/images/design/raficaro_log4.png" /></div>
-                <div><img class="mx-auto" src="/images/design/raficaro.png" /></div>
-                <div><img class="mx-auto" src="/images/design/raficaro_log1.png" /></div>
-                <div><img class="mx-auto" src="/images/design/raficaro_log2.png" /></div>
-                <div><img class="mx-auto" src="/images/design/miracolo.png" /></div>
+                <div><img class="mx-auto w-16" src="/images/design/raficaro_log4.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/raficaro.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/raficaro_log1.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/raficaro_log2.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/miracolo.png" /></div>
               </div>
               <div class="w-1/3 flex flex-col justify-around h-405">
-                <div><img class="mx-auto" src="/images/design/bambam.png" /></div>
-                <div><img class="mx-auto" src="/images/design/jiapo.png" /></div>
-                <div><img class="mx-auto" src="/images/design/lurverri.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/bambam.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/jiapo.png" /></div>
+                <div><img class="mx-auto w-44" src="/images/design/lurverri.png" /></div>
               </div>
             </div>
           </div>

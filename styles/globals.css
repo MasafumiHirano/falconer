@@ -706,3 +706,7 @@ h1.company_title {
   width: 740px;
   height: 1146px;
 }
+
+.bgdonteporna_gold{
+  background: linear-gradient(to bottom right,#FFB629,#9B7323 49%,#EDC984 50%,#D9AA4E); 
+}

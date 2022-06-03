@@ -13,7 +13,7 @@ export default function productspec() {
       {/* 本文 */}
       <main class="NotoSans pl-36 lg:pl-60 ">
         <section>
-          <h1 class="text-center mt-20 mb-4"><img src="/images/design/raficaro.png" alt="" class="block mx-auto" /></h1>
+          <h1 class="text-center mt-20 mb-4"><img src="/images/design/raficaro.png" alt="" class="block mx-auto w-250" /></h1>
           <h2 class="text-center NotoSans font-bold text-3xl">ブランドIV</h2>
           <div class="mt-32 max-w-1100 w-10/12 mx-auto px-6">
             <h2 class="text-center NotoSans font-bold text-3xl mt-2">コンセプト</h2>
@@ -42,17 +42,19 @@ export default function productspec() {
           <div class="bg-rafi-FFF5DE flex justify-items-center flex-wrap py-20">
             <h2 class="text-3xl text-center w-full">ロゴ</h2>
             <div class="w-full max-w-1280 flex mt-10 mx-auto">
-              <div class="w-2/4 flex justify-center flex-wrap items-center">
-                <div class="mr-4"><img src="/images/design/raficaro_log1.png" /></div>
-                <div class="ml-4"><img src="/images/design/raficaro_log2.png" /></div>
+              <div class="w-2/4 flex flex-col justify-between items-center h-44">
+                <div class="flex justify-around items-center h-32">
+                  <div class="mr-4"><img src="/images/design/raficaro_log1.png" class="w-56"/></div>
+                  <div class="ml-4"><img src="/images/design/raficaro_log2.png" class="a w-72" /></div>
+                </div>
                 <h3 class="w-full text-center mt-4">テキスト・シンボル混合</h3>
               </div>
-              <div class="w-1/4 flex justify-around flex-wrap items-center">
-                <div><img src="/images/design/raficaro_log3.png" /></div>
+              <div class="w-1/4 flex flex-col justify-between items-center h-44">
+                <div class="flex justify-around items-center h-32"><img src="/images/design/raficaro_log3.png" class="w-56"/></div>
                 <h3 class="w-full text-center mt-4">テキストロゴ</h3>
               </div>
-              <div class="w-1/4 flex justify-around flex-wrap items-center">
-                <div><img src="/images/design/raficaro_log4.png" /></div>
+              <div class="w-1/4 flex flex-col justify-between items-center h-44">
+                <div class="flex justify-around items-center h-32"><img src="/images/design/raficaro_log4.png" class="w-20" /></div>
                 <h3 class="w-full text-center mt-4">シンボルマーク</h3>
               </div>
             </div>
@@ -223,7 +225,7 @@ export default function productspec() {
               </div>
             </div>
             <div class="mt-16 flex justify-center">
-              <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-rafi-FFCE59 text-arl_brown" href="https://drive.google.com/file/d/1MkXDo5dkibICdqrowpZIP5F_RJzukqWA/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon2.png" /><span class="NotoSans font-bold text-xl text-left">PSDカラースウォッチ<br />ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon2.png" /></span></a>
+              <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-rafi-FFCE59 text-arl_brown" href="https://drive.google.com/file/d/1EKR_o574CpIsymSCNVaNQIoJSe2JtQZp/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon2.png" /><span class="NotoSans font-bold text-xl text-left">PSDカラースウォッチ<br />ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon2.png" /></span></a>
             </div>
             <p class="text-center font-sm">※Googleドライブからのダウンロードになります</p>
           </div>

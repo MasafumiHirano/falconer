@@ -9,6 +9,7 @@ export default function DesignLeftMenu() {
           {/* <li><a class="flex flex-row mt-7"><span class="w-4/6">ロゴ・素材</span><span><img src="/images/design/arrow_wh.png" /></span></a></li> */}
           <li><a class="flex flex-row mt-7" href="/design_system/productspec"><span class="w-4/6">AllRightLeather</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7" href="/design_system/raficaro"><span class="w-4/6">Raficaro</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
+          <li><a class="flex flex-row mt-7" href="/design_system/domteporna"><span class="w-4/6">DomTeporna</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7" href="/design_system/lpspec"><span class="w-4/6">セールLP</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
           <li><a class="flex flex-row mt-7" href="/design_system/material"><span class="w-4/6">素材集</span><span><img src="/images/design/arrow_wh.png" /></span></a></li>
         </ul>
