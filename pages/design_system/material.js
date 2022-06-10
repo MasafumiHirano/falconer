@@ -11,7 +11,7 @@ export default function productspec() {
       {/* 本文 */}
       <main class="NotoSans pl-36 lg:pl-60 ">
         <section>
-          <h1 class="text-center NotoSans font-bold text-3xl">素材集</h1>
+          <h1 class="text-center NotoSans font-bold text-3xl pt-10">素材集</h1>
         </section>
         <section class="mt-40">
           <div class="flex bg-gray-50 justify-items-center flex-wrap py-20">

@@ -95,7 +95,7 @@ export default function productspec() {
           <p class="text-xl font-normal max-w-850 px-10 mx-auto">
             高級感を出すと言うよりは安っぽさを削っていくイメージで全体のトーンを統一。
           </p>
-          <div class="mt-24 flex justify-center"><img src="/images/design/color.jpg"/></div>
+          <div class="mt-24 flex justify-center max-w-650 mx-auto"><img src="/images/design/color1.png"/></div>
           <p class="text-xl font-normal max-w-850 px-10 mx-auto mt-6">
           メインカラーは前述の通り。サブカラーやアクセントカラーとしてこれらのトーンを使用する(個々のコンテンツやブランドページなどはそれぞれ規定のカラー設定をしている場合があるため)。
           </p>
