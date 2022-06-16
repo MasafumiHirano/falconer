@@ -50,7 +50,7 @@ export default function productspec() {
             </div>
           </div>
           <div class="mt-16 flex justify-center">
-            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/1MkXDo5dkibICdqrowpZIP5F_RJzukqWA/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-left">ロゴ素材ダウンロード ai</span><span><img class="mr-8" src="/images/design/dl_icon.png" /></span></a>
+            <a class="mr-10 w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white" href="https://drive.google.com/file/d/17PMQ1CFI1-bAocCNGFqS_aRRcUzdwDrZ/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-left">ロゴ素材ダウンロード ai</span><span><img class="mr-8" src="/images/design/dl_icon.png" /></span></a>
           </div>
           <p class="text-center font-sm">※Googleドライブからのダウンロードになります</p>
         </section>
@@ -125,7 +125,7 @@ export default function productspec() {
               <div><img class="mx-10 my-10" src="/images/design/leather.jpg" /></div>
             </div>
             <div class="mt-16">
-              <a class="w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white mx-auto" href="https://drive.google.com/file/d/1MkXDo5dkibICdqrowpZIP5F_RJzukqWA/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-left">アイコン素材ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon.png" /></span></a>
+              <a class="w-450 h-24 py-1 rounded-full flex justify-around items-center bg-green-500 text-white mx-auto" href="https://drive.google.com/file/d/1cOU69cihjrsV7dPR4cb8ya36IhJo1Azr/view?usp=sharing" target="blank_" ><img class="ml-8" src="/images/design/zip_icon.png" /><span class="NotoSans font-bold text-xl text-left">アイコン素材ダウンロード</span><span><img class="mr-8" src="/images/design/dl_icon.png" /></span></a>
             </div>
             <p class="text-center font-sm">※Googleドライブからのダウンロードになります</p>
           </div>
