@@ -10,7 +10,7 @@ export default function lpspec() {
       <main class="NotoSans pl-36 lg:pl-60 ">
         <section>
           <h2 class="text-center NotoSans font-bold text-3xl mt-20 mb-14">LP仕様</h2>
-          <div class="w-500 mx-auto flex justify-center">
+          <div class="w-64 mx-auto flex justify-center">
             <div class="flex items-end"><img src="/images/design/rakuten_l.png" /></div>
           </div>
           <h2 class="text-center NotoSans font-bold text-3xl mt-36">セールLP</h2>

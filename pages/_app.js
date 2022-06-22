@@ -1,3 +1,4 @@
+import '../styles/fontface.css'
 import '../styles/globals.css'
 import '../styles/slider.css'
 

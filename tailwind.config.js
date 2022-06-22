@@ -114,6 +114,7 @@ module.exports = {
         'ms': '15px',
         '25px': '25px',
         'xss': '11px',
+        '40px': '40px',
       },
       colors: {
         'falGLD': '#796B58',
@@ -127,6 +128,22 @@ module.exports = {
         'oemGray': '#E6E6E6',
         'arl_brown': '#60554A',
         'arl_grey': '#EDECEB',
+        rafi: {
+          'FFCE59': '#FFCE59',
+          '303030': '#303030',
+          '5F5F5F': '#5F5F5F',
+          '8F8F8F': '#8F8F8F',
+          'BEBEBE': '#BEBEBE',
+          'EDEDED': '#EDEDED',
+          'FFE29B': '#FFE29B',
+          'FFF5DE': '#FFF5DE',
+        },
+        domtepo: {
+          'FFB629': 'FFB629',
+          '9B7323': '9B7323',
+          'EDC984': 'EDC984',
+          'D9AA4E': 'D9AA4E',
+        },
       },
       minWidth: {
         '250': '250px',
@@ -138,11 +155,13 @@ module.exports = {
       maxWidth: {
         '1520': '1520px',
         '1280': '1280px',
+        '1100': '1100px',
         '1050': '1050px',
         '1000': '1000px',
         '850': '850px',
         '650': '650px',
         '500': '500px',
+        '50%': '50%',
       }
     }
   },
