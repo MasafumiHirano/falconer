@@ -50,7 +50,7 @@ export default function FORM() {
       education: education,
       currentStatus: currentStatus,
       currentIncome: currentIncome,
-      desireIncome: desireIncome,
+      desiredIncome: desireIncome,
       spouse: spouse,
       experienceNumber: experienceNumber,
       experienceOccupation: experienceOccupation,
