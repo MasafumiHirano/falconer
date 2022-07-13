@@ -233,14 +233,14 @@ export default function CONTACT() {
                 <p class="mt-2 text-center text-3xl helvetica"><a class="border-b-4 border-comGOLD w-52 block mx-auto" href="tel:+81-52-734-7065">TEL contact</a></p>
                 <div class="mt-8">
                   <div class="mt-2 w-full max-w-1050 text-3xl helvetica flex flex-col justify-between md:flex-row mx-auto">
-                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7075">
+                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7065">
                       <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/houzin.png" /></div>
                       <div class="flex flex-col items-center justify-center">
                         <span class="NotoSans-L text-sm lg:text-base">法人窓口はコチラ</span>
                         <span class="futura-lt text-2xl lg:text-4xl mt-2">052-734-7065</span>
                       </div>
                     </a>
-                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto mt-6 md:mt-0" href="tel:+81-52-734-7065">
+                    <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto mt-6 md:mt-0" href="tel:+81-52-734-7075">
                       <div class="pl-7 pr-7 lg:pr-14"><img class="w-12 lg:w-14" src="/images/top/kojin.png" /></div>
                       <div class="flex flex-col items-center justify-center">
                         <span class="NotoSans-L text-sm lg:text-base">一般・個人の方コチラ</span>
