@@ -244,7 +244,7 @@ export default function MEDIACONTACT() {
               <img src="/images/oem/oem01.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
             </div>
             <div class="md:w-10/12 lg:w-4/12 mx-auto mt-24 lg:mt-0">
-            <h3 class="font-bold text-2xl lg:text-40px text-center text-falNAVY border-b-2 border-falNAVY pb-4 w-11/12 mx-auto">当社の場合</h3>
+              <h3 class="font-bold text-2xl lg:text-40px text-center text-falNAVY border-b-2 border-falNAVY pb-4 w-11/12 mx-auto">当社の場合</h3>
               <img src="/images/oem/oem02.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
             </div>
             <div class="w-full">
@@ -336,14 +336,53 @@ export default function MEDIACONTACT() {
             </p>
           </div>
         </div>
-        <div class="pb-16 md:w-11/12 lg:w-10/12 xl:w-7/12 mx-auto lg:pt-48">
+        <div class="pb-16 md:w-11/12 max-w-1280 mx-auto mt-24">
+          <div>
+            <h2 class="text-center text-falNAVY text-2xl lg:text-6xl tracking-wide font-medium">お客様の声</h2>
+            <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
+          </div>
+          <div class="lg:flex lg:justify-between">
+            <div class="mt-7 max-w-615">
+              <div class="rounded-2xl text-2xl border-falNAVY border-2 mx-2 lg:mx-0 lg:h-770">
+                <div class="px-4 lg:px-8 pb-11">
+                  <div class="flex justify-between mt-6 w-full flex-wrap lg:flex-nowrap border-b-2 md:border-b-4 border-falNAVY pb-5 md:pb-6">
+                    <div class=""><img src="/images/oem/onelove.png" class="w-100 md:w-auto" /></div>
+                    <div class="flex items-center w-7/12">
+                      <div class="text-falNAVY NotoSans text-lg lg:text-3.5xl leading-tight font-medium"><span class="block text-16px lg:text-3xl pb-2">ペットショップ</span>有限会社ワンラブ<br />専務 服部様</div>
+                    </div>
+                  </div>
+                  <h3 class="text-falNAVY font-medium text-23px md:text-3.5xl w-full mt-5 md:mt-6">不良品・納期問題が解決！</h3>
+                  <p class="text-base md:text-3xl mt-4 md:mt-6 text-justify text-gray-600">犬の首輪やリード、犬のおもちゃ等の様々な商品の製造をお願いしました。<br />
+                    元々中国現地の業者に頼んで居ましたが、納期遅れや不良品の問題が多く、ファルコナーさんに頼んだら同じ価格で品質が良くなり、不良品や納期の問題が解決されました！<br />
+                    もっと早く頼めば良かったです。</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-7 max-w-615">
+              <div class="rounded-2xl text-2xl border-falNAVY border-2 mx-2 lg:mx-0 lg:h-770">
+                <div class="px-4 lg:px-8 pb-11">
+                <div class="flex justify-between mt-6 w-full flex-wrap lg:flex-nowrap border-b-2 md:border-b-4 border-falNAVY pb-5 md:pb-6">
+                    <div class=""><img src="/images/oem/DMM.png" class="w-100 md:w-auto" /></div>
+                    <div class="flex items-center w-8/12">
+                      <div class="text-falNAVY NotoSans text-lg lg:text-3.5xl leading-tight font-medium text-justify"><span class="block text-16px lg:text-3xl pb-2">DMMグループ</span>株式会社ティーアイエス<br />渉外統括部長 北川様</div>
+                    </div>
+                  </div>
+                  <h3 class="text-falNAVY font-medium text-23px md:text-3.5xl w-full mt-5 md:mt-6">対応スピードが桁違いに早い。</h3>
+                  <p class="text-base md:text-3xl mt-4 md:mt-6 text-justify text-gray-600">電子タバコFLEVOの公式ケースの他、様々な商品の製造を依頼しています。<br />
+                    初めて依頼した商品は電子タバコFLEVOの公式レザーケースで、他の業者と比べ、品質が圧倒的に良く、価格も安く、納期だけでなくサンプル製造や見積もり等の全ての対応スピードが桁違いに早かったです。これからもモノづくりの時は依頼するつもりです。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pb-16 md:w-11/12  max-w-1280 mx-auto mt-12 lg:mt-24">
           <h3 class="bg-falNAVY py-3 md:py-6 text-center text-white text-2xl md:text-3xl lg:text-5xl font-medium">5年で300万個、<br class="block md:hidden" />合計20億円を売り上げた</h3>
           <div class="flex flex-col lg:flex-row lg:justify-start">
-            <div class="w-200 md:w-full lg:w-320 mx-auto md:mx-0 mt-5"><img src="/images/oem/ceo.png" class="md:block md:mx-auto lg:w-full" /></div>
+            <div class="w-200 md:w-full max-w-425 mx-auto md:mx-0 mt-5"><img src="/images/oem/ceo.png" class="md:block md:mx-auto lg:w-full lg:object-cover lg:h-405" /></div>
             <div class="text-center lg:text-left w-auto lg:w-8/12 md:mt-4 lg:mt-0 md:ml-8">
-              <div class="text-falNAVY w-11/12 lg:w-full mx-auto text-2xl md:text-3xl lg:text-4xl font-bold lg:font-medium pt-4 border-b-2 pb-6 border-falNAVY lg:leading-snug">代表 清水真輝が<br class="md:hidden lg:block" />直接ご相談に乗ります</div>
-              <div class="w-11/12 lg:w-full mt-6 mx-auto text-sm md:text-2xl lg:text-xl text-justify md:text-left md:leading-relaxed">世界中を回って良質な原材料の調達先を開拓し、自ら生産工場の管理も行い、僅か5年で自社ブランドの販売数300万個、総額20億円を売り上げた経営者本人が直接、お客様の立場に立ってご相談に乗ります。</div>
-              <div class="w-11/12 md:w-full mt-8 mx-auto md:mt-7 md:ml-auto md:mr-0"><a class="block py-4 md:py-6 w-full text-xs md:text-2xl bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div>
+              <div class="text-falNAVY w-11/12 lg:w-full mx-auto text-2xl md:text-3xl lg:text-4xl font-bold lg:font-medium pt-4 border-b-2 pb-6 lg:pb-7 border-falNAVY lg:leading-normal">代表 清水真輝が<br class="md:hidden lg:block" />直接ご相談に乗ります</div>
+              <div class="w-11/12 lg:w-full mt-7 mx-auto text-sm md:text-2xl lg:text-26px text-justify md:text-left md:leading-relaxed">世界中を回って良質な原材料の調達先を開拓し、自ら生産工場の管理も行い、僅か5年で自社ブランドの販売数300万個、総額20億円を売り上げた経営者本人が直接、お客様の立場に立ってご相談に乗ります。</div>
+              <div class="w-11/12 md:w-full mt-8 mx-auto md:mt-8 md:ml-auto md:mr-0"><a class="block py-4 md:py-5 w-full text-xs md:text-xl font-semibold bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div>
             </div>
           </div>
           <div class="mt-24 lg:mt-48">
@@ -365,7 +404,7 @@ export default function MEDIACONTACT() {
             <div class="mx-auto border-falNAVY border-t-8 w-14 md:w-24 mt-1"></div>
           </div>
           <div class="flex flex-col justify-center lg:flex-row lg:justify-start md:mt-12 lg:mt-24">
-            <div class="w-11/12 lg:w-580 lg:pl-10 mx-auto lg:mx-0 mt-5 md:mt-0">
+            <div class="w-11/12 lg:w-580 lg:mx-0 mt-5 md:mt-0">
               <picture class="mx-auto mt-4">
                 <source media="(max-width: 1024px)" srcSet="/images/oem/oemlot_sp.png" />
                 <img src="/images/oem/oemlot.png" />
@@ -373,12 +412,12 @@ export default function MEDIACONTACT() {
             </div>
             <div class="text-center lg:text-left w-auto md:w-11/12 lg:w-8/12 md:ml-8">
               <div class="text-falNAVY text-center lg:text-left text-2.5xl md:text-3xl border-b-2 pb-2 w-11/12 mx-auto border-falNAVY pt-4 lg:pt-0 font-medium md:leading-normal">最低ロット数は2色<br />500個位から承ります</div>
-              <div class="w-11/12 mx-auto mt-6 text-base md:text-2xl lg:text-xl text-justify lg:text-left md:leading-relaxed">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
+              <div class="w-11/12 mx-auto mt-6 text-base md:text-2xl lg:text-26px text-justify lg:text-left md:leading-relaxed">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
               <div class="w-11/12 lg:w-520 mt-8 mx-auto md:mt-10 lg:ml-auto lg:mr-0 lg:hidden"><a class="block py-4 md:py-6 w-full text-xs md:text-2xl bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div>
             </div>
           </div>
         </div>
-        <div class="bg-gray-100 py-20 pb-20 md:w-10/12 xl:w-7/12 mx-auto md:mt-24">
+        <div class="bg-gray-100 py-20 pb-20 max-w-1280 mx-auto md:mt-24">
           <h3 class="text-falNAVY md:mt-4 text-xl md:text-4xl text-center font-bold md:leading-snug NotoSerifJP">大変申し訳ありませんが、<br />場合によってはご注文を<br />お断りさせて頂くこともあります。</h3>
           <div class="w-72 md:w-11/12 lg:w-720 mx-auto mt-11 text-justify text-sm md:text-2xl lg:leading-normal">OEM製造は作って終わりではなく、その商品が最終の消費者に全て完売し、ご満足頂けることがゴールです。その為、当社がご注文を受けた結果、お客様に不良在庫が生じたり、お客様の損になりそうな場合、ご注文をお断りさせて頂くことがあります。<br /><br />
             当社としてもリピートオーダーを頂かないと、大変な手間だけかかり、利益は殆どありませんし、何よりお取引したお客様が不良在庫を抱えてしまうような取引は決してしたくありません。<br /><br />
