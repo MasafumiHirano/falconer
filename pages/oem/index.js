@@ -18,8 +18,9 @@ export default function MEDIACONTACT() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [contactBy, setContactBy] = useState("");
   const [category, setCategory] = useState("");
-  const [lot_color, setLotColor] = useState("");
   const [lot_count, setLotCount] = useState("");
+  const [lot_color, setLotColor] = useState("");
+  const [lot_amt, setLotAmt] = useState("");
   const [body, setBody] = useState("");
   const [disabled, setDisabled] = useState(true);
 
@@ -54,6 +55,7 @@ export default function MEDIACONTACT() {
       contactBy: contactBy,
       lotcount: lot_count,
       lotcolor: lot_color,
+      lotamt: lot_amt,
       category: category,
       body: body
     };
@@ -540,20 +542,39 @@ export default function MEDIACONTACT() {
                   </div>
                   <div class="sm:col-span-2">
                     <label for="lot_color" class="text-base text-gray-700 flex flex-row items-center">ご希望のロット数<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
-                    <div class="mt-1 flex flex-row justify-start items-center">
-                      <input type="text" name="lot_color" id="lot_color" autocomplete="organization"
-                        class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
-                        placeholder="例）2"
-                        value={lot_color}
-                        onChange={e => setLotColor(e.target.value)}
-                      /><span class="ml-2 w-5">色</span>
-                      <input type="text" name="lot_count" id="lot_count" autocomplete="organization"
-                        class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl ml-8"
-                        placeholder="例）50"
-                        value={lot_count}
-                        onChange={e => setLotCount(e.target.value)}
-                      />
-                      <span class="ml-2 w-5">個</span>
+                    <div class="mt-1 flex flex-wrap flex-col items-center">
+                      <div class="flex w-full justify-start items-center">
+                        <p class="text-gray-700 text-sm ml-2 w-36">ご希望のカラー数</p>
+                        <input type="text" name="lot_color" id="lot_color" autocomplete="organization"
+                          class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
+                          placeholder="例）5"
+                          value={lot_color}
+                          onChange={e => setLotColor(e.target.value)}
+                        /><span class="ml-2 w-5">色</span>
+                      </div>
+                      <div class="flex w-full justify-start items-center">
+                        <p class="text-gray-700 text-sm ml-2 w-36">1色あたりのロット数</p>
+                        <input type="text" name="lot_count" id="lot_count" autocomplete="organization"
+                          class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
+                          placeholder="例）200"
+                          value={lot_count}
+                          onChange={e => setLotCount(e.target.value)}
+                        />
+                        <span class="ml-2 w-5">個</span>
+                      </div>
+                      <div class="flex w-full justify-start items-center">
+                        <p class="text-gray-700 text-sm ml-2 w-36">合計ロット数</p>
+                        <input type="text" name="lot_amt" id="lot_amt" autocomplete="organization"
+                          class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
+                          placeholder="例）1000"
+                          value={lot_amt}
+                          onChange={e => setLotAmt(e.target.value)}
+                        />
+                        <span class="ml-2 w-5">個</span>
+                      </div>
+                      <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
+                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。
+                      </div>
                     </div>
                   </div>
                   <div class="sm:col-span-2">
