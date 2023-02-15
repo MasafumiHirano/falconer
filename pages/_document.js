@@ -38,7 +38,7 @@ class MyDocument extends Document {
                   t.src = "https://www.clarity.ms/tag/" + i;
                   y = l.getElementsByTagName(r)[0];
                   y.parentNode.insertBefore(t, y);
-              })(window, document, "clarity", "script", "75j5o9u6gw");`,
+              })(window, document, "clarity", "script", "fuepgdo8u5");`,
               }}
           />
         </Head>
