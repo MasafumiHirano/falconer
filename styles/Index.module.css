@@ -389,7 +389,7 @@
     padding-top: 15px;
   }
   .business__item {
-    position: relative;
+    position: inherit;
     display: inline-block;
   }
   .business__button {

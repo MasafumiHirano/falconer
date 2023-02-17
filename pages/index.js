@@ -256,6 +256,9 @@ export default function Home({ slides, topics, readings }) {
                 <img className={styles.business__img} src="/images/top/busi_01.jpg" alt="レザーアイテム製造・販売" />
               </li>
               <li className={styles.business__item}>
+                <img className={styles.business__img} src="/images/top/busi_06.jpg" alt="ビューティーヘルスケア" />
+              </li>
+              <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_02.jpg" alt="アパレル" />
               </li>
               <li className={styles.business__item}>
