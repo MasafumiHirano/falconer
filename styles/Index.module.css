@@ -316,6 +316,7 @@
   }
   .business__item {
     /* margin: 60px 15px 0; */
+    margin: 0 6px;
   }
   .business__item:nth-of-type(1) {
     /* margin-top: 80px; */
@@ -391,7 +392,8 @@
   .business__item {
     position: inherit;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 4vw;
+    width: 46%;
   }
   .business__button {
     border-radius: 50px;
@@ -437,7 +439,7 @@
     /* width: 100vw; */
   }
   .business__img {
-    width: 40vw;
+    width: 100%;
   }
 
   /* 会社情報 */

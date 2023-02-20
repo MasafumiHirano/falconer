@@ -251,7 +251,7 @@ export default function Home({ slides, topics, readings }) {
             <p class="text-base_s md:px-0 NotoSans-L w-90% md:w-2/5 mt-6 mx-auto leading-relaxed text-justify">
               製造から販売まで、自社で一貫して管理・遂行。BtoCはもちろん、独自の製造・販売チャネルにより、OEMや卸などのBtoBにおいても、品質・スピード感ともに高次元のサービスを提供します。
             </p>
-            <ul class="mt-16 md:mt-24 md:flex md:flex-row md:flex-wrap md:justify-center">
+            <ul class="mt-16 md:mt-24 flex flex-wrap justify-around md:justify-center">
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_01.jpg" alt="レザーアイテム製造・販売" />
               </li>
