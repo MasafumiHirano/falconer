@@ -48,6 +48,15 @@ export default function Business() {
                 </div>
                 <div class="w-full lg:mb-5">
                   <div class="business_detail bg-black h-250 lg:h-500">
+                    <img src="/images/company/prod06.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
+                    <p class="absolute text-xs text-white NotoSans-L px-2 lg:pt-6 lg:px-0 lg:w-450 lg:ml-14">
+                      <p class="w-11/12 text-base lg:text-2xl lg:w-full mx-auto">ビューティヘルスケア</p>
+                      <p class="w-11/12 text-sm text-justify lg:text-sm lg:w-full mt-1 lg:mt-3 mx-auto lg:leading-loose">人生100年時代が構想される現代。健康で美しく在るための商品が多く世に出回る一方、情報が溢れかえり本質的に正しい商品を見つけることができなくなっているのが現状です。FALCONERはひとつひとつの成分と向き合い、既成概念にとらわれない独自の研究開発を進め、誰もが安心して過ごすことができる日々を実感できるよう、最適な選択肢を提案していきます。</p>
+                    </p>
+                  </div>
+                </div>
+                <div class="w-full lg:mb-5">
+                  <div class="business_detail bg-black h-250 lg:h-500">
                     <img src="/images/company/prod03.jpg" class="object-cover opacity-30 h-250 lg:h-500" />
                     <p class="absolute text-xs text-white NotoSans-L px-2 lg:pt-6 lg:px-0 lg:w-450 lg:ml-14">
                       <p class="w-11/12 text-base lg:text-2xl lg:w-full mx-auto">OEM事業</p>

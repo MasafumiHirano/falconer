@@ -93,7 +93,7 @@ export default function Company({ medias }) {
               <p class="mt-4 pb-2 border-b text-sm">所在地<span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里二丁目1809番地</span></p>
               <p class="mt-20 pb-2 text-center border-b">Hong Kong</p>
               <p class="mt-4 pb-2 border-b text-sm">Company<span class="block text-base">FALCONER HK LIMITED</span></p>
-              <p class="mt-4 pb-2 border-b text-sm">Address<span class="block text-base">2 Floor, 519 Lockhart Road, Causeway Bay,Hong Kong.</span></p>
+              <p class="mt-4 pb-2 border-b text-sm">Address<span class="block text-base">Unit 06,12/F.,Lancashire Centre 361 Shau Kei Wan Road,Hong Kong</span></p>
             </div>
           </div>
         </main>
