@@ -595,6 +595,9 @@ export default function MEDIACONTACT() {
                           onChange={e => setContactBy(e.target.value)} id="both" />
                         <label class="ml-2" for="both">どちらでもよい</label>
                       </div>
+                      <div class="text-gray-700 w-full mt-4 text-justify text-xs">
+                        ※ドメイン指定受信の設定を確認し、メールでのご連絡の為に「falconer.co.jp」からのメールを受け取れるように設定してください。
+                      </div>
                     </div>
                   </div>
                   <div class="sm:col-span-2">
