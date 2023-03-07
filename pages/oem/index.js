@@ -573,7 +573,7 @@ export default function MEDIACONTACT() {
                         <span class="ml-2 w-5">個</span>
                       </div>
                       <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
-                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。
+                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。※最低ロットは合計200個になります。
                       </div>
                     </div>
                   </div>
