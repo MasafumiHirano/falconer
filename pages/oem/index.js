@@ -23,6 +23,9 @@ export default function MEDIACONTACT() {
   const [lot_amt, setLotAmt] = useState("");
   const [body, setBody] = useState("");
   const [disabled, setDisabled] = useState(true);
+  const [budget, setBudget] = useState("");
+  const [producturl, setProducturl] = useState("");
+  const [material, setMaterial] = useState("");
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -57,6 +60,9 @@ export default function MEDIACONTACT() {
       lotcolor: lot_color,
       lotamt: lot_amt,
       category: category,
+      budget: budget,
+      material: material,
+      producturl: producturl,
       body: body
     };
 
@@ -541,6 +547,37 @@ export default function MEDIACONTACT() {
                     </div>
                   </div>
                   <div class="sm:col-span-2">
+                    <label for="material" class="text-base text-gray-700 flex flex-row items-center">希望素材</label>
+                    <div class="mt-4 flex justify-start flex-wrap">
+                      <div class="w-32%" id="material">
+                        <input type="radio" name="material" value="本革"
+                          onChange={e => setMaterial(e.target.value)} id="wallet" />
+                        <label class="ml-2" for="wallet">本革</label>
+                      </div>
+                      <div class="w-32%" id="material">
+                        <input type="radio" name="material" value="合皮"
+                          onChange={e => setMaterial(e.target.value)} if="accessory" />
+                        <label class="ml-2" for="accessory">合皮</label>
+                      </div>
+                      <div class="w-32%" id="material">
+                        <input type="radio" name="material" value="その他"
+                          onChange={e => setMaterial(e.target.value)} if="bag" />
+                        <label class="ml-2" for="bag">その他</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="producturl" class="block text-sm font-medium text-gray-700">商品の参考URL</label>
+                    <div class="mt-1">
+                      <input type="text" name="producturl" id="producturl" autocomplete="organization"
+                        class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                        placeholder="https://falconer.co.jp/product/sample.html"
+                        value={producturl}
+                        onChange={e => setProducturl(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
                     <label for="lot_color" class="text-base text-gray-700 flex flex-row items-center">ご希望のロット数<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
                     <div class="mt-1 flex flex-wrap flex-col items-center">
                       <div class="flex w-full justify-start items-center">
@@ -573,8 +610,19 @@ export default function MEDIACONTACT() {
                         <span class="ml-2 w-5">個</span>
                       </div>
                       <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
-                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。※最低ロットは合計200個になります。
+                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br/>※最低ロットは合計200個になります。<br/>※納期目安は1.5~2ヶ月です。
                       </div>
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="budget" class="block text-sm font-medium text-gray-700">大体のご予算</label>
+                    <div class="mt-1">
+                      <input type="text" name="budget" id="budget" autocomplete="organization"
+                        class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                        placeholder="￥300,000"
+                        value={budget}
+                        onChange={e => setBudget(e.target.value)}
+                      />
                     </div>
                   </div>
                   <div class="sm:col-span-2">
