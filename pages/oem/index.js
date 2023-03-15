@@ -31,7 +31,7 @@ export default function MEDIACONTACT() {
   const sendEmail = () => {
     const user_id = "user_vztWjBsF612MhfNYgDaVL"
     const service_id = "service_s42wnsp";
-    const template_id = "template_woah9qa";
+    const template_id = "template_j9980gb";
     if ((user_id != undefined) && (service_id != undefined) && (template_id != undefined)) {
       init(user_id);
 
