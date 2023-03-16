@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import axios from "axios";
 
 import Layout from '../../components/layout'
+import { init, send } from 'emailjs-com';
 
 export default function MEDIACONTACT() {
   const router = useRouter();
@@ -25,10 +26,49 @@ export default function MEDIACONTACT() {
   const [disabled, setDisabled] = useState(true);
   const [budget, setBudget] = useState("");
   const [producturl, setProducturl] = useState("");
+  const [unitprice_befor, setUnitprice_befor] = useState("");
+  const [unitprice_after, setUnitprice_after] = useState("");
   const [material, setMaterial] = useState("");
+
+  const sendEmail = () => {
+    const user_id = "user_vztWjBsF612MhfNYgDaVL"
+    const service_id = "service_s42wnsp";
+    const template_id = "template_j9980gb";
+    if ((user_id != undefined) && (service_id != undefined) && (template_id != undefined)) {
+      init(user_id);
+
+      const template_param = {
+        to_name: name1 + name2,
+        email: email,
+        company: company,
+        role: role,
+        homepage: homepage,
+        name: name1 + name2,
+        furigana: furigana,
+        email: email,
+        phoneNumber: phoneNumber,
+        contactBy: contactBy,
+        lotcount: lot_count,
+        lotcolor: lot_color,
+        lotamt: lot_amt,
+        category: category,
+        budget: budget,
+        material: material,
+        producturl: producturl,
+        unitprice_befor: unitprice_befor,
+        unitprice_after: unitprice_after,
+        body: body
+      };
+
+      send(service_id, template_id, template_param).then(() => {
+        console.log("success to send email");
+      })
+    }
+  }
 
   const handleSubmit = e => {
     e.preventDefault();
+    sendEmail();
 
     {/* 
     const data = {
@@ -96,7 +136,7 @@ export default function MEDIACONTACT() {
       </Head>
       <main class="NotoSans">
         <div class="oem_main_image h-640 lg:h-1000 bg-cover relative">
-          <p class="font-bold lg:font-normal text-lg md:text-3xl lg:text-4xl xl:text-6xl pt-8 lg:pt-24 text-center">創業たったの5年で300万個、合計20億円</p>
+          <p class="font-bold lg:font-normal text-lg md:text-3xl lg:text-4xl xl:text-6xl pt-8 lg:pt-24 text-center">創業たったの6年で450万個、合計30億円</p>
           <h1 class="font-bold lg:mt-7 leading-tight lg:leading-snug text-center lg:tracking-widest NotoSans lg:pl-6"><span class="block lg:inline-block">売れる</span>モノづくりを<br />提供します</h1>
           <p class="text-xs md:text-base lg:text-3xl text-black text-center mt-2 lg:mt-10 lg:leading-relaxed">大手輸入車メーカー、大手携帯キャリア、<br class="lg:hidden" />プロ野球球団、<br class="hidden lg:block " />
             大手ペットショップ、<br class="lg:hidden" />芸能人プロデュースブランドなど実績多数<br />
@@ -253,7 +293,7 @@ export default function MEDIACONTACT() {
             </div>
             <div class="md:w-10/12 lg:w-4/12 mx-auto mt-24 lg:mt-0">
               <h3 class="font-bold text-2xl lg:text-40px text-center text-falNAVY border-b-2 border-falNAVY pb-4 w-11/12 mx-auto">当社の場合</h3>
-              <img src="/images/oem/oem02.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
+              <img src="/images/oem/oem02_v2.png" class="block mx-auto mt-7 lg:mt-16 px-4 lg:px-0" />
             </div>
             <div class="w-full">
               <p class="w-11/12 max-w-1280 mt-10 lg:mt-20 mx-auto text-base lg:text-2xl xl:text-2xl text-justify lg:text-center lg:leading-relaxed xl:leading-relaxed">
@@ -369,7 +409,7 @@ export default function MEDIACONTACT() {
             <div class="mt-7 max-w-615">
               <div class="rounded-2xl text-2xl border-falNAVY border-2 mx-2 lg:mx-0 lg:h-770">
                 <div class="px-4 lg:px-8 pb-11">
-                <div class="flex justify-between mt-6 w-full flex-wrap lg:flex-nowrap border-b-2 md:border-b-4 border-falNAVY pb-5 md:pb-6">
+                  <div class="flex justify-between mt-6 w-full flex-wrap lg:flex-nowrap border-b-2 md:border-b-4 border-falNAVY pb-5 md:pb-6">
                     <div class=""><img src="/images/oem/DMM.png" class="w-100 md:w-auto" /></div>
                     <div class="flex items-center w-8/12">
                       <div class="text-falNAVY NotoSans text-lg lg:text-3.5xl leading-tight font-medium text-justify"><span class="block text-16px lg:text-3xl pb-2">DMMグループ</span>株式会社ティーアイエス<br />渉外統括部長 北川様</div>
@@ -610,7 +650,29 @@ export default function MEDIACONTACT() {
                         <span class="ml-2 w-5">個</span>
                       </div>
                       <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
-                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br/>※最低ロットは合計200個になります。<br/>※納期目安は1.5~2ヶ月です。
+                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br />※最低ロットは合計200個になります。<br />※納期目安は1.5~2ヶ月です。
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="unitprice" class="text-base text-gray-700 flex flex-row items-center">希望単価<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
+                    <div class="flex">
+                      <div class="mt-1">
+                        <input type="text" name="unitprice_befor" id="unitprice_befor" autocomplete="organization"
+                          class="py-3 px-4 block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          placeholder="￥2,000"
+                          value={unitprice_befor}
+                          onChange={e => setUnitprice_befor(e.target.value)}
+                        />
+                      </div>
+                      <div class="w-4/12 flex items-center justify-center"><span>～</span></div>
+                      <div class="mt-1">
+                        <input type="text" name="unitprice_after" id="unitprice_after" autocomplete="organization"
+                          class="py-3 px-4 block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          placeholder="￥3,000"
+                          value={unitprice_after}
+                          onChange={e => setUnitprice_after(e.target.value)}
+                        />
                       </div>
                     </div>
                   </div>
