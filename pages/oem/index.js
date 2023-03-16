@@ -657,18 +657,18 @@ export default function MEDIACONTACT() {
                   <div class="sm:col-span-2">
                     <label for="unitprice" class="text-base text-gray-700 flex flex-row items-center">希望単価<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
                     <div class="flex">
-                      <div class="mt-1">
+                      <div class="mt-1 w-5/12">
                         <input type="text" name="unitprice_befor" id="unitprice_befor" autocomplete="organization"
-                          class="py-3 px-4 block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
                           placeholder="￥2,000"
                           value={unitprice_befor}
                           onChange={e => setUnitprice_befor(e.target.value)}
                         />
                       </div>
-                      <div class="w-4/12 flex items-center justify-center"><span>～</span></div>
-                      <div class="mt-1">
+                      <div class="w-2/12 flex items-center justify-center"><span>～</span></div>
+                      <div class="mt-1 w-5/12">
                         <input type="text" name="unitprice_after" id="unitprice_after" autocomplete="organization"
-                          class="py-3 px-4 block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
                           placeholder="￥3,000"
                           value={unitprice_after}
                           onChange={e => setUnitprice_after(e.target.value)}
