@@ -459,7 +459,7 @@ export default function MEDIACONTACT() {
               </picture>
             </div>
             <div class="text-center lg:text-left w-auto md:w-11/12 lg:w-8/12 md:ml-8">
-              <div class="text-falNAVY text-center lg:text-left text-2.5xl md:text-3xl border-b-2 pb-2 w-11/12 mx-auto border-falNAVY pt-4 lg:pt-0 font-medium md:leading-normal">最低ロット数は2色<br />500個位から承ります</div>
+              <div class="text-falNAVY text-center lg:text-left text-2.5xl md:text-3xl border-b-2 pb-2 w-11/12 mx-auto border-falNAVY pt-4 lg:pt-0 font-medium md:leading-normal">最低ロット数は1色200個<br />合計600個位から承ります</div>
               <div class="w-11/12 mx-auto mt-6 text-base md:text-2xl lg:text-26px text-justify lg:text-left md:leading-relaxed">ロット数についても種類や内容によって承ることができることもありますので、まずはお気軽にご相談ください。</div>
               <div class="w-11/12 lg:w-520 mt-8 mx-auto md:mt-10 lg:ml-auto lg:mr-0 lg:hidden"><a class="block py-4 md:py-6 w-full text-xs md:text-2xl bg-falNAVY text-center text-white rounded-xl" href="#contactform">まずは無料でお問い合わせ</a></div>
             </div>
@@ -624,7 +624,7 @@ export default function MEDIACONTACT() {
                         <p class="text-gray-700 text-sm ml-2 w-36">ご希望のカラー数</p>
                         <input type="text" name="lot_color" id="lot_color" autocomplete="organization"
                           class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
-                          placeholder="例）5"
+                          placeholder="例）3"
                           value={lot_color}
                           onChange={e => setLotColor(e.target.value)}
                         /><span class="ml-2 w-5">色</span>
@@ -643,14 +643,14 @@ export default function MEDIACONTACT() {
                         <p class="text-gray-700 text-sm ml-2 w-36">合計ロット数</p>
                         <input type="text" name="lot_amt" id="lot_amt" autocomplete="organization"
                           class="py-3 px-4 block w-4/12 shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300  border-solid border rounded-xl"
-                          placeholder="例）1000"
+                          placeholder="例）600"
                           value={lot_amt}
                           onChange={e => setLotAmt(e.target.value)}
                         />
                         <span class="ml-2 w-5">個</span>
                       </div>
                       <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
-                        基本1色200個の合計3色600個が目安です。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br />※最低ロットは合計200個になります。<br />※納期目安は1.5~2ヶ月です。
+                        基本1色200個の合計600個が以上で承ります。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br />※納期目安は1.5~2ヶ月です。
                       </div>
                     </div>
                   </div>
