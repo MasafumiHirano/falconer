@@ -120,7 +120,7 @@ export default function Home({ slides, topics, readings }) {
 
           {/* セカンドビュー START */}
           <section class="pt-8 mt-4 mx-auto text-center lg:max-w-full">
-            <h2 class="text-base w-4/5 md:w-3/5 mx-auto md:text-xl lg:text-2xl md:pt-20 NotoSans font-bold">モノづくりを通じ、人々に幸せを広げ世界をより良くする</h2>
+            <h2 class="text-base w-4/5 md:w-3/5 mx-auto md:text-xl lg:text-2xl md:pt-20 NotoSans font-bold">モノづくりを通じ、人々に幸せを広げ<br class="md:hidden"/>世界をより良くする</h2>
             <div class="text-left w-90% mt-10 mx-auto text-base_s md:text-lg lg:max-w-screen-md NotoSans-L">
               <p class="text-justify">私たちが掲げるのは人々の「幸せ」。<br></br><br></br>商品を通したお客様の「幸せ」はもちろん、生産者や取引先様など、弊社に関わる全ての人々が「幸せ」であること。最高のモノづくりを通して私たちが住む世界をよりよいものに向かう挑戦をしていきます。
               </p>
@@ -254,21 +254,27 @@ export default function Home({ slides, topics, readings }) {
             <ul class="mt-16 md:mt-24 flex flex-wrap justify-around md:justify-center">
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_01.jpg" alt="レザーアイテム製造・販売" />
+                <p className={styles.business__img_title}>レザーアイテム<br/>製造・販売</p>
               </li>
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_06.jpg" alt="ビューティーヘルスケア" />
+                <p className={styles.business__img_title}>ビューティー<br/>ヘルスケア</p>
               </li>
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_02.jpg" alt="アパレル" />
+                <p className={styles.business__img_title}>アパレル</p>
               </li>
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_03.jpg" alt="OEM" />
+                <p className={styles.business__img_title}>OEM・ODM</p>
               </li>
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_04.jpg" alt="海外事業" />
+                <p className={styles.business__img_title}>海外事業</p>
               </li>
               <li className={styles.business__item}>
                 <img className={styles.business__img} src="/images/top/busi_05.jpg" alt="EC事業" />
+                <p className={styles.business__img_title}>EC事業</p>
               </li>
               <li className={`${styles.business__item} md:w-full md:mt-20`}>
                 <Link href="/company/business">
