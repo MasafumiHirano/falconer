@@ -618,7 +618,29 @@ export default function MEDIACONTACT() {
                     </div>
                   </div>
                   <div class="sm:col-span-2">
-                    <label for="lot_color" class="text-base text-gray-700 flex flex-row items-center">ご希望のロット数<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
+                    <label for="unitprice" class="text-base text-gray-700 flex flex-row items-center">希望単価<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
+                    <div class="flex">
+                      <div class="mt-1 w-5/12">
+                        <input type="text" name="unitprice_befor" id="unitprice_befor" autocomplete="organization"
+                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          placeholder="￥2,000"
+                          value={unitprice_befor}
+                          onChange={e => setUnitprice_befor(e.target.value)}
+                        />
+                      </div>
+                      <div class="w-2/12 flex items-center justify-center"><span>～</span></div>
+                      <div class="mt-1 w-5/12">
+                        <input type="text" name="unitprice_after" id="unitprice_after" autocomplete="organization"
+                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
+                          placeholder="￥3,000"
+                          value={unitprice_after}
+                          onChange={e => setUnitprice_after(e.target.value)}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm:col-span-2">
+                    <label for="lot_color" class="text-base text-gray-700 flex flex-row items-center">希望ロット数<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
                     <div class="mt-1 flex flex-wrap flex-col items-center">
                       <div class="flex w-full justify-start items-center">
                         <p class="text-gray-700 text-sm ml-2 w-36">ご希望のカラー数</p>
@@ -649,31 +671,11 @@ export default function MEDIACONTACT() {
                         />
                         <span class="ml-2 w-5">個</span>
                       </div>
-                      <div class="text-red-500 w-full mt-2 border-red-700 border p-2 text-justify text-sm">
-                        基本1色200個の合計600個が以上で承ります。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。<br />※納期目安は1.5~2ヶ月です。
-                      </div>
                     </div>
-                  </div>
-                  <div class="sm:col-span-2">
-                    <label for="unitprice" class="text-base text-gray-700 flex flex-row items-center">希望単価<span class="bg-red-500 w-8 h-4 text-0.55rem text-white rounded-xl flex justify-center items-center ml-3">必須</span></label>
-                    <div class="flex">
-                      <div class="mt-1 w-5/12">
-                        <input type="text" name="unitprice_befor" id="unitprice_befor" autocomplete="organization"
-                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
-                          placeholder="￥2,000"
-                          value={unitprice_befor}
-                          onChange={e => setUnitprice_befor(e.target.value)}
-                        />
-                      </div>
-                      <div class="w-2/12 flex items-center justify-center"><span>～</span></div>
-                      <div class="mt-1 w-5/12">
-                        <input type="text" name="unitprice_after" id="unitprice_after" autocomplete="organization"
-                          class="py-3 px-4 w-full block shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 border-solid border rounded-xl"
-                          placeholder="￥3,000"
-                          value={unitprice_after}
-                          onChange={e => setUnitprice_after(e.target.value)}
-                        />
-                      </div>
+                    <div class="text-red-500 w-full mt-8 border-red-700 border p-2 text-justify text-sm">
+                      基本1色200個の合計600個が以上で承ります。それ以下の場合は条件により相談に乗れる場合もありますのでご相談ください。
+                      <br />※納期目安は1.5~2ヶ月です。
+                      <br />※製造可否に直結します為「希望単価」「希望ロット数」は正確にご入力ください。
                     </div>
                   </div>
                   <div class="sm:col-span-2">
