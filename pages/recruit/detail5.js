@@ -59,8 +59,8 @@ export default function RECRUIT() {
               </div>
 
               <div class="mt-4 shadow rounded-lg">
-                <h1 class="text-yellow-600 font-semibold text-base lg:text-lg bg-gray-200 rounded-t-lg p-4">注目ポイント</h1>
-                <div class="text-xs lg:text-lg rounded-b-lg bg-white p-4">
+                {/*<h1 class="text-yellow-600 font-semibold text-base lg:text-lg bg-gray-200 rounded-t-lg p-4">注目ポイント</h1>*/}
+                <div class="text-xs lg:text-lg rounded-b-lg rounded-t-lg bg-white p-4">
                   <p>楽しく稼ぐことを大切に。</p>
                   <p>20代前半～30代前半の若いメンバー中心に音楽の流れる職場で、</p>
                   <p>毎日楽しみながら過ごしています。 「黙々と作業をしている」という雰囲気はありません。</p>
