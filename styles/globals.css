@@ -490,18 +490,28 @@ h1.company_title {
   background-size: 110%;
 }
 
+.it_management {
+  background-image: url("/images/company/strength_bg1.jpg");
+  background-size: cover;
+}
+
+.bk_needs {
+  background-image: url("/images/company/background_needs.jpg");
+  background-size: 110%;
+}
+
 
 @media only screen and (max-width: 767px) {
   .self_maker {
     background-size: 430%;
     background-position: right 30% bottom 0;
   }
+  .bk_needs {
+    background-size: cover;
+    background-image: url("/images/company/background_needs_sp.jpg");
+  }
 }
 
-.it_management {
-  background-image: url("/images/company/strength_bg1.jpg");
-  background-size: cover;
-}
 
 
 /*////////////////////////////////////// 代表メッセージ //////////////////////////////////////*/
