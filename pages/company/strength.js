@@ -31,7 +31,7 @@ export default function Strength() {
           </div>
           <div class="border-t border-b md:border-t-2 md:border-b-2 border-gray-600 pt-16 pb-10 w-300 lg:w-49% mx-auto mt-16 md:mt-44">
             <img src="/images/company/ourstrength.png" class="block w-30% min-w-250 mx-auto" />
-            <div class="NotoSans md:w-600 mx-auto mt-8 mb-7 text-sm lg:text-base_s lg:leading-normal text-justify">
+            <div class="NotoSans lg:w-600 mx-auto mt-8 mb-7 text-sm lg:text-base_s lg:leading-normal text-justify">
               これまでレザーグッズの世界は完全に二極化されてきました。一方は高品質だけれども、普通の人には手が届かないほど高額な有名ブランド。もう一方は安価だけれど低品質で、すぐに使い捨てられてしまう製品。<br />
               <br />
               私達は、その状況を打ち壊したいと考えました。<br />
