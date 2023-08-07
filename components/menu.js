@@ -49,7 +49,6 @@ const Menu = () => {
             <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/media"><a>メディア</a></Link></li>
             <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/recruit"><a>採用情報</a></Link></li>
             <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/contact"><a>お問合わせ</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/oem"><a>OEM</a></Link></li>
           </ul>
           <div className="pt-6 pl-6">
             <div className="inline-block">

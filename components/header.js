@@ -154,11 +154,6 @@ export default function Header() {
                 <li>お問い合わせ</li>
               </a>
             </Link>
-            <Link href="/oem">
-              <a className="header__nav">
-                <li>OEM</li>
-              </a>
-            </Link>
           </ul>
         </div>
       </div>
