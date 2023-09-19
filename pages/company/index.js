@@ -47,7 +47,7 @@ export default function Company({ medias }) {
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
                 <Link href="/company/about_ceo"><a>
                   <picture>
-                    <source media="(min-width: 960px)" srcSet="/images/company/ceo.jpg" />
+                    <source media="(min-width: 960px)" srcSet="/images/company/ceo_pc.jpg" />
                     <img src="/images/company/ceo_sp.jpg" />
                   </picture>
                   <span class="text-white absolute right-1 bottom-2 text-xss lg:right-11 lg:bottom-8 lg:font-bold lg:text-sm">代表紹介</span>
