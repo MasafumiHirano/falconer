@@ -28,7 +28,7 @@ export default function AboutCeo() {
               <section class="flex flex-wrap md:flex-nowrap w-11/12 mx-auto">
                 {/*画像ブロック*/}
                 <div class="w-full lg:w-4/12">
-                  <img src="/images/company/ceo_image.png" />
+                  <img src="/images/company/ceo.jpg" />
                 </div>
                 {/*テキスト*/}
                 <div class="w-full md:w-8/12 lg:w-8/12 md:ml-5 mt-9 md:mt-0">
