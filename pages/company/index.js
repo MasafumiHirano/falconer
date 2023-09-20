@@ -77,8 +77,9 @@ export default function Company({ medias }) {
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">所在地</span><span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里三丁目104番地の2</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">Tel / Fax</span><span class="block text-base">052-734-7065</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">取引銀行</span><span class="block text-base">三菱東京UFJ / 三十三銀行 / 瀬戸信用金庫 / 愛知銀行 / 大垣共立銀行(順不同)</span></p>
-              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問弁護士</span><span class="block text-base">横木増井法律事務所</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問弁護士</span><span class="block text-base">横木増井法律事務所 / 綾野法律事務所</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問弁理士</span><span class="block text-base">かすがい特許事務所</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">顧問税理士</span><span class="block text-base">堀町税理士事務所 / 税理士法人 山田＆パートナーズ / 青葉監査法人</span></p>
             </div>
 
             {/* 本社所在地 */}
