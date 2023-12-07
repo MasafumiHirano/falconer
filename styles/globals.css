@@ -357,6 +357,10 @@ h1.company_title {
   background-size: cover;
 }
 
+.brand_title {
+  background-image: url("/images/brand/eyecatch_brand.jpg");
+  background-size: cover;
+}
 
 @media only screen and (max-width: 1024px) {
   .oem_main_image h1{
@@ -398,6 +402,10 @@ h1.company_title {
   }
   .mission_title {
     background-image: url("/images/company/eyecatch_mission_sp.jpg");
+    background-size: cover;
+  }
+  .brand_title {
+    background-image: url("/images/brand/eyecatch_brand_sp.jpg");
     background-size: cover;
   }
 }
