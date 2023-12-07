@@ -52,7 +52,7 @@ export default function Business() {
             </div>
             <div class="mx-auto w-full max-w-1050 pb-40">
               <div class="">{/* DomTepornaItaly */}
-                <img src="/images/brand/title_domi.jpg" class="block mx-auto" />
+                <img src="/images/brand/title_domi.jpg" class="block mx-auto w-200 lg:w-max" />
                 <hr class="mt-6 lg:mt-7 bg-black" />
               </div>
               <ul class="flex flex-wrap justify-center lg:justify-between">
@@ -66,9 +66,9 @@ export default function Business() {
                 <li class="pb-10 lg:pb-20"><img class="w-max lg:w-56" src="/images/brand/item_domi8.jpg"/></li>
               </ul>
             </div>
-            <div class="mx-auto w-full max-w-1050">
+            <div class="mx-auto w-full max-w-1050 pb-40">
               <div class="">{/* MALTA */}
-                <img src="/images/brand/title_malta.jpg" class="block mx-auto" />
+                <img src="/images/brand/title_malta.jpg" class="block mx-auto w-200 lg:w-max" />
                 <hr class="mt-6 lg:mt-7 bg-black" />
               </div>
               <ul class="flex flex-wrap justify-center lg:justify-between">
@@ -82,9 +82,9 @@ export default function Business() {
                 <li class="pb-10 lg:pb-20"><img class="w-max lg:w-56" src="/images/brand/item_dom8.jpg"/></li>
               </ul>
             </div>
-            <div class="mx-auto w-full max-w-1050">
+            <div class="mx-auto w-full max-w-1050 pb-40">
               <div class="">{/* RafiCaro */}
-                <img src="/images/brand/title_raficaro.jpg" class="block mx-auto" />
+                <img src="/images/brand/title_raficaro.jpg" class="block mx-auto w-200 lg:w-max" />
                 <hr class="mt-6 lg:mt-7 bg-black" />
               </div>
               <ul class="flex flex-wrap justify-center lg:justify-between">
@@ -98,9 +98,9 @@ export default function Business() {
                 <li class="pb-10 lg:pb-20"><img class="w-max lg:w-56" src="/images/brand/item_rafi8.jpg"/></li>
               </ul>
             </div>
-            <div class="mx-auto w-full max-w-1050">
+            <div class="mx-auto w-full max-w-1050 pb-40">
               <div class="">{/* HIGH FIVE */}
-                <img src="/images/brand/title_highfive.jpg" class="block mx-auto" />
+                <img src="/images/brand/title_highfive.jpg" class="block mx-auto w-200 lg:w-max" />
                 <hr class="mt-6 lg:mt-7 bg-black" />
               </div>
               <ul class="flex flex-wrap justify-center lg:justify-between">
@@ -114,9 +114,9 @@ export default function Business() {
                 <li class="pb-10 lg:pb-20"><img class="w-max lg:w-56" src="/images/brand/item_hf8.jpg"/></li>
               </ul>
             </div>
-            <div class="mx-auto w-full max-w-1050">
+            <div class="mx-auto w-full max-w-1050 pb-40">
               <div class="">{/* Charis */}
-                <img src="/images/brand/title_charis.jpg" class="block mx-auto" />
+                <img src="/images/brand/title_charis.jpg" class="block mx-auto w-200 lg:w-max" />
                 <hr class="mt-6 lg:mt-7 bg-black" />
               </div>
               <ul class="flex flex-wrap justify-center lg:justify-between">
