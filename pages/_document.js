@@ -41,6 +41,7 @@ class MyDocument extends Document {
               })(window, document, "clarity", "script", "fuepgdo8u5");`,
               }}
           />
+          <meta name="facebook-domain-verification" content="tlibijea3cvjmadvreulk7rwlab42d" />
         </Head>
         <body>
           <Main />
