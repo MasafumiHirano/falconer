@@ -95,7 +95,10 @@ export default function Business() {
 
             <p class="NotoSans-L border-b-2 border-gray-400 pb-2 text-base md:text-2xl NotoSans-L text-center lg:text-left w-full mx-auto lg:px-4 mt-24">CASE BANK</p>
             <div class="lg:flex lg:mt-2 lg:px-4 lg:justify-between">
-              <p class="leading-normal w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify NotoSans-L mt-4 mb-8">自社ブランドのBtoC販売を行っています。</p>
+              <div class="w-10/12 lg:w-7/12 mx-auto lg:mx-0 text-sm md:text-base_s text-justify NotoSans-L mt-4 mb-8 flex flex-row flex-wrap">
+                <p class="leading-normal w-full">自社ブランドのBtoC販売を行っています。</p>
+                <img class="mt-2 max-w-300 w-full" src="/images/company/seller_award_2023_emblem_timesale_400x200_a.jpg"/>
+              </div>
               <div class="text-center lg:4/12 mt-4">
                 <a class="block w-300 mx-auto" href='https://www.amazon.co.jp/shops/A3CBIU477KWLAF/' target="_blank">
                   <Image src="/images/company/amazon_casebank.jpg" width={300} height={180}  class="rounded-2xl"/>
