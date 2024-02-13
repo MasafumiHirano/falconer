@@ -20,7 +20,7 @@
     "next": "10.0.6",
     "nodemailer": "^6.7.2",
     "npm": "^7.6.3",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.35",
     "react": "17.0.1",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "17.0.1",
