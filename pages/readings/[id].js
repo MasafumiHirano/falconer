@@ -20,7 +20,7 @@ export default function readingId({ reading, readinglist }) {
           <Link legacyBehavior href={`./${reading.id}`}>
             <a>
               <div class="lg:px-0">
-                <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
+                <div class="w-full"><img src={`${reading.main_image}`} /></div>
                 <div class="flex items-center my-2">
                   <time datetime={`${reading.datetime}`}>{getTopicDate(`${reading.datetime}`)}</time>
                   <div class="rounded-2xl w-32 text-center bg-purple-400 ml-2 flex items-center justify-center h-6">
