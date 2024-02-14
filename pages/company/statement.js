@@ -162,7 +162,7 @@ export default function Statement() {
             {/*<section class="py-12 lg:py-24 px-3 lg:px-6">
               <div class="text-black lg:w-1100 mx-auto flex justify-center">
                 <div class="px-4 lg:px-0 lg:w-1/2">
-                <Link href="/company/message"><a>
+                <Link legacyBehavior href="/company/message"><a>
                     <div class="flex justify-center items-center text-md w-full lg:text-2xl text-center font-bold helvetica tracking-widest border-black border-solid border-4 py-4 px-4">
                       <div class="leading-4 w-1/5 hidden lg:block"></div>
                       <div class="leading-4 lg:w-2/5 lg:ext-right">代表メッセージ</div>

@@ -15,7 +15,7 @@ export const Pagination = ({ totalCount , page }) => {
     <ul class="flex justify-center item-center mt-8">
       {range(1, Math.ceil(totalCount / PER_PAGE)).map((number, index) => (
         <li key={index} class={`mx-2 px-4 py-2 ${number == page ? 'bg-gray-300' : ''} `}>
-          <Link href={`/readings/page/${number}`}>
+          <Link legacyBehavior href={`/readings/page/${number}`}>
             <a>{number}</a>
           </Link>
         </li>

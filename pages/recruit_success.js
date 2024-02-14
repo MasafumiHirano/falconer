@@ -14,7 +14,7 @@ export default function Recruit() {
       <main>
         <div class="mx-auto pt-12 mb-12 lg:w-1100">
           <div class="my-12 text-center">ご応募ありがとうございました。</div>
-          <p class="text-center"><Link href="/"><a class="hover:text-gray-500">TOPに戻る</a></Link></p>
+          <p class="text-center"><Link legacyBehavior href="/"><a class="hover:text-gray-500">TOPに戻る</a></Link></p>
         </div>
       </main>
       </Layout>

@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="lg:w-1280 w-full">
             <div className="lg:flex lg:justify-between lg:flex-row lg:mb-12">
               <div className="flex flex-wrap justify-center lg:block pt-8 lg:pt-0">
-                <Link href="/">
+                <Link legacyBehavior href="/">
                   <a className="blcok w-full text-center"><img src="/images/logo/fal_logo_wh.png" class="w-52 block mx-auto" alt="falconer_logo" /></a>
                 </Link>
                 <div class="text-white text-xs mt-4 md:mt-2 text-center md:text-left">
@@ -36,15 +36,15 @@ export default function Footer() {
               </div>
               <div className="flex justify-around lg:justify-center leading-8 text-sm w-8/12 mx-auto lg:text-base mt-11 lg:mt-0 text-white">
                 <div className="px-4 lg:mx-12 lg:pr-16">
-                  <h2 className="lg:leading-4"><Link href="/topics"><a>ニュース</a></Link></h2>
-                  <h2 className="lg:leading-4 lg:mt-6"><Link href="/company/business#site"><a>販売サイト</a></Link></h2>
-                  <h2 className="lg:leading-4 lg:mt-6"><Link href="/company"><a>会社情報</a></Link></h2>
+                  <h2 className="lg:leading-4"><Link legacyBehavior href="/topics"><a>ニュース</a></Link></h2>
+                  <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/company/business#site"><a>販売サイト</a></Link></h2>
+                  <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/company"><a>会社情報</a></Link></h2>
                 </div>
                 <div className="lg:flex justify-between">
                   <div className="lg:mx-12 lg:mt-0">
-                    <h2 className="lg:leading-4"><Link href="/media"><a>メディア</a></Link></h2>
-                    <h2 className="lg:leading-4 lg:mt-6"><Link href="/recruit"><a>採用情報</a></Link></h2>
-                    <h2 className="lg:leading-4 lg:mt-6"><Link href="/contact"><a>お問い合わせ</a></Link></h2>
+                    <h2 className="lg:leading-4"><Link legacyBehavior href="/media"><a>メディア</a></Link></h2>
+                    <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/recruit"><a>採用情報</a></Link></h2>
+                    <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/contact"><a>お問い合わせ</a></Link></h2>
                   </div>
                 </div>
               </div>

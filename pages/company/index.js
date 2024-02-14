@@ -36,7 +36,7 @@ export default function Company({ medias }) {
           <div class="mx-auto mt-10 mb-20 w-90% max-w-1000">
             <div class="flex flex-wrap justify-between mb-6">
               <div class="relative">
-                <Link href="/company/statement"><a>
+                <Link legacyBehavior href="/company/statement"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/mission.jpg" />
                     <img src="/images/company/mission_sp.jpg" />
@@ -45,7 +45,7 @@ export default function Company({ medias }) {
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
-                <Link href="/company/about_ceo"><a>
+                <Link legacyBehavior href="/company/about_ceo"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/ceo_pc.jpg" />
                     <img src="/images/company/ceo_sp.jpg" />
@@ -54,7 +54,7 @@ export default function Company({ medias }) {
                 </a></Link>
               </div>
               <div class="relative w-49% lg:w-auto mt-1 lg:mt-3">
-                <Link href="/company/strength"><a>
+                <Link legacyBehavior href="/company/strength"><a>
                   <picture>
                     <source media="(min-width: 960px)" srcSet="/images/company/strength.jpg" />
                     <img src="/images/company/strength_sp.jpg" />

@@ -43,12 +43,12 @@ const Menu = () => {
       <Drawer open={isOpen} onClose={toggleDrawer} direction='left' style={{width: "65%"}}>
         <div className="bg-black h-screen pt-6 text-white tracking-wide leading-10">
           <ul className="pl-8">
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/topics"><a>ニュース</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/company/business#site"><a>販売サイト</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/company"><a>会社情報</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/media"><a>メディア</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/recruit"><a>採用情報</a></Link></li>
-            <li className="hover:text-falGLD  mt-4 text-lg"><Link href="/contact"><a>お問合わせ</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/topics"><a>ニュース</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/company/business#site"><a>販売サイト</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/company"><a>会社情報</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/media"><a>メディア</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/recruit"><a>採用情報</a></Link></li>
+            <li className="hover:text-falGLD  mt-4 text-lg"><Link legacyBehavior href="/contact"><a>お問合わせ</a></Link></li>
           </ul>
           <div className="pt-6 pl-6">
             <div className="inline-block">
