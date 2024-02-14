@@ -28,7 +28,7 @@ export default function Readings({ readings, totalCount, id }) {
               <ul class="flex flex-wrap justify-between md:justify-start">
                 {readings.map(reading => (
                   <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-49% md:w-24% md:mx-1 mb-4 md:mb-24">
-                    <Link href={`readings/${reading.id}`}>
+                    <Link legacyBehavior href={`readings/${reading.id}`}>
                       <a>
                         <div class="lg:px-0">
                           <div class="w-full"><img src={`${reading.main_image.url}`} /></div>

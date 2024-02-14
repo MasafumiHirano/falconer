@@ -61,7 +61,7 @@ export default function Topics({ topics, totalCount }) {
               <ul class="mx-auto w-11/12 md:w-full mt-12">
                 {topics.map(topic => (
                   <li key={topic.id} class="py-4 border-b">
-                    <Link href={topic.link ? topic.link : `topics/${topic.id}`}>
+                    <Link legacyBehavior href={topic.link ? topic.link : `topics/${topic.id}`}>
                       <a class="flex flex-wrap md:flex-row md:justify-center" target="blank_">
                         <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topic.datetime}`)}</div>
                         <div class={`${topic.category_color} rounded-2xl w-32 text-center max-h-6`}>

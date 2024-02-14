@@ -47,7 +47,7 @@ export default function Header() {
 
           <div className="ml-12 w-48 md:w-64 pr-1 lg:max-w-lg">
             <div className="py-4 md:pl-20 lg:py-6">
-              <Link href="/">
+              <Link href="/" legacyBehavior>
                 <a class="flex flex-col">
                   {/* <svg className="w-full" xmlns="http://www.w3.org/2000/svg" fill={isHeightOver ? 'black' : 'white'} viewBox="0 0 956.944 110.729">
                     <g id="falconer_logo" transform="translate(0 0)">
@@ -123,33 +123,33 @@ export default function Header() {
           </div>
 
           <ul className="w-1/2 lg:w-6/12 pr-8 hidden lg:flex lg:justify-end lg:items-center text-xs lg:text-base">
-            <Link href="/topics">
+            <Link legacyBehavior href="/topics">
               {/* <a className={isHeightOver ? 'header__nav' : 'header__nav_change'}> */}
               <a className="header__nav">
                 <li>ニュース</li>
               </a>
             </Link>
-            <Link href="/company/business#site">
+            <Link legacyBehavior href="/company/business#site">
               <a className="header__nav">
                 <li>販売サイト</li>
               </a>
             </Link>
-            <Link href="/company">
+            <Link legacyBehavior href="/company">
               <a className="header__nav">
                 <li>会社情報</li>
               </a>
             </Link>
-            <Link href="/media">
+            <Link legacyBehavior href="/media">
               <a className="header__nav">
                 <li>メディア</li>
               </a>
             </Link>
-            <Link href="/recruit">
+            <Link legacyBehavior href="/recruit">
               <a className="header__nav">
                 <li>採用情報</li>
               </a>
             </Link>
-            <Link href="/contact">
+            <Link legacyBehavior href="/contact">
               <a className="header__nav">
                 <li>お問い合わせ</li>
               </a>

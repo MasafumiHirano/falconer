@@ -88,7 +88,7 @@ export default function Media({ medias }) {
                     <ul class="flex flex-wrap justify-between">
                       {medias.slice(0,3).map(reading => (
                         <li key={reading.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full md:w-32% mb-4 md:mb-24">
-                          <Link href={`readings/${reading.id}`}>
+                          <Link legacyBehavior href={`readings/${reading.id}`}>
                             <a>
                               <div class="lg:px-0 flex flex-col">
                                 <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
@@ -101,7 +101,7 @@ export default function Media({ medias }) {
                     </ul>
                   </div>
                   <div class="mt-10">
-                    <Link href="/readings">
+                    <Link legacyBehavior href="/readings">
                       <a class="futura_medium_bt text-center text-2xl block w-40 mx-auto">More<img class="w-full" src="/images/top/more_button.png"></img></a>
                     </Link>
                   </div>
@@ -301,7 +301,7 @@ export default function Media({ medias }) {
 
                 {/*<div class="mx-auto mb-12 lg:w-full lg:px-6 flex justify-center">
                   <div class="w-11/12 max-w-screen-sm mx-auto">
-                    <Link href="/contact/mediacontact"><a>
+                    <Link legacyBehavior href="/contact/mediacontact"><a>
                       <div class="Osaka text-md py-2 px-1 font-bold tracking-widest bg-black text-white text-center">
                         メディア お問い合わせ
                       </div>

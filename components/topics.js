@@ -66,7 +66,7 @@ export default class TopicList extends Component {
                     <ul class="mx-auto w-11/12 md:w-full mt-12">
                         {this.state.items.map(topic => (
                             <li key={topic.id} class="flex flex-wrap md:flex-row md:justify-center py-4 border-b">
-                                <Link href={`topics/${topic.id}`}>
+                                <Link legacyBehavior href={`topics/${topic.id}`}>
                                     <a class="flex flex-wrap md:flex-row md:justify-center">
                                         <div class="w-28 md:w-32 md:text-center">{getTopicDate(`${topic.datetime}`)}</div>
                                         <div class={`${topic.category_color} rounded-2xl w-32 text-center`}>
