@@ -16,11 +16,10 @@ export default function topicsId({ topics, topicslist }) {
   const topicsList = (read) => {
     return (
       read.contents?.map(topics => (
-        <li key={topics.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full px-4 md:px-0 md:mx-0 mb-4 md:mb-24">
+        <li key={topics.id} class="mt-2 lg:mt-0 hover:bg-gray-100 w-full px-4 md:px-0 md:mx-0 mb-4 md:mb-8">
           <Link legacyBehavior href={topics.link ? topics.link : `./${topics.id}`}>
             <a>
               <div class="lg:px-0">
-                <div class="w-full"><img src={`${topics.main_image}`} /></div>
                 <div class="flex items-center my-2">
                   <time datetime={`${topics.datetime}`}>{getTopicDate(`${topics.datetime}`)}</time>
                   <div class={`${topics.category_color} rounded-2xl w-28 text-center ml-2 flex items-center justify-center h-6`}>
