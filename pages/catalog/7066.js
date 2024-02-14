@@ -24,7 +24,7 @@ export default function catalog0294() {
               <dt class="bg-red-200 px-4 flex items-center font-bold">ブランド</dt><dd class="pt-4 pb-7 ml-7">MALTA - マルタ -</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">サイズ</dt><dd class="pt-4 pb-7 ml-7"> 横 100mm × 縦 85mm × 厚み 35mm 重さ 90g</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">カラー</dt><dd class="pt-4 pb-7 ml-7">olive (JAN:4589681982004)  / etoupe (JAN:4589681982011)  / brownyellow (JAN:4589681978830)  / greyblue (JAN:4589681977093)  / brownred (JAN:4589681951253)  / blackpink (JAN:4589681957132)  / greyyellow (JAN:4589681954490)  / blackyellow (JAN:4589681951222)  </dd>
-              <dt class="bg-red-200 px-4 flex items-center font-bold">製造販売元</dt><dd class="pt-4 pb-7 ml-7">株式会社FALCONER (株式会社ファルコナー)</dd>
+              <dt class="bg-red-200 px-4 flex items-center font-bold">販売元</dt><dd class="pt-4 pb-7 ml-7">株式会社FALCONER (株式会社ファルコナー)</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">販売元住所</dt><dd class="pt-4 pb-7 ml-7">〒465-0068　愛知県名古屋市名東区牧の里三丁目104番地の2</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">商品説明</dt><dd class="pt-4 pb-7 ml-7">
                 <ul class="list-disc">
