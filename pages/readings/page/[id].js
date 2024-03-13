@@ -31,7 +31,7 @@ export default function Readings({ readings, totalCount, id }) {
                     <Link legacyBehavior href={`readings/${reading.id}`}>
                       <a>
                         <div class="lg:px-0">
-                          <div class="w-full"><img src={`${reading.main_image}`} /></div>
+                          <div class="w-full"><img src={`${reading.main_image.url}`} /></div>
                           <p class="flex items-center flex-wrap mt-3 w-full"><span class="futura-lt text-base w-full md:w-3/12">Vol.{reading.no}｜</span><span class="NotoSans-L text-xs text-left w-full md:w-9/12">{reading.title}</span></p>
                         </div>
                       </a>
