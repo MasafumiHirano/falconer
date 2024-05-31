@@ -362,7 +362,7 @@ export default function Home({ slides, topics, readings }) {
           {/* ブランドセクション START */}
           <section className="mt-24 md:mt-40 py-24 bg-gray-100 -mb-4">
             <h2 className="text-center futura-md text-1.7rem md:text-3xl">BRAND<span className="text-base_s md:text-ms font-light block NotoSans">ブランド</span></h2>
-            <ul className="mx-auto max-w-full w-90% flex justify-around flex-col md:flex-row">
+            <ul className="mx-auto max-w-full w-90% flex justify-center flex-col md:flex-row">
               <li className="mt-6 md:mt-4 md:w-600">
                 <a href="https://bachicashley.com/" target="_blank">
                   <picture>
@@ -371,6 +371,7 @@ export default function Home({ slides, topics, readings }) {
                   </picture>
                 </a>
               </li>
+              {/* 2024/05/31 ruverri_削除
               <li className="mt-4 md:w-600">
                 <a href="https://lurverri.com/" target="_blank">
                   <picture>
@@ -379,6 +380,7 @@ export default function Home({ slides, topics, readings }) {
                   </picture>
                 </a>
               </li>
+              */}
               <li className="mt-4 md:w-600">
                 <a href="https://www.rakuten.ne.jp/gold/allrightleather/" target="_blank">
                   <picture>
