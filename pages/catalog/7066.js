@@ -19,7 +19,7 @@ export default function catalog0294() {
             <p class="py-10 text-black-900 text-xl font-bold w-4/5">[MALTA] 三つ折り財布 レディース ボックス型 小銭入れ 牛革 レザー カード入れ 大容量 ミニ財布</p>
             <div class="w-5/12"><img src="/images/catalog/waa7066.jpg" /></div>
             <dl class="w-6/12 pl-8">
-              <dt class="bg-red-200 px-4 flex items-center font-bold">型番</dt><dd class="pt-4 pb-7 ml-7">waa7066</dd>
+              <dt class="bg-red-200 px-4 flex items-center font-bold">型番</dt><dd class="pt-4 pb-7 ml-7">7066</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">売価</dt><dd class="pt-4 pb-7 ml-7">メーカー希望小売価格：5,400円</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">ブランド</dt><dd class="pt-4 pb-7 ml-7">MALTA - マルタ -</dd>
               <dt class="bg-red-200 px-4 flex items-center font-bold">サイズ</dt><dd class="pt-4 pb-7 ml-7"> 横 100mm × 縦 85mm × 厚み 35mm 重さ 90g</dd>
