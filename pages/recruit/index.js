@@ -74,7 +74,7 @@ export default function RECRUIT() {
                         時間
                       </td>
                       <td class="pl-6 lg:pl-12">
-                        10:00~19:00（内1時間休憩有り）
+                        9:00~18:00（内1時間休憩有り）
                       </td>
                     </tr>
                     <tr class="">
@@ -140,7 +140,7 @@ export default function RECRUIT() {
                         時間
                       </td>
                       <td class="pl-6 lg:pl-12">
-                        10:00~19:00（内1時間休憩有り）
+                        9:00~18:00（内1時間休憩有り）
                       </td>
                     </tr>
                     <tr class="">
@@ -206,7 +206,7 @@ export default function RECRUIT() {
                         時間
                       </td>
                       <td class="pl-6 lg:pl-12">
-                        10:00~19:00（内1時間休憩有り）
+                        9:00~18:00（内1時間休憩有り）
                       </td>
                     </tr>
                     <tr class="">
@@ -274,13 +274,13 @@ export default function RECRUIT() {
                         <p>【フルタイム】</p>
                         <div>
                           <p>・完全週休二日 / 日曜 + 希望体制</p>
-                          <p>・10:00～19:00（または9:00~18:00）</p>
+                          <p>・9:00~18:00</p>
                         </div>
                         <p class="mt-2">【短時間勤務】</p>
                         <div>
                           <p>・週3日以上 1日5時間以上</p>
                           <p>・シフト自由・自己申告</p>
-                          <p class="">・9：00～19：00（左記内、実働5時間以上）</p>
+                          <p class="">・9：00～18：00（左記内、実働5時間以上）</p>
                         </div>
                       </td>
                     </tr>

@@ -139,13 +139,13 @@ export default function RECRUIT() {
                         <p>〇フルタイム</p>
                         <ul class="list-disc list-inside pl-1">
                           <li>完全週休二日／日曜＋希望休制</li>
-                          <li>10:00~19:00（または9:00~18:00）</li>
+                          <li>9:00~18:00</li>
                         </ul>
                         <p class="mt-4">〇短時間契約</p>
                         <ul class="list-disc list-inside pl-1">
                           <li>週3日以上、1日5時間以上</li>
                           <li>シフト自由・自己申告</li>
-                          <li>9：00 ～ 19：00 （左記内で実働5時間以上）</li>
+                          <li>9：00 ～ 18：00 （左記内で実働5時間以上）</li>
                         </ul>
                         <p class="mt-4">シフトも自由度が高いので、</p>
                         <p>「子どもが帰ってくるまで」や「午後から夕方まで」など</p>

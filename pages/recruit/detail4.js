@@ -154,7 +154,7 @@ export default function RECRUIT() {
                       </td>
                       <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
                         <ul class="list-disc list-inside pl-1">
-                          <li>10：00～19：00／休憩1時間</li>
+                          <li>9：00～18：00／休憩1時間</li>
                         </ul>
                         <p>★残業は月平均10時間程度</p>
                       </td>

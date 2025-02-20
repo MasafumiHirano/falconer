@@ -133,7 +133,7 @@ export default function RECRUIT() {
                       勤務できる曜日
                     </td>
                     <td class="pl-6 lg:pl-12 py-4 text-xs lg:text-base text-gray-700">
-                      <p>月火水木金土</p>
+                      <p>月火水木金</p>
                     </td>
                   </tr>
                   <tr class="bg-gray-100 lg:bg-gray-50">
