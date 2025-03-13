@@ -404,6 +404,7 @@ export default function Home({ slides, topics, readings }) {
                 </a>
               </Link>
             </div>
+            {/* 
             <div className="mt-14">
               <div className="mt-2 w-full max-w-1050 text-3xl helvetica flex flex-col justify-between md:flex-row mx-auto">
                 <a className="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7065">
@@ -423,6 +424,7 @@ export default function Home({ slides, topics, readings }) {
               </div>
               <p className="text-center text-black text-sm lg:text-base_s mt-4 lg:mt-8 NotoSans">受付時間　10:00～18:00 <br/>（法人は19:00まで対応、日曜・土曜定休）</p>
             </div>
+            */}
           </section>
           {/* 問合せセクション END */}
         </main>
