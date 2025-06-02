@@ -231,6 +231,9 @@ export default function CONTACT() {
               <div class="mt-24">
                 <p class="text-center">お電話でのお問合せ</p>
                 <p class="mt-2 text-center text-3xl helvetica"><a class="border-b-4 border-comGOLD w-52 block mx-auto" href="tel:+81-52-734-7065">TEL contact</a></p>
+                <p class="mt-8 text-center">※営業・セールスのお電話はお断りしております<br /><br />
+                  対応スタッフの業務に支障がでるため、営業を目的としたお電話はご遠慮ください。<br />
+                  営業のご提案やお知らせにつきましては、上記のお問い合わせフォームよりご連絡ください。</p>
                 <div class="mt-8">
                   <div class="mt-2 w-full max-w-1050 text-3xl helvetica flex flex-col justify-between md:flex-row mx-auto">
                     <a class="w-72 lg:w-450 max-w-500 border-2 border-comGOLD rounded-md text-black flex lg:justify-center py-4 lg:py-7 mx-auto" href="tel:+81-52-734-7065">
