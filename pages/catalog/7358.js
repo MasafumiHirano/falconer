@@ -30,11 +30,11 @@ export default function catalog7358() {
 
             /* カートボタン */
             <div class="w-full text-center mt-4">
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7358_CL&CNT=1&VAR1=black" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">black をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7358_CL&CNT=1&VAR1=green" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">green をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7358_CL&CNT=1&VAR1=greige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">greige をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7358_CL&CNT=1&VAR1=blue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">blue をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7358_CL&CNT=1&VAR1=dustypink" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">dustypink をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7358_CL&CNT=1&VAR1=black" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">black をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7358_CL&CNT=1&VAR1=green" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">green をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7358_CL&CNT=1&VAR1=greige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">greige をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7358_CL&CNT=1&VAR1=blue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">blue をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7358_CL&CNT=1&VAR1=dustypink" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">dustypink をカートに追加</a>
             </div>
           </section>
         </main>
