@@ -31,13 +31,13 @@ export default function catalog7060() {
 
             {/* カートボタン */}
             <div class="w-full text-center mt-4">
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=brown" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">brown をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=darkbrown" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">darkbrown をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=navy" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">navy をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=red" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">red をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=green" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">green をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=dustyblue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">dustyblue をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7060_CL&CNT=1&VAR1=greige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">greige をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=brown" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">brown をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=darkbrown" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">darkbrown をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=navy" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">navy をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=red" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">red をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=green" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">green をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=dustyblue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">dustyblue をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=wab7060_CL&CNT=1&VAR1=greige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">greige をカートに追加</a>
             </div>
           </section>
         </main>

@@ -29,14 +29,14 @@ export default function catalog7363() {
 
             {/* カートボタン */}
             <div class="w-full text-center mt-4">
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sgreen" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sgreen をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sdustypink" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sdustypink をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sgreige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sgreige をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sblack" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sblack をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sorange" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sorange をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=sblue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sblue をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=syellow" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">syellow をカートに追加</a>
-              <a href="https://www.casebank.jp/CART/cart.php?ITM=waa7363_CL&CNT=1&VAR1=slightgrey" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">slightgrey をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sgreen" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sgreen をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sdustypink" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sdustypink をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sgreige" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sgreige をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sblack" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sblack をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sorange" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sorange をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=sblue" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">sblue をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=syellow" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">syellow をカートに追加</a>
+              <a href="https://www.casebank.jp/CART/cart.php?ITM=otz7363_CL&CNT=1&VAR1=slightgrey" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-1">slightgrey をカートに追加</a>
             </div>
           </section>
         </main>
