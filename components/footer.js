@@ -39,6 +39,7 @@ export default function Footer() {
                   <h2 className="lg:leading-4"><Link legacyBehavior href="/topics"><a>ニュース</a></Link></h2>
                   <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/company/business#site"><a>販売サイト</a></Link></h2>
                   <h2 className="lg:leading-4 lg:mt-6"><Link legacyBehavior href="/company"><a>会社情報</a></Link></h2>
+                  <h2 className="lg:leading-4 lg:mt-6 text-xs"><Link legacyBehavior href="/privacypolicy"><a>プライバシーポリシー</a></Link></h2>
                 </div>
                 <div className="lg:flex justify-between">
                   <div className="lg:mx-12 lg:mt-0">
