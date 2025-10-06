@@ -72,7 +72,7 @@ export default function Company({ medias }) {
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">代表取締役</span><span class="block text-base">清水 真輝</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">設立</span><span class="block text-base">2016年7月</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">資本金</span><span class="block text-base">10,000,000円</span></p>
-              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">事業内容</span><span class="block text-base">レザー小物及び雑貨の各種製の製造販売<br />インターネットによる販売</span></p>
+              <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">事業内容</span><span class="block text-base">レザー小物及び雑貨の各種製品の製造販売<br />インターネットによる販売</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">許認可</span><span class="block text-base"><span class="block lg:inline-block lg:mr-4">古物商許可</span>愛知県公安委員会 第543311801500号</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">所在地</span><span class="block text-base">〒465-0068<br />愛知県名古屋市名東区牧の里三丁目104番地の2</span></p>
               <p class="mt-4 pb-2 border-b text-sm flex flex-col lg:flex-row"><span class="w-52">Tel / Fax</span><span class="block text-base">052-734-7065</span></p>
